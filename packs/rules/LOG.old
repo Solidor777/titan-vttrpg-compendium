@@ -1,3 +1,22 @@
-2024/03/06-22:47:55.720 491c Recovering log #175
-2024/03/06-22:47:55.733 491c Delete type=0 #175
-2024/03/06-22:47:55.733 491c Delete type=3 #173
+2024/03/09-12:28:35.110 7cb0 Recovering log #181
+2024/03/09-12:28:35.122 7cb0 Delete type=0 #181
+2024/03/09-12:28:35.122 7cb0 Delete type=3 #180
+2024/03/09-12:35:08.719 da0 Level-0 table #185: started
+2024/03/09-12:35:08.719 da0 Level-0 table #185: 0 bytes OK
+2024/03/09-12:35:08.722 da0 Delete type=0 #183
+2024/03/09-12:35:08.722 da0 Manual compaction at level-0 from '!journal!mczts3I29Q5vaopp' @ 72057594037927935 : 1 .. '!journal.pages!mczts3I29Q5vaopp.yP84DTEBpH5jXcJd' @ 0 : 0; will stop at '!journal.pages!mczts3I29Q5vaopp.K9oX3Z9KHKswUMyf' @ 3810 : 1
+2024/03/09-12:35:08.722 da0 Compacting 2@0 + 0@1 files
+2024/03/09-12:35:08.729 da0 Generated table #186@0: 25 keys, 45657 bytes
+2024/03/09-12:35:08.729 da0 Compacted 2@0 + 0@1 files => 45657 bytes
+2024/03/09-12:35:08.732 da0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/03/09-12:35:08.732 da0 Delete type=2 #171
+2024/03/09-12:35:08.732 da0 Delete type=2 #174
+2024/03/09-12:35:08.740 da0 Manual compaction at level-0 from '!journal.pages!mczts3I29Q5vaopp.K9oX3Z9KHKswUMyf' @ 3810 : 1 .. '!journal.pages!mczts3I29Q5vaopp.yP84DTEBpH5jXcJd' @ 0 : 0; will stop at (end)
+2024/03/09-12:35:08.740 da0 Manual compaction at level-1 from '!journal!mczts3I29Q5vaopp' @ 72057594037927935 : 1 .. '!journal.pages!mczts3I29Q5vaopp.yP84DTEBpH5jXcJd' @ 0 : 0; will stop at '!journal.pages!mczts3I29Q5vaopp.yP84DTEBpH5jXcJd' @ 3903 : 1
+2024/03/09-12:35:08.740 da0 Compacting 1@1 + 1@2 files
+2024/03/09-12:35:08.748 da0 Generated table #187@1: 25 keys, 45657 bytes
+2024/03/09-12:35:08.748 da0 Compacted 1@1 + 1@2 files => 45657 bytes
+2024/03/09-12:35:08.754 da0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/03/09-12:35:08.754 da0 Delete type=2 #73
+2024/03/09-12:35:08.754 da0 Delete type=2 #186
+2024/03/09-12:35:08.754 da0 Manual compaction at level-1 from '!journal.pages!mczts3I29Q5vaopp.yP84DTEBpH5jXcJd' @ 3903 : 1 .. '!journal.pages!mczts3I29Q5vaopp.yP84DTEBpH5jXcJd' @ 0 : 0; will stop at (end)
