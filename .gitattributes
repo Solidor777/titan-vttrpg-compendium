@@ -1,0 +1,4 @@
+# Compiled LevelDB packs are binary; line-ending conversion corrupts CURRENT and MANIFEST files.
+packs/** binary
+*.zip binary
+*.webp binary

@@ -1,8 +1,8 @@
 {
    "id": "titan-vttrpg-compendium",
    "title": "TITAN VTTRPG Compendium",
-   "description": "A collection of content for the TITAN VTTRPG.",
-   "version": "1.0.0",
+   "description": "Abilities, spells, sacred arts, combat styles, equipment, effects, and the rules reference for the TITAN VTTRPG.",
+   "version": "2.0.0",
    "authors": [
       {
          "name": "Solidor",
@@ -11,37 +11,34 @@
       }
    ],
    "compatibility": {
-      "minimum": "11.313",
-      "verified": "11.313",
-      "maximum": "11"
+      "minimum": "13",
+      "verified": "14",
+      "maximum": "14"
+   },
+   "relationships": {
+      "systems": [
+         {
+            "id": "titan",
+            "type": "system",
+            "compatibility": {
+               "minimum": "1.0.0"
+            }
+         }
+      ]
    },
    "packs": [
-      {
-         "label": "Abilities",
-         "type": "Item",
-         "name": "abilities",
-         "path": "packs/abilities",
-         "system": "titan"
-      },
-      {
-         "label": "Armor and Shields",
-         "type": "Item",
-         "name": "armor-and-shields",
-         "path": "packs/armor-and-shields",
-         "system": "titan"
-      },
-      {
-         "label": "Effects",
-         "type": "Item",
-         "name": "effects",
-         "path": "packs/effects",
-         "system": "titan"
-      },
       {
          "label": "Rules",
          "type": "JournalEntry",
          "name": "rules",
          "path": "packs/rules",
+         "system": "titan"
+      },
+      {
+         "label": "Abilities",
+         "type": "Item",
+         "name": "abilities",
+         "path": "packs/abilities",
          "system": "titan"
       },
       {
@@ -52,17 +49,10 @@
          "system": "titan"
       },
       {
-         "label": "Summons",
-         "type": "Actor",
-         "name": "summons",
-         "path": "packs/summons",
-         "system": "titan"
-      },
-      {
-         "label": "Urderic Items",
+         "label": "Combat Styles",
          "type": "Item",
-         "name": "urderic-items",
-         "path": "packs/urderic-items",
+         "name": "combat-styles",
+         "path": "packs/combat-styles",
          "system": "titan"
       },
       {
@@ -78,6 +68,52 @@
          "name": "weapons",
          "path": "packs/weapons",
          "system": "titan"
+      },
+      {
+         "label": "Armor and Shields",
+         "type": "Item",
+         "name": "armor-and-shields",
+         "path": "packs/armor-and-shields",
+         "system": "titan"
+      },
+      {
+         "label": "Urderic Items",
+         "type": "Item",
+         "name": "urderic-items",
+         "path": "packs/urderic-items",
+         "system": "titan"
+      },
+      {
+         "label": "Effects",
+         "type": "ActiveEffect",
+         "name": "effects",
+         "path": "packs/effects",
+         "system": "titan"
+      },
+      {
+         "label": "Summons",
+         "type": "Actor",
+         "name": "summons",
+         "path": "packs/summons",
+         "system": "titan"
+      }
+   ],
+   "packFolders": [
+      {
+         "name": "TITAN Compendium",
+         "sorting": "m",
+         "packs": [
+            "rules",
+            "abilities",
+            "sacred-arts",
+            "combat-styles",
+            "spells",
+            "weapons",
+            "armor-and-shields",
+            "urderic-items",
+            "effects",
+            "summons"
+         ]
       }
    ],
    "manifest": "https://github.com/Solidor777/titan-vttrpg-compendium/releases/download/latest/module.json",
