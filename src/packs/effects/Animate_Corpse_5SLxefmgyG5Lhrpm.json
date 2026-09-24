@@ -1,0 +1,70 @@
+{
+  "_id": "5SLxefmgyG5Lhrpm",
+  "name": "Animate Corpse",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Flesh_Tradition_Icon.webp",
+  "description": "<p>The reanimated creature has half its maximum <strong>Stamina</strong>. It maintains all the physical statistics it had while it was alive but retains no magical or supernatural abilities. It automatically succeeds on <strong>Willpower</strong> checks and is immune to mind-affecting conditions.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "e5YFhGdOTopAwtgG",
+  "sort": 400000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnEnd",
+      "remaining": 10,
+      "initiative": 1,
+      "custom": "Hours"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Flesh",
+        "description": "",
+        "uuid": "a6e06733-da73-4693-9884-9810a9e45c60"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "resistance",
+        "selector": "resistance",
+        "key": "willpower",
+        "message": "<p><strong>Animate Corpse:</strong> The reanimated creature automatically succeeds on <strong>Willpower</strong> checks.</p>",
+        "uuid": "4d22d8da-8091-47de-a8ba-1ddd3bdc4c32"
+      },
+      {
+        "operation": "mulBase",
+        "selector": "resource",
+        "key": "stamina",
+        "value": -0.5,
+        "uuid": "d93373b5-4210-482a-b3a2-25bc3bcfaf62"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432985113,
+    "modifiedTime": 1708069971234,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!5SLxefmgyG5Lhrpm"
+}

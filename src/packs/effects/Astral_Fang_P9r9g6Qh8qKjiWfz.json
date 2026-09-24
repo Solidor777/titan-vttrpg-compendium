@@ -1,0 +1,68 @@
+{
+  "_id": "P9r9g6Qh8qKjiWfz",
+  "name": "Astral Fang",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/VeiledMoon_Path_Icon.webp",
+  "description": "<p>Your weapon is inscribed with an astral rune, so that it causes spiritual as well as physical damage.</p><p>The first time the affected weapon deals <strong>Damage</strong>, it gains the <strong>Magical</strong> trait, and deals additional damage equal to your <strong>Soul</strong>, or double your Soul if the ability user spent <strong>1 Resolve</strong>.</p><p><strong>Wounds</strong> inflicted by this attack do not recover naturally and require active treatment to be healed. Lost <strong>Stamina</strong> recovers normally.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "8lS162UMHxzYupPR",
+  "sort": 700000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "custom",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": "Minutes"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Veiled Moon",
+        "description": "",
+        "uuid": "9a8f2219-fd93-4a5f-8cee-239fbb1f1837"
+      },
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "136a7bd3-e254-41e4-9811-24ddee9695da"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attribute",
+        "selector": "skill",
+        "key": "perception",
+        "message": "<p><strong>Astral Fang:</strong> The first time the affected weapon deals <strong>Damage</strong>, it gains the <strong>Magical</strong> trait, and deals additional damage equal to your <strong>Soul</strong>, or double your Soul if the ability user spent <strong>1 Resolve</strong>.</p><p><strong>Wounds</strong> inflicted by this attack do not recover naturally and require active treatment to be healed. Lost <strong>Stamina</strong> recovers normally.</p>",
+        "uuid": "fe1d07dc-8fd7-41d2-b189-a51c6e01adec"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682915896595,
+    "modifiedTime": 1708070264947,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!P9r9g6Qh8qKjiWfz"
+}

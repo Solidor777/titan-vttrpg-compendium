@@ -1,0 +1,90 @@
+{
+  "_id": "lTfvfy8eH6XZIATw",
+  "name": "Sever Tendons",
+  "type": "effect",
+  "img": "icons/svg/daze.svg",
+  "description": "<p>Your <strong>Speed</strong> is reduced by <strong>-1</strong> until the next time you take a <strong>Long Rest</strong>.</p><p>Additionally, any time you choose to <strong>Move</strong> during combat,  you suffer <strong>1 Damage</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "f8GbJRZi0IyOnPon",
+  "sort": 9400000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "permanent",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "burrow",
+        "value": -1,
+        "uuid": "f30a3e51-f103-4180-a8e6-1d294639d067"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "fly",
+        "value": -1,
+        "uuid": "6762a779-8bb8-447a-a804-3f3fa7d43f3f"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "stride",
+        "value": -1,
+        "uuid": "f0aeca89-423d-4b9b-8cf4-cb6a697da915"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "swim",
+        "value": -1,
+        "uuid": "d83982d6-a817-4cec-a16a-84ce57682a1b"
+      },
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Sever Tendons:</strong> Your <strong>Speed</strong> is reduced by <strong>-1</strong> until the next time you take a <strong>Long Rest</strong>.</p><p>Additionally, any time you choose to <strong>Move</strong> during combat,  you suffer <strong>1 Damage</strong>.</p>",
+        "uuid": "71f68728-359b-429f-9419-1a416c8297ef"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "climb",
+        "value": -1,
+        "uuid": "ccc4a504-a3e4-46fc-ad67-b5af5ebb507e"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678678279460,
+    "modifiedTime": 1689641646736,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!lTfvfy8eH6XZIATw"
+}

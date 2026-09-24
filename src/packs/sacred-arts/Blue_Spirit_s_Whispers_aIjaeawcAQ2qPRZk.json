@@ -1,0 +1,54 @@
+{
+  "name": "Blue Spirit's Whispers",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlueSpirit_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> 30 spaces</p><p>You have learned the Blue Spirit's ability to whisper in the minds of others.</p><p>Choose a creature within <strong>30 spaces</strong>. For 1<strong>0 minutes</strong>, you can communicate telepathically with the target, transmitting words, sensory experiences and thoughts into their mind. The target can communicate back to you in the same manner.</p><p>This effect persists even if the target moves beyond <strong>30 spaces</strong> away from you, or if you use this ability on other targets.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.kjVyanj0UAXSF8rL]{Blue Spirit's Whispers}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "dcc580f9-1361-4098-827d-7886c6ba77d6"
+      },
+      {
+        "name": "Blue Spirit",
+        "description": "",
+        "uuid": "c9a3fc5a-c50a-41dd-bf0e-6be202b5146c"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "7a183a3e-b16b-4186-b024-a89c18d12916"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679896033670,
+    "modifiedTime": 1708070759010,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "ZCjngOnzbhhPE8h6",
+  "_id": "aIjaeawcAQ2qPRZk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!aIjaeawcAQ2qPRZk"
+}

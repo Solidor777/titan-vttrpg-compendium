@@ -1,0 +1,77 @@
+{
+  "_id": "XXx8gc9M556qVLkQ",
+  "name": "Favorable Winds",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Air_Tradition_Icon.webp",
+  "description": "<p>The winds guide your projectiles.</p><p>Your <strong>Accuracy</strong> and <strong>Training</strong> in <strong>Ranged Weapons</strong> increases by +<strong>1</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "rWV0fbu3MJivJOod",
+  "sort": 1300000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "initiative",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": "Minutes"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Air",
+        "description": "",
+        "uuid": "1f9392d6-48f7-47da-b61e-3a4bc5c27afa"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "rating",
+        "key": "accuracy",
+        "value": 1,
+        "uuid": "f87017a8-be45-4e84-bb4c-85a6dd917e9e"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "training",
+        "key": "rangedWeapons",
+        "value": 1,
+        "uuid": "bb98163a-e8d4-4049-a7f0-10a995f49e35"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "attackType",
+        "key": "ranged",
+        "message": "<p><strong>Favorable Winds:</strong> Your <strong>Accuracy</strong> and <strong>Training</strong> in <strong>Ranged Weapons</strong> increase by <strong>1 + ES</strong>.</p>",
+        "uuid": "60eabe73-1db0-4009-87d8-0fc9357e1204"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680495335014,
+    "modifiedTime": 1708069449980,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!XXx8gc9M556qVLkQ"
+}

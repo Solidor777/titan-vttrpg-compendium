@@ -1,0 +1,54 @@
+{
+  "name": "Blue Spirit's Magical Bulwark",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlueSpirit_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> Self</p><p><strong>Area:</strong> 10-space-radius</p><p>Legend has it that the Blue Spirit's spells are so masterful that no creature can unmake them. It lends a portion of this mastery to you and your allies.</p><p>As an <strong>Action</strong>, you can bolster the magic of yourself and your allies.</p><p>Until the start of your next turn, the <strong>Complexity</strong> to <strong>Counteract</strong> any spells cast by yourself or allies within <strong>10 spaces</strong> of you increases by a number equal to your <strong>Soul</strong>.</p><p>You can spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.hbGIUsGhp9HqZJXz]{Blue Spirit's Magical Bulwark}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "dcc580f9-1361-4098-827d-7886c6ba77d6"
+      },
+      {
+        "name": "Blue Spirit",
+        "description": "",
+        "uuid": "c9a3fc5a-c50a-41dd-bf0e-6be202b5146c"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "f38248e2-a15f-4836-b704-c346fbaf1552"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679896033670,
+    "modifiedTime": 1708070734841,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "ZCjngOnzbhhPE8h6",
+  "_id": "5WF785JEQri0wOrs",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!5WF785JEQri0wOrs"
+}

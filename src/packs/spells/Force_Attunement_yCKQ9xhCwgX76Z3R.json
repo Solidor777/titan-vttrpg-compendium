@@ -1,0 +1,94 @@
+{
+  "name": "Force Attunement",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Force_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You channel kinetic energy through your body, making you especially resilient to damage.</p><p>Until the start of your next turn, your <strong>Armor</strong> and <strong>Defense</strong> are increased by <strong>+1</strong>.</p><p>Additionally, you are immune to being pushed, shoved, or otherwise moved against your will.</p><p>Your <strong>Unarmed</strong> attacks are also no longer considered <strong>Ineffective</strong>.</p><p>Each extra success extends the duration by <strong>+1 rounds</strong>.</p><p>Alternatively, you may increase your <strong>Defense</strong> by <strong>+1</strong> per extra success.</p><p>You can also increase your <strong>Armor</strong> by <strong>+1</strong> per 2 extra successes.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.spMYmh1p7gandhe6]{Force Attunement}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Attunement",
+        "description": "",
+        "uuid": "1601a588-ff9e-446f-a4ee-d7faf4947425"
+      }
+    ],
+    "xpCost": 0,
+    "rarity": "uncommon",
+    "tradition": "Force",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 2,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "increaseMod",
+        "initialValue": 1,
+        "option": [
+          "armor"
+        ],
+        "cost": 2,
+        "scaling": true,
+        "enabled": true,
+        "scalingCost": 2
+      },
+      {
+        "label": "increaseRating",
+        "initialValue": 1,
+        "cost": 1,
+        "option": [
+          "defense"
+        ],
+        "scaling": true,
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "c86e08c9-99ae-45b7-8d99-92f58a016185"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432594185,
+    "modifiedTime": 1708069511482,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "0PTCNhDFDFf5NRyN",
+  "_id": "yCKQ9xhCwgX76Z3R",
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!yCKQ9xhCwgX76Z3R"
+}

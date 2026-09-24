@@ -1,0 +1,54 @@
+{
+  "_id": "S8R6rdkwsaPuWdm6",
+  "name": "Steal Breath",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Air_Tradition_Icon.webp",
+  "description": "<p>Your breath is being drawn out.</p><p>You are <strong>Stunned.</strong></p><p>While <strong>Stunned</strong>, you begin to suffocate. At the start of your turn, you must make an opposed <strong>Resilience</strong> check, or fail to catch a breath.</p><p>If you fails a number of times greater than 1 + your <strong>Body</strong>, you die immediately as per the rules for <strong>Suffocation</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "rWV0fbu3MJivJOod",
+  "sort": 1600000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "initiative",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": "Minutes"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Air",
+        "description": "",
+        "uuid": "1f9392d6-48f7-47da-b61e-3a4bc5c27afa"
+      }
+    ],
+    "rulesElement": [],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680495335014,
+    "modifiedTime": 1708069459757,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!S8R6rdkwsaPuWdm6"
+}

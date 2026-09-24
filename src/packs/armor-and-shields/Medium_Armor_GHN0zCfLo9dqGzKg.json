@@ -1,0 +1,56 @@
+{
+  "name": "Medium Armor",
+  "type": "armor",
+  "img": "icons/svg/statue.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Body (3)</p><p>Medium armor is typically made of chain links, or small interlocking metal plates. It offers more protection than thinner, less complex armors, but also makes more noise and is more difficult to move in.</p>",
+    "check": [],
+    "customTrait": [],
+    "rarity": "common",
+    "value": 200,
+    "armor": {
+      "max": 2,
+      "value": 2
+    },
+    "trait": [
+      {
+        "name": "loud",
+        "type": "boolean",
+        "value": true
+      },
+      {
+        "name": "encumbering",
+        "type": "boolean",
+        "value": true
+      }
+    ],
+    "rulesElement": [],
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "6c3a889b-2449-46d5-8d68-70323d8c798c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678423340270,
+    "modifiedTime": 1689665901151,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "_id": "GHN0zCfLo9dqGzKg",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!GHN0zCfLo9dqGzKg"
+}

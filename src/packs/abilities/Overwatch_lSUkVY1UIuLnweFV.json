@@ -1,0 +1,43 @@
+{
+  "name": "Overwatch",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (2) in Ranged Weapons</p><p>You watch over the battlefield and shoot the enemy as they approach.</p><p>Once per round, when an enemy enters within <strong>5 spaces</strong> of you, you can immediately make a <strong>Ranged</strong> attack against them as a <strong>Free Action</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "740f908c-c904-400b-96de-cfd21a1808b6"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678932452053,
+    "modifiedTime": 1689641634314,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 7400000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "lSUkVY1UIuLnweFV",
+  "_key": "!items!lSUkVY1UIuLnweFV"
+}

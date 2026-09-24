@@ -1,0 +1,66 @@
+{
+  "name": "Long Bow",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Body (2)</p><p>A long bow usually made of a single piece of elm, hickory, or yew, has a powerful draw and is excellent at propelling arrows with great force and at an extreme distance.</p>",
+    "check": [],
+    "customTrait": [],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "common",
+    "value": 100,
+    "attack": [
+      {
+        "label": "Attack",
+        "type": "ranged",
+        "range": 50,
+        "attribute": "body",
+        "skill": "rangedWeapons",
+        "damage": 2,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "piercing",
+            "value": true
+          },
+          {
+            "name": "twoHanded",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "4ed18553-192f-4e99-98b2-75f571471720"
+      }
+    ],
+    "attackNotes": "",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "4adbe5e3-8fba-4d54-9b07-1bd8c9d63c52"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678259041996,
+    "modifiedTime": 1689662495981,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "ej4QZyKreCp4PpnJ",
+  "_id": "VAxEelbQo78AEm9G",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!VAxEelbQo78AEm9G"
+}

@@ -1,0 +1,83 @@
+{
+  "_id": "QvkaT5q64x7Nxa6X",
+  "name": "Fox Fire",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/WhiteFox_Path_Icon.webp",
+  "description": "<p>You have been burned by illusory fires.</p><p>You take <strong>-1</strong> dice penalty to any <strong>Casting</strong> checks you make until you complete a <strong>Short Rest</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "6o25IOVRRN368aKC",
+  "sort": 200000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "permanent",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "White Fox",
+        "description": "",
+        "uuid": "0cff6e6f-5ab9-489b-bfcf-c27840f308a2"
+      },
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "1b1e6d67-9c90-4288-92fd-eab35d965531"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "conditionalCheckModifier",
+        "modifierType": "dice",
+        "checkType": "casting",
+        "selector": "any",
+        "key": "",
+        "value": -1,
+        "uuid": "f6182038-e586-4865-a83e-806096f5ce21"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "casting",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>Fox Fire:</strong> You take <strong>-1</strong> dice penalty to any <strong>Casting</strong> checks you make until you complete a <strong>Short Rest</strong>.</p>",
+        "uuid": "5b06bcdb-f3ed-432c-821d-1ba16fc511ec"
+      },
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Fox Fire:</strong> You take <strong>-1</strong> dice penalty to any <strong>Casting</strong> checks you make until you complete a <strong>Short Rest</strong>.</p>",
+        "uuid": "ee435fd4-524c-4928-9922-45a768ed15b9"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679861870810,
+    "modifiedTime": 1708070319182,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!QvkaT5q64x7Nxa6X"
+}

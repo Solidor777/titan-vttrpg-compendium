@@ -1,0 +1,54 @@
+{
+  "name": "The Dragon Devours",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlackFlames_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve or 1 Wound</p><p><strong>Range:</strong> Self</p><p><strong>Area:</strong> 5-space radius, 5-space-line</p><p>The destruction caused by Black Flame is not limited to the physical world, and you take advantage of that aspect to burn away spells before they can affect you.</p><p>As an <strong>Action</strong>, you can envelope yourself and any allies within a <strong>5-space-radius </strong>of you in a cloak of Black Flames.</p><p>Until the start of your next turn, you and your affected allies take <strong>2</strong> less <strong>Damage</strong> from spells.</p><p>Additionally, affected creatures gain <strong>bonus dice</strong> equal to your <strong>Training</strong> in <strong>Metaphysics</strong> to any checks made to resist spell effects. They also gain these <strong>bonus dice</strong> on any checks they make with the <strong>Counteract</strong> trait.</p><p>If an ally moves more than <strong>5 Spaces</strong> away from you, this ability no longer affects them. If they come within <strong>5 spaces</strong> of you, this ability affects them as normal.</p><p>On your turn, you can spend <strong>1 Resolve</strong> or take <strong>1 Wound</strong> to sustain this effect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.7oVlQVj8TviyF9MP]{The Dragon Devours}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "12916637-de1e-42c5-8147-cce31700c56d"
+      },
+      {
+        "name": "Black Flame",
+        "description": "",
+        "uuid": "4de80564-1b15-4bef-8895-a5d12b4ab2ac"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "3054209f-9bfd-420d-96ff-3a96294743d9"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679031688146,
+    "modifiedTime": 1709798555627,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "FGlkMf2awlp6zTb7",
+  "_id": "f2eH1JYkVll1WXt2",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!f2eH1JYkVll1WXt2"
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Steel Titan",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Metal_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You conjure forth countless fragments of flexible steel, wrapping them around your body to form a massive suit of armor.</p><p>Until the start of your next turn, your <strong>Armor</strong>, <strong>Body</strong> and <strong>Size</strong> increase by <strong>+1</strong>.</p><p>Each extra success extends the duration by <strong>+1 round</strong>s.</p><p>Alternatively, you may increase your <strong>Armor</strong> by <strong>+1</strong> per 2 extra successes.</p><p>You may also increase your <strong>Body</strong> and <strong>Size</strong> together by <strong>+1</strong> per 4 extra successes.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.OKtfiv38FQ5lr1sM]{Steel Titan}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Metal",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 4,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": false,
+        "label": "Body and Size",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 4,
+        "uuid": "b2069108-81b6-479d-a007-dcba295102ad"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "increaseMod",
+        "initialValue": 1,
+        "option": [
+          "armor"
+        ],
+        "cost": 2,
+        "scaling": true,
+        "enabled": true,
+        "scalingCost": 2
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "a296f925-6905-403a-9c97-9a26233f198a"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680326442556,
+    "modifiedTime": 1708069817489,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "b6iOYrTfsSJbYqG5",
+  "_id": "rWBmRJS44DhbX0LV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!rWBmRJS44DhbX0LV"
+}

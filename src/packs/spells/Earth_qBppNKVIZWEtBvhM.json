@@ -1,0 +1,23 @@
+{
+  "name": "Earth",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "qBppNKVIZWEtBvhM",
+  "sort": 800000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1689660604358,
+    "modifiedTime": 1708131880633,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "description": "",
+  "_key": "!folders!qBppNKVIZWEtBvhM"
+}

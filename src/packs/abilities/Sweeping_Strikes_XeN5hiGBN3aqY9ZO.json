@@ -1,0 +1,53 @@
+{
+  "name": "Sweeping Strikes",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Body (4), Training (2) in Melee Weapons</p><p>You have trained to swing your weapon in great sweeping arcs.</p><p><strong>Two-Handed Melee</strong> attacks you make gain the <strong>Cleave</strong> trait.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "attackTrait",
+        "key": "twoHanded",
+        "message": "<p><strong>Sweeping Blows:</strong> Two-Handed Melee attacks you make gain the @UUID[Compendium.titan-vttrpg-compendium.rules.JournalEntry.mczts3I29Q5vaopp.JournalEntryPage.4i499LbqwSRtkdMc#cleave]{Cleave} trait.</p>",
+        "uuid": "f8861101-c5cd-49e1-b1fd-318f44faac47",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "d6b6c93c-07e7-4642-9182-2700f5727fb8"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678602413725,
+    "modifiedTime": 1689641654469,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 10700000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "XeN5hiGBN3aqY9ZO",
+  "_key": "!items!XeN5hiGBN3aqY9ZO"
+}

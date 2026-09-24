@@ -1,0 +1,71 @@
+{
+  "name": "Flurry of Strikes",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p>You have trained to make several attacks at once.</p><p>When you make a <strong>Multi-Attack</strong>, your <strong>Melee</strong> and <strong>Accuracy</strong> increase by <strong>+1</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "conditionalRatingModifier",
+        "rating": "melee",
+        "selector": "multiAttack",
+        "key": "",
+        "value": 1,
+        "uuid": "3107ebd1-f886-4805-8de9-32aa775f6aa3",
+        "type": "ability"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "multiAttack",
+        "key": "",
+        "message": "<p><strong>Flurry of Strikes:</strong> When you make a <strong>Multi-Attack</strong>, your <strong>Melee</strong> and <strong>Accuracy</strong> increase by <strong>+1</strong>.</p>",
+        "uuid": "c17d3af9-8862-46f3-afef-c39ca67d8a6b",
+        "type": "ability"
+      },
+      {
+        "operation": "conditionalRatingModifier",
+        "rating": "accuracy",
+        "selector": "multiAttack",
+        "key": "",
+        "value": 1,
+        "uuid": "ae870732-cfda-4da2-9624-c89607aa5d0d",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "b81800b5-d3c3-4039-aff6-2e2dbb796752"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678676436038,
+    "modifiedTime": 1689641620149,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 4900000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "rMeF5Jcoj6pyNaR5",
+  "_key": "!items!rMeF5Jcoj6pyNaR5"
+}

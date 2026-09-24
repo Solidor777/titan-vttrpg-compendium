@@ -1,0 +1,54 @@
+{
+  "name": "Blood Frenzy",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/RedFaith_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> 10 spaces</p><p>You manipulate another creature's blood to enhance their speed and ability to act.</p><p>Choose a blooded creature within <strong>10 spaces</strong>. Until the start of your next turn, the creature's <strong>Speed</strong> increases by <strong>+5</strong>, and it can take an extra <strong>Action</strong> on its turn.</p><p>You may spend <strong>1 Resolve</strong> or <strong>1 source of fresh blood</strong> at the start of your turn to sustain this effect, choosing a new target if you wish</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.KoHQ6jmewhn0uGjy]{Blood Frenzy}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Red Faith",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "03cdc0d8-f296-45ae-93d1-d5b341c46171"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708070680865,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "MN8iKfuLJ7p9mHEL",
+  "_id": "bSXjxKaQKicq0d0z",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!bSXjxKaQKicq0d0z"
+}

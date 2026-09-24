@@ -1,0 +1,78 @@
+{
+  "name": "Fruits of Longevity",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Wood_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You conjure a vine of fruits endowed with energizing magic.</p><p>When you cast this spell, you gain <strong>2 Fruits of Longevity</strong>. These fruits can be given to other creatures and consumed as an <strong>Action</strong> to heal <strong>2 Stamina</strong>.</p><p>Each extra success increases the number of fruits by <strong>+1</strong>.</p><p>Alternatively, you may increase the <strong>Stamina</strong> each fruit heals by <strong>+1</strong> per extra success.</p><p>These fruits last for <strong>1 hour</strong>, after which they whither to dust. If you cast this spell again, you may forgo growing a number of new fruits to extend the duration of fruits from a previous casting of the spell. All fruits from a previous casting that are not extended in this way immediately whither to dust.</p><p>These fruits have no nutritional value, being mere containers for magical energy. You cannot survive by eating them alone.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.dmGfXdfZVQpc0qSN]{Fruits of Longevity}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Wood",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "label": "Fruits",
+        "scaling": true,
+        "initialValue": 2,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": false,
+        "uuid": "da46fa60-9641-44f7-9d0d-047a0702c233"
+      },
+      {
+        "label": "Healing",
+        "scaling": true,
+        "initialValue": 2,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": true,
+        "uuid": "58f7552e-9e61-4522-b320-c725e9edaad9"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "cost": 0,
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "91dbc17d-af91-4237-a783-292c308bfa93"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680493043231,
+    "modifiedTime": 1708131898253,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "81wXy8a8Hc2rI79w",
+  "_id": "65jckDiAjmwAzhi4",
+  "sort": 1700000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!65jckDiAjmwAzhi4"
+}

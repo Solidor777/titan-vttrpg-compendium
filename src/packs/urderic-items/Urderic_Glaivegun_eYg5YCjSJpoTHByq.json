@@ -1,0 +1,109 @@
+{
+  "name": "Urderic Glaivegun",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p><strong>Power Consumption:</strong> 2</p><p>This transforming weapon has two modes of operation, which may be changed once per turn as a <strong>Free Action</strong>.</p><p><strong>Glaive:</strong> The weapon takes the form of a long metal pole with a powered blade at the end, the blade glowing green with Urderic energy.</p><p><strong>Gun:</strong> Grips and a shoulder brace extend from the pole, allowing it to be aimed so the wielder can fire a shot of pure Urderic energy.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Urderic",
+        "description": "",
+        "uuid": "352ddbb9-76a5-4c98-a2e9-2f84e7a1de38"
+      }
+    ],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "rare",
+    "value": 750,
+    "attack": [
+      {
+        "label": "Strike",
+        "type": "melee",
+        "range": 2,
+        "attribute": "body",
+        "skill": "meleeWeapons",
+        "damage": 2,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "cleave",
+            "value": true
+          },
+          {
+            "name": "loud",
+            "value": true
+          },
+          {
+            "name": "magical",
+            "value": true
+          },
+          {
+            "name": "slashing",
+            "value": true
+          },
+          {
+            "name": "twoHanded",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "19ff1ec0-a8cb-4e5c-98f8-f07807671529"
+      },
+      {
+        "label": "Shoot",
+        "type": "ranged",
+        "range": 30,
+        "attribute": "body",
+        "skill": "rangedWeapons",
+        "damage": 3,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "loud",
+            "value": true
+          },
+          {
+            "name": "magical",
+            "value": true
+          },
+          {
+            "name": "twoHanded",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "10b632db-8e45-496d-a3fe-6c1fca7ce55a"
+      }
+    ],
+    "attackNotes": "<p></p>",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "folder": "KZPurD5uYKElJZlj",
+  "flags": {
+    "titan": {
+      "uuid": "d035a6a4-cf7b-4ad9-b88d-dfdc61e7eb21"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1681795221875,
+    "modifiedTime": 1689746237938,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "eYg5YCjSJpoTHByq",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!eYg5YCjSJpoTHByq"
+}

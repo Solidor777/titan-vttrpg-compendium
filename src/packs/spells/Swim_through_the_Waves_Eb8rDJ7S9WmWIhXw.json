@@ -1,0 +1,76 @@
+{
+  "name": "Swim through the Waves",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Water_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You control water to bear you where you wish to go.</p><p>For <strong>1 minute</strong>, you gain a <strong>Swim</strong> speed of <strong>5</strong>. If you already have a <strong>Swim</strong> speed, it increases by <strong>+5</strong>.</p><p>Each extra success extends the duration by <strong>+1 minutes</strong>.</p><p>Alternatively, you may increase the <strong>Swim</strong> speed by <strong>+1</strong> per 2 extra successes.</p><p>You can breathe underwater while under the effect of this spell.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.z25T0vW9Eu8GSqK5]{Swim through the Waves}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Water",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 6,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "minutes",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "increaseSpeed",
+        "initialValue": 5,
+        "cost": 2,
+        "option": [
+          "swim"
+        ],
+        "scaling": true,
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "a52e96d9-3355-4db1-9a47-e9d050159836"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680493043231,
+    "modifiedTime": 1708131848513,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "a0K7AcNakRL8353B",
+  "_id": "Eb8rDJ7S9WmWIhXw",
+  "sort": 1400000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!Eb8rDJ7S9WmWIhXw"
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Telepathic Bond",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Thought_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You form a bond with another creature, allowing you to communicate over long distances.</p><p>You cast this spell over the course of <strong>10 minutes</strong>, during which you must hold hands with or otherwise touch the target of this spell.</p><p>For <strong>1 hour</strong>, you can send and receive telepathic messages with each other, so long as you remain on the same plane of existence. You choose what thoughts you wish to share, and with whom you wish to share them.</p><p>Each extra success extends the duration by <strong>+1 hours</strong>.</p><p>Alternatively, you may increase the number of targets by <strong>+1</strong> per extra success.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.mt6I1piACkq9Ls2T]{Telepathic Bond}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "rare",
+    "tradition": "Thought",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 6,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": false,
+        "label": "Hours",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "uuid": "b5431aac-63a7-41af-b52e-217e07d670d9"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "touch",
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "extraTargets",
+        "scaling": true,
+        "initialValue": 0,
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "cdaa6677-e71a-4b33-9a83-6f33eecb64a6"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432594185,
+    "modifiedTime": 1708069912873,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "q4SiCGJUqYlzrQ7o",
+  "_id": "Qblh0buBwAnFWrSX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!Qblh0buBwAnFWrSX"
+}

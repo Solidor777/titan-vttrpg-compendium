@@ -1,0 +1,54 @@
+{
+  "_id": "mt6I1piACkq9Ls2T",
+  "name": "Telepathic Bond",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Thought_Tradition_Icon.webp",
+  "description": "<p>You form a bond with another creature, allowing you to communicate over long distances.</p><p>You cast this spell over the course of ten minutes, during which you must hold hands with or otherwise touch the target of this spell.</p><p>For <strong>1 hour</strong>, you can send and receive telepathic messages with each other, so long as you remain on the same plane of existence. You choose what thoughts you wish to share, and with whom you wish to share them.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "vUl00pcDm6OdEeer",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "custom",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": "Hours"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Thought",
+        "description": "",
+        "uuid": "a6e06733-da73-4693-9884-9810a9e45c60"
+      }
+    ],
+    "rulesElement": [],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432985113,
+    "modifiedTime": 1708069917115,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!mt6I1piACkq9Ls2T"
+}

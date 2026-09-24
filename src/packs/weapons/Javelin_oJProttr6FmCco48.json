@@ -1,0 +1,79 @@
+{
+  "name": "Javelin",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Body (2)</p><p>This thin spear is usable in melee but is primarily designed for being thrown.</p>",
+    "check": [],
+    "customTrait": [],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "common",
+    "value": 45,
+    "attack": [
+      {
+        "label": "Strike",
+        "type": "melee",
+        "range": 1,
+        "attribute": "body",
+        "skill": "meleeWeapons",
+        "damage": 1,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "piercing",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "b42b92c2-5cb9-42d8-a72d-6c157cceccc4"
+      },
+      {
+        "label": "Throw",
+        "type": "ranged",
+        "range": 10,
+        "attribute": "body",
+        "skill": "rangedWeapons",
+        "damage": 2,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "piercing",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "90e3497b-337c-4e7a-8b02-4f03036707aa"
+      }
+    ],
+    "attackNotes": "",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "8a6767d4-9319-47ea-b064-d8a5240535b8"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678252149603,
+    "modifiedTime": 1689662470751,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "BsiAASgtfrITuRWZ",
+  "_id": "oJProttr6FmCco48",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!oJProttr6FmCco48"
+}

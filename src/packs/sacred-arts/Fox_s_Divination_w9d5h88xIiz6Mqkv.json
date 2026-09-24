@@ -1,0 +1,74 @@
+{
+  "name": "Fox's Divination",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/WhiteFox_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> Self</p><p>Your eyes glow with an ethereal light as you gaze into the stream of time.</p><p>As an action, you may make a <strong>6:1</strong> <strong>Soul (Metaphysics)</strong> check as you try to divine your surroundings as they were at a specific point in time.</p><p>You must choose the target time before you use this ability. You may choose a specific year, day, hour, and minute, or you may choose a natural phenomenon, such as the rising of the sun, or the first snow of winter.</p><p>If you succeed, you observe the world around you at that point in time, covering a period of no more than <strong>10 minutes</strong> per success.</p><p>If you look into the past, then you see the world exactly as it was.</p><p>If you look into the future, then you see the world as it would have been, but the act of looking into the future and acting on that information is likely to change what will actually happen.</p><p>You are unable to perceive the present, and time passes normally as you observe.</p><p>If you fail the check, your vision is jumbled fragments of possible timelines, and you learn nothing of value.</p><p>Regardless of whether you fail or succeed, you cannot use this ability to observe the same space again until you complete a <strong>Long Rest</strong>.</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 6,
+        "complexity": 1,
+        "resolveCost": 0,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "none",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "cd59f688-7646-4d81-9f56-1cee0361d7c4"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "0b37fe71-b38f-4a07-9069-96a5e8e62d84"
+      },
+      {
+        "name": "White Fox",
+        "description": "",
+        "uuid": "1e346930-364f-4b8c-a32f-99a3559ed4c6"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "a017fb91-5689-4181-8682-d13db04d7351"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679036115054,
+    "modifiedTime": 1708070344106,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "FP0IEhJWKJZvIHU4",
+  "_id": "w9d5h88xIiz6Mqkv",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!w9d5h88xIiz6Mqkv"
+}

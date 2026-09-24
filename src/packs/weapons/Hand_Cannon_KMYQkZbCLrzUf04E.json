@@ -1,0 +1,82 @@
+{
+  "name": "Hand Cannon",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">Hand cannons are little more than a hardened tube, a handle, and a firing mechanism. Though less accurate than a bow, the incredible force of their shots makes them excel against heavily armored opponents. </span>They are small enough to be fired with one hand, but still require two hands to reload.</p>",
+    "check": [],
+    "customTrait": [],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "common",
+    "value": 200,
+    "attack": [
+      {
+        "label": "Attack",
+        "type": "melee",
+        "range": 10,
+        "attribute": "body",
+        "skill": "rangedWeapons",
+        "damage": 1,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "loud",
+            "value": true
+          },
+          {
+            "name": "penetrating",
+            "value": true
+          },
+          {
+            "name": "piercing",
+            "value": true
+          },
+          {
+            "name": "reload",
+            "value": true
+          },
+          {
+            "name": "rend",
+            "value": true
+          },
+          {
+            "name": "vicious",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "7fa971fc-3ecd-435c-9b58-4279fe3a3956"
+      }
+    ],
+    "attackNotes": "",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "ff93b1ce-8379-4545-83db-d68ae6164c15"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678261154453,
+    "modifiedTime": 1689662495284,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "ej4QZyKreCp4PpnJ",
+  "_id": "KMYQkZbCLrzUf04E",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!KMYQkZbCLrzUf04E"
+}

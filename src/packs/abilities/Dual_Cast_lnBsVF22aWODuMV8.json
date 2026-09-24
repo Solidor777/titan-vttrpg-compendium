@@ -1,0 +1,43 @@
+{
+  "name": "Dual-Cast",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (3) or Expertise (3) in Arcana</p><p>You have discovered the dangerous art of weaving two spells together.</p><p>As an <strong>Action</strong> on your turn, you can attempt to dual-cast.</p><p>Select two different spells you know and make a casting check with a <strong>Difficulty</strong> equal to the highest of the two spells, and a <strong>Complexity</strong> equal to the combined Complexity of both spells.</p><p>For example, spells with <strong>DC 4:2</strong> and <strong>5:1</strong> would have a <strong>DC</strong> of <strong>5:3</strong>.</p><p>If this check is successful, both spells are cast, with additional successes applying to both spells.</p><p>You may select different targets for each spell cast this way.</p><p>If this check fails, something goes horribly wrong. Roll twice on the <strong>Arcane Mishap</strong> table and apply the highest result.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "7152d7a6-9dff-4d0e-85b4-7344b855faa0"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678931670769,
+    "modifiedTime": 1689641614600,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 3900000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "lnBsVF22aWODuMV8",
+  "_key": "!items!lnBsVF22aWODuMV8"
+}

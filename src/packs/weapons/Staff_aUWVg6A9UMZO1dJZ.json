@@ -1,0 +1,62 @@
+{
+  "name": "Staff",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>This long piece of wood can aid in walking and deliver a mighty blow.</p>",
+    "check": [],
+    "customTrait": [],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "common",
+    "value": 10,
+    "attack": [
+      {
+        "label": "Attack",
+        "type": "melee",
+        "range": 1,
+        "attribute": "body",
+        "skill": "meleeWeapons",
+        "damage": 2,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "crushing",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "2462a7e2-0ca3-443b-ae53-423e7e281f70"
+      }
+    ],
+    "attackNotes": "",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "3a56915c-e279-4738-9d30-91e2c8f703ee"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678252568897,
+    "modifiedTime": 1689662470751,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "BsiAASgtfrITuRWZ",
+  "_id": "aUWVg6A9UMZO1dJZ",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!aUWVg6A9UMZO1dJZ"
+}

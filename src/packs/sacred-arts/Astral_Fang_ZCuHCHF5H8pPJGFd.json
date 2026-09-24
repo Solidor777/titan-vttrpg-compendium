@@ -1,0 +1,54 @@
+{
+  "name": "Astral Fang",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/VeiledMoon_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> Touch</p><p>You inscribe an astral rune onto a weapon, so that it causes spiritual as well as physical damage.</p><p>Choose a weapon held by yourself or an adjacent creature. The first time that weapon deals <strong>Damage</strong> within the next <strong>1 minute</strong>, it gains the <strong>Magical</strong> trait, and deals additional damage equal to your <strong>Soul</strong>.</p><p>When you use this ability, you can choose to spend <strong>1 Resolve</strong> to increase the additional <strong>Damage</strong> to double your <strong>Soul</strong>.</p><p><strong>Wounds</strong> inflicted by this attack do not recover naturally and require active treatment to be healed. Lost <strong>Stamina</strong> recovers normally.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.P9r9g6Qh8qKjiWfz]{Astral Fang}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Veiled Moon",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "724c6bfe-4e5a-4aa4-867c-cf969e19b8c3"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708070262464,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "KQwWonXZ3eMLZCPx",
+  "_id": "ZCuHCHF5H8pPJGFd",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!ZCuHCHF5H8pPJGFd"
+}

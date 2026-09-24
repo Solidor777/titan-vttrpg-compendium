@@ -1,0 +1,63 @@
+{
+  "_id": "CPkhzahhySuXFVBC",
+  "name": "Consult the Winds",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Air_Tradition_Icon.webp",
+  "description": "<p>You concentrate on disturbances in the air.</p><p>You can sense the position and size of every moving or breathing creature within <strong>30 spaces</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "rWV0fbu3MJivJOod",
+  "sort": 1000000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnStart",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": "Minutes"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Air",
+        "description": "",
+        "uuid": "1f9392d6-48f7-47da-b61e-3a4bc5c27afa"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "any",
+        "selector": "skill",
+        "key": "perception",
+        "message": "<p><strong>Consult the Winds:</strong> You can sense the position and size of every moving or breathing creature within <strong>30 spaces</strong>.</p>",
+        "uuid": "5473f717-061c-4c66-8168-bce4601f8147"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680495335014,
+    "modifiedTime": 1708069441942,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!CPkhzahhySuXFVBC"
+}

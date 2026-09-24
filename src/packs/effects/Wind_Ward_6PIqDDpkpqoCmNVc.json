@@ -1,0 +1,62 @@
+{
+  "_id": "6PIqDDpkpqoCmNVc",
+  "name": "Wind Ward",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Air_Tradition_Icon.webp",
+  "description": "<p>You are protected by a wall of wind.</p><p>Your <strong>Defense</strong> increases by <strong>+1</strong>.</p><p>If you are struck by an attack, you may choose to end the effect early to negate the attack.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "rWV0fbu3MJivJOod",
+  "sort": 12500,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "initiative",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": "Minutes"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Air",
+        "description": "",
+        "uuid": "1f9392d6-48f7-47da-b61e-3a4bc5c27afa"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "rating",
+        "key": "defense",
+        "value": 1,
+        "uuid": "f87017a8-be45-4e84-bb4c-85a6dd917e9e"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680495335014,
+    "modifiedTime": 1708069468058,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!6PIqDDpkpqoCmNVc"
+}

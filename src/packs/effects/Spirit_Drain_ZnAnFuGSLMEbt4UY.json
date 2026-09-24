@@ -1,0 +1,62 @@
+{
+  "_id": "ZnAnFuGSLMEbt4UY",
+  "name": "Spirit Drain",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/AetherAndVoid_Tradition_Icon.webp",
+  "description": "<p>Your life force has been bled away, leaving you frail and vulnerable.</p><p>Your maximum <strong>Stamina</strong> is reduced until you complete a <strong>Short</strong> or <strong>Long</strong> <strong>Rest</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "DSgUAy4O8QaDpnqf",
+  "sort": 200000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnStart",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Void",
+        "description": "",
+        "uuid": "666f3b08-d6c1-4999-9902-7a1542a7f93c"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "resource",
+        "key": "stamina",
+        "value": -1,
+        "uuid": "fbf0fbff-1e09-4656-8234-f0f781bb8e47"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1686006193078,
+    "modifiedTime": 1708069203714,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!ZnAnFuGSLMEbt4UY"
+}

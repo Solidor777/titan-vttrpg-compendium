@@ -1,0 +1,23 @@
+{
+  "_id": "zmgtuI0IRwHNWhvS",
+  "name": "Black Flames",
+  "type": "ActiveEffect",
+  "folder": "qLtO5UfB1evTXawL",
+  "sorting": "a",
+  "sort": 0,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!zmgtuI0IRwHNWhvS"
+}

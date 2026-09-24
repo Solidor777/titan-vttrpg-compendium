@@ -1,0 +1,74 @@
+{
+  "name": "Blue Spirit's Soul-Gaze",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlueSpirit_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> 10 spaces</p><p>You look upon another's soul and see the truth of who they are.</p><p>Choose a creature within <strong>10 spaces </strong>of you and make a <strong>4:1</strong> <strong>Soul (Metaphysics)</strong> check resisted by the target’s <strong>Willpower</strong>.</p><p>If you succeed, you may choose to learn one of the following pieces of information per difference in successes.</p><ul><li><p>What type of creature they are.</p></li><li><p>One of their short-term goals.</p></li><li><p>One of their long-term goals.</p></li><li><p>Their greatest fear.</p></li><li><p>Their greatest love.</p></li><li><p>Their current <strong>Stamina</strong>.</p></li><li><p>A secret about them.</p></li><li><p>Which of their skills has the highest <strong>Training</strong> or <strong>Expertise</strong>.</p></li><li><p>An <strong>Ability</strong> they have.</p></li><li><p>If they have <strong>Resolve</strong>, and if so, how much.</p></li></ul><p>Once you have Soul-Gazed a creature, you cannot do so again until you complete a <strong>Long Rest</strong>.</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 0,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "willpower",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "4e179d49-0903-4574-86dc-4ce1e61a4b32"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "dcc580f9-1361-4098-827d-7886c6ba77d6"
+      },
+      {
+        "name": "Blue Spirit",
+        "description": "",
+        "uuid": "c9a3fc5a-c50a-41dd-bf0e-6be202b5146c"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "b793f927-5570-4666-8910-4f52263b269d"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679896033670,
+    "modifiedTime": 1708070756524,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "ZCjngOnzbhhPE8h6",
+  "_id": "eBrUSn7KtUTIP6oD",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!eBrUSn7KtUTIP6oD"
+}

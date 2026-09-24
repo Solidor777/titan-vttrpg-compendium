@@ -1,0 +1,69 @@
+{
+  "_id": "TaY4bE9vPRnoCYFC",
+  "name": "Anatomical Anarchy",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Flesh_Tradition_Icon.webp",
+  "description": "<p>Your body turns against itself, causing muscles to cramp, blood to still, and organs to malfunction.</p><p>At the start of your turn, you take <strong>1 Damage</strong> that ignores <strong>Armor</strong>.</p><p>You must make an opposed <strong>Resilience</strong> check or be <strong>Stunned </strong>until the end of your turn.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "e5YFhGdOTopAwtgG",
+  "sort": 200000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "initiative",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": "Hours"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Flesh",
+        "description": "",
+        "uuid": "a6e06733-da73-4693-9884-9810a9e45c60"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "any",
+        "selector": "attribute",
+        "key": "body",
+        "message": "<p><strong>Anatomical Anarchy:</strong> At the start of your turn, you take <strong>1 Damage</strong> that ignores <strong>Armor</strong>.</p><p>You must make an opposed <strong>Resilience</strong> check or be <strong>Stunned </strong>until the end of your turn.</p>",
+        "uuid": "ebc5d80c-5c3a-49d9-a716-3e68033130a3"
+      },
+      {
+        "operation": "persistentDamage",
+        "selector": "turnStart",
+        "value": 1,
+        "uuid": "f3320399-82ae-44a4-b5f3-aa6e4e4a809d"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432985113,
+    "modifiedTime": 1708069963486,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!TaY4bE9vPRnoCYFC"
+}

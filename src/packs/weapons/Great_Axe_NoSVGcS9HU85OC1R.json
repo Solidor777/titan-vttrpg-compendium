@@ -1,0 +1,70 @@
+{
+  "name": "Great Axe",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Body (3)</p><p>This large axe is too heavy to wield with only one hand. Many great axes incorporate two blades, and often have a hook at the bottom to increase the strength of their chopping power.</p>",
+    "check": [],
+    "customTrait": [],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "common",
+    "value": 250,
+    "attack": [
+      {
+        "label": "Attack",
+        "type": "melee",
+        "range": 1,
+        "attribute": "body",
+        "skill": "meleeWeapons",
+        "damage": 3,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "slashing",
+            "value": true
+          },
+          {
+            "name": "twoHanded",
+            "value": true
+          },
+          {
+            "name": "vicious",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "9032ae52-658c-4533-beca-0ef308826ed7"
+      }
+    ],
+    "attackNotes": "",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "ed66d53c-cd54-4a99-988b-e640b814643e"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678250210704,
+    "modifiedTime": 1689662470751,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "BsiAASgtfrITuRWZ",
+  "_id": "NoSVGcS9HU85OC1R",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!NoSVGcS9HU85OC1R"
+}

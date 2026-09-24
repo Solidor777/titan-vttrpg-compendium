@@ -1,0 +1,61 @@
+{
+  "_id": "yFTZvnjO138X7KYG",
+  "name": "Tidal Surge",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Water_Tradition_Icon.webp",
+  "description": "<p>You unleash a blast of fast-moving water.</p><p>Choose a point within <strong>10 spaces. </strong>Creatures between you and the chosen location take <strong>1 Damage</strong> and must make an opposed <strong>Resilience </strong>check or be pushed back <strong>1 space</strong> and fall <strong>Prone</strong>.</p><p>Each extra success increases the <strong>Damage</strong> by <strong>+1</strong>.</p><p>Alternatively, you may increase the number of spaces pushed by <strong>+1</strong> per extra success.</p><p>You may also extend the duration of this effect by +1 rounds per extra success, with the <strong>Damage</strong> and <strong>Resilience </strong>check recurring at the start of your turn. If you move, this effect ends immediately.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "lZLQYhDHDY7ridbx",
+  "sort": 300000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnStart",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": "Minutes"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Water",
+        "description": "",
+        "uuid": "1f9392d6-48f7-47da-b61e-3a4bc5c27afa"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Tidal Surge:</strong> You are maintaining a Tidal Surge.</p>",
+        "uuid": "1e6b74e2-f0ce-4b05-a659-f0029bb2aa06"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680495335014,
+    "modifiedTime": 1708131857452,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!yFTZvnjO138X7KYG"
+}

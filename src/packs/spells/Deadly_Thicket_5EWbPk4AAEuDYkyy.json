@@ -1,0 +1,72 @@
+{
+  "name": "Deadly Thicket",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Wood_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You summon sharpened thorns and twisted branches to ensnare your enemies.</p><p>Choose a point within <strong>10 spaces</strong>. Until the start of your next turn, each space within a <strong>5-space radius</strong> of that point gains the <strong>Hazard (3)</strong> and <strong>Difficult Terrain</strong> traits.</p><p>Each extra success extends the duration by <strong>+1 rounds</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Wood",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 5,
+      "complexity": 3,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 3,
+        "enabled": true
+      },
+      {
+        "label": "radius",
+        "initialValue": 5,
+        "cost": 3,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "5d1097e7-098c-46a5-aabd-9f1e8561e762"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680493043231,
+    "modifiedTime": 1708131887868,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "81wXy8a8Hc2rI79w",
+  "_id": "5EWbPk4AAEuDYkyy",
+  "sort": 2000000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!5EWbPk4AAEuDYkyy"
+}

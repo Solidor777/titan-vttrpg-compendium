@@ -1,0 +1,54 @@
+{
+  "name": "Stormcaller's Grasp",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Stormcaller_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve</p><p><strong>Range:</strong> Self</p><p><strong>Area:</strong> 5-space-radius</p><p>You create a storm of lightning that follows you and strikes at all who approach you.</p><p>The area within a <strong>5-space-radius</strong> around you becomes a <strong>Hazard (3)</strong> trait and <strong>Difficult Terrain</strong> for all creatures other than yourself.</p><p>The affected area moves with you.</p><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p><p>Additionally, you may spend an additional <strong>1 Resolve</strong> when you activate this ability so that your allies are unaffected by it for the duration.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.5AKIP59UYgN1Wi7m]{Stormcaller's Grasp}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "c83045c8-193f-46fb-bd64-693e6f0e41ff"
+      },
+      {
+        "name": "Stormcaller",
+        "description": "",
+        "uuid": "6bac61d7-3f79-41e1-ad04-42b7c6f1e97d"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "3wygLHBNXPW58FHz",
+  "ownership": {
+    "default": 0,
+    "jqPKS4y5hfCZQjOU": 3
+  },
+  "flags": {
+    "titan": {
+      "uuid": "ed6a1a73-4a67-45cd-be34-6c15d536c0b8"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1709538242950,
+    "modifiedTime": 1709792480827,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "iT8jFjOQStUccyDt",
+  "sort": 150000,
+  "_key": "!items!iT8jFjOQStUccyDt"
+}

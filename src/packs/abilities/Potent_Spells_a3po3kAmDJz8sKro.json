@@ -1,0 +1,43 @@
+{
+  "name": "Potent Spells",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Expertise (1) in Arcana</p><p>Your spells are more potent and harder to resist.</p><p>When a creature must make a <strong>Resistance</strong> check to resist the effects of your spells, the <strong>Complexity</strong> of the check increases by <strong>+1</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "79ea39f5-ffa2-4e28-94e6-0485c601ec55"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678676184269,
+    "modifiedTime": 1689641637957,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 8000000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "a3po3kAmDJz8sKro",
+  "_key": "!items!a3po3kAmDJz8sKro"
+}

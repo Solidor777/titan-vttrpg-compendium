@@ -1,0 +1,43 @@
+{
+  "name": "Powerful Healing",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Expertise (1) in Medicine</p><p>You are adept at healing others.</p><p>Whenever you make a skill check to heal damage to a creature other than yourself, you gain <strong>bonus dice</strong> equal to your <strong>Training</strong> in the skill being tested.</p><p>This is typically <strong>Arcana</strong> for arcane spells, and <strong>Metaphysics</strong> for <strong>Path</strong> abilities.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "e21e13de-75a0-4c42-aab3-1d8ce140c4bb"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678851888700,
+    "modifiedTime": 1689641638558,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 8100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "1lAyGi6xKPTSTWEI",
+  "_key": "!items!1lAyGi6xKPTSTWEI"
+}

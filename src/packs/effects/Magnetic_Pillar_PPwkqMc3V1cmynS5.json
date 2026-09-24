@@ -1,0 +1,61 @@
+{
+  "_id": "PPwkqMc3V1cmynS5",
+  "name": "Magnetic Pillar",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Metal_Tradition_Icon.webp",
+  "description": "<p>You are <strong>Restrained</strong> and stuck to a magnetic pillar.</p><p>You can use an <strong>Action</strong> to make a DN <strong>4:(1+ES) Body (Athletics)</strong> check to free themselves, where <strong>ES</strong> is the number of extra successes on the casting check.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "uFa1Ccptl4K1DDCq",
+  "sort": 600000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnStart",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Metal",
+        "description": "",
+        "uuid": "162ad7e6-1bdf-4784-bf79-b3c27e5f418e"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Magnetic Pillar:</strong> You are <strong>Restrained</strong> and stuck to a magnetic pillar.</p><p>You can use an <strong>Action</strong> to make a DN <strong>4:(1+ES) Body (Athletics)</strong> check to free themselves, where ES is the number of extra successes on the casting check.</p>",
+        "uuid": "d110d1da-b25a-4aae-b599-129e39dcc554"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680411410488,
+    "modifiedTime": 1708069786978,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!PPwkqMc3V1cmynS5"
+}

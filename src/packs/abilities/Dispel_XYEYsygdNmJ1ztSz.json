@@ -1,0 +1,49 @@
+{
+  "name": "Dispel",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) and Expertise (1) in Arcana</p><p>You have learned to unmake spells after they have been cast.</p><p>As an <strong>Action</strong>, you can attempt to remove the magical effect of a spell within <strong>30 spaces</strong>.</p><p>This requires a successful <strong>Counteract</strong> check using <strong>Mind (Arcana)</strong>.</p><p>If you succeed, the spell is removed and no longer has any effect. If you fail, the spell continues as normal.</p><p>If you fail and try to dispel the spell again, the <strong>Complexity</strong> of the <strong>Counteract</strong> check increases by <strong>+1</strong>.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Counteract",
+        "description": "This ability is specifically for countering spells.",
+        "uuid": "3f6f59d9-218f-4788-80d2-f79f5421670c"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "da73dcf4-064f-4048-862e-adad7703bebc"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678680415787,
+    "modifiedTime": 1689641611057,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 3400000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "XYEYsygdNmJ1ztSz",
+  "_key": "!items!XYEYsygdNmJ1ztSz"
+}

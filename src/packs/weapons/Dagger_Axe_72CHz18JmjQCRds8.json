@@ -1,0 +1,70 @@
+{
+  "name": "Dagger Axe",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Body (2)</p><p>A dagger axe is similar to a spear, but it also has an additional blade mounted near the tip. This second blade may be perpendicular to the first, or be parallel to the shaft, giving the head of the weapon a shape similar to an axe. Its primary use is digging into armor, or hooking around enemy weapons to pull them out of formation.</p>",
+    "check": [],
+    "customTrait": [],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "common",
+    "value": 290,
+    "attack": [
+      {
+        "label": "Attack",
+        "type": "melee",
+        "range": 1,
+        "attribute": "body",
+        "skill": "meleeWeapons",
+        "damage": 2,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "piercing",
+            "value": true
+          },
+          {
+            "name": "rend",
+            "value": true
+          },
+          {
+            "name": "twoHanded",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "c4d0b9e4-33c1-4bc1-afa1-b0da3aca638b"
+      }
+    ],
+    "attackNotes": "",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "81ceded2-91a6-4498-a274-c05afa09ae9f"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678251303967,
+    "modifiedTime": 1689662470751,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "BsiAASgtfrITuRWZ",
+  "_id": "72CHz18JmjQCRds8",
+  "sort": 1900000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!72CHz18JmjQCRds8"
+}

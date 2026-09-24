@@ -1,0 +1,70 @@
+{
+  "name": "Punching Dagger",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>Punching daggers are characterized by their H-shaped hand grip that allows the blade to jut out from the knuckles.</p>",
+    "check": [],
+    "customTrait": [],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "common",
+    "value": 25,
+    "attack": [
+      {
+        "label": "Attack",
+        "type": "melee",
+        "range": 1,
+        "attribute": "body",
+        "skill": "meleeWeapons",
+        "damage": 1,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "flurry",
+            "value": true
+          },
+          {
+            "name": "piercing",
+            "value": true
+          },
+          {
+            "name": "slashing",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "4bcad656-6a29-4a2a-8d06-413e834c90d8"
+      }
+    ],
+    "attackNotes": "",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "85f22452-7481-4206-9581-fe041749d850"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678253436922,
+    "modifiedTime": 1689662470751,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "BsiAASgtfrITuRWZ",
+  "_id": "26qWkK7y3na5OqF2",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!26qWkK7y3na5OqF2"
+}

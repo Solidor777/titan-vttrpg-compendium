@@ -1,0 +1,45 @@
+{
+  "name": "Light Armor",
+  "type": "armor",
+  "img": "icons/svg/statue.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Body (2)</p><p>Light armor offers a modest degree of protection while still allowing the bearer to move freely. It is commonly made of thin strips of metal wrapped in cloth or leather to keep the wearer quiet and comfortable.</p>",
+    "check": [],
+    "customTrait": [],
+    "rarity": "common",
+    "value": 120,
+    "armor": {
+      "max": 1,
+      "value": 1
+    },
+    "trait": [],
+    "rulesElement": [],
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "2cf97dd4-4462-449e-8503-6d11b9e69c30"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678423340270,
+    "modifiedTime": 1689665901151,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "_id": "VMRVwA3MdsKVoES4",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!VMRVwA3MdsKVoES4"
+}

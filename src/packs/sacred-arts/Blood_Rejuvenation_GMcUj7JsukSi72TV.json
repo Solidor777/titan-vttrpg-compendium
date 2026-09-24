@@ -1,0 +1,54 @@
+{
+  "name": "Blood Rejuvenation",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/RedFaith_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve or 1 source of fresh blood</p><p><strong>Range:</strong> 30 spaces</p><p>You manipulate a creature's blood to speed their metabolism and quicken their recovery.</p><p>Choose a creature within<strong> 30 spaces</strong>. They immediately regain <strong>Stamina</strong> equal to half their <strong>Body</strong>, rounded up.</p><p>When you use this ability, you can choose to spend <strong>1</strong> extra <strong>Resolve</strong> or <strong>1 fresh blood source</strong> to add your <strong>Soul</strong> to <strong>Stamina</strong> recovered.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Red Faith",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "a9b4e0a2-ad2d-415b-a6fb-cf10ab48c38f"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708070697858,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "MN8iKfuLJ7p9mHEL",
+  "_id": "GMcUj7JsukSi72TV",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!GMcUj7JsukSi72TV"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Basic Urderic Power Armor (6/6)",
+  "type": "armor",
+  "img": "icons/svg/statue.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Urderic Smith</p><p><strong>Power Capacity:</strong> 6</p><p>This set of power armor is the standard among Urderic Smiths, and is usually the first thing a new apprentice learns to create. It can hold a moderate supply of Ur-stones, provides basic protection against attacks, and can be colored or styled in a variety of fashions.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Urderic",
+        "description": "",
+        "uuid": "25f815cc-8205-4cfb-853f-60ae3dc783ca"
+      }
+    ],
+    "rarity": "rare",
+    "value": 350,
+    "armor": {
+      "max": 1,
+      "value": 1
+    },
+    "trait": [],
+    "rulesElement": [],
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "90368c26-88e9-48eb-8d14-30a869d33245"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1681584246507,
+    "modifiedTime": 1689745122784,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "u1RiXx9jfg65zfx0",
+  "_id": "yUbZhWM1VtZN7Leo",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!yUbZhWM1VtZN7Leo"
+}

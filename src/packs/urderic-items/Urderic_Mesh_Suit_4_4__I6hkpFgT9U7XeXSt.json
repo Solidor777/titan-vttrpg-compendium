@@ -1,0 +1,51 @@
+{
+  "name": "Urderic Mesh Suit (4/4)",
+  "type": "armor",
+  "img": "icons/svg/statue.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Urderic Smith</p><p><strong>Power Capacity:</strong> 4</p><p>This form-fitting weave has just enough shielding to allow for safely using Ur-stones, and is just slight enough to be worn under normal clothing.</p><p>This suit cannot be worn with other armor, but can be concealed under normal clothes. It can also be easily slipped on and off, unlike heavier suits of armor.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Urderic",
+        "description": "",
+        "uuid": "25f815cc-8205-4cfb-853f-60ae3dc783ca"
+      }
+    ],
+    "rarity": "rare",
+    "value": 450,
+    "armor": {
+      "max": 0,
+      "value": 0
+    },
+    "trait": [],
+    "rulesElement": [],
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "c558ab1e-df50-464e-ac87-6b37928a22bf"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1681584246507,
+    "modifiedTime": 1689745131997,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "u1RiXx9jfg65zfx0",
+  "_id": "I6hkpFgT9U7XeXSt",
+  "sort": 50000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!I6hkpFgT9U7XeXSt"
+}

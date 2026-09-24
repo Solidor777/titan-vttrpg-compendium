@@ -1,0 +1,53 @@
+{
+  "name": "Flanking Maneuvers",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Melee Weapons</p><p>You know how to coordinate with an ally to exploit gaps in an enemy's defense.</p><p>Your <strong>Melee</strong> increases by <strong>+1</strong> whenever you attack a creature within melee range of an ally.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "attackType",
+        "key": "melee",
+        "message": "<p><strong>Flanking Maneuvers:</strong> Your <strong>Melee</strong> increases by <strong>+1</strong> whenever you attack a creature within melee range of an ally.</p>",
+        "uuid": "f0f61d17-6cd4-4f9f-9d80-835dcb423686",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "7ee86a66-3281-47b0-865a-54848bd5e412"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678778931649,
+    "modifiedTime": 1689641619649,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 4800000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "r55Fi4VRnCgLlaTD",
+  "_key": "!items!r55Fi4VRnCgLlaTD"
+}

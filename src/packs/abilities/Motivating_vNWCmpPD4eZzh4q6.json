@@ -1,0 +1,43 @@
+{
+  "name": "Motivating",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Performance</p><p>You can inspire others with stirring wounds or music.</p><ul><li><p>You have a number of <strong>motivation points</strong> equal to your <strong>Soul</strong>.</p></li><li><p>Once per round, you can expend a motivation point to encourage another creature as a <strong>Free Action</strong> on your turn.</p></li><li><p>If you do so, that creature gains <strong>+1 bonus dice</strong> to the next check it makes within the next <strong>1 hour</strong>.</p></li><li><p>You replenish your <strong>motivation points</strong> after you finish a <strong>Long Rest</strong>.</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "af72474e-104f-48fe-b98f-94920dd10699"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678855103106,
+    "modifiedTime": 1689641632246,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 7000000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "vNWCmpPD4eZzh4q6",
+  "_key": "!items!vNWCmpPD4eZzh4q6"
+}

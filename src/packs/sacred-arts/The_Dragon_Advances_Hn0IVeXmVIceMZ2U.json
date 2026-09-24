@@ -1,0 +1,74 @@
+{
+  "name": "The Dragon Advances",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlackFlames_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve or 1 Wound</p><p><strong>Range:</strong> 30 spaces</p><p><strong>Area:</strong> 5-space-radius</p><p>You become a comet of Black Flame, charging into melee with a deafening burst of energy.</p><p>Choose a target within <strong>30 spaces</strong> which you have line of sight to. You immediately <strong>Charge</strong> to that target, and gain <strong>bonus dice</strong> on the attack check equal to your <strong>Training</strong> in <strong>Metaphysics</strong>.</p><p>Additionally, make a <strong>4:1</strong> <strong>Soul (Metaphysics)</strong> check. Creatures within a<strong> 5-space-radius</strong> of your final destination must make an opposed <strong>Resilience</strong> check or become <strong>Deafened</strong> until the start of your next turn.</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 1,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "resilience",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "b119301a-c477-4dbc-b03f-0e8c50579e13"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "366575a4-4d35-45b3-8513-855487022882"
+      },
+      {
+        "name": "Black Flame",
+        "description": "",
+        "uuid": "e47299ce-632e-44c2-9196-906e73f31542"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "eacdbcba-c48b-4df6-ad11-c4ed99c75379"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679038063722,
+    "modifiedTime": 1709798522575,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "FGlkMf2awlp6zTb7",
+  "_id": "Hn0IVeXmVIceMZ2U",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!Hn0IVeXmVIceMZ2U"
+}

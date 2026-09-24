@@ -1,0 +1,54 @@
+{
+  "name": "Blood Weapon",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/RedFaith_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve or 1 source of fresh blood</p><p><strong>Range:</strong> Self</p><p>You forge a weapon out of your own blood, that can freely shift shape between that of any weapon you know how to use.</p><p>Once per turn, you can change the form of your weapon as a <strong>Free Action</strong>. You can use an <strong>Action</strong> to change it again on the same turn.</p><p>If you choose a ranged weapon, it automatically produces its own ammunition, though it does not ignore the <strong>Reload</strong> trait.</p><p>When you deal <strong>Damage</strong> with this weapon, you can spend <strong>1 Resolve</strong> or <strong>1 source of fresh blood</strong> to increase the <strong>Damage</strong> by an amount equal to your <strong>Soul</strong>.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Red Faith",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "3a09127c-4f23-4408-aac0-078aa731f3a1"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708070700565,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "MN8iKfuLJ7p9mHEL",
+  "_id": "anWu36HTTjYliKTg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!anWu36HTTjYliKTg"
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "8NLQz7ajGIIzheB5",
+  "name": "Invisibility",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Light_Tradition_Icon.webp",
+  "description": "<p>Light bends around you, rendering you imperceptible to sight.</p><p>You are Invisible. You cannot be seen, and have <strong>Greater Advantage</strong> on <strong>Stealth</strong> checks to move silently.</p><p>If you perform an action on another creature, or move a large object not on your person, the spell ends as it fails to conceal the change in light.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "2GEQqlcQlqbNuFSM",
+  "sort": 700000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "custom",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": "Minutes"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Light",
+        "description": "",
+        "uuid": "93cadcbb-e865-4cf9-b08f-cab45dbffa32"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attribute",
+        "selector": "skill",
+        "key": "stealth",
+        "message": "<p><strong>Invisibility:</strong> You cannot be seen, and have <strong>Greater Advantage</strong> on <strong>Stealth</strong> checks to move silently.</p>",
+        "uuid": "25a1cdc8-d74c-4ff3-bcce-05ce9219ba3e"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683785941033,
+    "modifiedTime": 1708069691955,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!8NLQz7ajGIIzheB5"
+}

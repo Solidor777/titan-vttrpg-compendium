@@ -1,0 +1,59 @@
+{
+  "name": "Crowned Kirin",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/HornedKirin_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Soul (5), 6 Horned Kirin abilities, and you must receive training from another Crowned Kirin or have access to their teachings</p><p><strong>Cost:</strong> 2 Resolve</p><p><strong>Range:</strong> Self</p><p>You have fully mastered the kirin's aptitude for controlling the forces of life and death.</p><p>As an <strong>Action</strong>, you may grow a pair of horns; one white and formed of life energy, and one black and formed of necrotic energy.</p><ul><li><p>Your <strong>Body</strong> and <strong>Soul</strong> increase by <strong>+2</strong>.</p></li><li><p>Your <strong>Stride Speed</strong> increases by <strong>+5</strong>.</p></li><li><p>Your <strong>Melee</strong>, <strong>Accuracy</strong> and <strong>Defense</strong> increase by 1.</p></li><li><p>Once per turn, when you would take <strong>Damage</strong>, you may drain the life from the aggressor to heal yourself for an amount equal to your <strong>Soul</strong>. This healing is subtracted from the <strong>Damage</strong> dealt, and the creature that would have inflicted it takes <strong>Damage</strong> equal to your <strong>Soul</strong>. This <strong>Damage</strong> ignores Armor.</p></li></ul><p>This effect lasts until the end of combat, you become <strong>Incapacitated</strong>, or you are <strong>Dying</strong>. After you use this ability, you cannot use any ability with the <strong>Apex</strong> trait until you complete a <strong>Long Rest</strong>.</p><p>Additionally, Horned Kirin and other followers of the Path of the Horned Kirin will generally recognize your skill and afford you special respect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.Uf1ixDybe1iuEJsQ]{Crowned Kirin}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "a094e4bb-e282-4ae1-96d2-c184d8d995ce"
+      },
+      {
+        "name": "Horned Kirin",
+        "description": "",
+        "uuid": "a9f729a8-b087-4e01-b74b-0002ae08619f"
+      },
+      {
+        "name": "Apex",
+        "description": "",
+        "uuid": "732de2e2-25f1-4e67-a362-7852622a2da0"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": true,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "1222e98a-7090-47e5-a409-58a09840e1ce"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679860356996,
+    "modifiedTime": 1708070088066,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "hd7y07quiJ9wUJ97",
+  "_id": "8lKw6mOvWZvWv5Fa",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!8lKw6mOvWZvWv5Fa"
+}

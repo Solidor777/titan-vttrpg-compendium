@@ -1,0 +1,76 @@
+{
+  "name": "Icicle Shower",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Water_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You blast an enemy with a shower of razor-sharp icicles.</p><p>Choose a target within <strong>10 spaces</strong>. It takes <strong>1 Damage</strong>, which ignores <strong>Armor</strong>.</p><p>Each extra success increases the number of targets by <strong>+1</strong>.</p><p>Alternatively, you may increase the <strong>Damage</strong> by <strong>+1</strong> per extra success.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Water",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 2,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 2,
+        "enabled": true
+      },
+      {
+        "label": "extraTargets",
+        "scaling": true,
+        "initialValue": 0,
+        "cost": 1
+      },
+      {
+        "label": "damage",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 2,
+        "resistanceCheck": "none",
+        "isDamage": true,
+        "option": [
+          "ignoreArmor"
+        ],
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "544d1f75-60f3-4b19-ba85-0919022ecf71"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680493043231,
+    "modifiedTime": 1708131834335,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "a0K7AcNakRL8353B",
+  "_id": "9swyWzhxRUrpJiyl",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!9swyWzhxRUrpJiyl"
+}

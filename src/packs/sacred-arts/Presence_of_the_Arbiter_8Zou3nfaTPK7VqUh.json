@@ -1,0 +1,74 @@
+{
+  "name": "Presence of the Arbiter",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Arbiter_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> Self</p><p><strong>Area:</strong> 5-space-radius</p><p>You project an aura of calm and surety to your allies, and one of fear and menace to your enemies.</p><p>Until the start of your next turn, you and any allies within <strong>5 spaces</strong> of you are immune to being <strong>Charmed</strong> or <strong>Frightened</strong>. Any allies that are currently <strong>Charmed</strong> or <strong>Frightened</strong> immediately recover from those conditions.</p><p>Additionally, make a <strong>4:1 Soul (Metaphysics)</strong> check. Until the start of your next turn, any enemy that moves within <strong>5 spaces</strong> of you must make an opposed <strong>Willpower</strong> check or become <strong>Frightened</strong> of you until the start of your next turn. Any enemies already within <strong>5 spaces</strong> of you must immediately make this check.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.2Hxqkq8h2eQZyYnh]{Presence of the Arbiter}</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 0,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "willpower",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "22c3c581-0408-4764-b4d6-b34a9e91dba1"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Arbiter",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "63b71585-cc83-45f0-92a6-b49e702e7e42"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708071674786,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "7hLsjAGUXV6dcNwV",
+  "_id": "8Zou3nfaTPK7VqUh",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!8Zou3nfaTPK7VqUh"
+}

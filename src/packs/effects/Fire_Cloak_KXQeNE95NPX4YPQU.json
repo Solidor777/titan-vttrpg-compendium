@@ -1,0 +1,62 @@
+{
+  "_id": "KXQeNE95NPX4YPQU",
+  "name": "Fire Cloak",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Fire_Tradition_Icon.webp",
+  "description": "<p>You wrap your body in cascading flames that scorch enemies when they approach.</p><p>You gain <strong>+1 Armor</strong> until the start of your next turn.</p><p>While enveloped in the fire cloak, any other creature that enters or starts its turn within <strong>5 spaces</strong> of you suffers <strong>1 Damage</strong>, which ignores <strong>Armor</strong>.</p><p>Each extra success extends the duration by <strong>+1 rounds</strong>.</p><p>Alternatively, you can increase both the <strong>Damage </strong>and the <strong>Armor</strong> bonus by <strong>+1</strong> per two extra successes<strong>.</strong></p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "f0n5Mzr4qSnhYH2e",
+  "sort": 1500000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnStart",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Fire",
+        "description": "",
+        "uuid": "f4d8060b-6519-4765-b1de-2b656adc997f"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "mod",
+        "key": "armor",
+        "value": 1,
+        "uuid": "b59bf794-71c9-416e-87dc-122af8799a07"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680302535477,
+    "modifiedTime": 1708131756455,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!KXQeNE95NPX4YPQU"
+}

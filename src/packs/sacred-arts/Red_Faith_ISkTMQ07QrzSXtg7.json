@@ -1,0 +1,23 @@
+{
+  "name": "Red Faith",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "ISkTMQ07QrzSXtg7",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1689661838487,
+    "modifiedTime": 1689661838487,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "description": "",
+  "_key": "!folders!ISkTMQ07QrzSXtg7"
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Counterspell",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) and Expertise (1) in Arcana</p><p>You have learned to quickly unravel arcane energy to unmake spells before they take effect.</p><p>When a creature you can see within <strong>30 spaces</strong> casts a spell, you can spend <strong>1 Resolve</strong> to attempt to counterspell them.</p><p>This requires a successful <strong>Counteract</strong> check using <strong>Mind (Arcana)</strong>.</p><p>If you succeed, the spell is countered and has no effect. If you fail, the spell takes effect as normal.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Counteract",
+        "description": "This ability is specifically for countering spells.",
+        "uuid": "5c5fef63-a80e-4599-b69a-e32ad2c20391"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "4d6c6046-8fae-4d9f-b738-bbbfc6e10110"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678680415787,
+    "modifiedTime": 1689665526209,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 2600000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "ULk6WrfWt8b0W6bE",
+  "_key": "!items!ULk6WrfWt8b0W6bE"
+}

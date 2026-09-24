@@ -1,0 +1,75 @@
+{
+  "_id": "VuXagK64p0fdTf0y",
+  "name": "Jade Perception",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/JadeWarrior_Path_Icon.webp",
+  "description": "<p>You meditate on your jade, letting it enhance your senses to make you more aware of your surroundings.</p><p>Until the start of your next turn:</p><ul><li><p>You gain a bonus to your <strong>Training</strong> in <strong>Perception</strong> equal to your <strong>Training</strong> in <strong>Metaphysics</strong>.</p></li><li><p>Your <strong>Awareness</strong> increases by half your <strong>Training</strong> in <strong>Metaphysics</strong>, rounded up.</p></li><li><p>You can sense the presence of living creatures within a number of spaces equal to <strong>2</strong> <strong>* your</strong> <strong>Soul</strong>.</p></li></ul>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "cV7lsKikLWOS0u21",
+  "sort": 600000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnStart",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "96984668-bf58-4a5e-94e2-84f9108e5110"
+      },
+      {
+        "name": "Jade Warrior",
+        "description": "",
+        "uuid": "7bc52639-765a-43a1-a79c-e923ebabb87a"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "any",
+        "selector": "skill",
+        "key": "perception",
+        "message": "<p><strong>Jade Perception:</strong> You gain a bonus to your <strong>Training</strong> in <strong>Perception</strong> equal to your <strong>Training</strong> in <strong>Metaphysics</strong>.</p><p>You can also sense the presence of living creatures within a number of spaces equal to <strong>2</strong> <strong>* your</strong> <strong>Soul</strong>.</p>",
+        "uuid": "3b87663b-8c2f-4c34-8d14-c36a505cd9a9"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "training",
+        "key": "perception",
+        "value": 1,
+        "uuid": "832311d4-1efc-45af-a95f-bb54e1fae62f"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680066992213,
+    "modifiedTime": 1708070195350,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!VuXagK64p0fdTf0y"
+}

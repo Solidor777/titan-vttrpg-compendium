@@ -1,0 +1,54 @@
+{
+  "name": "Abjuration of the Arbiter",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Arbiter_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve</p><p><strong>Range:</strong> 10 spaces</p><p><strong>Area:</strong> 5-space-radius</p><p>You ward an area against supernatural creatures.</p><p>Choose a point within <strong>10 spaces</strong>. Until the start of your next turn, every magical creature within a <strong>5-space-radius</strong> of that point takes a dice penalty to all checks it makes. The penalty is equal to your <strong>Soul</strong>, minus the target's <strong>Soul</strong>, to a minimum of <strong>1</strong>.</p><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p><p>If you spend <strong>10 minutes</strong> using this ability, you may make it last <strong>1 day</strong>.</p><p>If you spend <strong>1 hour</strong> using this ability, you may make it last <strong>10 days</strong>.</p><p>If you spend <strong>1 day</strong> using this ability, you may make it last <strong>30 days</strong>.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.SwC1yqf0vtq80do8]{Abjuration of the Arbiter}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Arbiter",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "7468f08d-25a8-4101-acc0-153971b8254a"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708071641753,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "7hLsjAGUXV6dcNwV",
+  "_id": "MJNC7mC0Zbpp7AMV",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!MJNC7mC0Zbpp7AMV"
+}

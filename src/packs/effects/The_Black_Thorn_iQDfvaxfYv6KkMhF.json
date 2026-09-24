@@ -1,0 +1,95 @@
+{
+  "_id": "iQDfvaxfYv6KkMhF",
+  "name": "The Black Thorn",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Wood_Tradition_Icon.webp",
+  "description": "<p>You are pierced by the Black Thorn.</p><p>You take <strong>1 Damage</strong> at the start of your turn. This damage ignores <strong>Armor</strong>.</p><p>Your <strong>Speed</strong> is reduced by <strong>5</strong>, and you cannot fly.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "MYd7S2ijFjxRg8eG",
+  "sort": 100000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnEnd",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": "Minutes"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Wood",
+        "description": "",
+        "uuid": "748210da-72fa-40ab-8b8d-13508f185ec1"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "persistentDamage",
+        "selector": "turnStart",
+        "value": 1,
+        "uuid": "f5feb0f4-334e-4b6a-8e4c-a6490c7e0b1e"
+      },
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p>You take <strong>1 Damage</strong> at the start of your turn. This damage ignores <strong>Armor</strong>.</p><p>Your <strong>Speed</strong> is reduced by <strong>5</strong>, and you cannot fly.</p>",
+        "uuid": "6f4fcf8f-ce5f-4a62-87d5-34703ab43f77"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "burrow",
+        "value": -5,
+        "uuid": "59bc7aad-97d8-4643-9c15-e9ae7f23bf1d"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "climb",
+        "value": -5,
+        "uuid": "d6f048f2-b0b6-40e4-b4e9-fb91f67277d3"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "stride",
+        "value": -5,
+        "uuid": "de2b275a-4376-4281-831e-e4095cd0af13"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "swim",
+        "value": -5,
+        "uuid": "2733749b-ffe2-40a3-b05d-945939101322"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680495335014,
+    "modifiedTime": 1708131949962,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!iQDfvaxfYv6KkMhF"
+}

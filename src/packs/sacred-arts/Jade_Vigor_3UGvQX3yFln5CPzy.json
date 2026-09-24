@@ -1,0 +1,74 @@
+{
+  "name": "Jade Vigor",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/JadeWarrior_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must have at least one tempered ur-stone worn against your skin</p><p><strong>Cost:</strong> 1 Resolve</p><p><strong>Range:</strong> Self</p><p>Some use jade to heal rather than harm, channeling their energy to re-energize the body.</p><p>Choose yourself or an adjacent and make a <strong>4:1 Soul (Metaphysics</strong>) check.</p><p>The target regains <strong>1 Stamina</strong> per success and increases their <strong>Body</strong> by <strong>+1</strong> until the start of your next turn.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.0OXODWxpufTJvWqG]{Jade Vigor}</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 1,
+        "isDamage": false,
+        "isHealing": true,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "none",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "3ad2837c-3e44-4afc-a50e-c7a1e2f3f89a"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "6e5a0501-8154-46df-b58e-6eba8b491df0"
+      },
+      {
+        "name": "Jade Warrior",
+        "description": "",
+        "uuid": "99a30e90-801a-41bf-ab9e-d7fa7a12635c"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "3ae86032-9d91-4669-824b-5b2370a726f7"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680159409616,
+    "modifiedTime": 1708070211229,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "n4zork6o1vyR2c56",
+  "_id": "3UGvQX3yFln5CPzy",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!3UGvQX3yFln5CPzy"
+}

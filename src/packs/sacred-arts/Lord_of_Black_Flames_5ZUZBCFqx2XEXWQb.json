@@ -1,0 +1,59 @@
+{
+  "name": "Lord of Black Flames",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlackFlames_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Soul (5), 6 Black Flame abilities, and you must receive training from another Lord of Black Flames or have access to their teachings</p><p><strong>Cost:</strong> 2 Resolve or 2 Wounds</p><p><strong>Range:</strong> Self</p><p>You have reached the pinnacle of mastery over Black Flame.</p><p>As an <strong>Action</strong>, you may take the form of a Black Dragon.</p><ul><li><p>Your <strong>Size</strong> and the <strong>Range</strong> of your <strong>Melee</strong> attacks increase by <strong>+1</strong>.</p></li><li><p>Your <strong>Body</strong> and <strong>Soul</strong> increase by <strong>+2</strong>.</p></li><li><p>Your <strong>Unarmed Attacks</strong> are no longer considered <strong>Ineffective.</strong></p></li><li><p>You gain a <strong>Fly</strong> speed of <strong>5</strong>. If you already have a <strong>Fly</strong> Speed, it increases by <strong>+5</strong>.</p></li><li><p>Once per turn, when you would receive <strong>Wounds</strong>, you may immediately use a <strong>Black Flame</strong> ability with a cost equal or less to the number of <strong>Wounds</strong> inflicted as a <strong>Free Action</strong>. This can be used when you take <strong>Wounds</strong> to use a <strong>Black Flame</strong> ability.</p></li></ul><p><span style=\"font-family: 'Open Sans',sans-serif\"><strong style=\"font-weight:normal;\" id=\"docs-internal-guid-dcd12564-7fff-bcb5-c45b-7173bd86e5d6\">This effect lasts until the end of combat, you become </strong><strong>Incapacitated</strong>, or you are <strong>Dying</strong>. After you use this ability, you cannot use any ability with the <strong>Apex</strong> trait until you complete a <strong>Long Rest</strong>.</span></p><p>Additionally, dragons and other followers of the Path of the Black Flames will recognize your skill and afford you special respect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.Wu0hcIt7YLO40eVS]{Lord of Black Flames}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "945b26d7-f096-4ca3-a5ab-0f8034242dec"
+      },
+      {
+        "name": "Black Flame",
+        "description": "",
+        "uuid": "8f65897d-270c-487c-9ea0-d12c4f353eb5"
+      },
+      {
+        "name": "Apex",
+        "description": "",
+        "uuid": "b2efe59b-b17d-4927-a011-d68d18bac954"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": true,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "28b4c0e7-fa15-4cda-a536-4aa1ee415acf"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679799272125,
+    "modifiedTime": 1709798565413,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "yRvqZRek6iVJ8FwR",
+  "_id": "5ZUZBCFqx2XEXWQb",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!5ZUZBCFqx2XEXWQb"
+}

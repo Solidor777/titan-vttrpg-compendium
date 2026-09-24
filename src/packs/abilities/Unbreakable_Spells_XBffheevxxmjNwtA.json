@@ -1,0 +1,43 @@
+{
+  "name": "Unbreakable Spells",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Expertise (1) in Arcana</p><p>Your spells are not so easily broken.</p><p>The <strong>Complexity</strong> of checks to <strong>Counteract</strong> your spells increases by <strong>+1</strong> per level of <strong>Expertise</strong> you have in <strong>Arcana</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "7d107d75-0e31-48c9-90dc-a5d9bdc5414c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678681211651,
+    "modifiedTime": 1701674425988,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 11400000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "XBffheevxxmjNwtA",
+  "_key": "!items!XBffheevxxmjNwtA"
+}

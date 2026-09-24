@@ -1,0 +1,43 @@
+{
+  "name": "Giant Grip",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Body (3)</p><p>Your staggering physical strength allows you to swing weapons in one hand that lesser mortals must put their whole body behind.</p><p>You only need one hand free to make melee attacks with the <strong>Two-Handed</strong> Trait.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "595c4606-6ec9-4a87-9cbb-2f99360421ad"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678861813296,
+    "modifiedTime": 1689641621725,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 5200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "0Z4DpOU17V0SxuN0",
+  "_key": "!items!0Z4DpOU17V0SxuN0"
+}

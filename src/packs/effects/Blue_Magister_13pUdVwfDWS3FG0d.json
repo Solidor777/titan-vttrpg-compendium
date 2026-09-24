@@ -1,0 +1,84 @@
+{
+  "_id": "13pUdVwfDWS3FG0d",
+  "name": "Blue Magister",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlueSpirit_Path_Icon.webp",
+  "description": "<p>You are partially transformed into a spirit of thought and magic, granting yourself incredible arcane power.</p><ul><li><p>Your <strong>Mind </strong>and <strong>Soul</strong> increase by <strong>+2</strong>.</p></li><li><p>You gain a <strong>Fly</strong> <strong>Speed</strong> of <strong>5</strong>. If you already have a <strong>Fly Speed</strong>, it increases by <strong>+5</strong>.</p></li><li><p>Once per turn, when you successfully cast a spell, you may immediately cast a second spell as a <strong>Free Action</strong>. The <strong>Complexity</strong> of the second spell increases by <strong>+1</strong>.</p></li></ul><p><span style=\"font-family: 'Open Sans',sans-serif\"><strong style=\"font-weight:normal;\" id=\"docs-internal-guid-dcd12564-7fff-bcb5-c45b-7173bd86e5d6\">This effect lasts until the end of combat, you become </strong><strong>Incapacitated</strong>, or you are <strong>Dying</strong>. After you use this ability, you cannot use any ability with the <strong>Apex</strong> trait until you complete a <strong>Long Rest</strong>.</span></p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "BCMH2qYFEKOKQKGh",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "permanent",
+      "remaining": 2,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "attribute",
+        "key": "mind",
+        "value": 2,
+        "uuid": "c2b18bd5-4347-4ef9-8852-07cb7ea3886b"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "attribute",
+        "key": "soul",
+        "value": 2,
+        "uuid": "ee52ab09-4760-4a39-bebc-4ed7cc815e31"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "fly",
+        "value": 5,
+        "uuid": "aff509ef-835a-4c05-9422-443a0f24407d"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "casting",
+        "selector": "any",
+        "key": "",
+        "message": "<p>Once per turn, when you successfully cast a spell, you may immediately cast a second spell as a <strong>Free Action</strong>. The <strong>Complexity</strong> of the second spell increases by 1.</p>",
+        "uuid": "5ae26209-0957-4ad7-a3d2-9766378f8689"
+      },
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Blue Magister:</strong> You are partially transformed into a spirit of thought and magic.</p><ul><li><p>Your <strong>Mind </strong>and <strong>Soul</strong> increase by <strong>+2</strong>.</p></li><li><p>You gain a <strong>Fly</strong> <strong>Speed</strong> of <strong>5</strong>. If you already have a <strong>Fly Speed</strong>, it increases by <strong>+5</strong>.</p></li><li><p>Once per turn, when you successfully cast a spell, you may immediately cast a second spell as a <strong>Free Action</strong>. The <strong>Complexity</strong> of the second spell increases by <strong>+1</strong>.</p></li></ul>",
+        "uuid": "137da471-d9e4-4c92-b565-a9f740fabfea"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679973600071,
+    "modifiedTime": 1708070720676,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!13pUdVwfDWS3FG0d"
+}

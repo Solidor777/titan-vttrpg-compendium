@@ -1,0 +1,43 @@
+{
+  "name": "Scholarly Focus (Choose)",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Expertise (1) in Lore</p><p>You have spent years studying a particular area of lore, such as history, biology, occultism, or clockworks.</p><p>Choose the focus of your study. You gain bonus dice equal to your level of <strong>Training</strong> in the relevant skill for any checks made to research or recall information on the chosen subject.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "eaecceef-3f24-4b96-bbed-0bae45b8b278"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678677767758,
+    "modifiedTime": 1689641643536,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 9000000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "bd5DVbrX5ZFig0f9",
+  "_key": "!items!bd5DVbrX5ZFig0f9"
+}

@@ -1,0 +1,53 @@
+{
+  "_id": "Z5H2ivyO5KzDFZEJ",
+  "name": "Slipstream",
+  "type": "ability",
+  "img": "icons/magic/air/air-wave-gust-blue.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must be utilizing Zephyr Style</p><p><strong>Cost:</strong> 1-3 Focus</p><p>You bend like a reed in the wind.</p><p>When an enemy makes an attack against you, you may spend <strong>-1 Focus</strong> before the attack is rolled to impose <strong>Disadvantage</strong> on the attack.</p><p>Alternatively, you may spend <strong>-3 Focus</strong> to impose <strong>Greater Disadvantage</strong> on the attack.</p><p>If the attack misses, you may immediately move up to <strong>2 spaces</strong>. This movement does not trigger attacks or effects that respond to your movement.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Combat Style",
+        "description": "",
+        "uuid": "04d37919-3760-4915-a465-f93a6771cf2d"
+      },
+      {
+        "name": "Zephyr Style",
+        "description": "",
+        "uuid": "cb41165d-aa81-475d-a4f5-12aa76419127"
+      },
+      {
+        "name": "Air",
+        "description": "",
+        "uuid": "aa8a1bdb-d349-4f06-aae6-bf79ed73cf46"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "ItKmuvdZ6wPszJVg",
+  "sort": 900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Z5H2ivyO5KzDFZEJ"
+}

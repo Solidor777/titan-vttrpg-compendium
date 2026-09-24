@@ -1,0 +1,95 @@
+{
+  "name": "Void Attunement",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/AetherAndVoid_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You become a living void of aether, giving you incredible resilience to magic.</p><p>Until the start of your next turn, you take <strong>1</strong> less <strong>Damage</strong> from spells or magical abilities. You also gain <strong>+1</strong> <strong>bonus dice</strong> on any checks made against spells or magical abilities.</p><p>Each extra success extends the duration by <strong>+1 round</strong>s.</p><p>Alternatively, you may increase both the <strong>Damage</strong> reduction and the bonus to <strong>Resistance</strong> checks by +1 per extra success.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.zm8nu7JnlxnddR9B]{Void Attunement}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Void",
+        "description": "",
+        "uuid": "21b4f18c-c7b4-42d6-a0f0-19d01799752e"
+      },
+      {
+        "name": "Attunement",
+        "description": "",
+        "uuid": "4737db56-85ff-4fca-a7b3-66df119cee5b"
+      }
+    ],
+    "xpCost": 0,
+    "rarity": "uncommon",
+    "tradition": "Aether and Void",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "label": "Magic Resistance",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": false,
+        "uuid": "11f0d02a-046e-4d81-8993-91e678ebcfa8"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true
+      },
+      {
+        "label": "increaseResistance",
+        "initialValue": 1,
+        "cost": 0,
+        "option": [],
+        "scaling": true,
+        "enabled": false
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "c74c1430-5805-4f4b-b9d2-6255f5dbb6b4"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1681362086156,
+    "modifiedTime": 1708069212367,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "pyJksx2DyxQNuqXD",
+  "_id": "QMF6sYltWVDrfRgR",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!QMF6sYltWVDrfRgR"
+}

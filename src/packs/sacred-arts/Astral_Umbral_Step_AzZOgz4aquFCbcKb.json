@@ -1,0 +1,54 @@
+{
+  "name": "Astral / Umbral Step",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/VeiledMoon_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> Self</p><p>With a thought and a gesture, you pass through shadows and moonlight from one location to another.</p><p>When you use this ability, choose <strong>Astral </strong>or<strong> Umbral Step</strong>.</p><ul><li><p><strong>Astral Step</strong></p><ul><li><p>You teleport to a location bathed in moonlight up to your <strong>Stride</strong> speed away.</p></li></ul></li></ul><ul><li><p><strong>Umbral Step</strong></p><ul><li><p>You teleport a location cloaked in shadow up to your <strong>Stride</strong> speed away.</p></li></ul></li></ul><p>When you use this ability, you may choose to spend <strong>1 Resolve</strong> to move to a location up to twice your <strong>Stride</strong> speed away.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Veiled Moon",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "919e1d5f-dc5d-4db7-a751-a52f69936189"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708070248157,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "KQwWonXZ3eMLZCPx",
+  "_id": "AzZOgz4aquFCbcKb",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!AzZOgz4aquFCbcKb"
+}

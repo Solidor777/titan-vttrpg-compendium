@@ -1,0 +1,66 @@
+{
+  "name": "Urderic Titan Armor (4/4)",
+  "type": "armor",
+  "img": "icons/svg/statue.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Urderic Smith</p><p><strong>Power Capacity:</strong> 4</p><p>This is a gigantic, powered exoskeleton, sporting thicker armor and heavier weaponry than any other model of power armor.</p><p>The Titan grants its wearer <strong>+1 Body,</strong> increases their <strong>Size</strong> by <strong>1</strong>, and allows them to ignore the <strong>Two-Handed</strong> attack trait.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Urderic",
+        "description": "",
+        "uuid": "25f815cc-8205-4cfb-853f-60ae3dc783ca"
+      }
+    ],
+    "rarity": "rare",
+    "value": 750,
+    "armor": {
+      "max": 2,
+      "value": 2
+    },
+    "trait": [
+      {
+        "name": "heavy",
+        "type": "boolean",
+        "value": true
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "attribute",
+        "key": "body",
+        "value": 1,
+        "uuid": "3e22daa0-3b6d-4b4b-948c-6a4120cf7e28",
+        "type": "equipment"
+      }
+    ],
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "abd50d7c-725e-41d9-9dc1-9d6dd987a6d5"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1681584246507,
+    "modifiedTime": 1689745139319,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "u1RiXx9jfg65zfx0",
+  "_id": "L6D4VXEuTnTy0lRo",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!L6D4VXEuTnTy0lRo"
+}

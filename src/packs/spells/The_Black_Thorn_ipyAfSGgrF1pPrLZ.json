@@ -1,0 +1,90 @@
+{
+  "name": "The Black Thorn",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Wood_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You hurl a wicked spear made of black oak.</p><p>Choose a target within <strong>10 spaces</strong>. They suffer <strong>1 Damage</strong> at the start of their turn. This <strong>Damage</strong> ignores <strong>Armor</strong> as thorns grow from the spear and forces its way through the gaps in their defense.</p><p>Furthermore, they must make an opposed <strong>Resilience</strong> check, or have their <strong>Speed</strong> reduced by <strong>5 </strong>until the end of their next turn, as the spear grows to anchor them to the ground. While affected by the speed decrease, they cannot fly, and flying creatures immediately fall to the ground.</p><p>Each extra success extends the duration by <strong>+1 rounds</strong>.</p><p>Alternatively, you may increase the <strong>Damage</strong> by <strong>+1</strong> per extra success.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.iQDfvaxfYv6KkMhF]{The Black Thorn}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Wood",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 2,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "label": "Decrease Speed",
+        "scaling": false,
+        "initialValue": 5,
+        "cost": 1,
+        "resistanceCheck": "resilience",
+        "isDamage": false,
+        "isHealing": false,
+        "uuid": "903841a4-4ace-4e9b-9c94-e038a5016d48"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 2,
+        "enabled": true
+      },
+      {
+        "label": "damage",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": true,
+        "option": [
+          "ignoreArmor"
+        ],
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "f2ecd399-d683-4a57-8587-bd211855dbe0"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680493043231,
+    "modifiedTime": 1708131947686,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "81wXy8a8Hc2rI79w",
+  "_id": "ipyAfSGgrF1pPrLZ",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!ipyAfSGgrF1pPrLZ"
+}

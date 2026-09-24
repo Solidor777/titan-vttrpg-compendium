@@ -1,0 +1,68 @@
+{
+  "_id": "u21EYW0cId2rOr40",
+  "name": "Deathsinger's Fresh Canvas",
+  "type": "ability",
+  "img": "icons/magic/death/skull-horned-white-purple.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> 10 Spaces</p><p><strong>Cost:</strong> 1 Resolve</p><p>You disassemble a creature into its component parts.</p><p>Choose a creature within <strong>10 spaces</strong> and make a <strong>5:1 Soul (Metaphysics)</strong> check, resisted by the target's <strong>Resilience</strong>.</p><p>If you succeed, the target's <strong>Body</strong> is reduced by the <strong>1+ ES</strong> where <strong>ES</strong> equals the difference in <strong>successes</strong>. This lasts until the target completes a <strong>Long Rest</strong>.</p><p>If the target's <strong>Body</strong> is reduced to <strong>0</strong>, it comes apart where it stands and dies.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.iKSUjxfs67BEzer9]{Deathsinger's Fresh Canvas}</p>",
+    "check": [
+      {
+        "label": "Fresh Canvas",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 5,
+        "complexity": 1,
+        "resolveCost": 1,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "resilience",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "c24a7335-c684-4b65-a450-cc84ca8e83c4"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Deathsinger",
+        "description": "",
+        "uuid": "a7063d7a-714c-444e-a2f0-539ee83b9565"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "iAdYrErZnpD6327g",
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!u21EYW0cId2rOr40"
+}

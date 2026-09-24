@@ -1,0 +1,67 @@
+{
+  "_id": "KovdiI79WR2VSbRA",
+  "name": "Thought Attunement",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Thought_Tradition_Icon.webp",
+  "description": "<p>Your magic speeds your thoughts and clears your mind.</p><p>You gain a <strong>+1</strong> bonus to your <strong>Mind</strong> until the start of your next turn.</p><p>Each extra success increases the duration by 1 round.</p><p>Alternatively, you may increase the bonus to <strong>Mind</strong> by <strong>+1</strong> per 4 extra successes.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "vUl00pcDm6OdEeer",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnStart",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Thought",
+        "description": "",
+        "uuid": "a6e06733-da73-4693-9884-9810a9e45c60"
+      },
+      {
+        "name": "Attunement",
+        "description": "",
+        "uuid": "9fa514bf-9cee-413e-bbd9-953b6b368b9d"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "attribute",
+        "key": "mind",
+        "value": 1,
+        "uuid": "baaa3adc-f56b-4168-8026-86d1d74bd802"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432985113,
+    "modifiedTime": 1708069924201,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!KovdiI79WR2VSbRA"
+}

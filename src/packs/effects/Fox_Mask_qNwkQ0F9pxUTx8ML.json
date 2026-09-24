@@ -1,0 +1,59 @@
+{
+  "_id": "qNwkQ0F9pxUTx8ML",
+  "name": "Fox Mask",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/WhiteFox_Path_Icon.webp",
+  "description": "<p>You conduct a ritual to copy the face and appearance of a once-living person, stealing their voice and appearance.</p><p>You must spend at least one minute observing an adjacent creature. If it is dead, it must have died within the last day.</p><p>Once the ritual is complete, your voice and physical features transmute to make you look and sound identical to the creature.</p><p>The transformation lasts for a number of <strong>hours</strong> equal to your <strong>Soul</strong>.</p><p>If observers have no reason to doubt your identity, you have <strong>Greater Advantage</strong> on checks to pass as the creature you are impersonating.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "6o25IOVRRN368aKC",
+  "sort": 600000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "custom",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": "Hours"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "e984a213-0405-4806-abf7-15644193ca4b"
+      },
+      {
+        "name": "White Fox",
+        "description": "",
+        "uuid": "8e9fdef8-5af7-4d75-a7cc-592c77648a8a"
+      }
+    ],
+    "rulesElement": [],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1687329485713,
+    "modifiedTime": 1708070329133,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!qNwkQ0F9pxUTx8ML"
+}

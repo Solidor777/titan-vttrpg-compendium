@@ -1,0 +1,54 @@
+{
+  "_id": "Bpp7AMJaFBJRikDO",
+  "name": "Beast Form",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Flesh_Tradition_Icon.webp",
+  "description": "<p>You transform a creature into the form of a beast.</p><p>Choose a creature within <strong>10 spaces</strong>. An unwilling creature may make an opposed <strong>Resilience</strong> check to resist the effect.</p><p><span style=\"font-family: 'Open Sans',sans-serif\"><strong style=\"font-weight:normal;\" id=\"docs-internal-guid-b339b82d-7fff-7e7a-36f4-74bfc0daf8d7\">For </strong><strong>1 hour</strong>,</span> the creature is transformed into an animal of your choosing, provided the animal's maximum <strong>Stamina</strong> is no more than the target's maximum <strong>Stamina</strong>.</p><p>The target's statistics, including <strong>Attributes</strong>, <strong>Skills</strong>, and <strong>Abilities</strong> are replaced by those of the chosen beast. It retains its personality, <strong>Stamina</strong>, and <strong>Wounds</strong>.</p><p>While in its new form, the target is limited by the beast's capabilities, such as speech and the ability to wield tools.</p><p>Any equipment the target is weapon remains where it was, but the target may not be able to benefit from the equipment. For example, a gorilla may be able to wear a cuirass, but a wolf cannot use a spear.</p><p>The target returns to its natural form if it takes <strong>Damage</strong> equal to the maximum <strong>Stamina</strong> of the animal or if it falls to <strong>0 Stamina</strong>. Any <strong>Damage</strong> taken while in the bestial form, including <strong>Damage</strong> in excess of the animal's maximum <strong>Stamina</strong>, carries over to the creature's natural form.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "e5YFhGdOTopAwtgG",
+  "sort": 600000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "custom",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": "Hours"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Flesh",
+        "description": "",
+        "uuid": "a6e06733-da73-4693-9884-9810a9e45c60"
+      }
+    ],
+    "rulesElement": [],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432985113,
+    "modifiedTime": 1708069976482,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!Bpp7AMJaFBJRikDO"
+}

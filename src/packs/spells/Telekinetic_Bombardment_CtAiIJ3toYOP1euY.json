@@ -1,0 +1,74 @@
+{
+  "name": "Telekinetic Bombardment",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Force_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You bombard your enemies with kinetic force.</p><p>Choose a point within <strong>30 spaces</strong>. Each creature within a <strong>5-space-radius</strong> of that point takes <strong>1 Damage</strong> as you attempt to crush them with kinetic energy.</p><p>Each extra success increases the <strong>Damage</strong> by <strong>1</strong>.</p><p>Alternatively, you may lift an object of <strong>Size 1-3</strong> within <strong>30 spaces</strong> and hurl it at the target point. If you do so, the damage inflicted by this spell is doubled, but the object is destroyed and cannot be used in this way again.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "uncommon",
+    "tradition": "Force",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 5,
+      "complexity": 3,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 30,
+        "cost": 3,
+        "enabled": true
+      },
+      {
+        "label": "radius",
+        "initialValue": 5,
+        "cost": 3,
+        "enabled": true
+      },
+      {
+        "label": "damage",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": true,
+        "option": [],
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "92d0fb4f-24e0-4e99-b8f7-f1459cf852ac"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432594185,
+    "modifiedTime": 1708069556724,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "0PTCNhDFDFf5NRyN",
+  "_id": "CtAiIJ3toYOP1euY",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!CtAiIJ3toYOP1euY"
+}

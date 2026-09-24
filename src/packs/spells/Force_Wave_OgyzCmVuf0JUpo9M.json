@@ -1,0 +1,83 @@
+{
+  "name": "Force Wave",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Force_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>A wave of kinetic energy erupts from you, pushing those around you to the ground.</p><p>Each creature within <strong>5 spaces</strong> of you suffers <strong>1 Damage</strong> and must make an opposed <strong>Resilience</strong> check or be knocked <strong>Prone</strong>.</p><p>Each extra success increases the <strong>Damage</strong> by <strong>+1</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "uncommon",
+    "tradition": "Force",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 5,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "radius",
+        "initialValue": 5,
+        "cost": 3,
+        "enabled": true
+      },
+      {
+        "label": "damage",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": true,
+        "option": [],
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "inflictCondition",
+        "cost": 2,
+        "option": [
+          "prone"
+        ],
+        "resistanceCheck": "resilience",
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "3701fe62-20ba-43c4-b927-26d06b36b191"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432594185,
+    "modifiedTime": 1708069545014,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "0PTCNhDFDFf5NRyN",
+  "_id": "OgyzCmVuf0JUpo9M",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!OgyzCmVuf0JUpo9M"
+}

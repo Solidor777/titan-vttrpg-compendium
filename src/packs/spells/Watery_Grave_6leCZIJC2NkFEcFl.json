@@ -1,0 +1,86 @@
+{
+  "name": "Watery Grave",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Water_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You wrap a creature in a sphere of water.</p><p>Choose a target within <strong>10 spaces</strong>. It must make an opposed <strong>Reflexes</strong> check or be <strong>Restrained</strong> until the start of your next turn.</p><p>Each extra success extends the duration by +1 rounds.</p><p>Additionally, while the target is <strong>Restrained</strong>, it begins to suffocate. At the start of its turn, it must make an opposed <strong>Resilience</strong> check, or fail to get its head out of the water.</p><p>If it fails a number of times greater than <strong>1 +</strong> its <strong>Body</strong>, it dies immediately as per the rules for <strong>Suffocation</strong>.</p><p>The suffocation effect only affects living, physical creatures that need to breathe.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.XmB0f2Q517Em4TXp]{Watery Grave}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Water",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 2,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "label": "Suffocation",
+        "scaling": false,
+        "initialValue": 0,
+        "cost": 0,
+        "resistanceCheck": "reflexes",
+        "isDamage": false,
+        "isHealing": false,
+        "uuid": "8ac0996f-4a05-4f67-9261-9ed0b6662b87"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 2,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "inflictCondition",
+        "cost": 2,
+        "option": [
+          "restrained"
+        ],
+        "resistanceCheck": "reflexes",
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "63b88210-d8ee-45af-b64c-a16ef919b83a"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680493043231,
+    "modifiedTime": 1708131868453,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "a0K7AcNakRL8353B",
+  "_id": "6leCZIJC2NkFEcFl",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!6leCZIJC2NkFEcFl"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Mage Slayer",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Melee Weapons</p><p>You have practiced techniques useful in melee combat against spellcasters.</p><ul><li><p>Once per turn, when a creature within melee range of you casts a spell or uses a <strong>Path Ability</strong>, you can make a free <strong>Melee</strong> attack against that creature.</p></li><li><p>You have <strong>Advantage</strong> on <strong>Resistance Checks</strong> against spells and path abilities used by creatures adjacent to you.</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "resistance",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>Mage Slayer:</strong> You have <strong>Advantage</strong> on <strong>Resistance Checks</strong> against spells and path abilities used by creatures adjacent to you.</p>",
+        "uuid": "75a8a68d-dbb1-412d-8575-461a3f91787a",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": true,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "28371161-0ee1-4d52-8cdc-9aaf94e8a333"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678775897076,
+    "modifiedTime": 1689641630287,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 6600000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "OSwBOg0bMW0fpBBU",
+  "_key": "!items!OSwBOg0bMW0fpBBU"
+}

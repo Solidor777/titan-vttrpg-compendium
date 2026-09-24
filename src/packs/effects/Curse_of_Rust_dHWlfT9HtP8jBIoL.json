@@ -1,0 +1,63 @@
+{
+  "_id": "dHWlfT9HtP8jBIoL",
+  "name": "Curse of Rust",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Metal_Tradition_Icon.webp",
+  "description": "<p>Your non-magical gear is rusted.</p><p>Until the spell ends, if you hit on an attack with a metal weapon, it shatters. The weapon is treated as an <strong>Improvised Weapon</strong> for any further attacks.</p><p>Additionally, if you are attacked, your <strong>Armour</strong> is permanently reduced by the <strong>Damage</strong> dealt. If this reduces your <strong>Armor</strong> to 0, their <strong>Armor</strong> is destroyed.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "uFa1Ccptl4K1DDCq",
+  "sort": 400000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnStart",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Metal",
+        "description": "",
+        "uuid": "162ad7e6-1bdf-4784-bf79-b3c27e5f418e"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>Curse of Rust:</strong> Until the spell ends, if you hit on an attack with a non-magical metal weapon, it shatters. The weapon is treated as an <strong>Improvised Weapon</strong> for any further attacks.</p>",
+        "uuid": "c4d6767f-0b14-45f9-bb7b-155de9828c15"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680411410488,
+    "modifiedTime": 1708069781147,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!dHWlfT9HtP8jBIoL"
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Sword",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Body (2)</p><p>Swords may be curved for slashing, or straight for piercing defenses. Their blades are light and easy to move, and they are typically between 1-2 arm lengths long.</p>",
+    "check": [],
+    "customTrait": [],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "common",
+    "value": 110,
+    "attack": [
+      {
+        "label": "Attack",
+        "type": "melee",
+        "range": 1,
+        "attribute": "body",
+        "skill": "meleeWeapons",
+        "damage": 2,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "piercing",
+            "value": true
+          },
+          {
+            "name": "slashing",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "16a19ce2-2ece-4037-ac53-5909baf170e5"
+      }
+    ],
+    "attackNotes": "",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "92261be3-4b55-419e-87d3-dfd8832678e8"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678252908897,
+    "modifiedTime": 1689662470751,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "BsiAASgtfrITuRWZ",
+  "_id": "5T9FnPqT2KshZaPh",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!5T9FnPqT2KshZaPh"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Take Aim",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Ranged Weapons, Expertise (1) in Perception</p><p>You take the time to steady your hands and line up the shot.</p><p>As an <strong>Action</strong>, you can aim at a target you can see. Until the end of your next turn, your range is doubled, and your <strong>Accuracy</strong> when Attacking that target increases by a number equal to your <strong>Expertise</strong> in <strong>Perception</strong>.</p><p>This effect ends early if you take an Action other than attacking the target.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "35d1a8a5-ea58-4c5d-bde9-b0c4f24db3bf"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678932866464,
+    "modifiedTime": 1689641654900,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 10800000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "B6xALkGAtdiqtdvI",
+  "_key": "!items!B6xALkGAtdiqtdvI"
+}

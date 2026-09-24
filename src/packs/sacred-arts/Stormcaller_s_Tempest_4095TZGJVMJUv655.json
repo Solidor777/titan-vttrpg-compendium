@@ -1,0 +1,54 @@
+{
+  "name": "Stormcaller's Tempest",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Stormcaller_Path_Icon.webp",
+  "system": {
+    "description": "<p>You have learned a measure of the Weeping Dragon's control over ambient aether.</p><p><span style=\"font-family: 'Open Sans',sans-serif\"><strong style=\"font-weight:normal;\" id=\"docs-internal-guid-fcb41962-7fff-e42a-197c-f8c4b8017e74\">You may use </strong><strong>Soul (Metaphysics) </strong>or <strong>Soul (Arcana)</strong> to cast any spell with the <strong>Any, Aether,</strong> or<strong> Void </strong>or traits.</span></p><p>Spells that you cast this way crackle with blue and yellow lightning, but otherwise behave as stated in their description.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "c83045c8-193f-46fb-bd64-693e6f0e41ff"
+      },
+      {
+        "name": "Stormcaller",
+        "description": "",
+        "uuid": "6bac61d7-3f79-41e1-ad04-42b7c6f1e97d"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "3wygLHBNXPW58FHz",
+  "ownership": {
+    "default": 0,
+    "jqPKS4y5hfCZQjOU": 3
+  },
+  "flags": {
+    "titan": {
+      "uuid": "9bd8ad8a-e7f6-4492-b696-7c4d77c15bb8"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1709538242950,
+    "modifiedTime": 1709793426893,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "4095TZGJVMJUv655",
+  "sort": 0,
+  "_key": "!items!4095TZGJVMJUv655"
+}

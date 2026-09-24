@@ -1,0 +1,54 @@
+{
+  "name": "Kirin's Feast",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/HornedKirin_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> 10 spaces</p><p>You devour the life-energy of a creature, using it to revitalize yourself.</p><p>Choose yourself or an ally within <strong>10 spaces</strong>. Until the start of your next turn, whenever the target kills a creature, it regains <strong>Stamina</strong> equal to half the victim's total <strong>Stamina</strong> (minimum <strong>1</strong>).</p><p>If the target damages a swarm, they recover <strong>Stamina</strong> equal to the <strong>Damage</strong> dealt.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.uuFxRsNX4gWQLq45]{Kirin's Feast}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "bde442a2-7e7e-4a9e-be65-aa6b91c84fa2"
+      },
+      {
+        "name": "Horned Kirin",
+        "description": "",
+        "uuid": "dc10832b-9cbe-4f72-80df-4bf2057334fd"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "b451708d-f453-443b-b428-df395503e070"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679881522637,
+    "modifiedTime": 1708070112751,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "W8QPQoWJqMdE5Up2",
+  "_id": "sME3Z2TnTWNuNMde",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!sME3Z2TnTWNuNMde"
+}

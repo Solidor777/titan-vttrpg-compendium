@@ -1,0 +1,54 @@
+{
+  "name": "The Dragon Awakens",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlackFlames_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> Self</p><p>You have learned to use Black Flame to power your arcane magic.</p><p><span style=\"font-family: 'Open Sans',sans-serif\"><strong style=\"font-weight:normal;\" id=\"docs-internal-guid-fcb41962-7fff-e42a-197c-f8c4b8017e74\">You may use </strong><strong>Soul (Metaphysics) </strong>or <strong>Soul (Arcana)</strong> to cast any spell with the <strong>Any </strong>or <strong>Fire</strong> traits.</span></p><p>Spells that you cast this way burn with black fires, but otherwise behave as stated in their description.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "b21670e3-3593-4362-bbce-9b25addda4cc"
+      },
+      {
+        "name": "Black Flame",
+        "description": "",
+        "uuid": "6516b09a-bb01-42f9-87f5-559c4dbac311"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "eeb52afe-e0a0-4cd5-8134-17f0c5b53a1c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679805468627,
+    "modifiedTime": 1709798531677,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "FGlkMf2awlp6zTb7",
+  "_id": "9ZOD6LRYluVCQKFk",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!9ZOD6LRYluVCQKFk"
+}

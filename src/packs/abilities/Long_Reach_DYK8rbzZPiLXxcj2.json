@@ -1,0 +1,43 @@
+{
+  "name": "Long Reach",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Melee Weapons</p><p>You leap, lunge, and use the length of your body to strike enemies outside your reach.</p><p>As long as you are not <strong>Restrained</strong> or <strong>Prone</strong>, all <strong>Melee</strong> attacks you make increase their <strong>Range</strong> by <strong>+1</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "bf84593d-8931-4a5e-911a-eec5af174916"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678863981960,
+    "modifiedTime": 1689641629294,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 6400000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "DYK8rbzZPiLXxcj2",
+  "_key": "!items!DYK8rbzZPiLXxcj2"
+}

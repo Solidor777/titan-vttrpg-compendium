@@ -1,0 +1,66 @@
+{
+  "name": "Inferno Blades",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Fire_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>Your weapons erupt in burning flames.</p><p>Choose any number of weapons within <strong>10 spaces </strong>of you. Until the start of your next turn, the chosen weapons deal <strong>+1 Damage</strong> and gain the <strong>Magical</strong> trait.</p><p>If a weapon affected by this spell deals <strong>Damage</strong>, the target is set on fire. They suffer <strong>1 Damage</strong> at the start of their turn, which ignores <strong>Armor</strong>.</p><p>The target remains on fire until they or another creature use an <strong>Action</strong> to extinguish the flames.</p><p>Each extra success extends the duration by <strong>+1 rounds</strong>.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.vD6aZ1JHgLCAAfBD]{Inferno Blades}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Fire",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 5,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 2,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "0ed27776-5263-429c-917e-0c71f3f23908"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680236393504,
+    "modifiedTime": 1708131774539,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "qSDNQ2fJxZLSRrAy",
+  "_id": "naoZGwTpA7vKRkEs",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!naoZGwTpA7vKRkEs"
+}

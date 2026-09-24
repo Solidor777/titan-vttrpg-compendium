@@ -1,0 +1,84 @@
+{
+  "_id": "bLLwyrv7KuVS1JLe",
+  "name": "The Dragon Conquers",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlackFlames_Path_Icon.webp",
+  "description": "<p>You have been challenged by a dragon's roar.</p><p>Your <strong>Melee</strong> and <strong>Accuracy</strong> are reduced by <strong>-1</strong> when attacking creatures other than the one that challenged you.</p><p>If you cast a targeted offensive spell that does not target the creature who challenged you, the <strong>Complexity</strong> of the spell is increased by <strong>+1</strong>.</p><p>This effect lasts until the end of combat, the challenger becomes <strong>Incapacitated</strong>, or they are <strong>Dying</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "2QF1Yv6Vg8T1TXFR",
+  "sort": 700000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "initiative",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Black Flame",
+        "description": "",
+        "uuid": "3f54cc3a-2660-469d-9fba-4486e4e2263c"
+      },
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "0adfedd7-af5e-42f4-bca3-251fee7f41c3"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>The Dragon Conquers:</strong> Your <strong>Melee</strong> and <strong>Accuracy</strong> are reduced by <strong>-1</strong> when attacking creatures other than the one that challenged you.</p>",
+        "uuid": "f6174857-2990-4c03-9826-eb3fe0de2605"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "casting",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>The Dragon Conquers:</strong> If you cast a targeted offensive spell that does not target the creature who challenged you, the <strong>Complexity</strong> of the spell is increased by <strong>+1</strong>.</p>",
+        "uuid": "83a59940-0aef-4554-88de-210ed95f2cdb"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "any",
+        "selector": "attribute",
+        "key": "body",
+        "message": "<p><strong>The Dragon Conquers:</strong> Your <strong>Melee</strong> and <strong>Accuracy</strong> are reduced by <strong>-1</strong> when attacking creatures other than the one that challenged you.</p><p>If you cast a targeted offensive spell that does not target the creature who challenged you, the <strong>Complexity</strong> of the spell is increased by <strong>+1</strong>.</p><p>This effect lasts until the end of combat, the challenger becomes <strong>Incapacitated</strong>, or they are <strong>Dying</strong>.</p>",
+        "uuid": "f40def46-2961-4f21-b67f-4dbaa47e6828"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679035928637,
+    "modifiedTime": 1709798539475,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!bLLwyrv7KuVS1JLe"
+}

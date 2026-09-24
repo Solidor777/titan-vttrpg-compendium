@@ -1,0 +1,63 @@
+{
+  "name": "The Dragon Ascends",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlackFlames_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> Self</p><p>Black Flame gathers around you like a cloud, bearing you aloft and enabling you to soar in the manner of your draconic forebears.</p><p>Until the start of your next turn, you gain a <strong>Fly</strong> speed of <strong>5</strong>. If you already have a <strong>Fly</strong> speed, it increases by <strong>+5</strong>.</p><p>At the start of your turn, you may spend <strong>1 Resolve</strong> or take <strong>1 Wound</strong> to sustain this effect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.x5MFGGGJHaf6PToO]{The Dragon Ascends}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "45a6c7f1-c43c-44b7-bc1b-0579a1a68fca"
+      },
+      {
+        "name": "Black Flame",
+        "description": "",
+        "uuid": "dcb273eb-8474-46c8-a66e-b1ec87a5ba0c"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "fly",
+        "value": 5,
+        "uuid": "dc7eeaca-acdd-44b2-b913-5d880ab3a53d",
+        "type": "ability"
+      }
+    ],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "691b9e19-19d6-4016-ad2f-94b11b311972"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679037694360,
+    "modifiedTime": 1709798525703,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "FGlkMf2awlp6zTb7",
+  "_id": "d7GTV4RtBPsDbkvl",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!d7GTV4RtBPsDbkvl"
+}

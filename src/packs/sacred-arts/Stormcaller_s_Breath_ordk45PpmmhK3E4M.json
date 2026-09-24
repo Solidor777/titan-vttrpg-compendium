@@ -1,0 +1,75 @@
+{
+  "name": "Stormcaller's Breath",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Stormcaller_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve</p><p><strong>Range:</strong> 10 spaces</p><p>You exhale a beam of soul-shattering lightning, in imitation of the technique used by the <strong>Weeping Dragon</strong>.</p><p>Choose a target within <strong>10 spaces</strong> and make a <strong>4:1</strong> <strong>Soul (Metaphysics)</strong> check, resisted by the target's <strong>Resilience</strong>.</p><p>The target takes <strong>Damage</strong> equal to the difference in successes.</p><p>Additionally, the target creature is <strong>Stunned</strong> until the start of your next turn, as its body is wracked with agonizing pain.</p><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 1,
+        "isDamage": true,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "resilience",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "damageReducedBy": "resistanceCheck",
+        "uuid": "b5156e1a-7cb2-4330-8ebb-1317b2e0a04d"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "c83045c8-193f-46fb-bd64-693e6f0e41ff"
+      },
+      {
+        "name": "Stormcaller",
+        "description": "",
+        "uuid": "6bac61d7-3f79-41e1-ad04-42b7c6f1e97d"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "3wygLHBNXPW58FHz",
+  "ownership": {
+    "default": 0,
+    "jqPKS4y5hfCZQjOU": 3
+  },
+  "flags": {
+    "titan": {
+      "uuid": "9294fb9c-bc3e-41b6-9d1e-b47913e2b5f5"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1709538242950,
+    "modifiedTime": 1709792474957,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "ordk45PpmmhK3E4M",
+  "sort": 200000,
+  "_key": "!items!ordk45PpmmhK3E4M"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Keen Sense (Choose)",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Perception</p><p>One of your senses is highly developed, allowing you to spot what others might miss.</p><p>Choose one from sight, sound, touch, taste, or smell.</p><ul><li><p>When making a <strong>Perception</strong> check using your chosen sense, you gain bonus dice equal to your <strong>Training</strong> in Perception.</p></li><li><p>The GM may allow you to make <strong>Perception</strong> checks that others cannot, such as to smell poison in food, or to see things beyond other’s sight.</p></li></ul><p>You may take this ability multiple times, choosing a different sense each time.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attribute",
+        "selector": "skill",
+        "key": "perception",
+        "message": "<p><strong>Keen Sense:</strong> When making a <strong>Perception</strong> Check using your chosen sense, you gain bonus die equal to your Training in Perception.</p>",
+        "uuid": "cf59eaf8-6baa-4744-add3-718140a050d2",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "f325df95-a376-4138-b07c-09c1e23d6a9c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678425471234,
+    "modifiedTime": 1689641628803,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 6300000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "Mvny0idDE2o6lJVr",
+  "_key": "!items!Mvny0idDE2o6lJVr"
+}

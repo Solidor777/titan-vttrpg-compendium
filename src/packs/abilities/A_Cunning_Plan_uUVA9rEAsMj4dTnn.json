@@ -1,0 +1,63 @@
+{
+  "name": "A Cunning Plan",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Mind (4)</p><p>There’s no substitute for a good, solid plan, and you are adept at putting them together.</p><p>During a <strong>Rest</strong>, you can spend at least an hour devising a plan with your allies for an encounter, battle, or mission you intend to embark upon in the following day.</p><ul><li><p>Each participant in the planning, including yourself, makes a <strong>4:1 Mind</strong> Check.</p></li><li><p>Total and record all successes into a single pool of points.</p></li><li><p>When a member of the party makes a check during the encounter you planned for, they may spend one point from the pool to reroll <strong>1 die</strong> or increase its result by <strong>+1</strong> before determining the result of the Check.</p><ul><li><p>They cannot use more than one point from the pool per check.</p></li></ul></li></ul><p>If the encounter you planned for does not occur within the next day, you lose all pooled points and must make a new plan.</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "mind",
+        "skill": "none",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 0,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "none",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "9b185f68-a600-49b4-8f4a-1ef9bfe5c5a7"
+      }
+    ],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "86848827-0830-4e0b-be68-e26402d9998c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678775683931,
+    "modifiedTime": 1689641588294,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "uUVA9rEAsMj4dTnn",
+  "_key": "!items!uUVA9rEAsMj4dTnn"
+}

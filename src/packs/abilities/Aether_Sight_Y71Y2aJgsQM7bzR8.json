@@ -1,0 +1,43 @@
+{
+  "name": "Aether-Sight",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p>You are gifted with the ability to ‘see’ the magical energy that permeates the world.</p><p>You can track the flow of magic and immediately recognize most magical creatures and artifacts.</p><p>At the GMs discretion, this may also allow you to perceive magical sources through thin walls and barriers.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "99550a24-4889-4980-9563-f025380f83b8"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678681496473,
+    "modifiedTime": 1689641909404,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "mPYYv6IP74nldiaR",
+  "_id": "Y71Y2aJgsQM7bzR8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!Y71Y2aJgsQM7bzR8"
+}

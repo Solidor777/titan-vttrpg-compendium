@@ -1,0 +1,74 @@
+{
+  "name": "Eye of the Arbiter",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Arbiter_Path_Icon.webp",
+  "system": {
+    "description": "<p>Over the course of <strong>10 minutes</strong>, you perform a ritual to observe another creature that is on the same plane of existence.</p><p>You must have heard of the target and have an object linked to them to use this ritual.</p><p>The target must make a <strong>Willpower</strong> check opposed by your <strong>Soul (Metaphysics.</strong> The <strong>Complexity</strong> of the <strong>Resistance</strong> check is modified by how well you know the target, and what connection you have to it.</p><ul><li><p>Knowledge of the Target</p><ul><li><p>Second-hand (you have heard of the target)</p></li><li><p>-1 <strong>Complexity</strong></p></li><li><p>First-hand (you have met the target)</p></li><li><p>No modifier to <strong>Complexity</strong></p></li><li><p>Familiar (you know the target well)</p></li><li><p>+1 <strong>Complexity</strong></p></li></ul></li><li><p>Connection</p><ul><li><p>You have a likeness or a picture of the target</p></li><li><p>-1 <strong>Complexity</strong></p></li><li><p>You have a possession or garment of the target</p></li><li><p>No modifier to <strong>Complexity</strong></p></li><li><p>You have piece of the target (a lock of hair, a drop of ectoplasm)</p></li><li><p>+1 <strong>Complexity</strong></p></li></ul></li></ul><p>If the target succeeds on the <strong>Willpower</strong> check, it knows you are using this ability, but can voluntarily fail the check and allow itself to be observed. Otherwise, the target is not affected, and you cannot use this ability against it again for a full day.</p><p>If the target fails the <strong>Willpower</strong> check, the ritual creates an invisible sensor within <strong>1 space</strong> of the target. You can see and hear through the sensor as if you were there, and the sensor moves with the target. This sensor lasts for up to <strong>10 minutes</strong>.</p><p>Alternatively, you can target a location or object you have seen in person as the target of this spell. In this case, the sensor appears at that location and does not move.</p><p>Creatures that can see invisible creatures can see the sensor as a glowing ball of light.</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 0,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "willpower",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "c47c1ae0-dfb1-4f9a-92d6-c0d979b1880a"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Arbiter",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "f777bfb6-9df7-4a22-a299-268ba22f4431"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708071671646,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "7hLsjAGUXV6dcNwV",
+  "_id": "uwG9eHTGxtoVr3Jz",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!uwG9eHTGxtoVr3Jz"
+}

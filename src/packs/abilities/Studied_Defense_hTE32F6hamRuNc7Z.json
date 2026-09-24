@@ -1,0 +1,43 @@
+{
+  "name": "Studied Defense",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Expertise (1) in Metaphysics</p><p>You spend some time sizing an enemy up, watching how they move, and learning their attack patterns.</p><p>As an <strong>Action</strong>, you can study an enemy you can see within <strong>30 spaces</strong>.</p><p>If you do so, your <strong>Defense</strong> increases by <strong>+1</strong> against your target until the end of combat.</p><p>You can only study one creature at a time. If you want to change your studied target, you may do so with another <strong>Action</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "8f6869ac-4b1a-4114-b696-59ac85840c88"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678932678501,
+    "modifiedTime": 1689641653487,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 10500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "hTE32F6hamRuNc7Z",
+  "_key": "!items!hTE32F6hamRuNc7Z"
+}

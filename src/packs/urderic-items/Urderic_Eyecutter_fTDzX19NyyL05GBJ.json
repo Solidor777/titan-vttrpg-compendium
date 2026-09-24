@@ -1,0 +1,72 @@
+{
+  "name": "Urderic Eyecutter",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p><strong>Power Consumption:</strong> 1</p><p>This lens-array can be fitted to a helmet or strapped over the head like a monocle. It is capable of emitting powerful energy beams that can melt metal. Though it was originally developed as a hands-free welding tool, it has found a secondary use as a deadly weapon.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Urderic",
+        "description": "",
+        "uuid": "352ddbb9-76a5-4c98-a2e9-2f84e7a1de38"
+      }
+    ],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "rare",
+    "value": 410,
+    "attack": [
+      {
+        "label": "Attack",
+        "type": "ranged",
+        "range": 10,
+        "attribute": "body",
+        "skill": "meleeWeapons",
+        "damage": 2,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "magical",
+            "value": true
+          },
+          {
+            "name": "penetrating",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "19ff1ec0-a8cb-4e5c-98f8-f07807671529"
+      }
+    ],
+    "attackNotes": "<p></p>",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "folder": "KZPurD5uYKElJZlj",
+  "flags": {
+    "titan": {
+      "uuid": "180b64ad-957c-4e34-b749-b1f01193e801"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1681795221875,
+    "modifiedTime": 1689665320749,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "fTDzX19NyyL05GBJ",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!fTDzX19NyyL05GBJ"
+}

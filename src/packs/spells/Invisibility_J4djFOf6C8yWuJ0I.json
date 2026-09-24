@@ -1,0 +1,66 @@
+{
+  "name": "Invisibility",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Light_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You bend light to render a creature imperceptible to sight.</p><p>Choose yourself or an adjacent creature.</p><p>For <strong>1 minute</strong>, the target creature is Invisible. It cannot be seen, and has <strong>Greater Advantage</strong> on <strong>Stealth</strong> checks to move silently.</p><p>If the creature performs an <strong>Action</strong> on another creature, or moves a large object not on its person, the spell ends as it fails to conceal the change in light.</p><p>Each extra success extends the duration by <strong>+1 minutes</strong>.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.8NLQz7ajGIIzheB5]{Invisibility}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "uncommon",
+    "tradition": "Light",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 5,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "touch",
+        "cost": 1,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "minutes",
+        "cost": 4,
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "55df5a07-76cf-47b2-b354-49a6150b48ab"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683785683549,
+    "modifiedTime": 1708069689388,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "cCI2lyFZUFFBQLIl",
+  "_id": "J4djFOf6C8yWuJ0I",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!J4djFOf6C8yWuJ0I"
+}

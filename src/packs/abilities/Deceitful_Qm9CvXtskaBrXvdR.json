@@ -1,0 +1,62 @@
+{
+  "name": "Deceitful",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Deception</p><p>Concealing the truth comes as easy as breathing to you.</p><ul><li><p>You have <strong>Advantage</strong> on <strong>Deception</strong> checks to lie or mislead.</p></li><li><p>You have <strong>Advantage</strong> on <strong>Lore</strong> checks to forge documents.</p></li><li><p>You have <strong>Advantage</strong> on <strong>Willpower</strong> checks to resist effects that would compel you to tell the truth.</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attribute",
+        "selector": "skill",
+        "key": "deception",
+        "message": "<p><strong>Deceitful:</strong> You have <strong>Advantage</strong> on <strong>Deception</strong> Checks to lie or mislead.</p>",
+        "uuid": "2fcd798e-66fe-46c2-813e-c2474093cf65",
+        "type": "ability"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "resistance",
+        "selector": "resistance",
+        "key": "willpower",
+        "message": "<p><strong>Deceitful:</strong> You have <strong>Advantage</strong> on <strong>Willpower</strong> checks to resist effects that would compel you to tell the truth.</p>",
+        "uuid": "75a8513b-4f00-453a-b607-88e3158ef359",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "ee985305-9405-406e-8228-8c3e46f6b6b4"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678853412831,
+    "modifiedTime": 1689641609552,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 3100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "Qm9CvXtskaBrXvdR",
+  "_key": "!items!Qm9CvXtskaBrXvdR"
+}

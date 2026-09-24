@@ -1,0 +1,74 @@
+{
+  "name": "Fox's Cunning",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/WhiteFox_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> 5 spaces</p><p>White foxes are cunning survivors that use all their tricks to deceive their enemies. You harness this power, speaking nothing but lies.</p><p>Choose a creature within <strong>5 spaces.</strong> and make a 4<strong>:1 Soul (Metaphysics)</strong> check. The target must make an opposed <strong>Willpower</strong> check or become unable to speak anything but lies until the start of your next turn.</p><p>While affected, the target gains a bonus to their <strong>Training</strong> in <strong>Deception</strong> equal to your <strong>Training</strong> in <strong>Metaphysics</strong>. They may choose to voluntarily fail the <strong>Willpower</strong> check to gain this benefit.</p><p>Additionally, creatures by this ability are immune to any effects that would force them to speak the truth.</p><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.7oLlzQzlBjGTr6Cp]{Fox's Cunning}</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 0,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "willpower",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "f55d8cd4-f85b-45f2-97cf-a2cd727d6b88"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "c8b0ac41-b2c5-4957-aa11-9be93e367f3d"
+      },
+      {
+        "name": "White Fox",
+        "description": "",
+        "uuid": "4b5c295d-e3d5-443d-9842-32595b7ccd46"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "aae00323-74ba-4fee-b4c4-9c3dc005bba6"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679855335467,
+    "modifiedTime": 1708070337069,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "FP0IEhJWKJZvIHU4",
+  "_id": "yFp2gr6U6cfXkWsW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!yFp2gr6U6cfXkWsW"
+}

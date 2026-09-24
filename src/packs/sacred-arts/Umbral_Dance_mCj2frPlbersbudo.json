@@ -1,0 +1,54 @@
+{
+  "name": "Umbral Dance",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/VeiledMoon_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve</p><p><strong>Range:</strong> Special</p><p>You flicker between enemies, striking when they least expect it.</p><p>Choose up to three creatures. The first target must be within <strong>5 spaces</strong> of you. Each subsequent target must be within <strong>5 spaces</strong> of the last target and have a clear path between them.</p><p>You teleport to each one, making a single <strong>Melee</strong> attack against each. This is a <strong>Multi-Attack</strong>, with the <strong>Defense</strong> of each target decreased by <strong>-1</strong>.</p><p>At the end of the last attack, you may appear at an unobstructed space of your choosing within<strong> 5 spaces</strong> of the last target.</p><p>When you use this ability, you may spend an additional <strong>1 Resolve</strong> to make your attacks to ignore <strong>Armor</strong>.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Veiled Moon",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "968d044a-a3bf-4845-8565-411089dba628"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708070270697,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "KQwWonXZ3eMLZCPx",
+  "_id": "mCj2frPlbersbudo",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!mCj2frPlbersbudo"
+}

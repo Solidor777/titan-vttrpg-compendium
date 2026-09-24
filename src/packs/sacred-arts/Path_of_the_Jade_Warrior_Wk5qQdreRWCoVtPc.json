@@ -1,0 +1,54 @@
+{
+  "name": "Path of the Jade Warrior",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/JadeWarrior_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must receive training from another Jade Warrior, or have access to their teachings</p><p>Ur-stones are normally toxic to the mind and body. However, with years of experience and training with mental exercises, their powers can be controlled and used to enhance one's own abilities, provided that the stones have been properly tempered. Tempered ur-stones are colloquially known as jade, and those who practice this art are known as Jade Warriors.</p><ul><li><p>Select <strong>1</strong> <strong>Path Ability</strong> with the <strong>Jade Warrior</strong> trait. You immediately gain that <strong>Ability</strong> without the associated XP cost.</p></li><li><p>As a <strong>Free Action</strong>, you can empower your attacks with jade energy. While in this state, all your attacks deal <strong>+1</strong> additional <strong>Damage, </strong>and are considered <strong>Magical</strong>. <strong>Improvised</strong> and <strong>Unarmed</strong> attacks are no longer considered <strong>Ineffective</strong>.</p></li><li><p>If you ever remove all of your jade, you begin to suffer from jade withdrawal. You suffer a <strong>-1</strong> dice penalty to all checks until the next time you complete a <strong>Long Rest</strong> or put on another piece of jade. After <strong>30 days</strong> of not wearing any jade, you recover from your withdrawal symptoms.</p></li></ul><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.maP4JddvFzR1UrmI]{Path of the Jade Warrior}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "283ba0b2-cdf3-4b53-8f4b-c1da863f66d9"
+      },
+      {
+        "name": "Jade Warrior",
+        "description": "",
+        "uuid": "25d6c0a2-c181-4cb1-b43f-d4f3b4361550"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "d88bb121-5c75-4e76-96d8-7375afe98ddf"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680065112505,
+    "modifiedTime": 1708070153153,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "433cZigF9q9hAoyV",
+  "_id": "Wk5qQdreRWCoVtPc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!Wk5qQdreRWCoVtPc"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Stormcaller's Endurance",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Stormcaller_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve</p><p><strong>Range:</strong> 10 spaces</p><p>You have endured the suffering you endured to become a Stormcaller has made you incredibly resilient, and you have learned to extend that resilience to others.</p><p>When you or a creature within <strong>10 spaces</strong> of you would gain the <strong>Dying</strong> condition, or be killed by a failed <strong>Death Check</strong>, or be instantly killed by another effect, you can spend <strong>1 Resolve</strong> as a <strong>Free Action</strong> to prevent them from being killed or gaining the <strong>Dying</strong> condition.</p><p>Creatures affected by this ability can still have their <strong>Stamina</strong> reduced to <strong>0</strong>, and their <strong>Wounds</strong> can still fill to their maximum value.</p><p>This cannot prevent the death of a creature that chooses to take a <strong>Last Stand</strong>.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "c83045c8-193f-46fb-bd64-693e6f0e41ff"
+      },
+      {
+        "name": "Stormcaller",
+        "description": "",
+        "uuid": "6bac61d7-3f79-41e1-ad04-42b7c6f1e97d"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "3wygLHBNXPW58FHz",
+  "ownership": {
+    "default": 0,
+    "jqPKS4y5hfCZQjOU": 3
+  },
+  "flags": {
+    "titan": {
+      "uuid": "f0cf522b-32a9-4fc1-99e7-bbdde41feda2"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1709538242950,
+    "modifiedTime": 1709792477455,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "oR9zg1cgJi6oyXPm",
+  "sort": 400000,
+  "_key": "!items!oR9zg1cgJi6oyXPm"
+}

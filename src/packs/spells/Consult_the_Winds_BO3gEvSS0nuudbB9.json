@@ -1,0 +1,66 @@
+{
+  "name": "Consult the Winds",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Air_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You concentrate on disturbances in the air.</p><p>Until the start of your next turn, you can sense the position and size of every moving or breathing creature within <strong>30 spaces</strong>.</p><p>Each extra success extends the duration by <strong>+1 rounds</strong>.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.CPkhzahhySuXFVBC]{Consult the Winds}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Air",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "cost": 3,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "41715acd-8ae0-4a99-9292-a709dc0e90a4"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680493043231,
+    "modifiedTime": 1708069439270,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "9Jx7ybrnDHJqOqgA",
+  "_id": "BO3gEvSS0nuudbB9",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!BO3gEvSS0nuudbB9"
+}

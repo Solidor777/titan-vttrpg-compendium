@@ -1,0 +1,77 @@
+{
+  "_id": "maP4JddvFzR1UrmI",
+  "name": "Path of the Jade Warrior",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/JadeWarrior_Path_Icon.webp",
+  "description": "<p>While your attacks are empowered with jade energy, they deal <strong>+1</strong> additional <strong>Damage, </strong>and are considered <strong>Magical</strong>. <strong>Improvised</strong> and <strong>Unarmed</strong> attacks are no longer considered <strong>Ineffective</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "vbUeM5xCmKE2aVKS",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "permanent",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "e8384347-321d-4446-a792-02a8a92c879f"
+      },
+      {
+        "name": "Jade Warrior",
+        "description": "",
+        "uuid": "d86dcdde-b503-4574-9ef8-e0ecf1e580cd"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "conditionalCheckModifier",
+        "modifierType": "damage",
+        "checkType": "attack",
+        "selector": "any",
+        "key": "",
+        "value": 1,
+        "uuid": "ea47a981-eb2f-4ea9-8705-311e50d2fc8a"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>Path of the Jade Energy:</strong> While your attacks are empowered with jade energy, they deal <strong>+1</strong> additional <strong>Damage, </strong>and are considered <strong>Magical</strong>. <strong>Improvised</strong> and <strong>Unarmed</strong> attacks are no longer considered <strong>Ineffective</strong>.</p>",
+        "uuid": "2e1c5e0a-e810-4255-9b1b-cc317ae83fdf"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680066566646,
+    "modifiedTime": 1708070165474,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!maP4JddvFzR1UrmI"
+}

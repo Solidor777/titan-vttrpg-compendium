@@ -1,0 +1,43 @@
+{
+  "name": "Pain is Power",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Expertise (2) in Arcana</p><p>Pain is a lesson, and for you, pain helps you remember yours.</p><p>Once per turn, when you suffer a <strong>Wound</strong>, you may use a <strong>Free Action</strong> to cast a spell.</p><p>When casting this spell, you gain bonus dice to your casting check equal to the number of wounds received.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "549b90dd-1a0b-477a-8c7d-1b647a386785"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678929386487,
+    "modifiedTime": 1689641634826,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 7500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "apDIMb8BA9yFQni1",
+  "_key": "!items!apDIMb8BA9yFQni1"
+}

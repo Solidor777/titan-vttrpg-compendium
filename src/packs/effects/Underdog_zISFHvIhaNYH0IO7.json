@@ -1,0 +1,56 @@
+{
+  "_id": "zISFHvIhaNYH0IO7",
+  "name": "Underdog",
+  "type": "effect",
+  "img": "icons/svg/daze.svg",
+  "description": "<p>If two or more enemies and no allies are adjacent to you at the start of your turn, your <strong>Melee</strong> increases by <strong>+1</strong>.</p><p>This benefit lasts until the start of your next turn.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "f8GbJRZi0IyOnPon",
+  "sort": 11600000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnStart",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "rating",
+        "key": "melee",
+        "value": 1,
+        "uuid": "8294052b-1b5c-411a-8223-ffaa1ff7b5fa"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678681413710,
+    "modifiedTime": 1689641659198,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!zISFHvIhaNYH0IO7"
+}

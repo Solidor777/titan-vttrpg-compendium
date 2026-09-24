@@ -1,0 +1,43 @@
+{
+  "name": "Chef",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p>Time and effort spent mastering the culinary arts has paid off.</p><ul><li><p>You become familiar with most common ingredients and dishes.</p></li><li><p>You can prepare an enjoyable meal, provided you have the time, tools, and ingredients.</p></li><li><p>When you take a <strong>Long Rest</strong>, you may spend some time preparing a meal for yourself and any companions. Anyone who eats it may choose to gain <strong>Advantage</strong> on a single check they make before the next time they take a <strong>Long Rest</strong>.</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "9b56f29f-d9f4-4d3d-9234-ca1c6e72f120"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678424942011,
+    "modifiedTime": 1689641601355,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 1900000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "N37eN2IIYkVwwQt8",
+  "_key": "!items!N37eN2IIYkVwwQt8"
+}

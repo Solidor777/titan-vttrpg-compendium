@@ -1,0 +1,43 @@
+{
+  "name": "Bulwark",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Dexterity</p><p>You are a stalwart defender, able to hold off hordes of enemies at once.</p><ul><li><p>If two or more enemies are within <strong>1 space</strong> of you at the start of your turn, your <strong>Defense</strong> increases by <strong>+1</strong>. This benefit lasts until the start of your next turn.</p></li><li><p>You gain <strong>Advantage</strong> on Checks to <strong>Defend an Area</strong> or to prevent a creature from moving through your space.</p></li></ul><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.Ih9oP4LxZJrox6jZ]{Bulwark}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "bcf4bd31-9cb5-446f-99e0-0f7b60d6e9ed"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678428162104,
+    "modifiedTime": 1689641597508,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "QF2QphWhjm8o9ILq",
+  "_key": "!items!QF2QphWhjm8o9ILq"
+}

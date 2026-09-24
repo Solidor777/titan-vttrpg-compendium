@@ -1,0 +1,83 @@
+{
+  "name": "Parch",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Fire_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You superheat the air around your enemies, causing them to become so weak and dehydrated they can barely move.</p><p>Choose a point within <strong>10 spaces</strong>. Each enemy within a <strong>5-space-radius</strong> of that point must make an opposed <strong>Resilience</strong> check or suffer the below effects:</p><ul><li><p>Their <strong>Speed</strong> decreases by <strong>-5</strong>, to a minimum of 1.</p></li><li><p>They cannot <strong>Charge</strong>.</p></li></ul><p>This effect lasts until the start of your next turn.</p><p>Each extra success extends the duration by <strong>+1 rounds</strong>.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.AZWdUeIhXOOdUsBS]{Parch}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Fire",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 6,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "label": "Decrease Speed",
+        "scaling": false,
+        "initialValue": 5,
+        "cost": 1,
+        "resistanceCheck": "resilience",
+        "isDamage": false,
+        "isHealing": false,
+        "uuid": "f51073f5-f424-4fe2-90c7-460dd9b587fc"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 2,
+        "enabled": true
+      },
+      {
+        "label": "radius",
+        "initialValue": 5,
+        "cost": 3,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "15f4579b-4004-44d8-b7ae-329dbae4a958"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680236393504,
+    "modifiedTime": 1708131779571,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "qSDNQ2fJxZLSRrAy",
+  "_id": "KdaFrSpwTzk4SZgu",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!KdaFrSpwTzk4SZgu"
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Short Bow",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>This small bow is made of a single piece of wood, and is often favored by skirmishers and cavalry.</p>",
+    "check": [],
+    "customTrait": [],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "common",
+    "value": 50,
+    "attack": [
+      {
+        "label": "Attack",
+        "type": "ranged",
+        "range": 30,
+        "attribute": "body",
+        "skill": "rangedWeapons",
+        "damage": 1,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "piercing",
+            "value": true
+          },
+          {
+            "name": "twoHanded",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "4ed18553-192f-4e99-98b2-75f571471720"
+      }
+    ],
+    "attackNotes": "",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "f080e0ee-956f-4580-b69a-60b0ce1250b1"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678259041996,
+    "modifiedTime": 1689662497835,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "ej4QZyKreCp4PpnJ",
+  "_id": "S5CFspTyxYcmMlU7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!S5CFspTyxYcmMlU7"
+}

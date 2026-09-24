@@ -1,0 +1,43 @@
+{
+  "name": "Armor Expert",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Body (3)</p><p>By deflecting attacks away from vulnerable spots and toward more protected areas, you avoid penetrating strikes and reduce damage to your armor.</p><p>You ignore the <strong>Penetrating</strong> trait for attacks made against you, and damage to your <strong>Armor</strong> dealt by the <strong>Rend</strong> trait is reduced by <strong>-1</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "3b4f5542-8738-4531-b3e5-272bd2cf3d45"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678777432533,
+    "modifiedTime": 1689641593328,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "yVQkEUC9d3FOxWNn",
+  "_key": "!items!yVQkEUC9d3FOxWNn"
+}

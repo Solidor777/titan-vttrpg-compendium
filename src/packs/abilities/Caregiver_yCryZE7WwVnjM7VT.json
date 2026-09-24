@@ -1,0 +1,101 @@
+{
+  "name": "Caregiver",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) and Expertise (1) in Medicine</p><p>You know how to correctly treat and bandage grievous wounds.</p><p>When you take a <strong>Long Rest</strong>, you can choose to spend some time treating an ally's wounds. Doing so requires the use of a healer's kit or other medical supplies.</p><p>When you perform this action, make a <strong>Mind (Medicine)</strong> check, and choose one of the listed DCs below. You must choose the DC <em>before</em> you make the check.</p><ul><li><p><strong>DC 4:1</strong></p><ul><li><p>The ally reduces their <strong>Wounds</strong> by an additional <strong>-1</strong>.</p></li></ul></li><li><p><strong>DC 4:2</strong></p><ul><li><p>The ally reduces their <strong>Wounds</strong> by an additional <strong>-2</strong>.</p></li></ul></li><li><p><strong>DC 4: 3</strong></p><ul><li><p>The ally reduces their <strong>Wounds</strong> by an additional <strong>-3</strong>.</p></li></ul></li></ul>",
+    "check": [
+      {
+        "label": "Reduce Wounds by -1",
+        "attribute": "mind",
+        "skill": "medicine",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 0,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "none",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "5be48675-2e0f-4e3f-9dd4-21c6f01cdeb9"
+      },
+      {
+        "label": "Reduce Wounds by -2",
+        "attribute": "mind",
+        "skill": "medicine",
+        "difficulty": 4,
+        "complexity": 2,
+        "resolveCost": 0,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "none",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "4fec9143-f47d-4bc5-b4de-d34ded5827b5"
+      },
+      {
+        "label": "Reduce Wounds by -3",
+        "attribute": "mind",
+        "skill": "arcana",
+        "difficulty": 4,
+        "complexity": 3,
+        "resolveCost": 0,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "none",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "4735a9e4-412c-423b-ab2b-1c07d7c8e7f1"
+      }
+    ],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "db1c8863-b9a6-46a7-8fbf-eafd6e0fad8f"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678674560818,
+    "modifiedTime": 1689641599346,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 1500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "yCryZE7WwVnjM7VT",
+  "_key": "!items!yCryZE7WwVnjM7VT"
+}

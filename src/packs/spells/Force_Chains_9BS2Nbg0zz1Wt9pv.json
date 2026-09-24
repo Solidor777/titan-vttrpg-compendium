@@ -1,0 +1,94 @@
+{
+  "name": "Force Chains",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Force_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>Kinetic energy surrounds your target, locking them in place.</p><p>Choose a target within <strong>10 spaces</strong>. They must make an opposed <strong>Resilience</strong> check or be <strong>Restrained</strong> until the start of your next turn.</p><p>You may choose to inflict <strong>Damage</strong> on them by squeezing them while you have them in your grip. If you do so, they take <strong>1 Damage</strong> at the start of their turn.</p><p>Each extra success extends the duration by <strong>+1 rounds</strong>.</p><p>Alternatively, you may increase the number of targets by <strong>+1</strong> per extra success.</p><p>You can also increase <strong>Damage</strong> inflicted by <strong>+1</strong> per extra success.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.uI6HQAV4iMLFSwWh]{Force Chains}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "uncommon",
+    "tradition": "Force",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 5,
+      "complexity": 3,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 2,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "damage",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": true,
+        "option": [],
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "extraTargets",
+        "scaling": true,
+        "initialValue": 0,
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "inflictCondition",
+        "cost": 2,
+        "option": [
+          "restrained"
+        ],
+        "resistanceCheck": "resilience",
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "c2b88374-7e5a-4712-9284-a04b6ed7acad"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432594185,
+    "modifiedTime": 1708069516830,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "0PTCNhDFDFf5NRyN",
+  "_id": "9BS2Nbg0zz1Wt9pv",
+  "sort": 1500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!9BS2Nbg0zz1Wt9pv"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Tinkerer",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p>There is always room for improvement as far as you’re concerned.</p><p>The <strong>Complexity</strong> of checks you make to modify or repair existing items is reduced by <strong>-1</strong> to a minimum of <strong>1</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "3bcc1182-e3ef-4eb9-bfcc-8777b33de029"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678861251054,
+    "modifiedTime": 1689641655835,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 11000000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "X8EJJvhBxdrQaUmb",
+  "_key": "!items!X8EJJvhBxdrQaUmb"
+}

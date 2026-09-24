@@ -1,0 +1,88 @@
+{
+  "name": "Favorable Winds",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Air_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You use the winds to guide projectiles.</p><p>Select a creature within <strong>10 spaces</strong>. It increases its <strong>Accuracy</strong> and <strong>Training</strong> in <strong>Ranged Weapons</strong> by <strong>+1</strong> until the start of your next turn.</p><p>Each extra success extends the duration by <strong>+1 rounds</strong>.</p><p>Alternatively, you may increase the bonus to <strong>Accuracy</strong> or <strong>Ranged Weapons</strong> by <strong>+1</strong> per extra success.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.XXx8gc9M556qVLkQ]{Favorable Winds}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Air",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 2,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 2,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "increaseRating",
+        "initialValue": 1,
+        "cost": 1,
+        "option": [
+          "accuracy"
+        ],
+        "scaling": true,
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "increaseSkill",
+        "initialValue": 1,
+        "cost": 1,
+        "option": [
+          "rangedWeapons"
+        ],
+        "scaling": true,
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "3519556a-ad3d-4745-bbe6-1c5947b74991"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680493043231,
+    "modifiedTime": 1708069447266,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "9Jx7ybrnDHJqOqgA",
+  "_id": "POoEdAfNpd30XeUn",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!POoEdAfNpd30XeUn"
+}

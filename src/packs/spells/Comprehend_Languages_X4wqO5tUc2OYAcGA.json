@@ -1,0 +1,68 @@
+{
+  "name": "Comprehend Languages",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Thought_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You impart an understanding of words and language.</p><p>Choose a thinking creature within <strong>10 spaces</strong> that can speak and understand languages. For <strong>1 hour</strong>, that creature can understand, speak, and read any language that you do. Similarly, you can understand, speak, and read any languages that they do.</p><p>Each extra success extends the duration of this spell by <strong>+1 hours</strong>.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.KHfPw13pE0Ohugdm]{Comprehend Languages}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "rare",
+    "tradition": "Thought",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": false,
+        "label": "Hours",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "uuid": "a9a42bc3-ad92-4082-b8d7-dbb42e11d424"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 2,
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "5a0e8536-df74-47c4-9d13-a5ce7e9d04e2"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432594185,
+    "modifiedTime": 1708069853979,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "q4SiCGJUqYlzrQ7o",
+  "_id": "X4wqO5tUc2OYAcGA",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!X4wqO5tUc2OYAcGA"
+}

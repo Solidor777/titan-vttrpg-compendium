@@ -1,0 +1,67 @@
+{
+  "name": "Infiltrate Dreams",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Thought_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You weave threads of magic to seek out a sleeping creature, intrude upon its slumber, and tamper with its dreams.</p><p>Choose either a sleeping creature you can see within <strong>10 spaces</strong>, or a creature you have met face to face that is currently asleep within <strong>1 kilometer</strong> of you.</p><p>If the creature wishes to resist this effect, they may make an opposed <strong>Willpower</strong> check to negate the effect of the spell.</p><p>If the creature does not resist, you fall unconscious for <strong>10 minutes</strong> while you enter the target’s mind, witnessing whatever dream the creature experiences.</p><p>Each extra success extends the duration by <strong>+10 minutes</strong>.</p><p>Though you can observe the dream undetected for the duration of the spell, you may also attempt to meddle with the dream.</p><ul><li><p>You can change a number of the dream’s aspects equal to your <strong>Mind</strong>.</p></li><li><p>You can alter aspects such as who appears in it, the presence or placement of objects, the overall setting, what is said, and any other details as you see fit.</p></li><li><p>Should violence occur during the dream, neither you nor the target are physically hurt, though the experience may be stressful.</p></li><li><p>When the target awakens, it remembers the dream in startling detail. It may have new ideas, or it may change an otherwise decided- upon course of action.</p></li><li><p>Sufficiently disturbing dreams may even prevent the target from gaining the benefits of a <strong>Rest</strong>.</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "rare",
+    "tradition": "Thought",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 5,
+      "complexity": 2,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "label": "10 Minutes",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": false,
+        "uuid": "b5431aac-63a7-41af-b52e-217e07d670d9"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "df21065e-1efb-428f-a6e7-0067d2aba7b5"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432594185,
+    "modifiedTime": 1708069894719,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "q4SiCGJUqYlzrQ7o",
+  "_id": "fZXEe30h1sWcUgQG",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!fZXEe30h1sWcUgQG"
+}

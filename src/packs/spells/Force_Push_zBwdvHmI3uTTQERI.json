@@ -1,0 +1,78 @@
+{
+  "name": "Force Push",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Force_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>Kinetic energy pulls or pushes your target in a direction of your choosing.</p><p>Choose a creature within <strong>10 spaces </strong>of <strong>Size 1</strong> or smaller. They must make an opposed <strong>Resilience</strong> check or be pushed up to <strong>5 spaces</strong> in any direction.</p><p>Each extra success increases the push by <strong>+1 space</strong>.</p><p>Alternatively, you may increase the maximum <strong>Size</strong> of the target by <strong>+1</strong> per 2 extra successes.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "uncommon",
+    "tradition": "Force",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 5,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "resistanceCheck": "resilience",
+        "isDamage": false,
+        "isHealing": false,
+        "label": "Spaces",
+        "scaling": true,
+        "initialValue": 5,
+        "cost": 1,
+        "uuid": "a80957af-cbc6-48a5-94f2-4774357feb5e"
+      },
+      {
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": false,
+        "label": "Size",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 2,
+        "uuid": "d87535cf-9a4b-4349-bdf8-9fd38efd3414"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 2,
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "0849b50c-a44a-4659-9b2b-80e6561c73e1"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432594185,
+    "modifiedTime": 1708069527390,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "0PTCNhDFDFf5NRyN",
+  "_id": "zBwdvHmI3uTTQERI",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!zBwdvHmI3uTTQERI"
+}

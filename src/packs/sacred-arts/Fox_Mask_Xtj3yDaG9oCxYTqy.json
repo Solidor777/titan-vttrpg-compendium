@@ -1,0 +1,54 @@
+{
+  "name": "Fox Mask",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/WhiteFox_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> Self</p><p>You conduct a ritual to copy the face and appearance of a once-living person, stealing their voice and appearance.</p><p>You must spend at least one minute observing an adjacent creature. If it is dead, it must have died within the last day.</p><p>Once the ritual is complete, your voice and physical features transmute to make you look and sound identical to the creature.</p><p>The transformation lasts for a number of <strong>hours</strong> equal to your <strong>Soul</strong>.</p><p>If observers have no reason to doubt your identity, you have <strong>Greater Advantage</strong> on checks to pass as the creature you are impersonating.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.qNwkQ0F9pxUTx8ML]{Fox Mask}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "10aa8dc6-61ea-407c-a0ff-6845d7d8a50a"
+      },
+      {
+        "name": "White Fox",
+        "description": "",
+        "uuid": "e10286fe-c499-4ebf-8a43-ab6f83de969a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "b9bab415-7d03-4947-a17a-8e082a008df9"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679859349020,
+    "modifiedTime": 1708070326664,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "FP0IEhJWKJZvIHU4",
+  "_id": "Xtj3yDaG9oCxYTqy",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!Xtj3yDaG9oCxYTqy"
+}

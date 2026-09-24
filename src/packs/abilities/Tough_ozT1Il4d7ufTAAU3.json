@@ -1,0 +1,52 @@
+{
+  "name": "Tough",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Body (2)</p><p>You are as tough as they come and your body can withstand more punishment than most.</p><p>You add your <strong>Resilience</strong> to calculate your maximum <strong>Stamina</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "resource",
+        "key": "stamina",
+        "value": 1,
+        "uuid": "510aa806-c583-4957-b2af-b4efc3f57081",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "9eb24a22-6dff-4e6d-86ff-571ab9712ee7"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678505771803,
+    "modifiedTime": 1689641656729,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 11200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "ozT1Il4d7ufTAAU3",
+  "_key": "!items!ozT1Il4d7ufTAAU3"
+}

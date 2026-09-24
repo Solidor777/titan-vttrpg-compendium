@@ -1,0 +1,84 @@
+{
+  "_id": "kjVYjSUbEKt3w1gU",
+  "name": "Wood Attunement",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Wood_Tradition_Icon.webp",
+  "description": "<p>You wrap your body in a tangle of vines and roots, allowing you to drink deeply of the energy permeating the world.</p><p>For <strong>1 minute</strong>, you are <strong>Restrained</strong>.</p><p>Your <strong>Armor</strong> increases by <strong>+1</strong> from the flora wrapped around your body.</p><p>Additionally, you gain <strong>+1 bonus dice</strong> on all casting checks to cast spells.</p><p>Each extra success increases the bonus dice by <strong>+1</strong>.</p><p>Alternatively, you may extend duration by <strong>+1 minutes</strong> per extra success.</p><p>You may also increase the bonus to <strong>Armor</strong> by <strong>+1</strong> per 2 extra successes.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "MYd7S2ijFjxRg8eG",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "custom",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": "Minutes"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Wood",
+        "description": "",
+        "uuid": "748210da-72fa-40ab-8b8d-13508f185ec1"
+      },
+      {
+        "name": "Attunement",
+        "description": "",
+        "uuid": "b7e24402-91e7-408e-89c0-f25521f9fe0e"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "conditionalCheckModifier",
+        "modifierType": "dice",
+        "checkType": "casting",
+        "selector": "any",
+        "key": "",
+        "value": 1,
+        "uuid": "be704762-5113-44cb-b21e-350d52c63cf0"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "mod",
+        "key": "armor",
+        "value": 1,
+        "uuid": "b3389935-b5bc-41fb-af8e-e768f6f595cc"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "casting",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>Wood Attunement:</strong> You gain <strong>+1 bonus dice</strong> on all casting checks to cast spells.</p>",
+        "uuid": "5530070b-65a6-4bc4-a208-a2529bcb62ce"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680495335014,
+    "modifiedTime": 1708131955712,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!kjVYjSUbEKt3w1gU"
+}

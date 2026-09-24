@@ -1,0 +1,63 @@
+{
+  "_id": "uBx9L7ccjwajWJmu",
+  "name": "Blue Spirit's Scourge of the Arcane",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlueSpirit_Path_Icon.webp",
+  "description": "<p>You are in an area that harms mages as they draw upon aether.</p><p>Whenever you make a check to cast a spell, you suffer <strong>1 Damage</strong> per success on your casting check, to a maximum amount equal to the ability user's <strong>Soul</strong>. This damage ignores <strong>Armor</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "rKO5t4qtoGbs0SIx",
+  "sort": 600000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "initiative",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": "Minute"
+    },
+    "check": [],
+    "customTrait": [],
+    "rulesElement": [
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Blue Spirit's Scourge of the Arcane</strong> Whenever you make a check to cast a spell, you suffer <strong>1 Damage</strong> per success on your casting check, to a maximum amount equal to the ability user's <strong>Soul</strong>. This damage ignores <strong>Armor</strong>.</p>",
+        "uuid": "a12c135e-e89f-4b43-9585-73a58f9468de"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "casting",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>Blue Spirit's Scourge of the Arcane</strong> Whenever you make a check to cast a spell, you suffer <strong>1 Damage</strong> per success on your casting check, to a maximum amount equal to the ability user's <strong>Soul</strong>. This damage ignores <strong>Armor</strong>.</p>",
+        "uuid": "e7161689-bb3e-48d9-bdc3-1be79d8fa05c"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679974142682,
+    "modifiedTime": 1708070753234,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!uBx9L7ccjwajWJmu"
+}

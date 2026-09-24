@@ -1,0 +1,54 @@
+{
+  "name": "Sacred Arms of the Arbiter",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Arbiter_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> 1-space</p><p>You channel spiritual energy to empower your arms against supernatural foes.</p><p>Choose yourself or an ally within <strong>1 space</strong> of you, and grant them one of the following effects until the start of your next turn:</p><ul><li><p><strong>Sacred Weapon</strong></p><ul><li><p>The chosen weapon gains the <strong>Magical</strong> and <strong>Rend</strong> traits and deals <strong>+1 Damage</strong>.</p></li></ul></li><li><p><strong>Sacred Shield</strong></p><ul><li><p>The chosen shield provides an additional <strong>+1</strong> to <strong>Defense</strong>, and grants <strong>Advantage</strong> on checks to resist the effects of spells.</p></li></ul></li></ul><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p><p><strong>Effects:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.16LbhO0UFsQODkM8]{Sacred Arms of the Arbiter (Shield)}, @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.XyJhOReFNg1zuEZA]{Sacred Arms of the Arbiter (Weapon)}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Arbiter",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "c563f67a-2fbc-43d2-8120-ecb2934653bd"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708071681571,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "7hLsjAGUXV6dcNwV",
+  "_id": "YJWtMxCeDw2tdWGG",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!YJWtMxCeDw2tdWGG"
+}

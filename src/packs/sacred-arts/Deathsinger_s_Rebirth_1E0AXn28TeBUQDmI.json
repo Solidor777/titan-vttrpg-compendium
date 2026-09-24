@@ -1,0 +1,48 @@
+{
+  "_id": "1E0AXn28TeBUQDmI",
+  "name": "Deathsinger's Rebirth",
+  "type": "ability",
+  "img": "icons/magic/death/skull-horned-white-purple.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> 10 Spaces</p><p><strong>Cost:</strong> All Resolve (minimum of 1)</p><p>She did not finish with you the first time, but she is happy to resume where she left off.</p><p>When you or a creature within <strong>10 spaces</strong> of you would die or begin <strong>Dying</strong>, you may spend all your <strong>Resolve</strong> (minimum of 1) for them to be remade instead.</p><p>The target does not die, and is no longer <strong>Dying</strong>. Their <strong>Wounds</strong> and <strong>Stamina</strong> are restored to <strong>1/2</strong> of their maximum value.</p><p>Choose <strong>Body</strong>, <strong>Mind</strong>, or <strong>Soul</strong>. That <strong>Attribute</strong> is reduced by <strong>-1</strong> until they complete a <strong>Long Rest</strong>.</p><p>Choose a second <strong>Attribute</strong>. It is increased by <strong>+1</strong> until they complete a <strong>Long Rest</strong>.</p><p>You cannot use this ability again until you complete a <strong>Long Rest</strong>. The target may not benefit from this ability again until all their <strong>Wounds</strong> are restored.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.nmBxkozp0wHQzMYM]{Deathsinger's Rebirth}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Deathsinger",
+        "description": "",
+        "uuid": "a7063d7a-714c-444e-a2f0-539ee83b9565"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "iAdYrErZnpD6327g",
+  "sort": 900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!1E0AXn28TeBUQDmI"
+}

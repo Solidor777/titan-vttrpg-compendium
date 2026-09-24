@@ -1,0 +1,43 @@
+{
+  "name": "Grim Determination",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Soul (2)</p><p>When things look grim, you find the strength to fight on.</p><p>Once per round, if your <strong>Resolve</strong> and <strong>Stamina</strong> are both at <strong>0</strong>, you can use a <strong>Free Action</strong> on your turn to regain <strong>+1</strong> <strong>Resolv</strong>e.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "5ce922e4-9290-4b76-af82-de6064466848"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678853285588,
+    "modifiedTime": 1689641622210,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 5300000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "l4WWWEOqTfo61Zxo",
+  "_key": "!items!l4WWWEOqTfo61Zxo"
+}

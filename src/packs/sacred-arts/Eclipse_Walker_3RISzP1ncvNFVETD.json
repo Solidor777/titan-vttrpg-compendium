@@ -1,0 +1,59 @@
+{
+  "name": "Eclipse Walker",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/VeiledMoon_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Soul (5), 6 Veiled Moon abilities, and you must receive training from another Eclipse Walker, or have access to their teachings</p><p><strong>Cost:</strong> 2 Resolve</p><p><strong>Range:</strong> Self</p><p>You are half-in, half-out of the spirit world, nearly becoming a spirit yourself.</p><p>As an <strong>Action</strong>, you can take on the form of a spirit.</p><ul><li><p>Your <strong>Soul</strong> increases by <strong>+2</strong></p></li><li><p>Any attacks you make gain the <strong>Magical</strong> and <strong>Penetrating </strong>traits</p></li><li><p>You take half <strong>Damage</strong> from non-magical attacks</p></li><li><p>You can move through hostile creature's spaces in combat without needing to make a <strong>Dexterity</strong> check</p></li><li><p>Once per turn, when you would be affected by a spell or magical effect, you can negate the effect as a <strong>Free Action</strong></p></li></ul><p>This effect lasts until the end of combat, you become <strong>Incapacitated</strong>, or you are <strong>Dying</strong>. After you use this ability, you cannot use any ability with the <strong>Apex</strong> trait until you complete a <strong>Long Rest</strong>.</p><p>Additionally, other followers of the Path of the Veiled Moon will recognize your skill and afford you special respect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.ZUzHuIEkcpAcTWos]{Eclipse Walker}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Veiled Moon",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      },
+      {
+        "name": "Apex",
+        "description": "",
+        "uuid": "cccbb963-10f9-416c-a7f8-fe944c4fd17c"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": true,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "fa926736-e8e0-4d43-8daa-78bd00e859e8"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708070236035,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "cqEvKJ1rbQNDSXtA",
+  "_id": "3RISzP1ncvNFVETD",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!3RISzP1ncvNFVETD"
+}

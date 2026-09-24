@@ -1,0 +1,43 @@
+{
+  "name": "Diehard",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p>You have reserves of endurance far beyond those of normal people.</p><ul><li><p>You have advantage on checks for tests of endurance (marching for hours without rest, going without sleep, surviving without food or water, etc</p></li><li><p>You can hold your breath for twice as fast as normal</p></li><li><p>You have advantage on <strong>Death Checks</strong></p></li><li><p>When you are reduced to zero stamina, you are not <strong>Stunned</strong>, though you must still make <strong>Death Checks</strong> as normal</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "1a8afebd-da16-4192-ae4a-16cf3fd4e05a"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678861813296,
+    "modifiedTime": 1689641610055,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 3200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "4IeoogbRNKWWyg26",
+  "_key": "!items!4IeoogbRNKWWyg26"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Stormcaller's Requiem",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Stormcaller_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve</p><p><strong>Range:</strong> Self</p><p>You have learned to channel your own pain and loneliness into feeding the malefic energy suffusing your body, transforming you into a ruthlessly efficient killing machine.</p><p>Until the start of your next turn, while you have no allies within a <strong>5-space-radius</strong> of you<strong>,</strong> or you have suffered at least <strong>1 Wound</strong>, or you have less than half your <strong>Stamina</strong> remaining, your <strong>Melee</strong>, <strong>Accuracy</strong>, and <strong>Armor</strong> increase by <strong>+2</strong>.</p><p>If these conditions are no longer met, these effects fade until they are met again.</p><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.EELlEHerpmkGODhy]{Stormcaller's Requiem}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "c6788432-f4bd-400f-ba51-421a5c269d6b"
+      },
+      {
+        "name": "Stormcaller",
+        "description": "",
+        "uuid": "3fc7059b-db51-4d81-9095-071d9b99e75c"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "3wygLHBNXPW58FHz",
+  "ownership": {
+    "default": 0,
+    "jqPKS4y5hfCZQjOU": 3
+  },
+  "flags": {
+    "titan": {
+      "uuid": "9b593dea-9ea4-45bf-9518-f4cc9ce984e9"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1709612890666,
+    "modifiedTime": 1709793419252,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "vOny5fCPkbaMUjWy",
+  "sort": 0,
+  "_key": "!items!vOny5fCPkbaMUjWy"
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Urderic Concussion Grenade (1)",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>These grenades explode in a burst of compressed air, and are most often used for subduing groups with non-lethal force.</p><p>A creature damaged by this attack must make a <strong>Resilience</strong> check of <strong>4:X</strong> where <strong>X</strong> is the number of successes on the attack. If they fail, they are knocked <strong>Prone.</strong></p><p>If a creature would start <strong>Dying</strong> or otherwise be defeated by this attack, it is knocked unconscious instead.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Urderic",
+        "description": "",
+        "uuid": "352ddbb9-76a5-4c98-a2e9-2f84e7a1de38"
+      }
+    ],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "rare",
+    "value": 210,
+    "attack": [
+      {
+        "label": "Attack",
+        "type": "ranged",
+        "range": 10,
+        "attribute": "body",
+        "skill": "rangedWeapons",
+        "damage": 1,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "blast",
+            "value": 5
+          },
+          {
+            "name": "loud",
+            "value": true
+          },
+          {
+            "name": "magical",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "19ff1ec0-a8cb-4e5c-98f8-f07807671529"
+      }
+    ],
+    "attackNotes": "<p>These grenades explode in a burst of compressed air, and are most often used for subduing groups with non-lethal force.</p><p>A creature damaged by this attack must make a <strong>Resilience</strong> check of <strong>4:X </strong>where <strong>X</strong> is the number of successes on the attack. If they fail, they are knocked<strong> Prone.</strong></p><p>If a creature would start <strong>Dying</strong> or otherwise be defeated by this attack, it is knocked unconscious instead.</p>",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "folder": "KZPurD5uYKElJZlj",
+  "flags": {
+    "titan": {
+      "uuid": "2323cb42-7c0e-4fd5-85b6-f7958190064f"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1681795221875,
+    "modifiedTime": 1689744634508,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "FLJP6AuSxdrsKLf0",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!FLJP6AuSxdrsKLf0"
+}

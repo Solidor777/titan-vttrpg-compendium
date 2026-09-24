@@ -1,0 +1,54 @@
+{
+  "name": "Path of the Horned Kirin",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/HornedKirin_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must receive training from a Horned Kirin or another follower of the Path of the Horned Kirin, or have access to their teachings</p><p>Horned Kirin are sacred beasts with a strong connection to life and death, and your study of their powers allows you to heal or harm alike.</p><ul><li><p>Select <strong>1</strong> <strong>Path Ability</strong> with the <strong>Horned Kirin</strong> trait. You immediately gain that <strong>Ability</strong> without the associated XP cost.</p></li><li><p>As an<strong> Action</strong>, you can touch a creature to immediately stabilize it from <strong>Dying</strong>, or to remove a single <strong>Condition</strong> of your choice.</p></li></ul>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "bde442a2-7e7e-4a9e-be65-aa6b91c84fa2"
+      },
+      {
+        "name": "Horned Kirin",
+        "description": "",
+        "uuid": "dc10832b-9cbe-4f72-80df-4bf2057334fd"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "8a527fac-4024-449d-8583-475d3fcc8f78"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679881522637,
+    "modifiedTime": 1708070076007,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "xYFHpk7RPWjB7WXC",
+  "_id": "H1fKrXsh7xa7flq8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!H1fKrXsh7xa7flq8"
+}

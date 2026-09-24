@@ -1,0 +1,43 @@
+{
+  "name": "Precise Strike",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) and Expertise (1) in Melee Weapons</p><p>You know exactly where and how to strike to deal the most harm.</p><p>Once per turn when you attack with a melee weapon, you deal +<strong>1 Damage</strong> for each level of <strong>Expertise</strong> in <strong>Melee Weapons.</strong></p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "c3a3a007-b1cf-49ee-91eb-78505baa126f"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679859687304,
+    "modifiedTime": 1689641640165,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 8300000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "tZDAVuHTdHXXB2Y7",
+  "_key": "!items!tZDAVuHTdHXXB2Y7"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Contingency Spell",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Expertise (1) in Arcana</p><p>You have learned to cast spells so that they trigger under specific circumstances.</p><p>Cast any spell you know. The <strong>Complexity</strong> of the casting check is doubled.</p><p>If you succeed, you must specify a condition which will trigger the spell. The condition can be anything you might imagine, but must be specific, and you can only have one condition.</p><p>For example, you could trigger a spell when your <strong>Stamina</strong> is reduced below half its maximum value.</p><p>However, you could <em>not</em> trigger a spell when your <strong>Stamina</strong> is reduced below half its maximum value <em>and</em> there are no allies nearby.</p><p>You also could <em>not t</em>rigger a spell <em>if</em> a creature enters a room <em>or</em> you call out a command word.</p><p>If the spell targets a creature, you must target yourself.</p><p>If the spell targets an area, you choose the area when you cast the spell.</p><p>You choose the maximum duration of the contingency when you cast the spell, to a maximum of <strong>1 day</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "21a67878-135e-41b1-9173-41cebf2c3b24"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1684384332825,
+    "modifiedTime": 1689665528289,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 2200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "KqgVIlGBtqGImIXD",
+  "_key": "!items!KqgVIlGBtqGImIXD"
+}

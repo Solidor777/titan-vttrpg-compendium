@@ -1,0 +1,23 @@
+{
+  "name": "Wood",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "81wXy8a8Hc2rI79w",
+  "sort": 1100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1689661514599,
+    "modifiedTime": 1708131880633,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "description": "",
+  "_key": "!folders!81wXy8a8Hc2rI79w"
+}

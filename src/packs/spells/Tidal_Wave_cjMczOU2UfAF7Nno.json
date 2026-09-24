@@ -1,0 +1,97 @@
+{
+  "name": "Tidal Wave",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Water_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You conjure a rushing wave to crash upon your enemies.</p><p>Choose a direction for a <strong>5-space-cone</strong>, starting at the edge of your space.</p><p>Every creature within the cone takes <strong>1 Damage</strong> and must make an opposed <strong>Reflexes </strong>check or be pushed back 1 space and fall <strong>Prone</strong>.</p><p>Each extra success increases the <strong>Damage</strong> by <strong>+1</strong>.</p><p>Alternatively, you may increase the number of spaces pushed by <strong>+1</strong> per extra success.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Water",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 2,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": false,
+        "label": "Cone",
+        "scaling": false,
+        "initialValue": 5,
+        "cost": 0,
+        "uuid": "2c311ff0-5000-4813-b85c-f57aa8396fa4"
+      },
+      {
+        "resistanceCheck": "reflexes",
+        "isDamage": false,
+        "isHealing": false,
+        "label": "Push",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "uuid": "bbc1a745-cd0d-4523-87fd-e1115d713e22"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "enabled": true
+      },
+      {
+        "label": "damage",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": true,
+        "option": [],
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "inflictCondition",
+        "cost": 1,
+        "option": [
+          "prone"
+        ],
+        "resistanceCheck": "reflexes",
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "802cbcc2-7e26-46c2-a1c5-b8047328666f"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680493043231,
+    "modifiedTime": 1708131860028,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "a0K7AcNakRL8353B",
+  "_id": "cjMczOU2UfAF7Nno",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!cjMczOU2UfAF7Nno"
+}

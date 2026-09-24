@@ -1,0 +1,74 @@
+{
+  "name": "Stormcaller's Malice",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Stormcaller_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 2 Resolve</p><p><strong>Range:</strong> 30 spaces</p><p>Your enemies are struck with bolts of lightning guided by your malefic energy.</p><p>Make a <strong>4:1 Soul (Metaphysics)</strong> check. You deal <strong>Damage</strong> equal to the number of successes and may divide it among any number of targets within <strong>30 spaces</strong>.</p><p>Additionally, each creature you strike is <strong>Blinded</strong> until the start of your next turn.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.QTnjwOjUvec1rUND]{Stormcaller's Malice}</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 2,
+        "isDamage": true,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "none",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "7f6f6538-3a40-468c-9c80-10eed3597a14"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "c83045c8-193f-46fb-bd64-693e6f0e41ff"
+      },
+      {
+        "name": "Stormcaller",
+        "description": "",
+        "uuid": "6bac61d7-3f79-41e1-ad04-42b7c6f1e97d"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "3wygLHBNXPW58FHz",
+  "ownership": {
+    "default": 0,
+    "jqPKS4y5hfCZQjOU": 3
+  },
+  "flags": {
+    "titan": {
+      "uuid": "f765f415-2dd2-4767-bd66-e58f4371fbc1"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1709538242950,
+    "modifiedTime": 1709793135672,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "OCelpTttnGkavQSN",
+  "sort": 0,
+  "_key": "!items!OCelpTttnGkavQSN"
+}

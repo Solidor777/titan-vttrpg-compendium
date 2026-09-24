@@ -1,0 +1,43 @@
+{
+  "name": "Echoing Attunement",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (2) or Expertise (2) in Arcana</p><p>You recapture the energy of spells you have attuned to, allowing you to more easily cast spells of that type.</p><p>While affected by an <strong>Attunement</strong> spell, if you successfully cast a spell with the trait you have attuned to, you gain <strong>1</strong> <strong>Echo</strong> <strong>Charge</strong>, to a maximum of <strong>3 Charges</strong>. Alternatively, you may use an <strong>Action</strong> to build a <strong>Charge</strong>, These <strong>Charges</strong> last until the <strong>Attunement</strong> spell expires.</p><p>You may expend any number of <strong>Charges</strong> when you cast a spell with the attuned trait to reduce the <strong>Complexity</strong> of the spell by <strong>-1</strong> to a minimum of <strong>1</strong>,</p><p>Alternativity, you may reduce the Difficulty of the spell by <strong>-1</strong> to a minimum of <strong>4</strong>.</p><p>You must make this choice before you roll the casting check.</p><p>If you have multiple <strong>Attunement</strong> spells active, you must track the charges separately.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.3h5XR4cxjJnGd5WN]{Echoing Attunement (0 Charges)}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "ebe0479a-77f1-49f6-bedb-47088c1ea581"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1681369803678,
+    "modifiedTime": 1689641615763,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 4100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "epfc9J5vOFWPEOtR",
+  "_key": "!items!epfc9J5vOFWPEOtR"
+}

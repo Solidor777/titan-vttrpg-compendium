@@ -1,0 +1,108 @@
+{
+  "_id": "h1VBWeh2GTO9UAE4",
+  "name": "Tempest Herald",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Stormcaller_Path_Icon.webp",
+  "description": "<p>You have transformed into a dragon made of Malefic lightning.</p><ul><li><p>Your <strong>Body</strong> and <strong>Soul</strong> increase by <strong>+2</strong>.</p></li><li><p>You gain a <strong>Fly</strong> speed of <strong>5</strong>. If you already have a <strong>Fly</strong> Speed, it increases by <strong>+5</strong>.</p></li><li><p>You are immune to all conditions except <strong>Dying</strong>.</p></li><li><p>If you start <strong>Dying</strong>, you are not stunned.</p></li><li><p>Once per turn, when you inflict <strong>Damage</strong> to a creature afflicted with a condition, suffering from Stormcaller ability, or affected by a <strong>Hazard</strong>, you may choose inflict additional Damage equal to your Soul.</p></li></ul><p><span style=\"font-family: 'Open Sans',sans-serif\"><strong style=\"font-weight:normal;\" id=\"docs-internal-guid-dcd12564-7fff-bcb5-c45b-7173bd86e5d6\">This effect lasts until the end of combat, you become </strong><strong>Incapacitated</strong>, or you are <strong>Dying</strong>. After you use this ability, you cannot use any ability with the <strong>Apex</strong> trait until you complete a <strong>Long Rest</strong>.</span></p><p>Additionally, Stormcallers and followers of the <strong>Weeping Dragon</strong> will recognize your skill and afford you special respect.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "QZPmQ04UhNsPV6we",
+  "sort": 200000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnEnd",
+      "remaining": 2,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Stormcaller",
+        "description": "",
+        "uuid": "5cce130d-1666-400f-99a5-8c91fdddf95f"
+      },
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "8b9c7f8d-c53e-43e6-bee9-302570de88bb"
+      },
+      {
+        "name": "Apex",
+        "description": "",
+        "uuid": "a1189276-5e74-439e-92e5-62ece4c60a35"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "attribute",
+        "key": "body",
+        "value": 2,
+        "uuid": "36344c15-d045-4bf1-a041-ab7eb3e2c60a"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "attribute",
+        "key": "soul",
+        "value": 2,
+        "uuid": "8a50ff25-b6ef-421a-b889-60931b917281"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "fly",
+        "value": 5,
+        "uuid": "8238cbee-e32e-4c76-a107-77f96d494a36"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "any",
+        "selector": "attribute",
+        "key": "body",
+        "message": "<p><strong>Tempest Herald:</strong> Your Body increases by <strong>+2</strong>.</p>",
+        "uuid": "66df3fc5-45b0-471a-8c74-e2cc78355803"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "any",
+        "selector": "attribute",
+        "key": "soul",
+        "message": "<p><strong>Tempest Herald:</strong> Your <strong>Soul</strong> increases by <strong>+2</strong>.</p>",
+        "uuid": "1a618400-b945-4e76-b8ad-17be2c5b5993"
+      },
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Tempest Herald:</strong> You gain a <strong>Fly</strong> speed of <strong>5</strong>. If you already have a <strong>Fly</strong> Speed, it increases by <strong>+5</strong>.</p><p>Once per turn, when you inflict <strong>Damage</strong> to a creature afflicted with a condition, suffering from <strong>Stormcaller</strong> ability, or affected by a <strong>Hazard</strong>, you may choose to increase the damage by an amount equal to your <strong>Soul</strong>.</p>",
+        "uuid": "b521640a-1ee1-4559-bc03-499d703c2863"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679875562320,
+    "modifiedTime": 1709795067595,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!h1VBWeh2GTO9UAE4"
+}

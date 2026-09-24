@@ -1,0 +1,83 @@
+{
+  "_id": "SwC1yqf0vtq80do8",
+  "name": "Abjuration of the Arbiter",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Arbiter_Path_Icon.webp",
+  "description": "<p>You are in an area warded against supernatural creatures.</p><p>You take a <strong>-1</strong> dice penalty to all checks.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "ThNj9Ey7L0bRiV4m",
+  "sort": 1300000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "initiative",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Arbiter",
+        "description": "",
+        "uuid": "e09250d8-5408-4c2f-b414-4b04106403c2"
+      },
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "c93842c2-2a6a-49ce-a74c-8e7cca12f964"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "conditionalCheckModifier",
+        "modifierType": "dice",
+        "checkType": "any",
+        "selector": "any",
+        "key": "",
+        "value": -1,
+        "uuid": "38dacfb1-1dfb-4fa1-a0f2-71495c97e519"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "any",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>Abjuration of the Arbiter:</strong> You take a -1 dice penalty to all checks.</p>",
+        "uuid": "c1d7e77d-198f-41f1-8fad-78d9064c91ae"
+      },
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Abjuration of the Arbiter:</strong> You take a -1 dice penalty to all checks.</p>",
+        "uuid": "6a4bf01c-70c9-4919-826d-acbcca443eee"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682917786280,
+    "modifiedTime": 1708071644180,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!SwC1yqf0vtq80do8"
+}

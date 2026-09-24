@@ -1,0 +1,53 @@
+{
+  "_id": "Xpm9O6jBnmDHVqMy",
+  "name": "Curving Shot",
+  "type": "ability",
+  "img": "icons/magic/air/air-wave-gust-blue.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must be utilizing Zephyr Style</p><p><strong>Cost:</strong> 1-2 Focus</p><p>The wind curves your missile around whatever your enemy hides behind.</p><p>When you make an attack with a <strong>Ranged Weapon,</strong> you may spend <strong>-1 Focus</strong> to allow your attack to ignore <strong>Light</strong> and <strong>Heavy Cover</strong>.</p><p>It may ignore <strong>Total Cover</strong> so long as you have line of sight to an unobstructed space that has line of sight to your target. If used this way, the attack has <strong>Disadvantage</strong>.</p><p><strong>Enhancement.</strong> You may spend an additional +<strong>1 Focus</strong> when you make this attack: the attack does not have <strong>Disadvantage</strong> for targeting a creature with <strong>Total Cover</strong> or a creature within <strong>1 space</strong> of you.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Combat Style",
+        "description": "",
+        "uuid": "04d37919-3760-4915-a465-f93a6771cf2d"
+      },
+      {
+        "name": "Zephyr Style",
+        "description": "",
+        "uuid": "cb41165d-aa81-475d-a4f5-12aa76419127"
+      },
+      {
+        "name": "Air",
+        "description": "",
+        "uuid": "aa8a1bdb-d349-4f06-aae6-bf79ed73cf46"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "ItKmuvdZ6wPszJVg",
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Xpm9O6jBnmDHVqMy"
+}

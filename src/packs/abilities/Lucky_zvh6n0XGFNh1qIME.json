@@ -1,0 +1,43 @@
+{
+  "name": "Lucky",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p>You have inexplicable luck that seems to kick in at just the right moment.</p><ul><li><p>You have <strong>3 luck points</strong>.</p></li><li><p>Whenever you make a check, you can spend <strong>1 luck point</strong> to gain <strong>Advantage</strong> on the check.</p></li><li><p>You can choose to spend one of your <strong>luck points</strong> after you roll the die, but you must do so <em><strong>befor</strong></em><strong>e</strong> the outcome is determined.</p></li><li><p>You regain your expended <strong>luck points</strong> when you finish a <strong>Long Rest</strong>.</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "61b4a440-7773-4c1d-9e93-a1948d8f7106"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678777562158,
+    "modifiedTime": 1689641629785,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 6500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "zvh6n0XGFNh1qIME",
+  "_key": "!items!zvh6n0XGFNh1qIME"
+}

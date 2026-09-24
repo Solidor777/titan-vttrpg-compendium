@@ -1,0 +1,53 @@
+{
+  "name": "Toxin Resistance",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Body (2)</p><p>Alcohol, noxious fumes, poison, and other toxins don’t have much effect on you.</p><p>You have <strong>Advantage</strong> on <strong>Resilience</strong> checks against poison, venom, disease, and intoxication.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "resistance",
+        "selector": "resistance",
+        "key": "resilience",
+        "message": "<p><strong>Toxin Resistance:</strong> You have <strong>Advantage</strong> on <strong>Resilience</strong> Checks against poison, venom, disease, and intoxication.</p>",
+        "uuid": "9f23c3f9-82a1-4f3f-9325-2cf2762c1177",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "a65906bb-8562-4c16-9413-8d7dc8de83e6"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678674320475,
+    "modifiedTime": 1689641657794,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 11300000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "2dLPrvJvTbMTqOTA",
+  "_key": "!items!2dLPrvJvTbMTqOTA"
+}

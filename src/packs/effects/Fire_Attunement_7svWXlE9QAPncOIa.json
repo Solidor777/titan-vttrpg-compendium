@@ -1,0 +1,59 @@
+{
+  "_id": "7svWXlE9QAPncOIa",
+  "name": "Fire Attunement",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Fire_Tradition_Icon.webp",
+  "description": "<p>You channel flames through your body, rendering you immune to fire damage and burning those who harm you.</p><p>Until the start of your next turn, you are immune to <strong>Damage</strong> from intense heat and flames, both magical and mundane.</p><p>Additionally, any creature that <strong>Damages</strong> you with a <strong>Melee</strong> attack suffers <strong>2 Damage</strong> as heat from your body burns them in retaliation.</p><p>Each extra success extends the duration by <strong>+1 rounds</strong>.</p><p>Alternatively, you can increase the <strong>Damage</strong> dealt to creatures that strike you in melee by <strong>+1 per additional</strong> success.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "f0n5Mzr4qSnhYH2e",
+  "sort": 1300000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnStart",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Fire",
+        "description": "",
+        "uuid": "f4d8060b-6519-4765-b1de-2b656adc997f"
+      },
+      {
+        "name": "Attunement",
+        "description": "",
+        "uuid": "afcefc88-3c82-4a47-b924-317ff4356ee6"
+      }
+    ],
+    "rulesElement": [],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680302535477,
+    "modifiedTime": 1708131751369,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!7svWXlE9QAPncOIa"
+}

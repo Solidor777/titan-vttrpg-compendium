@@ -1,0 +1,59 @@
+{
+  "name": "Tempest Herald",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Stormcaller_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Soul (5), 6 Stormcaller abilities, and you must receive training from another Tempest Herald, or have access to their teachings.</p><p><strong>Cost:</strong> 2 Resolve</p><p><strong>Range:</strong> Self</p><p>You have achieved mastery over the malefic energy suffusing your body, making an unstoppable engine of destruction.</p><p>As an <strong>Action</strong>, you may transform into a dragon made of malefic lightning.</p><ul><li><p>Your <strong>Body</strong> and <strong>Soul</strong> increase by <strong>+2</strong>.</p></li><li><p>You gain a <strong>Fly</strong> speed of <strong>5</strong>. If you already have a <strong>Fly</strong> Speed, it increases by <strong>+5</strong>.</p></li><li><p>You are immune to all conditions except <strong>Dying</strong>.</p></li><li><p>If you start <strong>Dying</strong>, you are not stunned.</p></li><li><p>Once per turn, when you inflict <strong>Damage</strong> to a creature afflicted with a condition, suffering from <strong>Stormcaller</strong> ability, or affected by a <strong>Hazard</strong>, you may choose to increase the damage by an amount equal to your <strong>Soul</strong>.</p></li></ul><p><span style=\"font-family: 'Open Sans',sans-serif\"><strong style=\"font-weight:normal;\" id=\"docs-internal-guid-dcd12564-7fff-bcb5-c45b-7173bd86e5d6\">This effect lasts until the end of combat, you become </strong><strong>Incapacitated</strong>, or you are <strong>Dying</strong>. After you use this ability, you cannot use any ability with the <strong>Apex</strong> trait until you complete a <strong>Long Rest</strong>.</span></p><p>Additionally, Stormcallers and followers of the <strong>Weeping Dragon</strong> will recognize your skill and afford you special respect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.h1VBWeh2GTO9UAE4]{Tempest Herald}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d8ab6f06-7c53-4da0-81bf-3a830dbe213d"
+      },
+      {
+        "name": "Stormcaller",
+        "description": "",
+        "uuid": "a92b6ced-22a9-428d-80d0-80d95792ad03"
+      },
+      {
+        "name": "Apex",
+        "description": "",
+        "uuid": "15489139-03dc-4f3d-84e3-da96ac7940cd"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": true,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "4c53d60b-b9bb-4a60-874d-12727d8286cd"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679860356996,
+    "modifiedTime": 1709795061703,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "JqNiaNxFpc9NmsFi",
+  "ownership": {
+    "default": 0,
+    "jqPKS4y5hfCZQjOU": 3
+  },
+  "_id": "OBzHAnDZrKtVCV7g",
+  "sort": 100000,
+  "_key": "!items!OBzHAnDZrKtVCV7g"
+}

@@ -1,0 +1,75 @@
+{
+  "_id": "R8r7ar2d9Sf3FXQC",
+  "name": "Flesh Attunement",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Flesh_Tradition_Icon.webp",
+  "description": "<p>You use magic to enhance your body, making you stronger, faster, and tougher.</p><p>Your <strong>Body</strong> increases by <strong>+1</strong> until the start of your next turn.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "e5YFhGdOTopAwtgG",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnStart",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": "Minutes"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Flesh",
+        "description": "",
+        "uuid": "a6e06733-da73-4693-9884-9810a9e45c60"
+      },
+      {
+        "name": "Attunement",
+        "description": "",
+        "uuid": "5a70efa7-d2ed-4d96-80d5-d7f269e32ed3"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "attribute",
+        "key": "body",
+        "value": 1,
+        "uuid": "fcd53669-68b1-44fd-95ce-0637849d313a"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "any",
+        "selector": "attribute",
+        "key": "body",
+        "message": "<p><strong>Flesh Attunment:</strong> Your <strong>Body</strong> increases by <strong>+1</strong></p>",
+        "uuid": "8e7b77b2-6f0f-4ee1-af8d-f7d48867bafd"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432985113,
+    "modifiedTime": 1708070006255,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!R8r7ar2d9Sf3FXQC"
+}

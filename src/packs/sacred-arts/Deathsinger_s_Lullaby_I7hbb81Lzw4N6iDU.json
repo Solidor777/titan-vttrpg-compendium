@@ -1,0 +1,68 @@
+{
+  "_id": "I7hbb81Lzw4N6iDU",
+  "name": "Deathsinger's Lullaby",
+  "type": "ability",
+  "img": "icons/magic/death/skull-horned-white-purple.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> 30 spaces</p><p><strong>Cost:</strong> 2 Resolve</p><p>You sing the song of the Dead Mother, and its haunting beauty beguiles your foes.</p><p>Until the start of your next turn, any creature within <strong>30 spaces</strong> of you must make a <strong>Willpower</strong> check opposed by your <strong>Soul (Metaphysics)</strong>. If it fails, it must use all available <strong>Actions</strong> and <strong>Moves</strong> to be as near to you as possible. After moving as close as it can, it stops and listens to your song.</p><p>You may designate a number of creatures equal to your <strong>Training</strong> in <strong>Metaphysics</strong> to exclude from this effect.</p><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect. This effect automatically ends for a creature if it is harmed or becomes otherwise unable to hear you, or if you speak for any purpose other than to continue the song.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.cFj9PVlbHKT9uCKI]{Deathsinger's Lullaby}</p>",
+    "check": [
+      {
+        "label": "Lullaby",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 2,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "willpower",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "9f044aa3-726d-49ae-a3bf-d7bf06a6147a"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Deathsinger",
+        "description": "",
+        "uuid": "a7063d7a-714c-444e-a2f0-539ee83b9565"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "iAdYrErZnpD6327g",
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!I7hbb81Lzw4N6iDU"
+}

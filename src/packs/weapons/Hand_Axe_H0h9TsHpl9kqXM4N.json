@@ -1,0 +1,79 @@
+{
+  "name": "Hand Axe",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>This small axe can be used in close combat or thrown a short distance.</p>",
+    "check": [],
+    "customTrait": [],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "common",
+    "value": 25,
+    "attack": [
+      {
+        "label": "Strike",
+        "type": "melee",
+        "range": 1,
+        "attribute": "body",
+        "skill": "meleeWeapons",
+        "damage": 1,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "slashing",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "49d9c2fc-51d1-449c-88f6-e8eeb21d92d9"
+      },
+      {
+        "label": "Throw",
+        "type": "ranged",
+        "range": 5,
+        "attribute": "body",
+        "skill": "rangedWeapons",
+        "damage": 1,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "slashing",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "342a2e26-da9d-479e-b8ce-715b27132591"
+      }
+    ],
+    "attackNotes": "",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "bf48795d-6381-4964-96c1-d1fb1dffb84a"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678251834729,
+    "modifiedTime": 1689662470751,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "BsiAASgtfrITuRWZ",
+  "_id": "H0h9TsHpl9kqXM4N",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!H0h9TsHpl9kqXM4N"
+}

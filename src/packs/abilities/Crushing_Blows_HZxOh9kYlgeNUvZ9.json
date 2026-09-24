@@ -1,0 +1,53 @@
+{
+  "name": "Crushing Blows",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Body (4), Training (2) in Melee Weapons</p><p>Your blows are overwhelmingly powerful, and capable of pounding armor to bits.</p><p>Crushing attacks you make gain the <strong>Rend</strong> trait.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "attackTrait",
+        "key": "crushing",
+        "message": "<p><strong>Crushing Blows:</strong> Crushing attacks you make gain the @UUID[Compendium.titan-vttrpg-compendium.rules.JournalEntry.mczts3I29Q5vaopp.JournalEntryPage.4i499LbqwSRtkdMc#rend]{Rend} trait.</p>",
+        "uuid": "67307766-9062-4e78-9b08-26c7f4712dfc",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "d714a958-cb7d-4939-bcfe-d7f087fabe4f"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678598188240,
+    "modifiedTime": 1689641608513,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 2900000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "HZxOh9kYlgeNUvZ9",
+  "_key": "!items!HZxOh9kYlgeNUvZ9"
+}

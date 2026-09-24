@@ -1,0 +1,77 @@
+{
+  "_id": "EuMjCYrnWEhRW8qF",
+  "name": "The Penumbral Spear",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/AetherAndVoid_Tradition_Icon.webp",
+  "description": "<p>You are empowered with the stolen energy of an enemy.</p><p>You gain <strong>+1 bonus dice</strong> on the next spell you cast before the end of your next turn.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "DSgUAy4O8QaDpnqf",
+  "sort": 400000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnEnd",
+      "remaining": 2,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Aether",
+        "description": "",
+        "uuid": "ffc0333e-229a-4c44-9ce9-e96a26a1ef97"
+      },
+      {
+        "name": "Void",
+        "description": "",
+        "uuid": "218bf191-d7b5-42e8-a6cc-34983ab5ac05"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "casting",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>The Penumbral Spear:</strong> You gain <strong>+1 bonus dice</strong> on the next spell you cast before the end of your next turn.</p>",
+        "uuid": "adbc59b7-c7a2-4dd0-87a0-11cce2ccd1b9"
+      },
+      {
+        "operation": "conditionalCheckModifier",
+        "modifierType": "dice",
+        "checkType": "casting",
+        "selector": "any",
+        "key": "",
+        "value": 1,
+        "uuid": "575bca11-988d-487f-9404-4de2e2d57371"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1681362556039,
+    "modifiedTime": 1708069209209,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!EuMjCYrnWEhRW8qF"
+}

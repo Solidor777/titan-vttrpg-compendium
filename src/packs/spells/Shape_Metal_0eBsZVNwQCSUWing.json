@@ -1,0 +1,68 @@
+{
+  "name": "Shape Metal",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Metal_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You reshape metal to repair and reinforce it.</p><p>Choose a space of metal within <strong>10 spaces</strong>.</p><p>You can move that metal to an adjacent space, so long as it remains adjacent to a fixed object, like a wall.</p><p>Alternatively, you can carefully sculpt metal while the spell is active, such as creating a hammer out of a bar of iron.</p><p>You can also use this spell to repair magical and non-magical weapons, armor, and devices.</p><p>If you do so, the object is immediately restored to full working condition. Weapons are repaired, armor is restored to its maximum rating, and broken machines return to full functionality.</p><p>Additionally, affected items gain the <strong>Magical</strong> trait for 1 hour.</p><p>Each extra success extends the duration of the <strong>Magical</strong> trait by <strong>+1 hour</strong>s.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.oYbXsX3gW6yAOX7n]{Shape Metal}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Metal",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "label": "Hours",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": false,
+        "uuid": "102c8468-b4a6-46e8-9ca1-29f56cb4f25f"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 0,
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "3a506538-8332-4be6-bd81-7d3b5d8d799e"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680326442556,
+    "modifiedTime": 1708069812940,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "b6iOYrTfsSJbYqG5",
+  "_id": "0eBsZVNwQCSUWing",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!0eBsZVNwQCSUWing"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Counterattack",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (2) in Melee Weapons</p><p>You react quickly to punish those who would strike you.</p><p>Once per turn, when a creature hits you with a <strong>Melee</strong> attack, you can immediately make a <strong>Melee</strong> attack against them as a <strong>Free Action</strong>. The provoking attack does not need to deal <strong>Damage</strong> for this ability to be activated.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "6030ec48-141a-48c8-8823-9ece6a1618cf"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678852928614,
+    "modifiedTime": 1689641606170,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 2500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "H8wPZ16S5aH3u9nA",
+  "_key": "!items!H8wPZ16S5aH3u9nA"
+}

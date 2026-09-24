@@ -1,0 +1,75 @@
+{
+  "name": "Fox Fire",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/WhiteFox_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve</p><p><strong>Range:</strong> 10 spaces</p><p>You burn your opponent with sparkling blue fires that cause pain without physical damage.</p><p>Choose a target within <strong>10 spaces</strong> and make a <strong>4:1</strong> <strong>Soul (Metaphysics)</strong> check, resisted by the target's <strong>Willpower</strong>.</p><p>The target takes <strong>Damage</strong> equal to the difference in successes. This <strong>Damage</strong> ignores <strong>Armor</strong>.</p><p>Additionally, the target takes a <strong>-1</strong> dice penalty to any <strong>Casting</strong> checks they make until they complete a <strong>Short Rest</strong>.</p><p>If a physical creature is defeated with this ability, it does not die. Rather, it is I<strong>ncapacitated</strong> until it completes a <strong>Long Rest</strong> or is revived by some other effect.</p><p>Nonphysical creatures are destroyed as normal.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.QvkaT5q64x7Nxa6X]{Fox Fire}</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 1,
+        "isDamage": true,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "none",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "9348d1dc-8c13-4b90-9563-18a78b3e94b5",
+        "damageReducedBy": "none"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "b80260df-017b-4b88-a9bc-5b6d44ce08b9"
+      },
+      {
+        "name": "White Fox",
+        "description": "",
+        "uuid": "683ee749-a5f9-4702-94b9-0d08a7043398"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "7bbd9ec9-e2d5-4ca8-abdb-6174626cadaf"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679806463011,
+    "modifiedTime": 1709616187256,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "FP0IEhJWKJZvIHU4",
+  "_id": "Ccl7VXBPoqNtJFKn",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!Ccl7VXBPoqNtJFKn"
+}

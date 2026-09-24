@@ -1,0 +1,53 @@
+{
+  "name": "Pierce Armor",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Body (4), Training (2) in Melee Weapons</p><p>You can spot gaps and weak points in an enemy's armor.</p><p>You ignore a point of <strong>Armor</strong> for every <strong>6</strong> on an attack with a <strong>Piercing</strong> weapon.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "attackTrait",
+        "key": "piercing",
+        "message": "<p><strong>Pierce Armor:</strong> You ignore a point of <strong>Armor</strong> for every <strong>6</strong> on an Attack with a <strong>Piercing</strong> weapon.</p>",
+        "uuid": "78daf07f-7c17-4114-9cdd-661c15057cdd",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "f2942486-54c6-4adb-bbce-b1047f350c6d"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678675666966,
+    "modifiedTime": 1689641635760,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 7700000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "ym30jgW7ogMAUTug",
+  "_key": "!items!ym30jgW7ogMAUTug"
+}

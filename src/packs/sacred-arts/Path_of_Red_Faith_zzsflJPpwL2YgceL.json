@@ -1,0 +1,54 @@
+{
+  "name": "Path of Red Faith",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/RedFaith_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must be infected by a Blood Shadow and defeat it in a contest of will</p><p>Blood Shadows are spiritual parasites who subtly manipulate their hosts to slaughter. Most hosts never even realize that they have been infected, while the parasite consumes the blood of their victims. Eventually, the mature Blood Shadow bursts forth, kills their host, and returns with a bounty of blood for their Dreadgod master.</p><p>However, a rare few who are infected are able to remain in control of themselves, using the Blood Shadow as a source of power. This has led to cults who willingly infect themselves, hoping to gain some measure of the Dreadgod's strength.</p><ul><li><p>Select <strong>1</strong> <strong>Path Ability</strong> with the <strong>Red Faith</strong> trait. You immediately gain that <strong>Ability</strong> without the associated XP cost.</p></li><li><p>When you use an ability with the <strong>Red Faith</strong> trait, you can choose to feed your blood shadow a source of fresh blood (other than your own) instead of spending <strong>Resolve </strong>to use the ability.</p><ul><li><p>This can be a corpse, or a quart of bottled blood.</p></li><li><p>The blood source is consumed in using the ability and cannot be used in this way again.</p></li></ul></li><li><p>As a <strong>Free Action</strong>, you can focus your senses to perceive any fresh blood within <strong>10 spaces</strong>. This includes living creatures with blood in their veins.</p></li></ul><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.jtnZVnic2GHsjxZS]{Path of Red Faith}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Red Faith",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "e93ec427-63c7-4d23-8a8f-c058680aa114"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708070656630,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "ISkTMQ07QrzSXtg7",
+  "_id": "zzsflJPpwL2YgceL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!zzsflJPpwL2YgceL"
+}

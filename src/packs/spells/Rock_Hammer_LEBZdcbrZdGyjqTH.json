@@ -1,0 +1,78 @@
+{
+  "name": "Rock Hammer",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Earth_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You conjure a weapon made of rock and smash it into your enemy.</p><p>Choose an adjacent target. It takes <strong>1 Damage</strong> and must succeed on an opposed <strong>Resilience</strong> check or be <strong>Stunned</strong> and knocked <strong>Prone</strong>.</p><p>Each additional success increases the <strong>Damage</strong> by <strong>+1</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Earth",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 5,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "touch",
+        "cost": 1,
+        "enabled": true
+      },
+      {
+        "label": "damage",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": true,
+        "option": [],
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "inflictCondition",
+        "cost": 2,
+        "option": [
+          "stunned",
+          "prone"
+        ],
+        "resistanceCheck": "resilience",
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "733f5093-303c-445d-81f0-14f203f102cb"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680236393504,
+    "modifiedTime": 1708131691786,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "qBppNKVIZWEtBvhM",
+  "_id": "LEBZdcbrZdGyjqTH",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!LEBZdcbrZdGyjqTH"
+}

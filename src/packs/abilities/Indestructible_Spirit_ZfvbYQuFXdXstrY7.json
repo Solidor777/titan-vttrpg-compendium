@@ -1,0 +1,63 @@
+{
+  "name": "Indestructible Spirit",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Soul (3) and Training (2) and Expertise (2) in Metaphysics</p><p>You use the strength of your soul to compensate for failing flesh.</p><p>When you suffer a <strong>Wound</strong>, make a <strong>6:1 Soul (Metaphysics)</strong> check.</p><p>If you succeed, the number of Wounds inflicted is reduced by <strong>-1</strong>, to a minimum of <strong>1</strong>.</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 6,
+        "complexity": 1,
+        "resolveCost": 0,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "none",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "d7bb7342-95fb-4dcc-a83f-83176c8e930a"
+      }
+    ],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "2ed5ebf8-78b4-41c5-bf28-14826ef308aa"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678861813296,
+    "modifiedTime": 1689641627797,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 6100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "ZfvbYQuFXdXstrY7",
+  "_key": "!items!ZfvbYQuFXdXstrY7"
+}

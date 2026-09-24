@@ -1,0 +1,43 @@
+{
+  "name": "Point Blank Shot",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) and Expertise (1) in Ranged Weapons</p><p>You are especially accurate when making ranged attacks against close targets.</p><p>You never take a penalty when making a ranged attack against a creature within <strong>1 space</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "b87dde95-28ff-4aee-aa50-cf5bb1b112fe"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678675666966,
+    "modifiedTime": 1689641636953,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 7800000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "OEW7w74O2ofCM8f2",
+  "_key": "!items!OEW7w74O2ofCM8f2"
+}

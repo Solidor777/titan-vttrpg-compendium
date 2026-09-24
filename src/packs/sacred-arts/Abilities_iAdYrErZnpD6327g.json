@@ -1,0 +1,23 @@
+{
+  "_id": "iAdYrErZnpD6327g",
+  "name": "Abilities",
+  "type": "Item",
+  "folder": "jK7GLuYF5ujhCkb6",
+  "sorting": "a",
+  "sort": 0,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!iAdYrErZnpD6327g"
+}

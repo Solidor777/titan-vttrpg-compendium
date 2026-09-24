@@ -1,0 +1,68 @@
+{
+  "_id": "uoA65VedG509BpYp",
+  "name": "Umbral Fang",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/VeiledMoon_Path_Icon.webp",
+  "description": "<p>Your weapon is inscribed with an umbral rune, allowing it to rip open armor.</p><p>The first time that affected weapon deals <strong>Damage</strong>, it gains the <strong>Rend </strong>trait, and ignores <strong>Armor</strong>.</p><p>If the ability user spent an additional <strong>1 Resolve</strong> when they used this ability, the weapon also gains a bonus to <strong>Damage</strong> equal to their <strong>Soul</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "8lS162UMHxzYupPR",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnStart",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Veiled Moon",
+        "description": "",
+        "uuid": "9a8f2219-fd93-4a5f-8cee-239fbb1f1837"
+      },
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "136a7bd3-e254-41e4-9811-24ddee9695da"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attribute",
+        "selector": "skill",
+        "key": "perception",
+        "message": "<p><strong>Umbral Fang:</strong> The first time that affected weapon deals <strong>Damage</strong>, it gains the <strong>Rend </strong>trait, and ignores <strong>Armor</strong>.</p><p>If the ability user spent an additional <strong>1 Resolve</strong> when they used this ability, the weapon also gains a bonus to <strong>Damage</strong> equal to their <strong>Soul</strong>.</p>",
+        "uuid": "fe1d07dc-8fd7-41d2-b189-a51c6e01adec"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682915896595,
+    "modifiedTime": 1708070276391,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!uoA65VedG509BpYp"
+}

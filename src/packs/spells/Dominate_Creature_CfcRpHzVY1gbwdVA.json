@@ -1,0 +1,66 @@
+{
+  "name": "Dominate Creature",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Thought_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You weave your magic into the mind of another, controlling their thoughts and dictating their every action.</p><p>Choose a thinking creature within <strong>10 spaces</strong>. They must make an opposed <strong>Willpower</strong> check or fall under your command for <strong>1 minute</strong>. If the creature is currently hostile to you, it has <strong>Advantage</strong> on this check.</p><p>As a <strong>Free Action</strong>, you can issue simple commands, such as \"protect me,\" \"follow them,\" \"answer my questions,\" etc. The creature obeys to the best of its ability, then defends itself from harm until it receives further instructions.</p><p>Alternatively, you can use an <strong>Action</strong> to take direct control of the creature, moving it up to its speed, or using an ability it might have.</p><p>Any time the creature takes <strong>Damage</strong> or is commanded to do something that goes strongly against its character, it may make another <strong>Willpower</strong> check to try and break your control. The creature ignores any commands that would obviously cause harm to itself.</p><p>Each extra success extends the duration by <strong>+1 minutes</strong>.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.LoloxoJ4S9Yjvpdx]{Dominate Creature}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "rare",
+    "tradition": "Thought",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 5,
+      "complexity": 3,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 2,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "minutes",
+        "cost": 4,
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "f846fe85-5af7-4f52-af2d-92fa50ed4f8e"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432594185,
+    "modifiedTime": 1708069889085,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "q4SiCGJUqYlzrQ7o",
+  "_id": "CfcRpHzVY1gbwdVA",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!CfcRpHzVY1gbwdVA"
+}

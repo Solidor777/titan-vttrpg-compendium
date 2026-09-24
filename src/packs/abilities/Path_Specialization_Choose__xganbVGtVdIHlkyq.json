@@ -1,0 +1,91 @@
+{
+  "name": "Path Specialization (Choose)",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Soul (4), Training (2) in Metaphysics</p><p>You have spent many long hours meditating on the deeper mysteries of your Path.</p><p>Choose a <strong>Path</strong> that you have learned. You gain <strong>+1 bonus dice</strong> and <strong>+1 bonus Expertise</strong> when using <strong>Abilities</strong> from your chosen <strong>Path</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "item",
+        "selector": "customTrait",
+        "key": "Choose",
+        "message": "<p><strong>Path Specialization:</strong> You gain <strong>+1 bonus dice</strong> and <strong>+1 bonus Expertise</strong> when using <strong>Abilities</strong> from your chosen <strong>Path</strong>.</p>",
+        "uuid": "5f3288ed-2fac-4959-8b01-65f8917c1c29",
+        "type": "ability"
+      },
+      {
+        "operation": "conditionalDiceModifier",
+        "checkType": "item",
+        "selector": "customTrait",
+        "key": "Choose",
+        "value": 1,
+        "uuid": "c5c3dd9e-54df-403b-8470-63bb9475a238",
+        "type": "ability"
+      },
+      {
+        "operation": "conditionalExpertiseModifier",
+        "checkType": "item",
+        "selector": "customTrait",
+        "key": "Choose",
+        "value": 1,
+        "uuid": "405777b5-33cf-4caf-8545-551e8a982f78",
+        "type": "ability"
+      },
+      {
+        "operation": "conditionalCheckModifier",
+        "modifierType": "dice",
+        "checkType": "any",
+        "selector": "customTrait",
+        "key": "Choose",
+        "value": 1,
+        "uuid": "82df173c-0220-4905-a598-21247e0bbe26",
+        "type": "ability"
+      },
+      {
+        "operation": "conditionalCheckModifier",
+        "modifierType": "expertise",
+        "checkType": "any",
+        "selector": "customTrait",
+        "key": "Choose",
+        "value": 1,
+        "uuid": "d5bfa0c1-d090-4127-8936-cba2f3f82fd4",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "03aa1b1d-4666-4e0f-9f4e-6531cfe76d94"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678779093324,
+    "modifiedTime": 1708069297837,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 7600000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "xganbVGtVdIHlkyq",
+  "_key": "!items!xganbVGtVdIHlkyq"
+}

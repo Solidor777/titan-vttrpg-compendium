@@ -1,0 +1,23 @@
+{
+  "name": "Melee",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "BsiAASgtfrITuRWZ",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1689662437870,
+    "modifiedTime": 1689662437870,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "description": "",
+  "_key": "!folders!BsiAASgtfrITuRWZ"
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "rKO5t4qtoGbs0SIx",
+  "name": "Abilities",
+  "type": "ActiveEffect",
+  "folder": "tUwvlI4ebEyU8FgD",
+  "sorting": "a",
+  "sort": 0,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!rKO5t4qtoGbs0SIx"
+}

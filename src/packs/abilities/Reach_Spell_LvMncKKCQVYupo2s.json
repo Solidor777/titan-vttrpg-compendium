@@ -1,0 +1,43 @@
+{
+  "name": "Reach Spell",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Expertise (1) in Arcana</p><p>You can extend the reach of your magic.</p><p>When you cast a spell, you may spend <strong>1 Resolve</strong> to extend the range of your spell. How far you can extend it depends on the original range of the spell.</p><ul><li><p>Touch -&gt; 10 spaces</p></li><li><p>10 spaces -&gt; 30 spaces</p></li><li><p>30 spaces -&gt; 50 spaces</p></li><li><p>Self -&gt; Cannot be extended</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "ed4cb051-1673-4202-8a45-8d93a20561f7"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678676184269,
+    "modifiedTime": 1689641641610,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 8600000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "LvMncKKCQVYupo2s",
+  "_key": "!items!LvMncKKCQVYupo2s"
+}

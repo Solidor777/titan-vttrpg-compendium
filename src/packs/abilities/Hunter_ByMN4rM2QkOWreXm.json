@@ -1,0 +1,43 @@
+{
+  "name": "Hunter",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Nature</p><p>You’re an experienced hunter and know how to track your prey.</p><ul><li><p>You have <strong>Advantage</strong> on checks to track, find, or trap a creature.</p></li><li><p>You have <strong>Advantage</strong> on checks to identify tracks or other signs of passage as belonging to creatures that you are familiar with.</p></li><li><p>You may track creatures through circumstances that would normally be impossible (over rock, across a river, etc).</p></li><li><p>While traveling in the wilderness, you can always find a relatively secure place to rest (provided that one exists), and cannot be surprised while resting there.</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "aa1ede4a-1bdc-49b0-a399-24975d753653"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678493011540,
+    "modifiedTime": 1689641626053,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 5900000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "ByMN4rM2QkOWreXm",
+  "_key": "!items!ByMN4rM2QkOWreXm"
+}

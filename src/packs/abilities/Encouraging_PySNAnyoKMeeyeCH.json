@@ -1,0 +1,43 @@
+{
+  "name": "Encouraging",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Soul (3), Training (1) in Performance</p><p>You know just how to cheer someone up.</p><p>When another creature fails a check, you can immediately say or do something to encourage them.</p><p>If you do, they gain <strong>Inspiration</strong>.</p><p>After you use this ability, you cannot use it again until you complete a <strong>Long Rest</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "fe71a71e-b88e-4b5c-8568-2bca4f6785c1"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678854841639,
+    "modifiedTime": 1689641617480,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 4400000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "PySNAnyoKMeeyeCH",
+  "_key": "!items!PySNAnyoKMeeyeCH"
+}

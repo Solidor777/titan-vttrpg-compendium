@@ -1,0 +1,84 @@
+{
+  "_id": "TEyW9CDR88m8YpHW",
+  "name": "Zephyr Style",
+  "type": "effect",
+  "img": "icons/magic/air/air-wave-gust-blue.webp",
+  "description": "<p>You are in <strong><em>Zephyr Style</em></strong>.</p><ul><li><p>The height and distance of your <strong>Jump</strong> is doubled, and you ignore <strong>Difficult Terrain</strong>.</p></li><li><p>Your maximum <strong>Focus</strong> is <strong>3</strong>. Once per turn, you may use an <strong>Action</strong> to gain <strong>+1 Focus</strong>.</p></li><li><p><strong>Channel the Wind:</strong> at the end of your turn, gain <strong>+1 Focus</strong> if you used the <strong>Dodge</strong> action, and <strong>+1 Focus</strong> if you attacked with a <strong>Melee</strong> or <strong>Ranged Weapon</strong> and ended your turn at least <strong>2 Spaces</strong> from where it began.</p></li><li><p>When you make an <strong>Attack Check</strong> with a <strong>Melee</strong> or <strong>Ranged</strong> weapon, you may spend up to <strong>3 Focus</strong>, before or after rolling, to gain <strong>+1 bonus Expertise</strong> per <strong>Focus</strong> spent.</p></li></ul><p><strong><em>Zephyr Style</em></strong> ends if you did not spend or gain any <strong>Focus</strong> during your turn, if you have <strong>0 Focus</strong> at the end of your turn, or if you enter another <strong>Stance</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "0KXoJOzsJTLIgUvG",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "initiative": 1,
+      "custom": "",
+      "remaining": 1,
+      "type": "permanent"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Combat Style",
+        "description": "",
+        "uuid": "04d37919-3760-4915-a465-f93a6771cf2d"
+      },
+      {
+        "name": "Zephyr Style",
+        "description": "",
+        "uuid": "cb41165d-aa81-475d-a4f5-12aa76419127"
+      },
+      {
+        "name": "Air",
+        "description": "",
+        "uuid": "aa8a1bdb-d349-4f06-aae6-bf79ed73cf46"
+      },
+      {
+        "name": "Stance",
+        "description": "",
+        "uuid": "b945dbb0-f14b-42c2-a81e-fa051e2ff833"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>Zephyr Style:</strong> You may spend up to <strong>3 Focus</strong>, before or after rolling, to gain <strong>+1 bonus Expertise</strong> per <strong>Focus</strong> spent.</p>",
+        "uuid": "ffcd1d66-eb02-4ded-a0e7-c0c817dc8b4d"
+      },
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Zephyr Style:</strong> <strong>Channel the Wind</strong> at the end of your turn. The style ends if you did not spend or gain <strong>Focus</strong> this turn, or have <strong>0 Focus</strong> at the end of your turn.</p>",
+        "uuid": "0807a275-ed59-4c3b-ae46-b0b112260bfd"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!TEyW9CDR88m8YpHW"
+}

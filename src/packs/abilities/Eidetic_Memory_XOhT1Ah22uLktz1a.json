@@ -1,0 +1,43 @@
+{
+  "name": "Eidetic Memory",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Mind (2)</p><p>You can recall moments from memory with near perfection,</p><ul><li><p>You can accurately recall anything you have seen or heard within the past thirty days.</p></li><li><p>You can recall the major elements of any older memory but may need to make a check to remember the minutiae (faces, numbers, words, and so on). The <strong>Skill</strong> and <strong>DC</strong> of the check is determined by the GM.</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "5d6d7200-e620-4fe6-a570-8286a5709dbe"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678433061237,
+    "modifiedTime": 1689641616916,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 4300000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "XOhT1Ah22uLktz1a",
+  "_key": "!items!XOhT1Ah22uLktz1a"
+}

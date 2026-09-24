@@ -1,0 +1,63 @@
+{
+  "_id": "mGvm8SRjeplj0gDX",
+  "name": "Berserker",
+  "type": "effect",
+  "img": "icons/svg/daze.svg",
+  "description": "<p>You care little for your own safety and aim to cause as much harm as possible to your enemies.</p><p>Once per turn, you can choose to reduce your <strong>Defense</strong> to a minimum of <strong>0</strong>, and increase your <strong>Melee</strong> by an amount equal to the reduction in <strong>Defense</strong>.</p><p>The changes to your <strong>Defense</strong> and <strong>Melee</strong> last until the start of your next turn.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "f8GbJRZi0IyOnPon",
+  "sort": 1100000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnStart",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "rating",
+        "key": "defense",
+        "value": -1,
+        "uuid": "08f2f7ca-41a6-4554-87c2-20b8a0b860ce"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "rating",
+        "key": "melee",
+        "value": 1,
+        "uuid": "9a02684e-ef84-4d8c-a096-3355c9794aa7"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678427880461,
+    "modifiedTime": 1689641596302,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!mGvm8SRjeplj0gDX"
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Stepping Stones",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Earth_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You create disks of rock and anchor them in place to make a new path.</p><p>You can set the stones horizontally to make a path across a gap, or you can set them against a vertical surface to make steps going up the side.</p><p>Each disk must be placed against a solid surface, such as the side of a mountain or another disc.</p><p>The path can be up to <strong>5 spaces long</strong>, and all steps may extend up to <strong>2 spaces</strong> side to side. Each space on the path must be within <strong>10 spaces</strong> of you.</p><p>Moving across the path lets a creature ignore difficult terrain or other hazards from the ground below.</p><p>The path lasts for <strong>1 + ES minutes</strong>, where <strong>ES</strong> is the number of extra successes.</p><p>If you cast this spell again, any previous path disappears, though you can use the recasting to preserve the portion of the path you are standing on.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Earth",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 6,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 2,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "minutes",
+        "cost": 4,
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "a42427e4-96cf-4778-8ed6-f342dba4bd3d"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680236393504,
+    "modifiedTime": 1708131708519,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "qBppNKVIZWEtBvhM",
+  "_id": "97YcckZHwPWqSEV3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!97YcckZHwPWqSEV3"
+}

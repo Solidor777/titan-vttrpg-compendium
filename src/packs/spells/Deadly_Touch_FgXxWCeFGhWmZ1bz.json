@@ -1,0 +1,74 @@
+{
+  "name": "Deadly Touch",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/AetherAndVoid_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>Void-aspected energy encases your hand, empowering you to touch a creature and snuff its life out.</p><p>This spell takes effect if the touched creature's highest <strong>Attribute</strong> is less than or equal to <strong>1 + ES</strong>, where <strong>ES</strong> is the number of extra successes.</p><p>If the creature has <strong>Wounds</strong>, they increase by <strong>+2</strong>.</p><p>Otherwise, it dies or is knocked instantly unconscious, depending on your choice.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Void",
+        "description": "",
+        "uuid": "21b4f18c-c7b4-42d6-a0f0-19d01799752e"
+      }
+    ],
+    "xpCost": 0,
+    "rarity": "uncommon",
+    "tradition": "Aether and Void",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 6,
+      "complexity": 2,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": false,
+        "label": "Highest Attribute",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "uuid": "9d880dc2-ac89-4310-9e89-f71961b498c8"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "touch",
+        "cost": 1,
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "209e4cba-08a8-4cb9-bf56-acb04f4e2fbb"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1681362086156,
+    "modifiedTime": 1708069176013,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "pyJksx2DyxQNuqXD",
+  "_id": "FgXxWCeFGhWmZ1bz",
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!FgXxWCeFGhWmZ1bz"
+}

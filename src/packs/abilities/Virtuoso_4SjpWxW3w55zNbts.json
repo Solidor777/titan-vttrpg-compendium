@@ -1,0 +1,43 @@
+{
+  "name": "Virtuoso",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) and Expertise (1) in Performance</p><p>You are a skilled performer, but you have exceptional talent with one type of performance in particular.</p><ul><li><p>Choose a specific kind of performance to specialize in, such as storytelling, jokes, singing, acting, writing, or oration.</p></li><li><p>You have <strong>Advantage</strong> on checks for that type of performance.</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "e9db53d5-ed73-4eb6-88d6-0b7f14d7ca50"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678934096828,
+    "modifiedTime": 1689641659730,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 11700000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "4SjpWxW3w55zNbts",
+  "_key": "!items!4SjpWxW3w55zNbts"
+}

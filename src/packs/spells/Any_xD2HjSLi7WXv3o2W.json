@@ -1,0 +1,23 @@
+{
+  "name": "Any",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "xD2HjSLi7WXv3o2W",
+  "sort": 1200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1689660554023,
+    "modifiedTime": 1708070038522,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "description": "",
+  "_key": "!folders!xD2HjSLi7WXv3o2W"
+}

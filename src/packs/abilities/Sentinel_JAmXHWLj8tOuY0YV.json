@@ -1,0 +1,43 @@
+{
+  "name": "Sentinel",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Melee Weapons</p><p>You are trained to repel attackers and guard nearby allies.</p><p>Once per turn, you may use do one of the following:</p><ul><li><p>When an enemy comes within melee range of you, may immediately make a melee attack against them as a <strong>Free Action</strong>. If it hits, the enemy's movement stops immediately. They may use an <strong>Action</strong> to move again.</p></li><li><p>When an enemy within melee range attacks a target other than you, you can immediately make a melee attack against the attacking creature as a <strong>Free Action</strong>.</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "7e8e42c0-3dee-4854-9849-d55c65f97611"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678933007984,
+    "modifiedTime": 1689641645788,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 9200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "JAmXHWLj8tOuY0YV",
+  "_key": "!items!JAmXHWLj8tOuY0YV"
+}

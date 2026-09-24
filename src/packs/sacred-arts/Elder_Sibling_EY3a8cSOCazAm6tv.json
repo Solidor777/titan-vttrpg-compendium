@@ -1,0 +1,53 @@
+{
+  "_id": "EY3a8cSOCazAm6tv",
+  "name": "Elder Sibling",
+  "type": "ability",
+  "img": "icons/magic/death/skull-horned-white-purple.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Soul (5), 6 Deathsinger abilities, and you must have died and been remade at least once</p><p><strong>Cost:</strong> 2 Resolve</p><p><strong>Range:</strong> Self</p><p>You become what Mother always wanted you to be.</p><p>As an <strong>Action</strong>, you may complete your remaking and take on a dreadful new form of your choosing.</p><ul><li><p>Choose 2 <strong>Attributes</strong> from <strong>Body</strong>, <strong>Mind</strong>, and <strong>Soul</strong>. The chosen <strong>Attributes</strong> increase by <strong>+2</strong>.</p></li><li><p>Your <strong>Unarmed</strong> attacks are no longer considered <strong>Ineffective</strong>, the <strong>Range</strong> of your <strong>Melee</strong> attacks increases by <strong>+1</strong>, and all your <strong>Speeds</strong> increase by <strong>+5</strong>.</p></li><li><p>You cannot become <strong>Contaminated</strong>, you do not need to breathe, and you are immune to disease and poison.</p></li><li><p>Once per turn, when a creature dies within <strong>10 spaces</strong> of you, you may integrate its useful parts as a <strong>Free Action</strong> to reduce your <strong>Wounds</strong> by <strong>1</strong>, or to restore <strong>Stamina</strong> equal to your <strong>Body</strong>.</p></li></ul><p>This effect lasts until the end of combat, you become <strong>Incapacitated</strong>, or you are <strong>Dying</strong>. After you use this ability, you cannot use any ability with the <strong>Apex</strong> trait until you complete a <strong>Long Rest</strong>.</p><p>Additionally, the Dead Mother's children and those who care for them will recognize you as one of her own and afford you special respect.</p><p><strong>Effects:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.xDxaaDcOA9U2hS8w]{Elder Sibling (Body & Mind)}, @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.9bfEQTH9i9GaycNP]{Elder Sibling (Body & Soul)}, @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.a4T77yGj0BxyvAQg]{Elder Sibling (Mind & Soul)}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Deathsinger",
+        "description": "",
+        "uuid": "a7063d7a-714c-444e-a2f0-539ee83b9565"
+      },
+      {
+        "name": "Apex",
+        "description": "",
+        "uuid": "a37fc1cf-4f6d-494c-ab2a-996da684e3b4"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "0bNPdcHbGLmb6Pmn",
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!EY3a8cSOCazAm6tv"
+}

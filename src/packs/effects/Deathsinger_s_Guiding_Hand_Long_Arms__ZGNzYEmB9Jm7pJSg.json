@@ -1,0 +1,82 @@
+{
+  "_id": "ZGNzYEmB9Jm7pJSg",
+  "name": "Deathsinger's Guiding Hand (Long Arms)",
+  "type": "effect",
+  "img": "icons/magic/death/skull-horned-white-purple.webp",
+  "description": "<p>Your <strong>Melee</strong> and the <strong>Range</strong> of your <strong>Melee</strong> attacks increase by <strong>+1</strong>, and your <strong>Defense</strong> decreases by <strong>-1</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "nkSdZvoa4C3eW1u6",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "initiative": 1,
+      "custom": "",
+      "remaining": 1,
+      "type": "initiative"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Deathsinger",
+        "description": "",
+        "uuid": "a7063d7a-714c-444e-a2f0-539ee83b9565"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "rating",
+        "key": "melee",
+        "value": 1,
+        "uuid": "264cc350-41b1-4a5e-a2c8-72ab0462a8f1"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "rating",
+        "key": "defense",
+        "value": -1,
+        "uuid": "c0734a6e-41fd-452b-a006-2a6dab148c4f"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "attackType",
+        "key": "melee",
+        "message": "<p><strong>Long Arms:</strong> The <strong>Range</strong> of your <strong>Melee</strong> attacks increases by <strong>+1</strong>.</p>",
+        "uuid": "26df74a4-e4a5-4300-ae9c-8a2da5636531"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!ZGNzYEmB9Jm7pJSg"
+}

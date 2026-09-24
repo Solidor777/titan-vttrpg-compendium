@@ -1,0 +1,74 @@
+{
+  "name": "Stormcaller's Despair",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Stormcaller_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> 10 spaces</p><p>You use your power to delve into a creature's mind and break their spirit.</p><p>Choose a creature within <strong>10 spaces</strong> and <strong>4:1</strong> <strong>Soul (Metaphysics)</strong> check resisted by the target's <strong>Willpower</strong>.</p><p>If you succeed, the target's <strong>Soul</strong> is reduced by an amount equal to the difference in successes until the start of your next turn.</p><p>Furthermore, the target cannot regain <strong>Resolve</strong>, and they cannot take extra actions in combat such with resolve or the use of a legendary ability (with the exception of <em>Epic Resistance</em>).</p><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p><p>Additionally, you have <strong>Advantage</strong> on <strong>Intimidation</strong> checks against the target for as long as they can sense you.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.v733YwrsChI9VAjI]{Stormcaller's Despair}</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 0,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "willpower",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "7aefe512-3ef9-4f28-a966-5a8c3d9395c9"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "5536e3a9-afe1-4f4e-96a9-a885411ec9e3"
+      },
+      {
+        "name": "Stormcaller",
+        "description": "",
+        "uuid": "e6f317a6-53a6-489f-9157-c1ccc5cee5f3"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "3wygLHBNXPW58FHz",
+  "ownership": {
+    "default": 0,
+    "jqPKS4y5hfCZQjOU": 3
+  },
+  "flags": {
+    "titan": {
+      "uuid": "fbdd6cfe-db26-4f9e-b1ff-18eaaecfbc1a"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1709612206074,
+    "modifiedTime": 1709794128012,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "QCBIMgCaHzMw9weO",
+  "sort": 300000,
+  "_key": "!items!QCBIMgCaHzMw9weO"
+}

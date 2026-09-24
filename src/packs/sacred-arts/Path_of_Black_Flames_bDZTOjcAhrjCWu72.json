@@ -1,0 +1,54 @@
+{
+  "name": "Path of Black Flames",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlackFlames_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must receive training from a Black Dragon or another follower of the Path of Black Flames, or have access to their teachings</p><p>You have learned to control the calamitous power of Black Flame, a sacred art cultivated by Black Dragons and those whom they deign to share their knowledge with. Few things can equal its destructive power, but to overuse Black Flame is inevitably fatal to the wielder.</p><ul><li><p>Select <strong>1</strong> <strong>Path Ability</strong> with the <strong>Black Flame</strong> trait. You immediately gain that <strong>Ability</strong> without the associated XP cost.</p></li><li><p>When you use an ability with the <strong>Black Flame</strong> trait, you can choose to take <strong>Wounds</strong> instead of spending <strong>Resolve </strong>to use the ability.</p></li><li><p>As a <strong>Free Action</strong>, you can harden Black Flame across your body in the form of ethereal scales, granting you <strong>+1 Armor</strong> until you choose to release the effect.</p><ul><li><p>This armor can be destroyed by Magical weapons with the <strong>Rend</strong> trait. If this happens, you cannot use the ability again until you complete a <strong>Long Rest.</strong></p></li></ul></li></ul><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.N0iUSUphFM5Vs1RV]{Path of Black Flames}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "5e2bbfdb-2014-4709-b3b9-4d30dfbd2d52"
+      },
+      {
+        "name": "Black Flame",
+        "description": "",
+        "uuid": "2e67d833-e698-429f-a29f-9828639b1ecc"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "269668c9-15a6-471f-a0fd-e7bf91fd945d"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679015463509,
+    "modifiedTime": 1709798570631,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "j1bBzwgH5gcB3aKp",
+  "_id": "bDZTOjcAhrjCWu72",
+  "sort": 1500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!bDZTOjcAhrjCWu72"
+}

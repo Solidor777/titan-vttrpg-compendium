@@ -1,0 +1,62 @@
+{
+  "name": "Streetwise",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p>You know your way around the most labyrinthine of urban environments.</p><ul><li><p>You have <strong>Advantage</strong> on checks to hide or search in streets and alleys.</p></li><li><p>You have <strong>Advantage</strong> on checks to locate someone or something in a city, such as a specific person, a public building, or a hive of criminal activity.</p></li><li><p>You naturally know which streets and pathways to take, and you cannot normally become lost while in a city.</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "skill",
+        "key": "stealth",
+        "message": "<p><strong>Streetwise:</strong> You have <strong>Advantage</strong> on Checks to hide in streets and alleys.</p>",
+        "uuid": "8ddfe3ec-e743-4f05-8a35-552a0d0f8486",
+        "type": "ability"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "attribute",
+        "selector": "skill",
+        "key": "perception",
+        "message": "<p><strong>Streetwise:</strong> You have <strong>Advantage</strong> on Checks to search in streets and alleys.</p>",
+        "uuid": "6416c6ac-ac8d-4075-9251-5a1c0e51e0ed",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "fb6deec3-6d57-4239-8d67-0fdb68f81381"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678425471234,
+    "modifiedTime": 1689641652964,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 10400000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "lIboUmJhchy7HGBl",
+  "_key": "!items!lIboUmJhchy7HGBl"
+}

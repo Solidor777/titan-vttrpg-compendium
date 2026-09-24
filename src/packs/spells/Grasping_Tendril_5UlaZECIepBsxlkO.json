@@ -1,0 +1,66 @@
+{
+  "name": "Grasping Tendril",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Flesh_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>Your arm becomes an elongated tendril that can attack or manipulate objects.</p><p>Choose yourself or a creature within <strong>10 spaces</strong>.</p><p>Until the start of your next turn, the target gains the following attack.</p><blockquote><p><strong>Grasping Tendril:</strong> Melee, 2 + ES Damage, Range 3, Magical, Restraining, Bludgeoning</p></blockquote><p>Additionally, the tendril can grasp and manipulate objects within <strong>3 spaces </strong>of the user, as if they were using their own hands.</p><p>Each extra success extends the duration by <strong>+1 rounds</strong>.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.3orRy0QMlPUmc3d7]{Grasping Tendril}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "uncommon",
+    "tradition": "Flesh",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 2,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 2,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "3a822f99-9716-4e4e-8c8b-68f498b0a792"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432594185,
+    "modifiedTime": 1708070008705,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "uiPwkfnRVLGVAvvk",
+  "_id": "5UlaZECIepBsxlkO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!5UlaZECIepBsxlkO"
+}

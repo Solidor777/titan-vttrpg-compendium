@@ -1,0 +1,67 @@
+{
+  "name": "Root Reconnaissance",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Wood_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You tap into the dense root network of the land, using it to scout the area.</p><p>You gain a perfect mental map of the natural features of the surrounding lands in a <strong>1-kilometer radius</strong>, so long as plant life grows there.</p><p>You can retain the mental map for <strong>1 hour</strong> before it fades from your mind. Each extra success extends the duration by <strong>+1 hours</strong>.</p><p>You know the location of geographical features, such as rivers, forests, caves, mountains and so on.</p><p>You gain no knowledge of barren areas, such as factories or deserts, though you can tell which areas are barren and which are not.</p><p>Magical areas or disturbances appear as a blank void on your mental map, allowing you to know where they are but not the nature of the effect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.tano6t4ZLgJZZNU7]{Root Reconnaissance}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Wood",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": false,
+        "label": "Hours",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "uuid": "534d2225-1c59-4d4a-ab74-a1281934e1bf"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "11bbfba0-4692-4448-9d04-70e1f6011a24"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680493043231,
+    "modifiedTime": 1708131926771,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "81wXy8a8Hc2rI79w",
+  "_id": "UT9H6UgCd2KqXwHo",
+  "sort": 1500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!UT9H6UgCd2KqXwHo"
+}

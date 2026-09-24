@@ -1,0 +1,53 @@
+{
+  "name": "Applied Anatomy",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) and Expertise (1) in Medicine</p><p>You know exactly where to strike to inflict the most pain.</p><p>When you successfully hit a living creature with an attack, add <strong>+1 Damage</strong> for each <strong>6</strong> rolled on the attack.</p><p>This additional Damage cannot exceed your <strong>Training</strong> or <strong>Expertise</strong> in <strong>Medicine</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "any",
+        "key": "",
+        "message": "<p>When you successfully hit a living creature with an attack, add 1 Damage for each 6 rolled on the Attack.</p><p>This additional Damage cannot exceed your <strong>Training</strong> or <strong>Expertise</strong> in <strong>Medicine</strong>.</p>",
+        "uuid": "0aa29208-feec-48b2-940c-65813fc61c62",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "f5ba7b48-ad9b-4455-b2c3-01d9c5ae2858"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678777030949,
+    "modifiedTime": 1689641591874,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "Q296khWUb4aS3iEx",
+  "_key": "!items!Q296khWUb4aS3iEx"
+}

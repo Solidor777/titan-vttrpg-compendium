@@ -1,0 +1,74 @@
+{
+  "name": "Brand of the Arbiter",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Arbiter_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1-2 Resolve</p><p><strong>Range:</strong> Self</p><p><strong>Area:</strong> 5-space-radius</p><p>You project a pure, searing light to burn your foes.</p><p>Make a <strong>4:1 Soul (Metaphysics)</strong> check. Enemies within a<strong> 5-space-radius</strong> of you suffer <strong>1 Damag</strong>e per success.</p><p>You can choose to spend an additional <strong>1 Resolve</strong> when you use this ability to have the damage ignore <strong>Armor</strong>.</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 1,
+        "isDamage": true,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "none",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "95da0302-a01a-460f-a257-808570318461"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Arbiter",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "331e4efc-2f1b-4ec7-a7c1-951fc9533ce1"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708071666361,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "7hLsjAGUXV6dcNwV",
+  "_id": "TZZTvVGF2J70KlOC",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!TZZTvVGF2J70KlOC"
+}

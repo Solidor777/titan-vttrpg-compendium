@@ -1,0 +1,81 @@
+{
+  "_id": "b4E5gS5yiaUq1HBt",
+  "name": "Jade Drain",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/JadeWarrior_Path_Icon.webp",
+  "description": "<p>You have drawn the energy out of another creature and into your jade, using its power to invigorate yourself.</p><p>Your <strong>Body</strong> increases by <strong>+1</strong> until the start of your next turn.</p><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "cV7lsKikLWOS0u21",
+  "sort": 400000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnEnd",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "96984668-bf58-4a5e-94e2-84f9108e5110"
+      },
+      {
+        "name": "Jade Warrior",
+        "description": "",
+        "uuid": "7bc52639-765a-43a1-a79c-e923ebabb87a"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "attribute",
+        "key": "body",
+        "value": 1,
+        "uuid": "279d7da5-12e0-4c49-8a57-5fbb41227b9c"
+      },
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Jade Drain:</strong> You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p>",
+        "uuid": "8051c46a-6a78-4cb0-b761-f973ad8e9f13"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "any",
+        "selector": "attribute",
+        "key": "body",
+        "message": "<p><strong>Jade Drain:</strong> Your <strong>Body</strong> increases by <strong>+1</strong> until the start of your next turn.</p>",
+        "uuid": "4426b12d-2119-4b3c-8dbd-28d1d381ca54"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680066992213,
+    "modifiedTime": 1708070189852,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!b4E5gS5yiaUq1HBt"
+}

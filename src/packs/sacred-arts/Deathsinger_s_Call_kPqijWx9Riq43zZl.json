@@ -1,0 +1,48 @@
+{
+  "_id": "kPqijWx9Riq43zZl",
+  "name": "Deathsinger's Call",
+  "type": "ability",
+  "img": "icons/magic/death/skull-horned-white-purple.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> 30 spaces</p><p>You call upon the dead to do your bidding.</p><p>Once per turn, as a <strong>Free Action</strong>, you may choose the corpse of a creature within <strong>30 spaces</strong> that is <strong>Size 1</strong> or larger.</p><p>Until the start of your next turn, you may make any attacks and <strong>Actions</strong> as though you occupied that corpse's space, measuring <strong>Range</strong>, <strong>Area</strong>, and line of sight from it.</p><p>You do not move. You are still targeted, attacked, and affected where you actually are.</p><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.B49x6FJ5oeMiMfMf]{Deathsinger's Call}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Deathsinger",
+        "description": "",
+        "uuid": "a7063d7a-714c-444e-a2f0-539ee83b9565"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "iAdYrErZnpD6327g",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!kPqijWx9Riq43zZl"
+}

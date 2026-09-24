@@ -1,0 +1,77 @@
+{
+  "name": "Swim Through the Earth",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Earth_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>The earth parts before you, letting you swim through it as if through water.</p><p>For <strong>1 minute,</strong> you gain a <strong>Burrow</strong> speed of <strong>5</strong>. If you already have a <strong>Burrow Speed</strong>, it increases by <strong>+5</strong>.</p><p>You can breathe underground while affected by this spell, but you lose this ability once the spell expires. You can also cast this spell while you are restrained or otherwise unable to move, such as if you have been buried in a landslide.</p><p>Each extra success extends the duration by <strong>+1 minutes</strong>.</p><p>Alternatively, you may increase the <strong>Burrow</strong> speed by <strong>+1</strong> per 2 extra successes.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.yTv2jGmLnmmzfabv]{Swim Through the Earth}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Earth",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 6,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "minutes",
+        "cost": 4,
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "increaseSpeed",
+        "initialValue": 5,
+        "cost": 2,
+        "option": [
+          "burrow"
+        ],
+        "scaling": true,
+        "enabled": true,
+        "scalingCost": 2
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "7e0d5e07-82b5-4bb8-8aff-75082034bb67"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680236393504,
+    "modifiedTime": 1708131725495,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "qBppNKVIZWEtBvhM",
+  "_id": "bkMWWbvzcvn0kY8J",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!bkMWWbvzcvn0kY8J"
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Jade Repulsion",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/JadeWarrior_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must have at least one tempered ur-stone worn against your skin</p><p><strong>Range:</strong> 10 spaces</p><p>You throw a bolt of Jade energy to knock an enemy away from you.</p><p>Choose a target within <strong>10 spaces</strong> and make a <strong>Soul (Metaphysics)</strong> opposed by the target's <strong>Resilience</strong>.</p><p>If the target fails, it is pushed <strong>1 + ES</strong> spaces away from you, where <strong>ES</strong> is the difference between your successes and those of the target creature.</p><p>Additionally, you may use this ability to break objects at a range, such as doors, windows, or barricades.</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 0,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "reflexes",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "681c692f-3649-457c-b9bd-6859a1a510d4"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "6e5a0501-8154-46df-b58e-6eba8b491df0"
+      },
+      {
+        "name": "Jade Warrior",
+        "description": "",
+        "uuid": "99a30e90-801a-41bf-ab9e-d7fa7a12635c"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "b87ac67d-8f9c-40e0-9bba-d1dd3f118b32"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680159409616,
+    "modifiedTime": 1708070197910,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "n4zork6o1vyR2c56",
+  "_id": "TqnEmhS9jCepO1hn",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!TqnEmhS9jCepO1hn"
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Blood Paralysis",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/RedFaith_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 2 Resolve or 2 sources of fresh blood</p><p><strong>Range:</strong> 10 spaces</p><p>You assume complete control of an enemy's blood, rendering them helpless.</p><p>Choose a blooded creature within <strong>10 spaces. </strong>They must make a <strong>Resilience</strong> check opposed by your <strong>Soul (Metaphysics)</strong> or be <strong>Incapacitated</strong> until the start of your next turn.</p><p>Alternatively, if the target does not have <strong>Resolve</strong>, you may choose to kill it instantly.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.HUsIO0EoICSsFJnZ]{Blood Paralysis}</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 2,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "resilience",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "199f56c3-2dfa-4323-bce9-685a65d472b8"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Red Faith",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "7d1a1fac-c7db-4a40-a768-e64469f755a9"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708070688389,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "MN8iKfuLJ7p9mHEL",
+  "_id": "SrqsIGXOrtppTJxg",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!SrqsIGXOrtppTJxg"
+}

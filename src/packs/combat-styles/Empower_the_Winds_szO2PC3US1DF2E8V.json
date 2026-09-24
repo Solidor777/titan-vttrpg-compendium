@@ -1,0 +1,53 @@
+{
+  "_id": "szO2PC3US1DF2E8V",
+  "name": "Empower the Winds",
+  "type": "ability",
+  "img": "icons/magic/air/air-wave-gust-blue.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Borrow the Winds, and you must be utilizing Zephyr Style</p><p><strong>Cost:</strong> 1-3 Focus</p><p>Your martial practice and arcane knowledge of the Winds have come to harmonize with each other, and you know how to flow from one to the other.</p><p>When you make a casting check for a spell with the <strong>Air</strong> trait, you may spend up to <strong>3 Focus</strong>, before or after rolling: you gain <strong>+1 bonus Expertise</strong> on that check per <strong>Focus</strong> spent.</p><p>Additionally, ending your turn after casting a spell with the <strong>Air</strong> trait activates <em>Channel the Wind</em> from <strong><em>Zephyr Style</em></strong>, granting you an additional <strong>+1 Focus</strong>.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Combat Style",
+        "description": "",
+        "uuid": "04d37919-3760-4915-a465-f93a6771cf2d"
+      },
+      {
+        "name": "Zephyr Style",
+        "description": "",
+        "uuid": "cb41165d-aa81-475d-a4f5-12aa76419127"
+      },
+      {
+        "name": "Air",
+        "description": "",
+        "uuid": "aa8a1bdb-d349-4f06-aae6-bf79ed73cf46"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "ItKmuvdZ6wPszJVg",
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!szO2PC3US1DF2E8V"
+}

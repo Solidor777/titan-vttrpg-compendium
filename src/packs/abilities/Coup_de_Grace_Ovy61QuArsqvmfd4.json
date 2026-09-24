@@ -1,0 +1,43 @@
+{
+  "name": "Coup de Grace",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p>You know how to quickly dispatch helpless enemies.</p><p>When you hit with an attack against an <strong>Incapacitated</strong>, <strong>Prone</strong>, or <strong>Restrained</strong> enemy, you deal an additional <strong>+1 Damage</strong> for each success you roll.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "9cb14850-ff28-43f2-a407-04caa71201f7"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678854271365,
+    "modifiedTime": 1689641607405,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 2700000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "Ovy61QuArsqvmfd4",
+  "_key": "!items!Ovy61QuArsqvmfd4"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Bound Great Hammer",
+  "type": "weapon",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Metal_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You conjure an impossible strong weapon made of the purest alloy.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Metal",
+        "description": "",
+        "uuid": "445831c3-674d-43eb-9cdf-bf058834c5d0"
+      }
+    ],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "common",
+    "value": 0,
+    "attack": [
+      {
+        "label": "Attack",
+        "type": "melee",
+        "range": 1,
+        "attribute": "body",
+        "skill": "meleeWeapons",
+        "damage": 5,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "crushing",
+            "type": "boolean",
+            "value": true
+          },
+          {
+            "name": "magical",
+            "type": "boolean",
+            "value": true
+          },
+          {
+            "name": "push",
+            "type": "boolean",
+            "value": true
+          },
+          {
+            "name": "rend",
+            "type": "boolean",
+            "value": true
+          },
+          {
+            "name": "twoHanded",
+            "type": "boolean",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "5ff1babb-10f4-4cef-8a4f-28a77e376929"
+      }
+    ],
+    "attackNotes": "",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "b198cbd0-c9fc-4af0-95c6-394a624cc519"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680412319427,
+    "modifiedTime": 1708069765985,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "b6iOYrTfsSJbYqG5",
+  "_id": "j80ivcGhVATQnCeG",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!j80ivcGhVATQnCeG"
+}

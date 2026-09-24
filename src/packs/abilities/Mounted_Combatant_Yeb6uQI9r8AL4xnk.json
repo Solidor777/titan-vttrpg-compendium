@@ -1,0 +1,43 @@
+{
+  "name": "Mounted Combatant",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p>You are trained to use a mount in combat.</p><ul><li><p>You have <strong>Advantage</strong> on attack checks made against an unmounted creature that is smaller than your mount.</p></li><li><p>When an attack would target your mount, you can force the attack to target you instead.</p></li><li><p>If your mount must make a <strong>Reflexes</strong> check to avoid <strong>Damage</strong>, it takes only half as much damage as it normally would.</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "49cdfe51-c609-4db1-ac0a-7bda032276c7"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678675394974,
+    "modifiedTime": 1689641632806,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 7100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "Yeb6uQI9r8AL4xnk",
+  "_key": "!items!Yeb6uQI9r8AL4xnk"
+}

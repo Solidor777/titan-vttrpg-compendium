@@ -1,0 +1,61 @@
+{
+  "_id": "XmB0f2Q517Em4TXp",
+  "name": "Watery Grave",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Water_Tradition_Icon.webp",
+  "description": "<p>You are encased in a sphere of water.</p><p>You are <strong>Restrained.</strong></p><p>While <strong>Restrained</strong>, you begin to suffocate. At the start of your turn, you must make an opposed <strong>Resilience</strong> check, or fail to get your head out of the water.</p><p>If you fails a number of times greater than <strong>1</strong> + your <strong>Body</strong>, you die immediately as per the rules for <strong>Suffocation</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "lZLQYhDHDY7ridbx",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnStart",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": "Minutes"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Water",
+        "description": "",
+        "uuid": "1f9392d6-48f7-47da-b61e-3a4bc5c27afa"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Watery Grave: </strong>You are <strong>Restrained.</strong></p><p>At the start of your turn, you must make an opposed <strong>Resilience</strong> check, or fail to get your head out of the water.</p><p>If you fails a number of times greater than <strong>1</strong> + your <strong>Body</strong>, you die immediately as per the rules for <strong>Suffocation</strong>.</p>",
+        "uuid": "1e6b74e2-f0ce-4b05-a659-f0029bb2aa06"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680495335014,
+    "modifiedTime": 1708131870997,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!XmB0f2Q517Em4TXp"
+}

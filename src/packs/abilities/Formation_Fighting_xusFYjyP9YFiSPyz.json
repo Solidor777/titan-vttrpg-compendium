@@ -1,0 +1,53 @@
+{
+  "name": "Formation Fighting",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Melee Weapons</p><p>You are used to fighting side-by-side with your allies.</p><p>When you attack a creature that is within melee range of you and an ally, and you are within <strong>1 space</strong> of that ally, you increase your <strong>Melee</strong> by <strong>+1</strong>.</p><p>If you both have this ability, you increase your <strong>Melee</strong> by <strong>+2</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "attackType",
+        "key": "melee",
+        "message": "<p><strong>Formation Fighting:</strong> When you attack a creature that is within melee range of you and an ally, and you are within <strong>1 space</strong> of that ally, you increase your <strong>Melee</strong> by <strong>+1</strong>.</p><p>If you both have this ability, you increase your <strong>Melee</strong> by <strong>+2</strong>.</p>",
+        "uuid": "744b1930-cb41-4ae9-9067-ea479b04475f",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "a73ca295-d25a-4c61-a113-9ee51d2e9e9b"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679804273168,
+    "modifiedTime": 1689641621254,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 5100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "xusFYjyP9YFiSPyz",
+  "_key": "!items!xusFYjyP9YFiSPyz"
+}

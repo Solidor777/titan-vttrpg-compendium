@@ -1,0 +1,66 @@
+{
+  "name": "Bound Weapon",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Metal_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You conjure an impossible strong weapon made of the purest alloy.</p><p>Choose yourself or a creature within <strong>10 </strong>spaces.</p><p>Until the end of their next turn, they gain one of the following weapons of your choice.</p><ul><li><p><strong>Bound Great Sword</strong></p><ul><li><p>Melee, 5 + ES Damage, Slashing, Two-Handed, Vicious, Magical, Cleave</p></li></ul></li><li><p><strong>Bound Great Hammer</strong></p><ul><li><p>Melee, 5 + ES Damage, Crushing, Push, Two-Handed, Magical, Rend</p></li></ul></li><li><p><strong>Bound Glaive</strong></p><ul><li><p>Melee, 4 + ES Damage, Slashing, Cleave, Range 2, Two-Handed, Magical, Penetrating</p></li></ul></li></ul><p>When the spell ends, the weapon disappears.</p><p>Each extra success extends the duration by <strong>+1 rounds</strong>. </p><p>The spell ends immediately if the creature is killed, knocked unconscious, or otherwise disarmed of the weapon.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.2SAYg6oo9keznVdF]{Bound Weapon}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Metal",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 3,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 2,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "3a506538-8332-4be6-bd81-7d3b5d8d799e"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680326442556,
+    "modifiedTime": 1708069773569,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "b6iOYrTfsSJbYqG5",
+  "_id": "fM4Rvz8UvmyMF2TR",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!fM4Rvz8UvmyMF2TR"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Iron Will",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Mind (2)</p><p>Your mind is an unshakable fortress.</p><p>You have <strong>Advantage</strong> on <strong>Willpower</strong> checks to resist effects that would force you to act against your will.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "resistance",
+        "selector": "resistance",
+        "key": "willpower",
+        "message": "<p><strong>Iron Will:</strong> You have <strong>Advantage</strong> on <strong>Willpower</strong> Checks to resist effects that would force you to act against your will.</p>",
+        "uuid": "3023105a-2809-4425-8295-813cc21814d0",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "d0fae876-c0bb-4782-96f8-44fdae4e9243"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678491186104,
+    "modifiedTime": 1689641628240,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 6200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "t7kh6aEtqZIYpZBK",
+  "_key": "!items!t7kh6aEtqZIYpZBK"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Cautious Spell",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Expertise (1) in Arcana</p><p>You have learned to control and shape your most deadly spells to avoid harming your allies.</p><p>When your spell targets an area, you can choose a number of <strong>spaces</strong> equal to your <strong>Expertise</strong> in <strong>Arcana</strong> to be unaffected by the spell.</p><p>You may choose to move the excluded <strong>spaces</strong> with a target when you cast the spell.</p><p>If you are maintaining a spell, you may reallocate the excluded <strong>spaces</strong> at any point during your turn.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "0d29d81a-265c-483f-b6a7-0c9b73b69c14"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678426747110,
+    "modifiedTime": 1689665529899,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 1700000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "rW18oexNaSenmY51",
+  "_key": "!items!rW18oexNaSenmY51"
+}

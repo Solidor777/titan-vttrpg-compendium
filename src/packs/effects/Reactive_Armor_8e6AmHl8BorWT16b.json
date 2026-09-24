@@ -1,0 +1,68 @@
+{
+  "_id": "8e6AmHl8BorWT16b",
+  "name": "Reactive Armor",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Metal_Tradition_Icon.webp",
+  "description": "<p>You wrap yourself in liquid metal that acts to defend you when threatened.</p><p>Your <strong>Defense </strong>increases by <strong>+1</strong>.</p><p>You may end the spell early to negate an attack, sacrificing the armor in the process.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "uFa1Ccptl4K1DDCq",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnStart",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Metal",
+        "description": "",
+        "uuid": "162ad7e6-1bdf-4784-bf79-b3c27e5f418e"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "rating",
+        "key": "defense",
+        "value": 1,
+        "uuid": "171e32bc-cc6f-45d3-9753-0ec0a1222a91"
+      },
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Reactive Armor:</strong> Your <strong>Defense </strong>increases by <strong>+1</strong>.</p><p>You may end the spell early to negate an attack, sacrificing the armor in the process.</p>",
+        "uuid": "3854ba53-c510-4f3f-9ad5-c9359d44fccc"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680411410488,
+    "modifiedTime": 1708069801432,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!8e6AmHl8BorWT16b"
+}

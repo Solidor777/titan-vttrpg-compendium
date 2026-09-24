@@ -1,0 +1,75 @@
+{
+  "name": "Stormcaller's Terror",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Stormcaller_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> Self</p><p><strong>Area:</strong> 5-space-radius</p><p>You emit a burst of malefic lightning that tears into your foes and inspires them to fear.</p><p>Each enemy within a <strong>5-space-radius</strong> of you must make a <strong>Resilience</strong> check opposed by your <strong>Soul (Metaphysics)</strong> or take <strong>Damage</strong> equal to the difference in successes.</p><p>Additionally, you may choose to spend <strong>1 Resolve</strong> to inflict the <strong>Frightened</strong> condition on all enemies <strong>Damaged</strong> by this ability until the start of your next turn.</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 0,
+        "isDamage": true,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "resilience",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "damageReducedBy": "resistanceCheck",
+        "uuid": "0f3e6a35-2f05-4018-8c15-71081fc4889b"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "bc8a3c20-81c9-408a-b7d7-c09bebec4dc2"
+      },
+      {
+        "name": "Stormcaller",
+        "description": "",
+        "uuid": "9d651c48-46fa-4ca8-9357-a2f57d134f15"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "3wygLHBNXPW58FHz",
+  "ownership": {
+    "default": 0,
+    "jqPKS4y5hfCZQjOU": 3
+  },
+  "flags": {
+    "titan": {
+      "uuid": "b68e0238-7f63-4e99-b0e9-ad6b4d287561"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1709629166546,
+    "modifiedTime": 1709793439303,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "S7VDFCdvFj6JBwBZ",
+  "sort": 0,
+  "_key": "!items!S7VDFCdvFj6JBwBZ"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Blood Feast",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/RedFaith_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve or 1 source of fresh blood</p><p><strong>Range:</strong> Self</p><p>You gorge yourself on the blood of your foes.</p><p>Until the start of your next turn, whenever you inflict <strong>Damage</strong> to a living creature with blood, you regain <strong>Stamina</strong> equal to half the <strong>Damage</strong> dealt (minimum of <strong>1</strong>).</p><p>If you <strong>Damage</strong> a swarm, you recover <strong>Stamina</strong> equal to the <strong>Damage</strong> dealt.</p><p>You may spend <strong>1 Resolve</strong> or <strong>1 source of fresh blood</strong> at the start of your turn to sustain this effect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.siAyYgUyyZdLVh0u]{Blood Feast}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Red Faith",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "0c2222da-2e4a-482a-9e21-85acec2dbd9f"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708070674588,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "MN8iKfuLJ7p9mHEL",
+  "_id": "sBvd0cGbbRuubIKQ",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!sBvd0cGbbRuubIKQ"
+}

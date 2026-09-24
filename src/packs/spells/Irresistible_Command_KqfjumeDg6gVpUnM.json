@@ -1,0 +1,76 @@
+{
+  "name": "Irresistible Command",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Thought_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You force those around you to follow an order that you give them.</p><p>Choose a thinking creature within <strong>10 spaces</strong>. It must make a <strong>Willpower</strong> check or spend its next action performing a simple command, such as \"kneel, kill them, run away,\" etc.</p><p>Your command can be no more than 3 words long.</p><p>You cannot command a creature to volunteer information in this way, but you can force it to say a specific phrase.</p><p>Creatures automatically resist commands that would bring obvious harm to themselves.</p><p>If the command is for the creature to do something that goes strongly against its character, it has <strong>Advantage</strong> on the check to resist.</p><p>Each extra success increases the number of affected creatures by <strong>+1</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "rare",
+    "tradition": "Thought",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "label": "Command",
+        "scaling": false,
+        "initialValue": 0,
+        "cost": 1,
+        "resistanceCheck": "willpower",
+        "isDamage": false,
+        "isHealing": false,
+        "uuid": "a6bfa26f-0b17-4154-96da-b72449877453"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 2,
+        "enabled": true
+      },
+      {
+        "label": "extraTargets",
+        "scaling": true,
+        "initialValue": 0,
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "879a90dc-3e8a-4fec-9640-a397bf9f542e"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432594185,
+    "modifiedTime": 1708069897470,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "q4SiCGJUqYlzrQ7o",
+  "_id": "KqfjumeDg6gVpUnM",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!KqfjumeDg6gVpUnM"
+}

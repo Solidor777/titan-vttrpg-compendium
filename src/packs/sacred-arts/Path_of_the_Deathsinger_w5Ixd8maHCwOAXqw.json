@@ -1,0 +1,48 @@
+{
+  "_id": "w5Ixd8maHCwOAXqw",
+  "name": "Path of the Deathsinger",
+  "type": "ability",
+  "img": "icons/magic/death/skull-horned-white-purple.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must have been killed by the Dead Mother or one of her children and returned from her remaking.</p><p>The Dead Mother, the Dread God of Death and Rebirth, does not hate the creatures she unmakes. She sings to them. Those who hear the song say it is a song of affection and of plain maternal intent — to make her children stronger, smarter, and better suited to whatever trials she believes the world is preparing for them.</p><p>She begins by killing them.</p><p>Two kinds of mortals carry her power and remain themselves. The first pledged their souls and willingly submitted to their rebirth. The second she began to remake and did not finish. They died, and something came back partway. and then something interrupted the process.</p><p>Either way, the bearers of her gift hear her song eternally, its refrain growing louder the nearer they draw to her or her other children.</p><ul><li><p>Select <strong>1</strong> <strong>Path Ability</strong> with the <strong>Deathsinger</strong> trait. You immediately gain that <strong>Ability</strong> without the associated XP cost.</p></li><li><p>You always hear the Dead Mother's song, whether you wish it or not. Whether it is faint or loud depends on how far away she and her children are. When they are far and few, it may be barely audible background chords. When they are near and many, it becomes a cacophonous chorus.</p></li><li><p>As a <strong>Free Action</strong>, you can focus on the Dead Mother's song to perceive the location of every <strong>corpse</strong> and every child of the Dead Mother within <strong>10 spaces</strong>. Beyond <strong>10 spaces</strong> and out to <strong>1 mile</strong> you learn the approximate direction of her nearest child, roughly how far away it lies, and whether the children in that direction are one, a few, or many</p></li><li><p>Animals are instinctively unsettled by your presence.</p></li><li><p>The Dead Mother's children will instinctively defend you, so long as you do not interfere with their purpose.</p></li></ul>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Deathsinger",
+        "description": "",
+        "uuid": "a7063d7a-714c-444e-a2f0-539ee83b9565"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "jK7GLuYF5ujhCkb6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!w5Ixd8maHCwOAXqw"
+}

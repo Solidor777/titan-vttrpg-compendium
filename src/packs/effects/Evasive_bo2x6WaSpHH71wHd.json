@@ -1,0 +1,56 @@
+{
+  "_id": "bo2x6WaSpHH71wHd",
+  "name": "Evasive",
+  "type": "effect",
+  "img": "icons/svg/daze.svg",
+  "description": "<p>If you move at least <strong>5 spaces</strong>, your <strong>Defense</strong> increases by <strong>+1</strong> until the start of your next turn.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "f8GbJRZi0IyOnPon",
+  "sort": 4600000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnStart",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "rating",
+        "key": "defense",
+        "value": 1,
+        "uuid": "109283eb-c266-426d-bf75-96853ddc800b"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678854066629,
+    "modifiedTime": 1689641618563,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!bo2x6WaSpHH71wHd"
+}

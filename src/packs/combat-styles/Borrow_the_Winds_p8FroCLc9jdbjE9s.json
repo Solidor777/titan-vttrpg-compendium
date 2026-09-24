@@ -1,0 +1,53 @@
+{
+  "_id": "p8FroCLc9jdbjE9s",
+  "name": "Borrow the Winds",
+  "type": "ability",
+  "img": "icons/magic/air/air-wave-gust-blue.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> At least 1 Spellcasting Tradition with the Air trait, and you must be utilizing Zephyr Style</p><p>Your arcane knowledge of the wind empowers your martial techniques.</p><p>You may use <strong>Mind</strong> in place of <strong>Body</strong> for <strong>Ranged</strong> and <strong>Melee</strong> attack checks.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Combat Style",
+        "description": "",
+        "uuid": "04d37919-3760-4915-a465-f93a6771cf2d"
+      },
+      {
+        "name": "Zephyr Style",
+        "description": "",
+        "uuid": "cb41165d-aa81-475d-a4f5-12aa76419127"
+      },
+      {
+        "name": "Air",
+        "description": "",
+        "uuid": "aa8a1bdb-d349-4f06-aae6-bf79ed73cf46"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "ItKmuvdZ6wPszJVg",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!p8FroCLc9jdbjE9s"
+}

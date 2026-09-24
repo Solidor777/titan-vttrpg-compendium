@@ -1,0 +1,74 @@
+{
+  "name": "The Dragon Conquers",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlackFlames_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve or 1 Wound</p><p><strong>Range:</strong> Self</p><p><strong>Area:</strong> 10-space radius</p><p>You bellow a challenge to your enemies, compelling them to face you.</p><p>As an <strong>Action</strong>, choose any number of creatures within a <strong>10-space radius</strong> of you, and make a<strong> 4:1 Soul (Metaphysics)</strong> check, resisted by the creature's <strong>Willpower</strong>.</p><p>If a chosen creature fails, its <strong>Melee</strong> and <strong>Accuracy</strong> are reduced by <strong>-1</strong> when attacking creatures other than you. If it casts a targeted offensive spell that does not target you, then the <strong>Complexity</strong> of the spell is increased by <strong>+1</strong>.</p><p>This effect lasts until the end of combat, you become <strong>Incapacitated</strong>, or you are <strong>Dying</strong>.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.bLLwyrv7KuVS1JLe]{The Dragon Conquers}</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 1,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "willpower",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "130789fb-6004-4273-ae4c-d44ed903c994"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "3e28d4c5-45e2-4972-9792-ce09ecfee7c2"
+      },
+      {
+        "name": "Black Flame",
+        "description": "",
+        "uuid": "befd8c9d-0f8e-4f39-8131-70635a939ebc"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "7c6bf8d6-a1a7-43ad-9c5f-46b79d38641e"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679035139495,
+    "modifiedTime": 1709798536531,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "FGlkMf2awlp6zTb7",
+  "_id": "S0bgORSF89VE3cBH",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!S0bgORSF89VE3cBH"
+}

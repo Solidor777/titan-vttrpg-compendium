@@ -1,0 +1,68 @@
+{
+  "name": "Truth-Sight",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Thought_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You watch the thoughts of those you converse with to know whether they are lying or telling the truth.</p><p>For <strong>10 minutes</strong>, you can tell whether a creature you are speaking with is lying, is telling the truth, or is confused.</p><p>All creatures may make an opposed <strong>Willpower</strong> check to resist this effect. You know if a creature succeeded or failed on this check.</p><p>Each extra success extends the duration by <strong>+10 minutes</strong>.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.ZKCGl9BKGZvk2sje]{Truth-Sight}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "rare",
+    "tradition": "Thought",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 5,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "label": "10 Minutes",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "willpower",
+        "isDamage": false,
+        "isHealing": false,
+        "uuid": "a6bfa26f-0b17-4154-96da-b72449877453"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "cost": 0,
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "e8ff5894-5700-4736-bccf-9b74cb979968"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432594185,
+    "modifiedTime": 1708069927363,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "q4SiCGJUqYlzrQ7o",
+  "_id": "qfrx8S3a5u4w5WE3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!qfrx8S3a5u4w5WE3"
+}

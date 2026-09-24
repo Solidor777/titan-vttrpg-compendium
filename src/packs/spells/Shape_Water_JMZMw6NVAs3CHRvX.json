@@ -1,0 +1,66 @@
+{
+  "name": "Shape Water",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Water_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You shape water according to your will.</p><p>Choose a space of water or ice within <strong>10 spaces</strong>.</p><p>You can move that water or ice to an adjacent space or lift it up to <strong>1 space</strong> above the ground.</p><p>Alternatively, you can carefully shape water and ice while the spell is active, such as creating an ice sculpture, or clearing water from a path.</p><p>Additionally, you can freeze or unfreeze water instead of moving it.</p><p>Your control over the water lasts until the start of your next turn, after which it returns to normal.</p><p>While this spell is active, you can use an <strong>Action</strong> to manipulate water again, selecting the same target or a new target as you wish. If you select a new target, you relinquish control over the previous target.</p><p>Each extra success extends the duration of your control by +<strong>1 rounds</strong>.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.yVI8Op6nz2bS1sQo]{Shape Water}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Water",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "6f96f1f0-a926-4c38-ad2a-88c0ca9ee524"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680493043231,
+    "modifiedTime": 1708131843325,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "a0K7AcNakRL8353B",
+  "_id": "JMZMw6NVAs3CHRvX",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!JMZMw6NVAs3CHRvX"
+}

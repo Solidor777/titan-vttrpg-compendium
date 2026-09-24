@@ -1,0 +1,63 @@
+{
+  "_id": "kce2Usbrs5S8ILCa",
+  "name": "Radiant Blade",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Light_Tradition_Icon.webp",
+  "description": "<p><span style=\"font-family: 'Open Sans',sans-serif\"><strong style=\"font-weight:normal;\" id=\"docs-internal-guid-22c8a433-7fff-c427-baa8-21fa57b49f60\">Your weapon is bathed in focused, radiant light capable of cutting through sheer steel.</strong></span></p><p>The chosen weapon deals +1 <strong>Damage</strong> and gains the <strong>Magical</strong> and <strong>Rend</strong> traits.</p><p>Additionally, attacks with the weapon ignore <strong>Armor</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "2GEQqlcQlqbNuFSM",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "initiative",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Light",
+        "description": "",
+        "uuid": "93cadcbb-e865-4cf9-b08f-cab45dbffa32"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>Radiant Blade:</strong> The chosen weapon deals +1 <strong>Damage</strong> and gains the <strong>Magical</strong> and <strong>Rend</strong> traits.</p><p>Additionally, attacks with the weapon ignore <strong>Armor</strong>.</p>",
+        "uuid": "df0376db-72f8-4f58-a566-2bb69c6c3d17"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683785941033,
+    "modifiedTime": 1708069706557,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!kce2Usbrs5S8ILCa"
+}

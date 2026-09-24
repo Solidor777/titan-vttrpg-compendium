@@ -1,0 +1,96 @@
+{
+  "_id": "bnKtK2K8ShmlpoDM",
+  "name": "Kirin's Curse of Mortality",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/HornedKirin_Path_Icon.webp",
+  "description": "<p>You have been artificially aged by the power of a kirin.</p><p>Until the start of the ability user's next turn, your <strong>Melee</strong>, <strong>Accuracy</strong>, <strong>Defense</strong>, and <strong>Body</strong> are decreased by <strong>-1</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "edB7pRg13vh0D3YI",
+  "sort": 500000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "initiative",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "95fe9b47-7aa8-43f5-88f1-7f11eebd35be"
+      },
+      {
+        "name": "Horned Kirin",
+        "description": "",
+        "uuid": "1e86c5cd-7fec-4793-a982-4d0e2e885f2f"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "attribute",
+        "key": "body",
+        "value": -1,
+        "uuid": "2d38df32-af34-494b-afee-e7f0794033f1"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "rating",
+        "key": "defense",
+        "value": -1,
+        "uuid": "e3af49ea-b8e1-4ea5-8477-d20b86ad98b6"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "rating",
+        "key": "melee",
+        "value": -1,
+        "uuid": "7d75bf76-01b6-491b-b0be-8655b3bdc258"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "rating",
+        "key": "accuracy",
+        "value": -1,
+        "uuid": "5323bedf-9da0-4d65-8819-8464605019a0"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>Kirin's Curse of Mortality:</strong> Your <strong>Body</strong>, <strong>Melee</strong> and <strong>Accuracy</strong> are decreased by <strong>-1</strong>.</p>",
+        "uuid": "11d53c98-8bc5-4a54-a424-92cbd5dc258a"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679892865774,
+    "modifiedTime": 1708070106895,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!bnKtK2K8ShmlpoDM"
+}

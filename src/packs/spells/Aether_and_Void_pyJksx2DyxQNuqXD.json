@@ -1,0 +1,23 @@
+{
+  "name": "Aether and Void",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "pyJksx2DyxQNuqXD",
+  "sort": 600000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1689661258255,
+    "modifiedTime": 1708131880633,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "description": "",
+  "_key": "!folders!pyJksx2DyxQNuqXD"
+}

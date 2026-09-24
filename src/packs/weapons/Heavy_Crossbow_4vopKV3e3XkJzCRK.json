@@ -1,0 +1,78 @@
+{
+  "name": "Heavy Crossbow",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Body (3)</p><p>This large crossbow is hard to load and carry, but it more than makes up with the accuracy and power of its shots.</p>",
+    "check": [],
+    "customTrait": [],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "common",
+    "value": 250,
+    "attack": [
+      {
+        "label": "Attack",
+        "type": "ranged",
+        "range": 100,
+        "attribute": "body",
+        "skill": "rangedWeapons",
+        "damage": 2,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "penetrating",
+            "value": true
+          },
+          {
+            "name": "piercing",
+            "value": true
+          },
+          {
+            "name": "push",
+            "value": true
+          },
+          {
+            "name": "reload",
+            "value": true
+          },
+          {
+            "name": "twoHanded",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "118cafc4-9d02-42cf-a514-758a34bec3d1"
+      }
+    ],
+    "attackNotes": "",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "88a13e86-0f9a-44a1-8ac6-e07966840da2"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678260099088,
+    "modifiedTime": 1689662495284,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "ej4QZyKreCp4PpnJ",
+  "_id": "4vopKV3e3XkJzCRK",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!4vopKV3e3XkJzCRK"
+}

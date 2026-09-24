@@ -1,0 +1,74 @@
+{
+  "name": "Fox Dream",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/WhiteFox_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve</p><p><strong>Range:</strong> 30 spaces</p><p>You submerge the target in an illusory dream, rendering them helpless.</p><p>Select a creature within <strong>30 spaces</strong> and make a <strong>4:1</strong> <strong>Soul (Metaphysics)</strong> check, resisted by the target's <strong>Willpower</strong>. If the target is unaware of you, it has <strong>Disadvantage</strong> on the resistance check.</p><p>If the target fails. they are I<strong>ncapacitated</strong> until the start of your next turn, as they are immersed in an illusory dream of your choice.</p><p>This effect ends early if the target suffers any kind of damage, pain, or other intense physical reaction. Another creature can use an action to wake the target.</p><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain the effect, so long as the target is still within <strong>30 spaces</strong>.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.O2QWQlFpqmDEFBxK]{Fox Dream}</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 1,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "willpower",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "0608ec95-9d46-49fb-b0fb-0d3ce1e00bdb"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "a094e4bb-e282-4ae1-96d2-c184d8d995ce"
+      },
+      {
+        "name": "White Fox",
+        "description": "",
+        "uuid": "a9f729a8-b087-4e01-b74b-0002ae08619f"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "3f5ed03f-d22e-4169-8077-0d0720bcaa43"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679860356996,
+    "modifiedTime": 1708070312448,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "FP0IEhJWKJZvIHU4",
+  "_id": "fd6rddajaGY3aoLF",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!fd6rddajaGY3aoLF"
+}

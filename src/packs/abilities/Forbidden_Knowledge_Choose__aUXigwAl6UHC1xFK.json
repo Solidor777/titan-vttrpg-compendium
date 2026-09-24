@@ -1,0 +1,43 @@
+{
+  "name": "Forbidden Knowledge (Choose)",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must have discovered a source of ancient and terrible knowledge</p><p>Choose a skill from <strong>Arcana</strong>, <strong>Lore</strong>, or <strong>Metaphysics</strong>.</p><p>When you make a check relating to the chosen skill, you may choose to gain bonus dice equal to your level of training in the skill.</p><p>However, if you do so and then fail the check, your carelessness brings something dark into the world.</p><p>The form of this darkness is at the GM's discretion. The knowledge is twisted in some way to manipulate you, consulting the information causes something horrible to take notice of you, or the laws of the universe immediately act to extinguish you. Whatever happens, will be bad for you and those close to you.</p><p>You can take this <strong>Ability</strong> multiple times, selecting a new skill each time.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "77b6af5e-6c0c-4731-9239-908bcdb7d3e2"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678491471301,
+    "modifiedTime": 1689643204033,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "BREMSBSeD2axMtcr",
+  "_id": "aUXigwAl6UHC1xFK",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!aUXigwAl6UHC1xFK"
+}

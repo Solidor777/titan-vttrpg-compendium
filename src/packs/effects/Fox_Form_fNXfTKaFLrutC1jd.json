@@ -1,0 +1,75 @@
+{
+  "_id": "fNXfTKaFLrutC1jd",
+  "name": "Fox Form",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/WhiteFox_Path_Icon.webp",
+  "description": "<p>You have taken the form of a White Fox, granting you speed, stealth, and protection from predators.</p><p>You and your affected allies gain the following effects for as long as they remain within <strong>10 spaces</strong> of you.</p><ul><li><p>Your <strong>Size</strong> becomes <strong>1/2</strong>.</p></li><li><p>Your <strong>Stride</strong> speed increases by <strong>+5</strong>.</p></li><li><p>You gain a bonus to your <strong>Training</strong> in <strong>Stealth</strong> equal to the <strong>Training</strong> in <strong>Metaphysics</strong> of the creature that used this ability.</p></li><li><p>Most animals will ignore you unless you provoke them first.</p></li></ul>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "6o25IOVRRN368aKC",
+  "sort": 400000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnStart",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "White Fox",
+        "description": "",
+        "uuid": "e59fdd4e-c6eb-439b-995b-c36e07011fe4"
+      },
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "02181edf-2d78-47bf-b6c4-673e20b2b768"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "training",
+        "key": "stealth",
+        "value": 1,
+        "uuid": "d5ee3188-6276-485f-a1ff-7b32e9c0a8d8"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "any",
+        "selector": "skill",
+        "key": "stealth",
+        "message": "<p><strong>Fox Form:</strong> You gain a bonus to your <strong>Training</strong> in <strong>Stealth</strong> equal to the <strong>Training</strong> in <strong>Metaphysics</strong> of the creature that used this ability.</p>",
+        "uuid": "75298738-f718-48e6-a60a-3d68c1d96ce8"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679858962190,
+    "modifiedTime": 1708070324117,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!fNXfTKaFLrutC1jd"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Heroic Challenge",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p>You call out a challenge to one of your enemies, demanding they face you.</p><p>As an <strong>Action</strong>, choose a creature within <strong>10 spaces</strong> of you.</p><p>The target's <strong>Melee</strong> and <strong>Accuracy</strong> are reduced by <strong>-1</strong> when attacking creatures other than you. If it casts an offensive spell that does not target you, then the <strong>Complexity</strong> of the spell is increased by <strong>-1</strong>.</p><p>This effect lasts until the end of combat, you become <strong>Incapacitated</strong>, or you are <strong>Dying</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "9a033703-1c5d-4cd7-a87e-ec5d3cca7a54"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680488910641,
+    "modifiedTime": 1689641625007,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 5700000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "T6uqrhgi13z9rH64",
+  "_key": "!items!T6uqrhgi13z9rH64"
+}

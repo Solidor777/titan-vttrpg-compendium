@@ -1,0 +1,94 @@
+{
+  "name": "Shield of Thorns",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Wood_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>Roots and vines spring from the earth, cladding your allies in a protective barrier of thorns.</p><p>You and each creature of your choice within a <strong>5-space-radius</strong> of you gains <strong>+1 Armor</strong> until the start of your next turn.</p><p>Additionally, any attacker that hits a creature affected by this spell suffers <strong>1 Damage</strong>.</p><p>Each extra success increases the <strong>Damage</strong> by +<strong>1</strong>.</p><p>Alternatively, you can choose to extend the duration of the effect by <strong>+1 rounds</strong> per extra success.</p><p>You can also increase the <strong>Armor</strong> granted by <strong>+1</strong> per 2 extra successes.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.saIsuT9RTeOVrDWc]{Shield of Thorns}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Wood",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 5,
+      "complexity": 2,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "radius",
+        "initialValue": 5,
+        "cost": 3,
+        "enabled": true
+      },
+      {
+        "label": "damage",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": true,
+        "option": [],
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "increaseMod",
+        "initialValue": 1,
+        "option": [
+          "armor"
+        ],
+        "cost": 2,
+        "scaling": true,
+        "enabled": true,
+        "scalingCost": 2
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "f2ecd399-d683-4a57-8587-bd211855dbe0"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680493043231,
+    "modifiedTime": 1708131941319,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "81wXy8a8Hc2rI79w",
+  "_id": "m49Vcv7eKqKB1J00",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!m49Vcv7eKqKB1J00"
+}

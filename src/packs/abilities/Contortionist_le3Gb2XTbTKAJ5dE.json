@@ -1,0 +1,43 @@
+{
+  "name": "Contortionist",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Dexterity</p><p>You have learned to bend and twist your limbs in ways that most people would never imagine.</p><ul><li><p>You had <strong>Advantage</strong> on opposed checks to escape bindings or another creature's grasp</p></li><li><p>You can fit into unusually tight and cramped spaces, such as narrow pipes or small containers</p></li><li><p>You can squeeze through tight passages at your normal <strong>Stride</strong> speed</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "b0e1cd47-0c16-416e-a88a-7127c1799e4f"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678429986663,
+    "modifiedTime": 1689641604945,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 2300000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "le3Gb2XTbTKAJ5dE",
+  "_key": "!items!le3Gb2XTbTKAJ5dE"
+}

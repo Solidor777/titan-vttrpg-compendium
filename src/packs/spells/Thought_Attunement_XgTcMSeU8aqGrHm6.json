@@ -1,0 +1,83 @@
+{
+  "name": "Thought Attunement",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Thought_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>Your magic speeds your thoughts and clears your mind.</p><p>You gain a <strong>+1</strong> bonus to your <strong>Mind</strong> until the start of your next turn.</p><p>Each extra success extends the duration by <strong>+1 rounds</strong>.</p><p>Alternatively, you may increase the bonus to <strong>Mind</strong> by <strong>+1</strong> per 4 extra successes.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.KovdiI79WR2VSbRA]{Thought Attunement}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Attunement",
+        "description": "",
+        "uuid": "37f8400b-74b7-4763-a0ed-df041b381faf"
+      }
+    ],
+    "xpCost": 0,
+    "rarity": "rare",
+    "tradition": "Thought",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 2,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "increaseAttribute",
+        "initialValue": 1,
+        "cost": 4,
+        "option": [
+          "mind"
+        ],
+        "scaling": true,
+        "enabled": true,
+        "scalingCost": 4
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "7344a6cb-a02c-4961-afff-cfe5f5aea1c8"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432594185,
+    "modifiedTime": 1708069920680,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "q4SiCGJUqYlzrQ7o",
+  "_id": "XgTcMSeU8aqGrHm6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!XgTcMSeU8aqGrHm6"
+}

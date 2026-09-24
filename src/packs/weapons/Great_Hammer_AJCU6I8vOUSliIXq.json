@@ -1,0 +1,70 @@
+{
+  "name": "Great Hammer",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Body (3)</p><p>This massive hammer is too heavy to wield with only one hand. It consists of a wooden haft and a heavy, metal head.</p>",
+    "check": [],
+    "customTrait": [],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "common",
+    "value": 260,
+    "attack": [
+      {
+        "label": "Attack",
+        "type": "melee",
+        "range": 1,
+        "attribute": "body",
+        "skill": "meleeWeapons",
+        "damage": 3,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "crushing",
+            "value": true
+          },
+          {
+            "name": "twoHanded",
+            "value": true
+          },
+          {
+            "name": "push",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "438eb146-d1e6-4188-b007-ea581fe1b087"
+      }
+    ],
+    "attackNotes": "",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "73445b70-364f-42a2-9c41-f446161cf7f6"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678250300160,
+    "modifiedTime": 1689662470751,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "BsiAASgtfrITuRWZ",
+  "_id": "AJCU6I8vOUSliIXq",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!AJCU6I8vOUSliIXq"
+}

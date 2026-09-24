@@ -1,0 +1,66 @@
+{
+  "_id": "QTnjwOjUvec1rUND",
+  "name": "Stormcaller's Malice",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Stormcaller_Path_Icon.webp",
+  "description": "<p>You have been struck by a bolt of malefic lightning.</p><p>You are <strong>Blinded</strong> at the start of the ability user's turn.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "tDSEPeJxeF0SFUfd",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "initiative",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Stormcaller",
+        "description": "",
+        "uuid": "86744761-5f80-41bf-abd2-3807e53d463b"
+      },
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "04b0ff45-5abb-4db5-8be6-d05f86ec662f"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Stormcaller's Malice: </strong>You are <strong>Blinded</strong> at the start of the ability user's turn.</p>",
+        "uuid": "b6d1bebd-aa11-44cd-b33a-be2af9903b09"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1709791393748,
+    "modifiedTime": 1709793127057,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!QTnjwOjUvec1rUND"
+}

@@ -1,0 +1,64 @@
+{
+  "_id": "mP59gJgyT61y0sYb",
+  "name": "Jade Agility",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/JadeWarrior_Path_Icon.webp",
+  "description": "<p>You are focusing jade energy to defy gravity and balance your body.</p><p>Until the start of your next turn, you gain a bonus to your <strong>Training</strong> in <strong>Dexterity</strong> equal to your <strong>Training</strong> in <strong>Metaphysics</strong>.</p><p>Additionally, you can jump three times as high and as far, and you can balance on surfaces that would normally be too precarious, such as a tightrope or a narrow beam.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "cV7lsKikLWOS0u21",
+  "sort": 1100000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnStart",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [],
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "any",
+        "selector": "skill",
+        "key": "dexterity",
+        "message": "<p><strong>Jade Agility:</strong> You gain a bonus to your <strong>Training</strong> in <strong>Dexterity</strong> equal to your <strong>Training</strong> in <strong>Metaphysics</strong>.</p><p>Additionally, you can jump three times as high and as far, and you can balance on surfaces that would normally be too precarious, such as a tightrope or a narrow beam.</p>",
+        "uuid": "cc525b2e-a1c7-4815-8b88-c374da4b36fc"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "training",
+        "key": "dexterity",
+        "value": 1,
+        "uuid": "c380b830-10ac-4be3-9506-46f4be3e6122"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680159741257,
+    "modifiedTime": 1708070179971,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!mP59gJgyT61y0sYb"
+}

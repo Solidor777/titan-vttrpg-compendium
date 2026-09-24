@@ -1,0 +1,74 @@
+{
+  "name": "Compulsion of the Arbiter",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Arbiter_Path_Icon.webp",
+  "system": {
+    "description": "<p>You break the will of another creature, compelling it to answer your questions. However, using this compulsion is inherently addictive, and more than a few Arbiters have succumbed to its twisted pleasure.</p><p>Ask a question of a creature that can hear and understand you.</p><p>If it does not have <strong>Resolve</strong>, it immediately answers your question as directly and truthfully as possible. This experience is extremely unpleasant for the creature asked but causes no physical harm.</p><p>If it does have <strong>Resolve</strong>, it may make an opposed <strong>Willpower</strong> check against your <strong>Soul (Metaphysics)</strong> to resist answering the question.</p><p>The first time in a day that you use this ability, you suffer no ill effects.</p><p>For all subsequent uses, you must make a <strong>4:X Willpower</strong> check, where X is the number of times you have used this ability since your last <strong>Long Rest</strong>.</p><p>If you fail this check, you succumb to the addiction, and begin to ask the same or completely random questions over and over again. This continues until you run out of breath, or something else physically forces you to stop talking.</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 0,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "willpower",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "3397b437-6f61-43aa-9828-210f9c22ded3"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Arbiter",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "0b58cbce-3873-4d56-b208-fca9da6c093b"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708071669319,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "7hLsjAGUXV6dcNwV",
+  "_id": "IofZ5WkOmxQQWXWb",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!IofZ5WkOmxQQWXWb"
+}

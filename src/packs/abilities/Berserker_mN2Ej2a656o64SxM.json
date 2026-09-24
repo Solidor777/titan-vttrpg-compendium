@@ -1,0 +1,43 @@
+{
+  "name": "Berserker",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p>You care little for your own safety and aim to cause as much harm as possible to your enemies.</p><p>Once per turn, you can choose to reduce your <strong>Defense</strong> to a minimum of <strong>0</strong>, and increase your <strong>Melee</strong> by an amount equal to the reduction in <strong>Defense</strong> as a <strong>Free Action</strong> on your turn.</p><p>The changes to your <strong>Defense</strong> and <strong>Melee</strong> last until the start of your next turn.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.mGvm8SRjeplj0gDX]{Berserker}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "0c29a3b4-1e79-43de-8b88-6d54b07363e3"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678427709624,
+    "modifiedTime": 1689641595785,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "mN2Ej2a656o64SxM",
+  "_key": "!items!mN2Ej2a656o64SxM"
+}

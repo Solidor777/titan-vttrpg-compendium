@@ -1,0 +1,43 @@
+{
+  "name": "Shield Master",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Shield Expert, Training (2) in Melee Weapons</p><p>You have learned to use your shield for both offense and defense.</p><ul><li><p>Once per turn, if you take the <strong>Attack</strong> action while you have a shield raised, you can attempt to <strong>Shove</strong> a creature within <strong>1 space</strong> of you as a <strong>Free Action</strong>.</p></li><li><p>If you are not <strong>Stunned</strong> or <strong>Incapacitated</strong>, you can add <strong>bonus dice</strong> equal to your shield's <strong>Defense</strong> bonus to your <strong>Reflexes</strong> checks. This includes the bonus to <strong>Defense</strong> gained from <strong>Shield Expert</strong>.</p></li></ul><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.s3gulrmHUVC2dOnE]{Shield Master}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "c288dee9-c5ef-4f2d-a0ec-a7a82b7dd05e"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678776352581,
+    "modifiedTime": 1689641648186,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 9700000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "EZIZdAVfGLQZ3jUt",
+  "_key": "!items!EZIZdAVfGLQZ3jUt"
+}

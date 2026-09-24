@@ -1,0 +1,54 @@
+{
+  "name": "Blue Spirit's Guidance",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlueSpirit_Path_Icon.webp",
+  "system": {
+    "description": "<p>You ask the Blue Spirit to show you either the most direct or least difficult path towards a particular destination or goal. Your request is answered with the appearance of a shining ribbon of light visible only to you, tracing whichever route best fits your request for the next day.</p><p>If you ask for the most direct route, the revealed path is as close to a straight line to your destination as possible given the means of transportation currently available to you.</p><p>If you ask for the least difficult path, the answer reveals the route with the least amount of difficult terrain, natural hazards, and other such hindrances, though it does not account for the influence or threat of creatures.</p><p>If you use this ability again to show a different path, the previous path disappears.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "dcc580f9-1361-4098-827d-7886c6ba77d6"
+      },
+      {
+        "name": "Blue Spirit",
+        "description": "",
+        "uuid": "c9a3fc5a-c50a-41dd-bf0e-6be202b5146c"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "b6156a5d-8150-40dc-b862-0b9c3a7cd866"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679896033670,
+    "modifiedTime": 1708070731999,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "ZCjngOnzbhhPE8h6",
+  "_id": "oEphAzq97Vlxk4eE",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!oEphAzq97Vlxk4eE"
+}

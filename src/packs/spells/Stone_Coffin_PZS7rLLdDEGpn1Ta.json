@@ -1,0 +1,88 @@
+{
+  "name": "Stone Coffin",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Earth_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You bury your enemy in crushing stone.</p><p>Choose a target within <strong>10 spaces</strong>. It must succeed on an opposed <strong>Reflexes</strong> check or become <strong>Incapacitated</strong> until the start of your next turn.</p><p>If the target fails its opposed check, you may choose to inflict <strong>1 Damage</strong> at the start of the target's turn, as the stone attempts to crush them. This <strong>Damage</strong> ignores <strong>Armor</strong>.</p><p>Each extra success increases the <strong>Damage </strong>by <strong>+1</strong>.</p><p>Alternatively, you may increase the duration of the spell by <strong>+1 rounds</strong> per extra success.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.ebmxpkQKp2fwvNRx]{Stone Coffin}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Earth",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 5,
+      "complexity": 2,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 2,
+        "enabled": true
+      },
+      {
+        "label": "damage",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "reflexes",
+        "isDamage": true,
+        "option": [
+          "ignoreArmor"
+        ],
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "enabled": true,
+        "unit": "rounds",
+        "initialValue": 1,
+        "cost": 1,
+        "scalingCost": 1
+      },
+      {
+        "label": "inflictCondition",
+        "cost": 3,
+        "option": [
+          "incapacitated"
+        ],
+        "resistanceCheck": "reflexes",
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "9cbf5463-0430-4a0a-9883-d6c94a3abef2"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680236393504,
+    "modifiedTime": 1708131711727,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "qBppNKVIZWEtBvhM",
+  "_id": "PZS7rLLdDEGpn1Ta",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!PZS7rLLdDEGpn1Ta"
+}

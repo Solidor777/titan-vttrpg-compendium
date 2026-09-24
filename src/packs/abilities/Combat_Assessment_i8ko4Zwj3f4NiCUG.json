@@ -1,0 +1,43 @@
+{
+  "name": "Combat Assessment",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p>You are skilled at sizing up your opponents and have a good sense of your odds in a fight.</p><p>As an <strong>Action</strong>, you can study an enemy. If you do so, you may choose to learn <strong>2</strong> of the following pieces of information:</p><ul><li><p>Whether their <strong>Body</strong> is higher or lower than yours.</p></li><li><p>Whether their <strong>Stamina</strong> is higher or lower than yours.</p></li><li><p>Whether their total <strong>XP</strong> is higher or lower than yours.</p></li><li><p>Whether the enemy is a <strong>Minion</strong>, a <strong>Warrior</strong>, an <strong>Elite</strong>, or a <strong>Champion</strong>.</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "a0926e02-e73a-4c12-b5e9-7f0d726011c9"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678934974210,
+    "modifiedTime": 1689641601965,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 2000000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "i8ko4Zwj3f4NiCUG",
+  "_key": "!items!i8ko4Zwj3f4NiCUG"
+}

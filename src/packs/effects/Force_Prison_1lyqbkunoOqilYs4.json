@@ -1,0 +1,61 @@
+{
+  "_id": "1lyqbkunoOqilYs4",
+  "name": "Force Prison",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Force_Tradition_Icon.webp",
+  "description": "<p>Spikes of kinetic energy surround you, harming you if you try to move.</p><p>You take <strong>1 Damage</strong> each time you <strong>Move</strong>, take the <strong>Charge</strong> or <strong>Run</strong> action, or are moved by another effect. This <strong>Damage</strong> ignores <strong>Armor</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "enm7KmNh4pl8916s",
+  "sort": 1200000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "initiative",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": "Hours"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Force",
+        "description": "",
+        "uuid": "a6e06733-da73-4693-9884-9810a9e45c60"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Force Prison: </strong>You take <strong>1 Damage</strong> each time you <strong>Move</strong>, take the <strong>Charge</strong> or <strong>Run</strong> action, or are moved by another effect. This <strong>Damage</strong> ignores <strong>Armor</strong>.</p>",
+        "uuid": "d42c167a-3555-45cb-be5a-ad309d24aa91"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432985113,
+    "modifiedTime": 1708069524246,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!1lyqbkunoOqilYs4"
+}

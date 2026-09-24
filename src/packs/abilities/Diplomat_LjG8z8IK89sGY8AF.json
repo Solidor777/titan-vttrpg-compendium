@@ -1,0 +1,71 @@
+{
+  "name": "Diplomat",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Diplomacy</p><p>Your soothing words and natural empathy allow you to calm others when things grow tense.</p><ul><li><p>You have <strong>Advantage</strong> on <strong>Diplomacy</strong> checks to resolve a conflict or get your way in an argument, <strong>Perception</strong> checks to gauge other people's moods, and <strong>Investigation</strong> checks to tell if someone is lying.</p></li><li><p>Most people will act courteously, even if they don’t particularly like you.</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attribute",
+        "selector": "skill",
+        "key": "diplomacy",
+        "message": "<p><strong>Diplomat:</strong> You have <strong>Advantage</strong> on <strong>Diplomacy</strong> checks to resolve a conflict or get your way in an argument.</p>",
+        "uuid": "7abe1fb9-f4d3-4795-b388-f84ba106fab4",
+        "type": "ability"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "attribute",
+        "selector": "skill",
+        "key": "perception",
+        "message": "<p><strong>Diplomat:</strong> You have <strong>Advantage</strong> on <strong>Perception</strong> checks to gauge other people's moods.</p>",
+        "uuid": "a3ed147c-4874-4ff8-a604-305159e599ae",
+        "type": "ability"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "attribute",
+        "selector": "skill",
+        "key": "investigation",
+        "message": "<p><strong>Diplomat:</strong> You have <strong>Advantage</strong> on <strong>Investigation</strong> checks to tell if someone is lying.</p>",
+        "uuid": "59c11803-3269-447f-af3c-c82c7cdeaf7b",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "076b58a5-5594-4c79-a40d-f05363306983"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678598392316,
+    "modifiedTime": 1689641610577,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 3300000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "LjG8z8IK89sGY8AF",
+  "_key": "!items!LjG8z8IK89sGY8AF"
+}

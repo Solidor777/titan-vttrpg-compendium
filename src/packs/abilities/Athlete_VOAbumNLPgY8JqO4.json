@@ -1,0 +1,43 @@
+{
+  "name": "Athlete",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Body (2)</p><p>You have undergone extensive physical training.</p><ul><li><p>When you are <strong>Prone</strong>, you can stand up with only <strong>1 space</strong> of movement.</p></li><li><p>You can <strong>Climb</strong> at your normal Stride speed without making an <strong>Athletics</strong> check, provided that you have handholds or climbing equipment.</p></li><li><p>You make a running long jump or a running high jump after only <strong>1 space</strong> of movement, instead of the usual <strong>2 spaces</strong>.</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "22b137ed-9c54-4462-a6e4-22b3eb0d33d0"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678689556818,
+    "modifiedTime": 1689641593998,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "VOAbumNLPgY8JqO4",
+  "_key": "!items!VOAbumNLPgY8JqO4"
+}

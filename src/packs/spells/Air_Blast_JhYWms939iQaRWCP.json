@@ -1,0 +1,79 @@
+{
+  "name": "Air Blast",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Air_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You launch an air blast at your enemy, knocking them away.</p><p>Choose a target within <strong>10 spaces.</strong> It takes <strong>1 Damage</strong> and must make an opposed <strong>Resilience</strong> check or be pushed 5 spaces away.</p><p>Each extra success increases the <strong>Damage</strong> by <strong>+1</strong>.</p><p>Alternatively, you may increase the distance of the push by +1 per extra success.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Air",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "resistanceCheck": "resilience",
+        "isDamage": false,
+        "isHealing": false,
+        "label": "Push",
+        "scaling": true,
+        "initialValue": 5,
+        "cost": 1,
+        "uuid": "acf9d8a6-fe9a-460a-8560-fbf9cd7ad9ba"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 2,
+        "enabled": true
+      },
+      {
+        "label": "damage",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": true,
+        "option": [],
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "218fe904-8ac1-4710-ba94-fe5e1b831c8d"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680493043231,
+    "modifiedTime": 1708069416012,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "9Jx7ybrnDHJqOqgA",
+  "_id": "JhYWms939iQaRWCP",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!JhYWms939iQaRWCP"
+}

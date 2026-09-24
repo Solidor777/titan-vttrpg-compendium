@@ -1,0 +1,77 @@
+{
+  "name": "Animate Metal",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Metal_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You control a piece of metal at range.</p><p>Until the start of your next turn, you can lift and manipulate a piece of metal large enough to fill a 1/2 space cube at a rate of <strong>10 spaces</strong> per round.</p><p>You can use this to make a melee attack at range, using a weapon or an improvised weapon, so long as the target is within <strong>10 spaces</strong>. If you do so, you use your <strong>Mind</strong> instead of your <strong>Body</strong> on the attack roll.</p><p>If you try to take an object away from another creature, it must make an opposed <strong>Resilience</strong> check to keep hold of the object.</p><p>Other uses of this spell include ripping the hinges off a door or levitating a ring of keys across a room.</p><p>If you do not move the object, you may instead spend the turn exercising fine control over its movements, such as turning a key in a lock.</p><p>Each extra success extends the duration by <strong>+1 rounds</strong>.</p><p>When the spell ends, the animated object falls to the ground, or may be retrieved by you so long as it is within your reach.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.0d7HoC3Jah73Jn0L]{Animate Metal}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Metal",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "label": "Disarm",
+        "scaling": false,
+        "initialValue": 0,
+        "cost": 1,
+        "resistanceCheck": "resilience",
+        "isDamage": false,
+        "isHealing": false,
+        "uuid": "28d859fe-4b0f-401f-abad-066f3d0da910"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "3a506538-8332-4be6-bd81-7d3b5d8d799e"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680326442556,
+    "modifiedTime": 1708069756818,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "b6iOYrTfsSJbYqG5",
+  "_id": "qAFnAgEiIfZ9qkHx",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!qAFnAgEiIfZ9qkHx"
+}

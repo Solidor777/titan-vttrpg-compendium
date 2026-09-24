@@ -1,0 +1,43 @@
+{
+  "name": "Well-Connected",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p>You may not know everything about everyone, but you can usually find someone who does.</p><ul><li><p>You have <strong>Advantage</strong> on checks to gather information about rumors and recent happenings.</p></li><li><p>You have <strong>Advantage</strong> on checks to locate and negotiate with information brokers.</p></li><li><p>Most people will be willing to make time to talk with you, even if they are not supposed to share the information you need.</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "24205b83-562b-4dce-8b31-bf2573b897d9"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678934213891,
+    "modifiedTime": 1689641660677,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 11900000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "4I20P1J1NVQ6AgtU",
+  "_key": "!items!4I20P1J1NVQ6AgtU"
+}

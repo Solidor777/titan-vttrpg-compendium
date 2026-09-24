@@ -1,0 +1,54 @@
+{
+  "name": "Path of Veiled Moon",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/VeiledMoon_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must receive training from another follower of the Path of the Veiled Moon, or have access to their teachings</p><p>The <strong>Veiled Moon</strong> discipline was originally a means for communing with spirits through focused meditation, with the moon acting as an anchor that existed within both the physical and spiritual worlds. However, when the art's practitioners learned how to slip between the two planes of existence, it became instantly popular with spies, thieves, and assassins.</p><p>Thus, many of the discipline's techniques today are focused on moving unseen and striking with lethal precision.</p><ul><li><p>Select <strong>1</strong> <strong>Path Ability</strong> with the <strong>Veiled Moon</strong> trait. You immediately gain that <strong>Ability</strong> without the associated XP cost.</p></li><li><p>As a <strong>Free Action</strong>, you can focus your senses to perceive any invisible object or creature, including incorporeal spirits that would not normally be visible.</p></li></ul><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.kyEYKvFNP9oVHTgJ]{Path of Veiled Moon}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Veiled Moon",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "9e38f61c-726d-46fc-a4de-99963b0c5c1b"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708070227494,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "NrpKPaISnIluoXVQ",
+  "_id": "d3CodLKCCTiE9hp8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!d3CodLKCCTiE9hp8"
+}

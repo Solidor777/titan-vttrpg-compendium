@@ -1,0 +1,88 @@
+{
+  "name": "Boulder Roll",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Earth_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You draw a huge boulder out of the ground and send it rolling towards your foes.</p><p>Draw a <strong>10-space-line</strong>, starting at any point within <strong>10 spaces</strong> of you.</p><p>Creatures the selected spaces take <strong>1 Damage</strong>, and must succeed on an opposed <strong>Reflexes</strong> check, or be knocked <strong>Prone</strong>.</p><p>If they succeed, they must move to an adjacent space, out of the path of the boulder. If no such space exists, they automatically fail.</p><p>Each extra success increases the <strong>Damage</strong> by <strong>+1</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Earth",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 5,
+      "complexity": 2,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": false,
+        "label": "Line",
+        "scaling": false,
+        "initialValue": 10,
+        "cost": 0,
+        "uuid": "a426b17b-02a1-40f5-9a8b-670146b80c85"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 2,
+        "enabled": true
+      },
+      {
+        "label": "damage",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": true,
+        "option": [],
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "inflictCondition",
+        "cost": 1,
+        "option": [
+          "prone"
+        ],
+        "resistanceCheck": "reflexes",
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "4d3f09fa-1454-4d74-bc14-293423b582af"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680236393504,
+    "modifiedTime": 1708131667276,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "qBppNKVIZWEtBvhM",
+  "_id": "Vp2GCL78DUkptgD2",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!Vp2GCL78DUkptgD2"
+}

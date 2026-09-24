@@ -1,0 +1,101 @@
+{
+  "name": "Tidal Surge",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Water_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You unleash a blast of fast-moving water.</p><p>Choose a point within <strong>10 spaces. </strong>Creatures between you and the chosen location take <strong>1 Damage</strong> and must make an opposed <strong>Resilience </strong>check or be pushed back <strong>1 space</strong> and fall <strong>Prone</strong>.</p><p>Each extra success increases the <strong>Damage</strong> by <strong>+1</strong>.</p><p>Alternatively, you may increase the number of spaces pushed by <strong>+1</strong> per extra success.</p><p>You may also extend the duration of this effect by +1 rounds per extra success, with the <strong>Damage</strong> and <strong>Resilience </strong>check recurring at the start of your turn. If you move, this effect ends immediately.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.yFTZvnjO138X7KYG]{Tidal Surge}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Water",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 3,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "label": "Line",
+        "scaling": false,
+        "initialValue": 10,
+        "cost": 2,
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": false,
+        "uuid": "55f50097-acae-499f-94c6-981e11b9f22d"
+      },
+      {
+        "label": "Push",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "resilience",
+        "isDamage": false,
+        "isHealing": false,
+        "uuid": "2250c83c-0cf9-4722-894b-34da3df6c5ee"
+      },
+      {
+        "label": "Rounds",
+        "scaling": true,
+        "initialValue": 0,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": false,
+        "uuid": "a3a02284-1091-4f7e-8d26-37af004d2f3b"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "damage",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": true,
+        "option": [],
+        "enabled": true
+      },
+      {
+        "label": "inflictCondition",
+        "cost": 1,
+        "option": [
+          "prone"
+        ],
+        "resistanceCheck": "reflexes",
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "ea95a968-7319-4fa2-b094-e1e692b60c2c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680493043231,
+    "modifiedTime": 1708131855135,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "a0K7AcNakRL8353B",
+  "_id": "FDbywYidLneftySg",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!FDbywYidLneftySg"
+}

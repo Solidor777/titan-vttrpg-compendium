@@ -1,0 +1,53 @@
+{
+  "_id": "8tDlW6mA4uyTyoFX",
+  "name": "Gust Strike",
+  "type": "ability",
+  "img": "icons/magic/air/air-wave-gust-blue.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must be utilizing Zephyr Style.</p><p><strong>Cost:</strong> 1-2 Focus</p><p>You strike as the wind does — touching, then gone.</p><p>Spend -<strong>1 Focus</strong> and then make an attack with a <strong>Melee</strong> weapon. If the attack deals <strong>Damage</strong>, you may immediately move <strong>2 spaces</strong>. This movement does not trigger attacks or effects that respond to your movement.</p><p><strong>Enhancement.</strong> If, when you make this attack, you are at least <strong>2 spaces</strong> from the space you occupied at the start of your turn, you may spend an additional <strong>-1 Focus</strong> before rolling to gain <strong>Advantage</strong> on the attack.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Combat Style",
+        "description": "",
+        "uuid": "04d37919-3760-4915-a465-f93a6771cf2d"
+      },
+      {
+        "name": "Zephyr Style",
+        "description": "",
+        "uuid": "cb41165d-aa81-475d-a4f5-12aa76419127"
+      },
+      {
+        "name": "Air",
+        "description": "",
+        "uuid": "aa8a1bdb-d349-4f06-aae6-bf79ed73cf46"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "ItKmuvdZ6wPszJVg",
+  "sort": 800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!8tDlW6mA4uyTyoFX"
+}

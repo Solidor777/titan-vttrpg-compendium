@@ -1,0 +1,43 @@
+{
+  "name": "Underdog",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Expertise (1) in Melee Weapons</p><p>You fight better when backed into a corner.</p><p>If two or more enemies and no allies are adjacent to you at the start of your turn, your <strong>Melee</strong> increases by <strong>+1</strong>.</p><p>This benefit lasts until the start of your next turn.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.zISFHvIhaNYH0IO7]{Underdog}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "1a8b061f-ef32-411d-9b41-41bed8bacd62"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678681370507,
+    "modifiedTime": 1689641658666,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 11500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "JM09epWr4L4HZPWU",
+  "_key": "!items!JM09epWr4L4HZPWU"
+}

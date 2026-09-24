@@ -1,0 +1,66 @@
+{
+  "_id": "O2QWQlFpqmDEFBxK",
+  "name": "Fox Dream",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/WhiteFox_Path_Icon.webp",
+  "description": "<p>You are immersed in an illusory dream.</p><p>You are<strong> Incapacitated</strong> until the start of the ability user's next turn.</p><p>This effect ends early if you suffer any kind of damage, pain, or other intense physical reaction. Another creature can use an action to wake you.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "6o25IOVRRN368aKC",
+  "sort": 1000000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "initiative",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "b5ea3dce-59a0-42d2-a3d5-feb5aeba88aa"
+      },
+      {
+        "name": "White Fox",
+        "description": "",
+        "uuid": "84e5ae4a-cec5-42d1-925b-231b7f77f555"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Fox Dream:</strong> You are<strong> Incapacitated</strong> until the start of the ability user's next turn.</p><p>This effect ends early if you suffer any kind of damage, pain, or other intense physical reaction. Another creature can use an action to wake you.</p>",
+        "uuid": "ca73c457-4890-464c-b7c5-a1f02f36e1fc"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679875562320,
+    "modifiedTime": 1708070314754,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!O2QWQlFpqmDEFBxK"
+}

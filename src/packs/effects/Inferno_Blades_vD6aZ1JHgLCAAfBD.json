@@ -1,0 +1,63 @@
+{
+  "_id": "vD6aZ1JHgLCAAfBD",
+  "name": "Inferno Blades",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Fire_Tradition_Icon.webp",
+  "description": "<p>Your weapons are wrapped in burning flames.</p><p>Weapons affected by this spell deal <strong>+1 Damage</strong> and are considered <strong>Magical</strong>.</p><p>If a weapon affected by this spell deals <strong>Damage</strong>, the target is set on fire. They suffer <strong>1 Damage</strong> at the start of their turn, which ignores <strong>Armor</strong>.</p><p>The target remains on fire until they or another creature use an <strong>Action</strong> to extinguish the flames.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "f0n5Mzr4qSnhYH2e",
+  "sort": 500000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnStart",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Fire",
+        "description": "",
+        "uuid": "e90f3fc1-5ed3-4635-a062-aa5132af6b3f"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>Inferno Blades:</strong> Weapons affected by this spell deal <strong>+1 Damage</strong> and are considered <strong>Magical</strong> until the start of your next turn.</p><p>If a weapon affected by this spell deals <strong>Damage</strong>, the target is set on fire. They suffer <strong>1 Damage</strong> at the start of their turn, which ignores <strong>Armor</strong>.</p><p>The target remains on fire until they or another creature use an <strong>Actio</strong>n to extinguish the flames.</p>",
+        "uuid": "1d4c5896-f15b-4773-a88d-697f747bc410"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680237702469,
+    "modifiedTime": 1708131776770,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!vD6aZ1JHgLCAAfBD"
+}

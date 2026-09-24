@@ -1,0 +1,43 @@
+{
+  "name": "Spiritual Denial",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Expertise (1) in Metaphysics</p><p>You know how to best defend yourself against the sacred arts.</p><p>If a <strong>Path Ability</strong> targets you or would affect you, you gain bonus dice equal to your <strong>Expertise</strong> in <strong>Metaphysics</strong> to any checks made to resist the effects of the ability.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "db71e1aa-e887-4259-bdbd-f94b1f1ff752"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678930758800,
+    "modifiedTime": 1701674394151,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 10300000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "sY1S6Cd9cnHPrhUJ",
+  "_key": "!items!sY1S6Cd9cnHPrhUJ"
+}

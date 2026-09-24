@@ -1,0 +1,91 @@
+{
+  "name": "Weapon Specialization (Choose)",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Body (4) and Training (2) in Melee Weapons or Ranged Weapons, depending on the chosen weapon type.</p><p>You have become an expert at fighting with a particular type of weapon.</p><p>Choose a weapon type (sword, spear, longbow, etc). You gain <strong>+1 bonus dice</strong> and <strong>+1 bonus expertise</strong> when attacking with your chosen weapon.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "customTrait",
+        "key": "Choose",
+        "message": "<p><strong>Weapon Specialization:</strong> You gain 1 bonus dice and 1 bonus expertise when attacking with your chosen weapon.</p>",
+        "uuid": "5f3288ed-2fac-4959-8b01-65f8917c1c29",
+        "type": "ability"
+      },
+      {
+        "operation": "conditionalDiceModifier",
+        "checkType": "attack",
+        "selector": "customTrait",
+        "key": "Choose",
+        "value": 1,
+        "uuid": "c5c3dd9e-54df-403b-8470-63bb9475a238",
+        "type": "ability"
+      },
+      {
+        "operation": "conditionalExpertiseModifier",
+        "checkType": "attack",
+        "selector": "customTrait",
+        "key": "Choose",
+        "value": 1,
+        "uuid": "405777b5-33cf-4caf-8545-551e8a982f78",
+        "type": "ability"
+      },
+      {
+        "operation": "conditionalCheckModifier",
+        "modifierType": "dice",
+        "checkType": "attack",
+        "selector": "customTrait",
+        "key": "Choose",
+        "value": 1,
+        "uuid": "b9e4c26c-13a1-40f3-91d8-ca71fd87de13",
+        "type": "ability"
+      },
+      {
+        "operation": "conditionalCheckModifier",
+        "modifierType": "expertise",
+        "checkType": "attack",
+        "selector": "customTrait",
+        "key": "Choose",
+        "value": 1,
+        "uuid": "227af7c4-44c8-49a1-9d52-aaf7dcd999c3",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "73b42a27-cd96-4cab-a82d-81c9aa02b348"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678779093324,
+    "modifiedTime": 1708069350738,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 11800000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "2IEBnwcEIemby2Wy",
+  "_key": "!items!2IEBnwcEIemby2Wy"
+}

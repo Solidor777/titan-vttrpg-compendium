@@ -1,0 +1,941 @@
+{
+  "name": "Rules Reference",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Character Creation and Progression",
+      "type": "text",
+      "_id": "7My9mNdh4lC4ycBe",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Creating a character is a straightforward process. You are granted a certain amount of <strong>XP</strong>, and you use that <strong>XP</strong> to determine your starting <strong>Attributes</strong>, <strong>Skills</strong>, and <strong>Abilities</strong> you want to start with.</p><p>Based on your <strong>Attributes</strong> and <strong>Skills</strong>, you calculate your <strong>Resources</strong> and <strong>Ratings</strong>.</p><p>As you achieve goals, the GM will award you more <strong>XP</strong>, which you can use to increase your <strong>Attributes</strong> and <strong>Skills</strong>, or to purchase new <strong>Abilities</strong>.</p><p>How much <strong>XP</strong> you start with depends on the power level of the game. Some suggested amounts are listed below.</p><ul><li><p><strong>Lethal and Dangerous</strong></p><ul><li><p>15 XP</p></li></ul></li><li><p><strong>Low-Fantasy</strong></p><ul><li><p>20 XP</p></li></ul></li><li><p><strong>Heroic Fantasy</strong></p><ul><li><p>40 XP</p></li></ul></li><li><p><strong>Epic Fantasy</strong></p><ul><li><p>60 XP</p></li></ul></li></ul><h2>Increasing Attributes</h2><p>All <strong>Attributes</strong> start at <strong>Rank 1</strong>. You may spend <strong>XP</strong> to increase any one of your <strong>Attributes</strong> according to the table below.</p><table><thead><tr><th>Rank</th><th>Incremental XP Cost</th><th>Total XP Cost</th></tr></thead><tbody><tr><td>2</td><td>2</td><td>2</td></tr><tr><td>3</td><td>5</td><td>7</td></tr><tr><td>4</td><td>7</td><td>14</td></tr><tr><td>5</td><td>9</td><td>23</td></tr><tr><td>6</td><td>11</td><td>34</td></tr><tr><td>7</td><td>13</td><td>47</td></tr><tr><td>8</td><td>15</td><td>62</td></tr><tr><td>9</td><td>17</td><td>79</td></tr><tr><td>10</td><td>19</td><td>98</td></tr></tbody></table><h2>Increasing Skills</h2><p>All <strong>Skills</strong> start with <strong>0 Training</strong> and <strong>Expertise</strong>. Both <strong>Training</strong> and <strong>Expertise</strong> must be raised separately.</p><p>Your <strong>Training</strong> in a <strong>Skil</strong>l can never exceed your highest <strong>Attribute</strong>, and your <strong>Expertise</strong> in a <strong>Skill</strong> can never exceed your <strong>Training</strong> in that <strong>Skill</strong>.</p><p>You may spend <strong>XP</strong> to increase either your <strong>Training</strong> or your <strong>Expertise</strong> in a <strong>Skill</strong> according to the table below.</p><table><thead><tr><th>Rank</th><th>Incremental XP Cost</th><th>Total XP Cost</th></tr></thead><tbody><tr><td>1</td><td>1</td><td>1</td></tr><tr><td>2</td><td>2</td><td>3</td></tr><tr><td>3</td><td>4</td><td>7</td></tr><tr><td>4</td><td>6</td><td>13</td></tr><tr><td>5</td><td>8</td><td>21</td></tr><tr><td>6</td><td>10</td><td>31</td></tr><tr><td>7</td><td>12</td><td>43</td></tr><tr><td>8</td><td>14</td><td>57</td></tr><tr><td>9</td><td>16</td><td>73</td></tr><tr><td>10</td><td>18</td><td>91</td></tr></tbody></table><h2>Gaining Abilities</h2><p>Unless otherwise noted, all <strong>Abilities</strong> cost <strong>2XP</strong> to add to your character. For more information, see <strong>Abilities</strong>.</p><h2>Gaining and spending XP</h2><p><strong>XP</strong> is the measure of a character's overall abilities — how experienced they are at what they do, and how accomplished they are in the world. It is used to upgrade your character’s stats and purchase new abilities for them to use.</p><p><strong>XP</strong> is granted as a reward for accomplishing goals with significance to your character. The GM may use a variety of factors for determining whether or not a character should be awarded <strong>XP</strong>, but the standard metric is as follows.</p><p>At the end of the session ask 3 questions:</p><p>1. Did we accomplish an important goal?</p><p>2. Did we learn something new and important about the world?</p><p>3. Did we learn something new and important about another player character?</p><p>For each question to which the answer is 'yes,' the GM may award the party <strong>1 XP</strong>.</p><p><strong>XP</strong> should be spent when your character has time to step, reflect, and recover. During a <strong>Long Rest</strong> is standard. Depending on what you wish to spend your <strong>XP</strong> on, the GM may require you to have access to mentors, training facilities, or other sources of knowledge.</p><h2>Rarity</h2><p>Items, spells, and abilities have an associated <strong>Rarity</strong>. This represents how easily it can be found in the world. This may be used by the GM to determine how difficult an object or ability is to obtain.</p><h3>Common</h3><p><strong>Common</strong> items and abilities are easy to find in places where objects and abilities of this sort exist. Most shops, mages, and temples should have access to them.</p><h3>Uncommon</h3><p><strong>Uncommon</strong> items and abilities can be found by those who know where to look. Characters may need to perform a service or task to gain access.</p><h3>Rare</h3><p><strong>Rare</strong> items and abilities are extremely difficult to find. They are almost never readily available, and searching for them can be an adventure in itself.</p><h3>Unique</h3><p><strong>Unique</strong> items and abilities are among the most powerful and sought after in the world. Obtaining them may be the goal of an entire adventuring arc.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "titan",
+        "systemVersion": "1.0.0",
+        "coreVersion": "11.308",
+        "createdTime": 1693012567817,
+        "modifiedTime": 1693081620017,
+        "lastModifiedBy": "1uwfFLT06n0mGQLi",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mczts3I29Q5vaopp.7My9mNdh4lC4ycBe"
+    },
+    {
+      "sort": 200000,
+      "name": "Attributes",
+      "type": "text",
+      "_id": "1Tp0Yx2DrkA53eVo",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Attributes</strong> describe your innate capabilities — your physical prowess, your intelligence, and your strength of will. Each character has three core <strong>Attributes</strong>: <strong>Body</strong>, <strong>Mind</strong>, and <strong>Soul</strong>.</p><h2>Body</h2><p><strong>Body</strong> is your overall strength, speed, and coordination. Characters with a high <strong>Body</strong> tend to do well in a physical fight and excel at manual labor.</p><p><strong>Body</strong> affects your <strong>Melee</strong> (your effectiveness in close combat) and your <strong>Defense</strong> (your ability to avoid damage).</p><p><strong>Body</strong> also greatly affects your <strong>Resilience</strong> (your ability to endure pain and resist illnesses) and slightly affects your <strong>Reflexes</strong> (your ability to duck, dodge, and avoid sudden danger).</p><h2>Mind</h2><p><strong>Mind</strong> represents your intelligence, your awareness, and your ability to think on your feet. Characters with a high <strong>Mind</strong> are often inquisitive, quick witted, and adept at thinking their way around a problem.</p><p><strong>Mind</strong> affects your <strong>Accuracy</strong> (your ability with ranged weapons), your <strong>Initiative</strong> (how quickly your turn comes in combat), and your <strong>Awareness</strong> of your surroundings.</p><p><strong>Mind</strong> also greatly affects your <strong>Reflexes</strong> (your ability to duck, dodge, and avoid sudden danger) and slightly affects your <strong>Willpower</strong> (your ability to resist mental attacks).</p><h2>Soul</h2><p><strong>Soul</strong> represents your determination, sense of self, and spiritual power. Characters with a high <strong>Soul</strong> are frequently leaders, champions, and orators.</p><p><strong>Soul</strong> affects your <strong>Resolve</strong> (your ability to take extra actions or enhance your actions in combat).</p><p><strong>Soul</strong> also greatly affects your <strong>Willpower</strong> (your ability to resist mental attacks) and slightly affects your <strong>Resilience</strong> (your ability to endure pain and resist illnesses).</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "titan",
+        "systemVersion": "1.0.0",
+        "coreVersion": "11.308",
+        "createdTime": 1691949943155,
+        "modifiedTime": 1693009372745,
+        "lastModifiedBy": "1uwfFLT06n0mGQLi",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mczts3I29Q5vaopp.1Tp0Yx2DrkA53eVo"
+    },
+    {
+      "sort": 300000,
+      "name": "Skills",
+      "type": "text",
+      "_id": "XP0nY4yYpxPqKlm1",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Skills</strong> represent particular specialties you have learned, such as performing research, studying the arcane, or swinging a sword.</p><p>When you make a check to see whether you succeed at an action, you typically roll a number of dice equal to the most relevant Attribute + your level of Training in the most relevant Skill. Afterwards, you may modify the roll according to your level of Expertise in the skill. For more information, see Checks.</p><p>The following skills are available to learn.</p><h2>Arcana</h2><p>Measures how much you know about arcane magic and creatures.</p><h2>Athletics</h2><p>Your ability to perform acts of physical prowess.</p><h2>Deception</h2><p>Is your ability to lie and mislead.</p><h2>Dexterity</h2><p>Measures your ability to perform tasks requiring coordination, grace, and flexibility.</p><h2>Diplomacy</h2><p>Allows you to influence others through negotiation and flattery.</p><h2>Engineering</h2><p>Your ability to create, understand, and repair complex items.</p><h2>Intimidation</h2><p>Allows you to bend others to your will using threats.</p><h2>Investigation</h2><p>Measures your ability to find and make deductions from clues.</p><h2>Lore</h2><p>Measures your overall depth of knowledge in topics you are familiar with.</p><h2>Medicine</h2><p>Your ability to patch up wounds and treat diseases and poisons.</p><h2>Melee Weapons</h2><p>Measures your proficiency with close-range weapons.</p><h2>Metaphysics</h2><p>Measures your overall understanding of spiritual concepts and creatures.</p><h2>Nature</h2><p>Measures how much you know about the natural world, and your ability to command and train beasts.</p><h2>Perception</h2><p>Measures your ability to be aware of your environment and find hidden details.</p><h2>Performance</h2><p>Your ability to act in character or entertain an audience.</p><h2>Ranged Weapons</h2><p>Measures your proficiency with ranged weapons in combat.</p><h2>Subterfuge</h2><p>Your ability to steal, pick a lock, or perform other acts involving sleight of hand.</p><h2>Stealth</h2><p>Allows you to remain undetected from other creatures.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "titan",
+        "systemVersion": "1.0.0",
+        "coreVersion": "11.308",
+        "createdTime": 1693009376710,
+        "modifiedTime": 1693009891412,
+        "lastModifiedBy": "1uwfFLT06n0mGQLi",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mczts3I29Q5vaopp.XP0nY4yYpxPqKlm1"
+    },
+    {
+      "sort": 400000,
+      "name": "Resources",
+      "type": "text",
+      "_id": "N65RfKkRfDTPbdsg",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Resources</strong> are used in combat and represent how much punishment you can take in battle, and how far you can push yourself beyond what normal creatures can do.</p><p>All player characters have three <strong>Resources</strong>: <strong>Stamina</strong>, <strong>Wounds</strong>, and <strong>Resolve</strong>.</p><h2>Stamina</h2><p><strong>Stamina</strong> decreases by taking <strong>Damage</strong>.</p><p>When you have no <strong>Stamina</strong> remaining, any <strong>Damage</strong> you take increases your <strong>Wounds</strong>.</p><p>You recover all your <strong>Stamina</strong> when you complete a <strong>Short</strong> or <strong>Long Rest</strong>.</p><p>Your maximum <strong>Stamina</strong> is equal to <strong>2x</strong> your <strong>Body + Mind + Soul</strong>.</p><h2>Wounds</h2><p><strong>Wounds</strong> increase by taking <strong>Damage</strong> is excess of your remaining <strong>Stamina</strong>.</p><p>You start <strong>Dying</strong> when you take damage in excess of your maximum <strong>Wounds</strong> and <strong>Stamina</strong></p><p>Your maximum <strong>Wounds</strong> is equal to your <strong>½</strong> of your <strong>Body + Mind + Soul</strong>, rounded up.</p><h2>Resolve</h2><p><strong>Resolve</strong> is your ability to push yourself beyond your normal limits.</p><p><strong>1 Resolve</strong> is regained at the start of your turn in <strong>Combat</strong>.</p><p>You may spend <strong>Resolve</strong> during <strong>Combat</strong> to:</p><ul><li><p>Perform an extra <strong>Action.</strong></p></li><li><p>Use an <strong>Ability</strong> that requires <strong>Resolve.</strong></p></li><li><p>Reroll failures on a <strong>Check.</strong></p></li><li><p>Double your <strong>Training</strong> on a check, <strong><em>before</em></strong> the roll is made.</p></li><li><p>Double your <strong>Expertise</strong> on a check, <strong><em>before or after</em></strong> the roll is made.</p></li></ul><p>Your maximum <strong>Resolve</strong> is equal to <strong>½</strong> of your <strong>Soul</strong> rounded up.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "titan",
+        "systemVersion": "1.0.0",
+        "coreVersion": "11.308",
+        "createdTime": 1693011205084,
+        "modifiedTime": 1693079813347,
+        "lastModifiedBy": "1uwfFLT06n0mGQLi",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mczts3I29Q5vaopp.N65RfKkRfDTPbdsg"
+    },
+    {
+      "sort": 500000,
+      "name": "Resistances",
+      "type": "text",
+      "_id": "jk9Jb38szkE5Xrc8",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Resistances</strong> represent your ability to resist hostile effects — fighting off poison, ducking under an explosion, or withstanding a mental attack.</p><p>When you make a check to see if you resist an effect, you typically roll a number of dice equal to the relevant <strong>Resistance</strong>. For more information, see <strong>Checks</strong>.</p><p>Each character has three <strong>Resistances</strong>: <strong>Reflexes</strong>, <strong>Resilience</strong>, and <strong>Willpower</strong>.</p><h2>Reflexes</h2><p><strong>Reflexes</strong> is your ability to duck, dodge, and avoid sudden danger.</p><p>Your <strong>Reflexes</strong> are equal to your <strong>Mind</strong> <strong>+ ½</strong> of your <strong>Body</strong>, rounded down.</p><h2>Resilience</h2><p><strong>Resilience</strong> is your ability to endure pain and resist illnesses.</p><p>Your <strong>Resilience</strong> is equal to your <strong>Body</strong> <strong>+ ½</strong> of your <strong>Soul</strong>, rounded down.</p><h2>Willpower</h2><p><strong>Willpower</strong> is your ability to resist mental attacks.</p><p>Your <strong>Willpower</strong> is equal to your <strong>Soul</strong> <strong>+ ½</strong> of your <strong>Body</strong>, rounded down.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "titan",
+        "systemVersion": "1.0.0",
+        "coreVersion": "11.308",
+        "createdTime": 1692060728071,
+        "modifiedTime": 1693009209172,
+        "lastModifiedBy": "1uwfFLT06n0mGQLi",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mczts3I29Q5vaopp.jk9Jb38szkE5Xrc8"
+    },
+    {
+      "sort": 600000,
+      "name": "Ratings",
+      "type": "text",
+      "_id": "YPcJisnr4ff2f2SS",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>In addition to <strong>Attributes</strong>, <strong>Skills</strong>, and <strong>Resistances</strong>, you have various <strong>Ratings</strong> that affect everything from how difficult you are to hit, to how aware you are of your surroundings.</p><h2>Initiative</h2><p><strong>Initiative</strong> is your general readiness, and determines your turn order in combat.</p><p>Your <strong>Initiative</strong> is equal to <strong>½</strong> of your combined <strong>Mind</strong> and <strong>Training</strong> in both <strong>Dexterity</strong> and <strong>Perception</strong>, rounded up.</p><h2>Awareness</h2><p><strong>Awareness</strong> is your passive alertness and attention to detail.</p><p>Your <strong>Awareness</strong> is equal to <strong>½</strong> of your combined <strong>Mind</strong> and <strong>Training</strong> in <strong>Perception</strong>, rounded up.</p><h2>Defense</h2><p><strong>Defense</strong> is your ability to defend against attacks, and affects the <strong>Difficulty</strong> of attacks made against you.</p><p>Your <strong>Defense</strong> is equal to <strong>½</strong> of your combined <strong>Body</strong> and <strong>Training</strong> in <strong>Dexterity</strong>.</p><h2>Melee</h2><p><strong>Melee</strong> measures your effectiveness with close-range attacks, and affects the <strong>Difficulty</strong> of melee attacks you make.</p><p>Your <strong>Melee</strong> is equal to <strong>½</strong> of your combined <strong>Body</strong> and <strong>Training</strong> in <strong>Melee Weapons</strong>.</p><h2>Accuracy</h2><p><strong>Accuracy</strong> measures your effectiveness with ranged attacks, and affects the <strong>Difficulty</strong> of ranged attacks you make.</p><p>Your <strong>Accuracy</strong> is equal to <strong>½</strong> of your combined <strong>Mind</strong> and <strong>Training</strong> in <strong>Ranged Weapons</strong>.</p><h2>Armor</h2><p><strong>Armor</strong> decreases the amount of <strong>Damage</strong> taken when you are hit by attacks and spells.</p><p>Your <strong>Armor</strong> is determined by what gear, effects, and abilities you possess.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "titan",
+        "systemVersion": "1.0.0",
+        "coreVersion": "11.308",
+        "createdTime": 1692061024572,
+        "modifiedTime": 1693014564842,
+        "lastModifiedBy": "1uwfFLT06n0mGQLi",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mczts3I29Q5vaopp.YPcJisnr4ff2f2SS"
+    },
+    {
+      "sort": 700000,
+      "name": "Checks",
+      "type": "text",
+      "_id": "yP84DTEBpH5jXcJd",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Most of the time, when you want to do something dangerous, or that has a chance of failure, you will roll dice to determine the outcome. This is called making a check.</p><h2>Determine what to roll</h2><p>First, the GM will determine what you need to roll for a check. In most cases, this is typically one of your <strong>Attributes</strong>, and an appropriate <strong>Skill</strong>. This is presented as <strong>Attribute (Skill)</strong>, e.g., <strong>Mind (Perception)</strong> or <strong>Body (Athletics</strong>).</p><p>Some checks may require you to roll one of your <strong>Resistances</strong> instead of an <strong>Attribute</strong> and <strong>Skill</strong> combination, and others may add bonus or penalty dice.</p><h2>Determine the Difficulty and Complexity</h2><p>Nex the GM will determine the <strong>Difficulty</strong> and <strong>Complexity (DC)</strong> of the check. This is presented as <strong>Difficulty:Complexity</strong>, e.g., <strong>4:1</strong>, <strong>3:4</strong>, <strong>6:2</strong>.</p><p><strong>Difficulty</strong> is how high you have to roll on a six-sided die to achieve a success. The average <strong>Difficulty</strong> is <strong>4</strong>, but may be as low as <strong>2</strong> or as high as <strong>6</strong>, depending on what you are trying to do.</p><p><strong>Complexity</strong> is how many successes you have to achieve to pass the check. This is typically <strong>1</strong>, but may be a higher number if the task you are trying to do is especially complicated, or if there are other factors around to distract you.</p><p>The entire check may be presented as <strong>4:1 Body (Athletics)</strong>, <strong>5:2 Willpower</strong>, etc.</p><h2>Determine the number of Dice</h2><p>After you know what to roll, and the DC you need to pass the check, you next must determine how many dice to roll, and how much <strong>Expertise</strong> you can apply to your roll.</p><p>For most checks, your number of dice are determined by <strong>Attribute</strong> + <strong>Training</strong> in the relevant skill.</p><blockquote><p><strong><em>Example:</em></strong> Someone with a <strong>Body</strong> of <strong>3</strong> and <strong>2</strong> <strong>Training</strong> in <strong>Melee Weapons</strong> would roll <strong>5</strong> dice for a <strong>Body (Melee Weapons)</strong> check.</p></blockquote><p>For <strong>Resistance</strong> checks, you simply roll the number of dice equal to the relevant <strong>Resistance</strong>.</p><blockquote><p><strong><em>Example:</em></strong> Someone with <strong>3 Reflexes</strong> would roll <strong>3</strong> dice on a <strong>Reflexes</strong> check.</p></blockquote><p>Various abilities and circumstances can also grant bonuses or penalties to the number of dice being rolled.</p><p>Some effects or abilities may give you <strong>bonus dice</strong> or a <strong>dice penalty</strong> to your roll. These increase or decrease the number of dice you may roll respectively. The amount by which they affect the number of dice to roll is indicated in the bonus or penalty.</p><h3>Choose whether to Double Training</h3><p>If you have unspent <strong>Resolve</strong>, you can spend <strong>1 Resolve</strong> to double your <strong>Training</strong> in a <strong>Skill</strong> <em>before</em> you roll the dice. This can be useful if you are attempting a particularly important or difficult check.</p><blockquote><p><strong><em>Example:</em></strong> Someone with a <strong>Body</strong> of <strong>3</strong> and <strong>2</strong> <strong>Training</strong> in <strong>Melee Weapons</strong> could expend <strong>1 Resolve</strong> to increase their <strong>Training</strong> from <strong>2</strong> to <strong>4</strong> for this check, giving them <strong>7</strong> total dice.</p></blockquote><h2>Roll the Dice and count Successes</h2><p>After you have rolled all your dice, you count the number of successes to determine whether you have enough to pass the check.</p><p>A dice is a success if it rolled equal or higher to the <strong>Difficulty</strong> of the check.</p><p>To pass the check, you need a number of successes equal or higher than the <strong>Complexity</strong> of the check.</p><blockquote><p><strong><em>Example:</em></strong> You roll <strong>5</strong> dice on a <strong>DC 4:3</strong> check. You get <strong>4</strong>, <strong>6</strong>, <strong>3</strong>, <strong>5</strong>, and <strong>2</strong>, for a total of <strong>3 successes</strong>. Because your successes are equal or greater than the <strong>Complexity</strong> of the check, you will pass the check.</p><p>Suppose you roll again and get <strong>5</strong>, <strong>6</strong>, <strong>3</strong>, <strong>2</strong>, and <strong>2</strong>, for a total of <strong>2 successes</strong>. Because you have fewer than the <strong>Complexity</strong> of the check, you will fail the check unless you apply <strong>Expertise</strong>.</p></blockquote><h2>Apply Expertise</h2><p><strong>Expertise</strong> in a <strong>Skill</strong> can be used to modify the results of a roll after it has been rolled. You can increase the result of an individual die by <strong>+1</strong> per <strong>Expertise</strong>. Multiple points of <strong>Expertise</strong> can be applied to the same die.</p><blockquote><p><strong><em>Example:</em></strong> You roll <strong>5</strong> dice on a <strong>4:3</strong> <strong>Body (Athletics)</strong> check. You get <strong>5</strong>, <strong>6</strong>, <strong>2</strong>, <strong>2</strong>, and <strong>1</strong>, for a total of <strong>2</strong> <strong>successes</strong>.</p><p>You have <strong>2 Expertise</strong> in <strong>Athletics</strong>, which allows you to increase any die you rolled by <strong>+1</strong>. You can use both your <strong>Expertise</strong> points to increase one of the <strong>2s</strong> to a <strong>4</strong>, giving you <strong>5</strong>, <strong>6</strong>, <strong>4</strong>, <strong>2</strong>, and <strong>1</strong>.</p><p>Now that you have <strong>3 successes</strong>, you will pass the check.</p></blockquote><h3>Choose whether to Double Expertise</h3><p>If you have unspent <strong>Resolve</strong>, you can spend <strong>1 Resolve</strong> to double your <strong>Expertise</strong> in a <strong>Skill</strong> <em>before or after</em> you roll the dice. This can be useful if you are attempting a particularly important or difficult check.</p><blockquote><p><strong><em>Example:</em></strong> Someone with a <strong>1 Expertise</strong> in <strong>Athletics</strong> could expend <strong>1 Resolve</strong> to increase their <strong>Expertise</strong> from <strong>1</strong> to <strong>2</strong> for this check.</p></blockquote><h2>Count Extra Successes</h2><p>Some checks have extra effects if you achieve more than the necessary number of successes.</p><blockquote><p><strong><em>Example:</em></strong> Most weapons list their <strong>Damage</strong> in the format of <strong>2 + ES</strong>, meaning the amount of <strong>Damage</strong> they inflict is <strong>2</strong> + however many <strong>extra successe</strong>s you achieved on the check.</p><p>Thus, if you made a <strong>DC 4:1</strong> attack check with such a weapon, and rolled <strong>1 success</strong>, you would do <strong>2 Damage</strong>.</p><p>However, if you rolled <strong>3 successes</strong> on such a check, you would do <strong>4 Damage</strong> — <strong>2</strong> + the <strong>2 extra successes</strong> you rolled.</p></blockquote><h2>Opposed Checks</h2><p>Sometimes, you may be competing against another creature to perform an action. An example would be attempting to hide from a creature that is searching for you.</p><p>In this situation, you both roll your relevant dice, and compare your relative number of successes. Whoever has the most successes wins the opposed check. If both creatures are tied for the number of successes, the defending creature succeeds at the check.  The defending creature is typically the second creature mentioned in the check.</p><blockquote><p><strong><em>Example:</em></strong> Suppose you are hiding, and another creature is searching for you. The GM determines that the creature needs to make a <strong>4:1 Mind (Perception)</strong> check opposed by your <strong>4:1 Body (Stealth)</strong> check.</p><p>You both get 3 successes, but the GM determines that you are the defending creature, because you are trying to avoid being noticed. Thus, you succeed at the check, and remain unnoticed.</p></blockquote><p>The <strong>DC</strong> of an opposed check is typically <strong>4:1</strong> for both parties, though it can be modified by <strong>Advantage</strong> and <strong>Disadvantage</strong>.</p><h2>Advantage and Disadvantage</h2><p>Sometimes, circumstances may make a task harder or easier for you. In these cases, the GM can choose to grant you <strong>Advantage</strong> or <strong>Disadvantage</strong> on the check.</p><p><strong>Advantage</strong> <em>decreases</em> the <strong>Difficulty</strong> of the check by <strong>-1</strong> to a minimum of <strong>2</strong>, whereas <strong>Disadvantage</strong> increases the <strong>Difficulty</strong> of the check by <strong>+1 t</strong>o a maximum of <strong>6</strong>.</p><blockquote><p><strong><em>Example:</em></strong> Suppose you are attempting to hide from another creature and must make a <strong>Body (Stealth)</strong> check opposed by the other creature's <strong>Mind (Perception)</strong>.</p><p>The <strong>DC</strong> of your <strong>Stealth</strong> check would normally be <strong>4:1</strong>, but the GM decides that you have <strong>Advantage</strong> on the check because the area is dimly lit. This lowers the <strong>DC</strong> of the check to <strong>3:1</strong>, meaning you only need to roll a <strong>3</strong> or higher for a success.</p><p>Conversely, the searching creature had sand thrown in its eyes, so the GM decides to give it <strong>Disadvantage</strong> on the check. This raises the <strong>DC</strong> of its Perception check from <strong>4:1</strong> to <strong>5:1.</strong></p></blockquote><p><strong>Advantage</strong> and <strong>Disadvantage</strong> can be paired in an opposed check, but sometimes may only apply to one party.</p><p><strong>Advantage</strong> and <strong>Disadvantage</strong> can also be applied to normal checks.</p><blockquote><p><strong><em>Example:</em></strong> If you are attempting to walk a balance beam wearing wet shoes, the GM may decide your feet are especially slippery, giving you <strong>Disadvantage</strong> on the check.</p></blockquote><p>If you have two or more sources of <strong>Advantage</strong> on a check, you have <strong>Greater Advantage</strong>, which <em>decreases</em> the <strong>Difficulty</strong> of the check by <strong>-2</strong> to a minimum of <strong>2</strong>.</p><p>Similarly, if you have two or more sources of <strong>Disadvantage</strong> on a check, you have <strong>Greater Disadvantage</strong>, which <em>increases</em> the <strong>Difficulty</strong> of the check by <strong>+2</strong> to a maximum of <strong>6</strong>.</p><p><strong>Advantage</strong> cancels out <strong>Disadvantage</strong>, and vice versa — a creature with equal levels of <strong>Advantage</strong> and <strong>Disadvantage</strong> on a check will not be affected by either.</p><h2>Extended Checks</h2><p>Sometimes you may try to perform a task that is especially time consuming. In such cases, you may make an extended check.</p><p>For an extended check, the GM will periodically ask to roll your relevant <strong>Skill</strong> or <strong>Resistance</strong> for the check. After you achieve all the required successes, the task is complete.</p><p>The GM may decide to limit how many opportunities you have to roll for the check. If you do not achieve the necessary successes by the time your opportunities to roll have exhausted, you will fail the extended check.</p><blockquote><p><strong><em>Example:</em></strong> Suppose that you are attempting to supervise the construction of an airship. This is a long and complex task, so the GM tells you to make a <strong>4:12</strong> <strong>Mind (Engineering)</strong> extended check with <strong>3</strong> opportunities to roll over the course of the adventure.</p><p>On your rolls, you achieve <strong>4</strong>, <strong>5</strong>, and <strong>2</strong> successes respectively, for <strong>11 total successes</strong>. Unfortunately, this is not enough successes to succeed, so the GM narrates how one of the laborers bungles your instructions and causes a boiler explosion just as you are putting the finishing touches on the airship, destroying the entire project.</p></blockquote>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "titan",
+        "systemVersion": "1.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691865782976,
+        "modifiedTime": 1691982358888,
+        "lastModifiedBy": "1uwfFLT06n0mGQLi",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mczts3I29Q5vaopp.yP84DTEBpH5jXcJd"
+    },
+    {
+      "sort": 800000,
+      "name": "Actions",
+      "type": "text",
+      "_id": "BisrAnPygqWmkvZT",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>There are a countless number of possible actions that you can take. You are only limited by your creativity and the circumstances of your situation, but the rules for many common actions are listed below.</p><h2>Attack</h2><p>The <strong>Attack</strong> Action allows you to make a Check to hit a target with a Melee or Ranged Weapon. For more information, see <strong><em>Combat</em></strong>.</p><h2>Charge</h2><p>When you Charge, you can move as far as your Speed allows and make an attack,</p><ul><li><p>You must move at least 2 spaces in a straight line towards your target.</p></li><li><p>You gain 1 bonus dice for the attack, but your <strong>Defense</strong> is reduced by 1 until the start of your next turn.</p></li><li><p>If you are controlling a mount, you use the mount's speed, and you both reduce your <strong>Defense</strong> until the start of your next turn.</p></li></ul><h2>Defend an Ally</h2><p>When you take this Action, choose an ally within melee range.</p><ul><li><p>Until the start of your next turn, any attacks or spells that target your ally target you instead.</p></li><li><p>You use your <strong>Defense</strong> to resolve attacks, and you make any Checks to resist spell effects.</p></li><li><p>Your ally is still affected by spells and effects that target an area.</p></li><li><p>If more than one character is defending the same ally, their players can choose which character is the target of any attacks.</p></li></ul><h2>Defend an Area</h2><p>You can use an Action block, guard, or otherwise impede entry, such as blocking a doorway or guarding a perimeter.</p><ul><li><p>Any creature attempting to enter your melee range must use an Action to an opposed <strong>Body (Athletics)</strong> check against you.</p><ul><li><p>If you are wielding a shield, you have <strong>Advantage</strong> on this check.</p></li></ul></li><li><p>If the creature fails, it is unable to enter your melee range and its movement stops immediately.</p></li><li><p>If it succeeds, the creature can enter the space around you as normal.</p></li><li><p>Allies can use the <strong>Help</strong> action to assist you, granting you <strong>+1 bonus die</strong> per ally aiding the defend.</p></li></ul><h2>Dodge</h2><p>When you <strong>Dodge</strong>, you spend your turn trying to avoid harm.</p><p>Until the start of your next turn, your <strong>Defense</strong> and <strong>Reflexes</strong> increase by <strong>+1</strong>.</p><h2>Grapple</h2><p>Instead of trying to deal damage, you can use an Action to attempt to Grapple and restrain an adjacent creature.</p><ul><li><p>You make a <strong>Body (Athletics)</strong> check opposed by the target's <strong>Body (Athletics)</strong> or <strong>Reflexes</strong>.</p></li><li><p>If you succeed, the target is <strong>Restrained</strong>. You can release the grapple at any time as a <strong>Free Action</strong>.</p></li><li><p>On their turn, the creature can use an <strong>Action</strong> to try to escape the grapple by repeating the Opposed Check.</p></li></ul><h2>Help</h2><p>When you take the <strong>Help</strong> Action, choose an ally to help, and explain how you intend to help. Provided you have <strong>Training</strong> or <strong>Expertise</strong> in a skill relevant to your intended helpful action, your ally gains Advantage on their next check.</p><h2>Hide</h2><p>When you take the <strong>Hide</strong> Action, you are using the environment, terrain, and even other combatants to mask your presence.</p><p>You cannot hide from a creature that can see you clearly, and you give away your position if you make too much noise, such as shouting a warning or knocking over a vase.</p><p>To hide, you must make a <strong>Body (Stealth)</strong> Check.</p><p>If a creature is searching for you, it makes an opposed <strong>Mind (Perception)</strong> Check.</p><p>Otherwise, you must roll a number of successes greater than the creature's <strong>Awareness</strong>.</p><p>If you succeed, the creature does not find or see you.</p><p>If you fail, the creature notices your presence.</p><p>The <strong>Difficulty</strong> of this Check is normally 4. However, it may be modified by your current circumstances, such as cover, weather, and lighting conditions.</p><h2>Ready an Action</h2><p>You can choose to <strong>Ready an Action</strong> to use when a specific circumstance is met.</p><p>First, you decide on what specific trigger will trigger your action, such as an enemy coming within melee range.</p><p>Then you decide what action you intend to take, such as making a melee attack.</p><p>If the trigger for your action occurs, you can choose to perform the action, or not.</p><p>If the start of your turn comes and the trigger for your readied action never occurred, you can choose to immediately perform the action or not. Your turn then begins as normal.</p><h2>Run</h2><p>You can <strong>Run</strong> to perform an additional move, traveling up to your speed as normal.</p><h2>Shove</h2><p>You can take the Shove action to try to push a creature away from you.</p><p>You must be within melee range of the creature, and it must be no more than 1 size category larger than you.</p><p>Make a <strong>Body (Athletics)</strong> Check opposed by either the target's <strong>Body (Athletics)</strong> or <strong>Reflexes</strong>, whichever is highest.</p><p>If you succeed, the creature is pushed <strong>1 + (ES /3 rounded down</strong>) spaces away from you, where <strong>ES</strong> is the difference between your successes and those of the target creature.</p><h2>Use an Object</h2><p>Most of the time, you do not need to use an action to interact with a simple object, like drawing your weapon or nocking an arrow.</p><p>If you want to perform a more complex action, like finding an item in your pack, or interacting with complex machinery, you must use an <strong>Action</strong> to do so.</p><h2>Use an Ability</h2><p>Many <strong>Abilitie</strong>s allow you to perform a specific <strong>Action</strong>, such as casting a spell or encouraging your allies. Using an ability requires an action unless noted otherwise. For more information, see the details of the specific abilities.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "titan",
+        "systemVersion": "1.0.0",
+        "coreVersion": "11.307",
+        "createdTime": null,
+        "modifiedTime": 1691982987781,
+        "lastModifiedBy": "1uwfFLT06n0mGQLi",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mczts3I29Q5vaopp.BisrAnPygqWmkvZT"
+    },
+    {
+      "sort": 900000,
+      "name": "Combat",
+      "type": "text",
+      "_id": "JdMrgiHHGRAcS1ni",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Initiative and Turn Order</h2><p>Turn order in combat is determined by the combatant's <strong>Initiative</strong>.</p><p>A creature's base initiative is equal to their (<strong>Mind</strong> + <strong>Dexterit</strong>y + <strong>Perception</strong>) / 2 (rounded up).</p><p>When combat starts, each creature rolls <strong>2d6 + their Initiative rating</strong>. They then take turns in order from the highest to the lowest roll.</p><p>If two creatures have the same Initiative roll, they roll again, repeating until one of them rolls higher than the other.</p><h2>Delaying your Turn</h2><p>If you want to change your turn order in combat, you may <strong>Delay</strong> your turn until either later in the current round, or earlier in the next round. Your turn then remains at the same place in turn order for the rest of Combat, unless you choose to <strong>Delay</strong> again.</p><h2>Surprise Round</h2><p>If combat begins with any of the combatants unaware or unprepared for the others, then the first round is the <strong>Surprise Round</strong>.</p><p>Only creatures that were aware and alert can act in the Surprise Round, and they can only take one action.</p><p>Any creatures that were surprised skip their turn and have a <strong>Defense</strong> of <strong>0</strong> until the end of the <strong>Surprise Round</strong>.</p><h2>Taking a Turn</h2><p>At the start of a creature's turn, it regains <strong>1</strong> <strong>Resolve</strong> (provided it has any resolve to regain).</p><p>During its turn, a creature may:</p><ul><li><p>Perform <strong>1 Action</strong></p></li><li><p>Spend <strong>1 Resolve</strong> to perform an additional Action.</p></li><li><p>Move up a number of spaces equal to its <strong>Speed</strong>.</p><ul><li><p>This can be before, after, or during any actions.</p></li><li><p>If a creature has multiple <strong>Speeds</strong>, it must choose which one to use.</p></li></ul></li><li><p>Perform as many <strong>Free Actions</strong> as possible.</p></li></ul><h2>Making an Attack</h2><p>An attack is a type of <strong>Action</strong> a creature can perform during combat.</p><p>To make the attack, the creature must roll a Check to hit the target.</p><ul><li><p><strong>Melee</strong> attacks roll <strong>Body (Melee Weapons)</strong></p></li><li><p><strong>Ranged</strong> attacks roll <strong>Body (Ranged Weapons)</strong></p></li></ul><p>To determine the <strong>Difficulty</strong> of the Check, the attacker must compare either their <strong>Melee</strong> or <strong>Accuracy</strong> rating to the target's <strong>Defense rating</strong>.</p><ul><li><p><strong>Melee</strong> attacks use <strong>Melee</strong></p></li><li><p><strong>Ranged</strong> attacks use <strong>Accuracy</strong></p></li></ul><p>The Difficulty of the Check is equal to <strong>4 - (the Attacker's attack rating - the defenders Defense Rating).</strong> The <strong>Difficulty</strong> can never be lower than 2 or higher than 6.</p><blockquote><p><strong><em>Example 1:</em></strong> A creature with <strong>Melee 3</strong> attacks a target with a <strong>Defense</strong> of <strong>2</strong>. The <strong>Difficulty</strong> of the attack Check is thus:</p><ul><li><p>4 - ( 3 - 2 )</p></li><li><p>4 - 1,</p></li><li><p>3</p></li></ul><p><strong><em>Example 2:</em></strong> A creature with <strong>Melee 1</strong> attacks a creature with a <strong>Defense</strong> of <strong>8</strong>. The <strong>Difficulty</strong> of the attack check is thus:</p><ul><li><p>4 - ( 1 - 8 )</p></li><li><p>4 - ( - 7 )</p></li><li><p>4 + 7</p></li><li><p>6 (maximum <strong>Difficulty</strong>)</p></li></ul><p>The <strong>Complexity</strong> of an attack check is always <strong>1</strong>.</p></blockquote><p>If the attacker succeeds, they will deal the listed amount of <strong>Damage</strong> to the target, usually modified by the number of extra successes on the check.</p><blockquote><p><strong><em>Example:</em></strong> A creature succeeds at an attack check. They used a <em>Sword</em>, which does <strong>2 + ES (extra successes) Damage</strong>, and rolled <strong>2 successes</strong>. Thus, they inflict <strong>4 total Damage</strong>.</p></blockquote><h2>Multi-Attack</h2><p>You may choose to attack twice in the same action. To do so, make two attacks as normal, but the number of dice you roll and the amount of <strong>Expertise</strong> you may apply is reduced by half.</p><p>For <strong>Expertise,</strong> you round down.</p><p>For the number dice you roll, you round down, <em>unless</em> your attack has the <strong>Flurry</strong> trait. If it does, you round up.</p><h2>Armor</h2><p>Armor decreases the amount of damage received from all sources, unless said source specifically ignores armor. The amount of damage reduced is equal to the amount of armor a creature has.</p><blockquote><p><strong><em>Example 1:</em></strong> A creature is struck for <strong>3 Damage</strong> and has <strong>2 Armor</strong>. It takes <strong>1 total Damage</strong>.</p><p><strong><em>Example 2:</em></strong> A creature is struck for <strong>1 Damage</strong> and has <strong>2 Armo</strong>r. It takes <strong>no Damage</strong></p></blockquote><h2>Damage</h2><p>Damage is subtracted from a creature's <strong>Stamina</strong>. Stamina can be regained after combat by taking a <strong>Short Rest</strong>.</p><p>Most creatures do not have <strong>Wounds</strong>. When their <strong>Stamina</strong> is reduced to <strong>0</strong>, they normally die or are otherwise defeated.</p><p>If the creature has <strong>Wounds</strong>, it instead takes a number of Wounds, depending on how much higher the <strong>Damage</strong> is than the creature's remaining <strong>Stamina</strong>.</p><ul><li><p><strong>1 Damage:</strong> 1 Wound</p></li><li><p><strong>2-4 Damage:</strong> 2 Wounds</p></li><li><p><strong>5 or more Damage:</strong> 3 Wounds</p></li></ul><p>If a creature's Wounds would ever become higher than their maximum Wounds, then the creature is <strong>Dying</strong>.</p><p>Wounds are only regained with a <strong>Long Rest,</strong> or other appropriate long-term care that specifically treats wounds.</p><h2>Attacking while Hidden</h2><p>When you attack a creature that is aware of you, but cannot see you, you have <strong>Advantage</strong> on the  attack check.</p><p>If you attack a creature that is completely unaware of you, you have <strong>Greater Advantage</strong> on the attack check.</p><h2>Cover</h2><p>Walls, trees, creatures, and other obstacles can provide cover during combat, making a target more difficult to harm.</p><p>A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover.</p><ul><li><p><strong>Light Cover</strong></p><ul><li><p>A target has <strong>Light Cover</strong> if an obstacle blocks at least half of its body. The obstacle might be a low wall, a large piece of furniture, a narrow tree trunk, or a creature, whether that creature is an enemy or a friend.</p></li><li><p>A target with <strong>Light Cover</strong> has a <strong>+1</strong> to its <strong>Defense</strong> and <strong>Reflexes</strong>.</p></li></ul></li><li><p><strong>Heavy Cover</strong></p><ul><li><p>A target has <strong>Heavy Cover</strong> if about three-quarters of it is covered by an obstacle. The obstacle might be a portcullis, an arrow slit, or a thick tree trunk.</p></li><li><p>A target with <strong>Heavy Cover</strong> has a <strong>+2</strong> bonus to its <strong>Defense</strong> and <strong>Reflexes</strong>.</p></li></ul></li><li><p><strong>Total Cover</strong></p><ul><li><p>A target has <strong>Total Cover</strong> if it is completely concealed by an obstacle.</p></li><li><p>A target with <strong>Total Cover</strong> can't be targeted directly by an attack or a spell, although some spells can reach such a target by including it in an area of effect.</p></li></ul></li></ul><h2>Spending Resolve</h2><p>During <strong>Combat</strong>, a character can spend their <strong>Resolve</strong> to:</p><ul><li><p>Perform an extra <strong>Action</strong></p></li><li><p>Use an <strong>Ability</strong> that requires <strong>Resolve</strong></p></li><li><p>Reroll failures on a <strong>Check</strong></p></li><li><p>Double your <strong>Training</strong> on a skill Check, <strong><em>before</em></strong> the roll is made</p></li><li><p>Double your <strong>Expertise</strong> on a skill Check, <strong><em>before or after</em></strong> the roll is made</p></li></ul><p><strong>1 Resolve</strong> is automatically regained at the start of your turn.</p><p><strong>Resolve</strong> cannot typically be used to enhance outside of combat — the assumption is that you are always trying your best, and spending <strong>Resolve</strong> represents you pushing through the normal difficulties that come with fighting.</p><p>However, abilities that require <strong>Resolve</strong> may be freely used outside of combat.</p><h2>Moving through another creature's space</h2><p>Creatures can normally move through an ally's space, so long as they do not end their turn there.</p><p>To move through an enemy's space, they must succeed at a <strong>Body (Dexterity)</strong> check opposed by the target's <strong>Reflexes</strong>.</p><p>If they succeed, they can move through the enemy's space as if the enemy were not there.</p><p>If they fail, they cannot move through the enemy's space and their movement ends immediately.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "titan",
+        "systemVersion": "1.0.0",
+        "coreVersion": "11.307",
+        "createdTime": null,
+        "modifiedTime": 1691982874346,
+        "lastModifiedBy": "1uwfFLT06n0mGQLi",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mczts3I29Q5vaopp.JdMrgiHHGRAcS1ni"
+    },
+    {
+      "sort": 1000000,
+      "name": "Death and Dying",
+      "type": "text",
+      "_id": "19arGIWazkpn0Cmb",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Dying</h2><p>If your <strong>Wounds</strong> would over go above their maximum value, you are <strong>Dying</strong>.</p><ul><li><p>Your <strong>Wounds</strong> go up to their maximum value.</p></li><li><p>You gain the <strong>Stunned</strong>  condition</p></li><li><p>You cannot recover <strong>Stamina</strong> while <strong>Dying</strong>.</p></li><li><p>At the beginning of your next turn, you must make a <strong>Death Check</strong>.</p></li><li><p>You suffer a <strong>-1 dice penalty</strong> to all other checks you make.</p></li></ul><h2>Death Check</h2><p>When you are <strong>Dying</strong>, you must make a <strong>Death Check</strong> at the start of your turn to determine whether or not you recover.</p><ul><li><p>There is no specific Attribute associated with it. Instead, the <strong>Death Check</strong> uses your highest Attribute — a strong constitution, unshakeable resolve, or sheer stubbornness can sometimes be enough to cling to life.</p></li><li><p>There are no skills applicable to a <strong>Death Check</strong>.</p></li><li><p>The <strong>Difficulty</strong> of the <strong>Death Check</strong> <em>begins</em> at <strong>4</strong>.</p></li><li><p>The <strong>Complexity</strong> of the <strong>Death Check</strong> is <strong>1</strong>.</p></li></ul><h2>Success</h2><p>If you succeed at the <strong>Death Check</strong>, you are no longer <strong>Dying</strong>, and remove the @UUID[.K9oX3Z9KHKswUMyf#stunned]{Stunned} condition.</p><p>Your <strong>Stamina</strong> remains at 0, and your <strong>Wounds</strong> remain at their maximum value. If you take further <strong>Damage</strong> you are <strong>Dying</strong> again.</p><h2>Failure</h2><p>If you succeed at the <strong>Death Check</strong>, you are no longer <strong>Dying</strong>, and remove the <strong>Stunned</strong> condition.</p><p>Your <strong>Stamina</strong> remains at 0, and your <strong>Wounds</strong> remain at their maximum value. If you take further <strong>Damage</strong> you are <strong>Dying</strong> again.</p><h2>Damage while Dying</h2><p>If you fail a <strong>Death Check</strong>, the <strong>Difficulty</strong> of the check increases by 1. If the Difficulty would ever rise above <strong>6</strong>, you die.</p><h2>Getting Help</h2><p>An adjacent ally of you can use an <strong>Action</strong> on their turn to make a <strong>Mind (Medicine)</strong> check to help you.</p><p>The <strong>DC</strong> of this Test is equal to the <strong>DC</strong> of the <strong>Death Check</strong>. If they succeed, you are no longer <strong>Dying</strong>, and recover +1 S<strong>tamina</strong>.</p><h2>Treating Wounds</h2><p>If any effect would reduce your <strong>Wounds</strong> below their maximum value, you are no longer <strong>Dying</strong>.</p><h2>Using an Inspiration</h2><p>If you have Inspiration, you can expend it to immediately recover from <strong>Dying</strong>, as if you succeeded on the <strong>Death Check</strong>.</p><h2>Last Stand</h2><p>As death looms, some heroes choose to sacrifice everything to save their allies.</p><p>If you are <strong>Dying</strong>, you can choose to make a <strong>Last Stand</strong>. You must choose to do so on your turn <em>before</em> making a <strong>Death Check</strong>.</p><p>When you make a <strong>Last Stand</strong>, you gain the following benefits:</p><ul><li><p>You are no longer <strong>Stunned</strong>. and remove any other conditions you may have.</p></li><li><p>Your <strong>Resolve</strong> refills to its maximum.</p></li><li><p>You are immune to all <strong>Damage</strong>, including environmental effects and hazards.</p></li><li><p>Your <strong>Melee</strong> and <strong>Accuracy</strong> increase by 1.</p></li><li><p>Any <strong>Damage</strong> you inflict ignores <strong>Armor</strong>.</p></li></ul><p>When your turn ends after making a <strong>Last Stand</strong>, you die, and nothing can save you.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "titan",
+        "systemVersion": "1.0.0",
+        "coreVersion": "11.307",
+        "createdTime": null,
+        "modifiedTime": 1691982225737,
+        "lastModifiedBy": "1uwfFLT06n0mGQLi",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mczts3I29Q5vaopp.19arGIWazkpn0Cmb"
+    },
+    {
+      "sort": 1100000,
+      "name": "Counteracting Spells and Abilities",
+      "type": "text",
+      "_id": "Lq2P5QL3JNXVYgiy",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Certain abilities allow you to <strong>Counteract</strong> spells or abilities, to prevent effects from taking effect, or remove those which already have. This is done in several steps.</p><ul><li><p>A creature within range successfully casts a spell or uses an ability that can be <strong>Counteracted.</strong></p></li><li><p>You choose to <strong>Counteract</strong> that spell or ability.</p></li><li><p>You make a skill check.</p><ul><li><p>The <strong>Difficulty</strong> of the check is equal to the <strong>Difficulty</strong> of the spell or check associated with the ability.</p></li><li><p>The <strong>Complexity</strong> is equal to the total successes the caster achieved.</p></li></ul></li><li><p>If you succeed on the check, you successfully <strong>Counteract</strong> the other creature. If you do not, your <strong>Counteract</strong> attempt fails.</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "titan",
+        "systemVersion": "1.0.0",
+        "coreVersion": "11.308",
+        "createdTime": null,
+        "modifiedTime": 1693017010637,
+        "lastModifiedBy": "1uwfFLT06n0mGQLi",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mczts3I29Q5vaopp.Lq2P5QL3JNXVYgiy"
+    },
+    {
+      "sort": 1200000,
+      "name": "Resting",
+      "type": "text",
+      "_id": "Go0bX378V1JtxLri",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>After a battle, you will typically want to recover and prepare for the next encounter.</p><p>A <strong>Short Rest</strong> takes <strong>15 minutes</strong> to complete. Doing so fully restores your <strong>Stamina</strong> and <strong>Resolve</strong>.</p><p>A <strong>Long Rest</strong> takes <strong>8 hours</strong> to complete, and requires the appropriate supplies, such as food and a safe place to sleep. Doing so fully restores your <strong>Stamina</strong> and <strong>Resolve</strong>, and decreases your <strong>Wounds</strong> by <strong>-1</strong>.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "titan",
+        "systemVersion": "1.0.0",
+        "coreVersion": "11.308",
+        "createdTime": 1693081913736,
+        "modifiedTime": 1693082143092,
+        "lastModifiedBy": "1uwfFLT06n0mGQLi",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mczts3I29Q5vaopp.Go0bX378V1JtxLri"
+    },
+    {
+      "sort": 1300000,
+      "name": "Conditions",
+      "type": "text",
+      "_id": "K9oX3Z9KHKswUMyf",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Blinded</h2><p>A <strong>Blinded</strong> creature cannot see.</p><p>A <strong>Blinded</strong> creature automatically fails any <strong>Awareness</strong> and <strong>Perception</strong> checks that rely on sight.</p><p>A <strong>Blinded</strong> creature's <strong>Melee</strong>, <strong>Accuracy</strong>, and <strong>Defense</strong> decrease by <strong>-1</strong>.</p><h2>Contaminated</h2><p>A <strong>Contaminated</strong> creature has a <strong>-1</strong> penalty to all <strong>Attributes</strong> and <strong>Resistances</strong>.</p><h2>Deafened</h2><p>A <strong>Deafened</strong> creature cannot hear.</p><p>A <strong>Deafened</strong> automatically fails any <strong>Awareness</strong> and <strong>Perception</strong> checks that rely on hearing.</p><h2>Frightened</h2><p>A <strong>Frightened</strong> creature cannot willingly move closer to the source of their fear.</p><p>While the creature can detect the source of its fear, it suffers a <strong>-1 dice penalty</strong> to all checks.</p><h2>Incapacitated</h2><p>An <strong>Incapacitated</strong> creature cannot <strong>Move</strong>, take <strong>Actions</strong>, or spend <strong>Resolve</strong>.</p><p><strong>Incapacitated</strong> creatures cannot defend themselves. The Difficulty to hit an <strong>Incapacitated</strong> creature is always <strong>2</strong>, and they automatically fail <strong>Reflexes</strong> checks.</p><h2>Prone</h2><p>A <strong>Prone</strong> creature has their speed reduced by half, rounded up.</p><p>The creature's <strong>Melee</strong> and <strong>Accuracy</strong> are decreased by <strong>-1</strong>.</p><p>A creature attacking a <strong>Prone</strong> within <strong>1 spac</strong>e increases their <strong>Melee</strong> or <strong>Accuracy</strong> by <strong>+1</strong>.</p><p>A creature attacking a <strong>Prone</strong> target at a distance greater than <strong>1 space</strong> decreases their <strong>Accuracy</strong> by <strong>-1</strong> per 1<strong>0 spaces</strong>, rounded down.</p><p>Standing up from <strong>Prone</strong> may be done with a <strong>Move</strong> or an <strong>Action</strong>.</p><h2>Restrained</h2><p>A <strong>Restrained</strong> creature cannot move.</p><p>Additionally, their <strong>Melee</strong>, <strong>Accuracy</strong>, and <strong>Defense</strong> decrease by <strong>-1, a</strong>nd they automatically fail <strong>Reflexes</strong> checks.</p><h2>Stunned</h2><p>A <strong>Stunned</strong> creature can take an <strong>Action</strong>, or a <strong>Move</strong>, but not both.</p><p>A <strong>Stunned</strong> creature cannot spend Resolve to take an additional Action.</p><p>A <strong>Stunned</strong> creature's <strong>Defense</strong> decreases by <strong>-1</strong>.</p><h2>Sleeping</h2><p>A <strong>Sleeping</strong> creature has its <strong>Awareness</strong> reduced by half, rounded up.</p><h2>Unconscious</h2><p>An <strong>Unconscious</strong> creature immediately drops anything it is holding, falls <strong>Prone</strong>, and is <strong>Incapacitated</strong>.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "titan",
+        "systemVersion": "1.0.0",
+        "coreVersion": "11.315",
+        "createdTime": null,
+        "modifiedTime": 1709628281602,
+        "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mczts3I29Q5vaopp.K9oX3Z9KHKswUMyf"
+    },
+    {
+      "sort": 1400000,
+      "name": "Environmental Traits",
+      "type": "text",
+      "_id": "Anrn8J7Gd0l3ooYx",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>The environment can have a variety of effects on gameplay. A few such examples are listed below.</p><h2>Cover</h2><p>Walls, trees, creatures, and other obstacles can provide cover during combat, making a target more difficult to harm.</p><p>A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover.</p><h2>Light Cover</h2><p>A target has <strong>Light Cover</strong> if an obstacle blocks at least half of its body. The obstacle might be a low wall, a large piece of furniture, a narrow tree trunk, or a creature, whether that creature is an enemy or a friend.</p><p>A target with <strong>Light Cover</strong> has a +1 to its <strong>Defense</strong> and <strong>Reflexes</strong>.</p><h2>Heavy Cover</h2><p>A target has <strong>Heavy Cover</strong> if about three-quarters of it is covered by an obstacle. The obstacle might be a portcullis, an arrow slit, or a thick tree trunk.</p><p>A target with <strong>Heavy Cover</strong> has a +2 bonus to its <strong>Defense</strong> and <strong>Reflexes</strong>.</p><h2>Total Cover</h2><p>A target has <strong>Total Cover</strong> if it is completely concealed by an obstacle.</p><p>A target with <strong>Total Cover</strong> can't be targeted directly by an attack or a spell, although some spells can reach such a target by including it in an area of effect.</p><h2>Difficult Terrain</h2><p>Heavy snow, tangled roots, and murky swamps all make movement more difficult.</p><p>Any movement across a space with the <strong>Difficult Terrain</strong> trait takes 2 spaces of movement.</p><h2>Hazard</h2><p><strong>Hazards</strong> are dangerous effects in the environment. A burning building, poisonous spores, or crystalline glass are all <strong>Hazards</strong>.</p><p>When a creature enters a <strong>Hazard</strong> for the first time or starts its turn there, it takes <strong>Damage</strong> equal to the rating of the <strong>Hazard</strong>. This damage ignores <strong>Armor</strong>. Multiple <strong>Hazards</strong> increase the amount of <strong>Damage</strong> taken.</p><h2>Obscured</h2><p>Poor light, heavy rain, and thick smoke can all affect a creature’s vision, making it hard to gauge their surroundings or see their allies.</p><p>When a creature is in an <strong>Obscured</strong> space, the difficulty of <strong>Perception</strong> checks are increased by the rating of the <strong>Obscured</strong> trait, including opposed <strong>Perception</strong> checks. Creatures in an <strong>Obscured</strong> space increase their Defense by the listed value.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "titan",
+        "systemVersion": "1.0.0",
+        "coreVersion": "11.308",
+        "createdTime": null,
+        "modifiedTime": 1693016523663,
+        "lastModifiedBy": "1uwfFLT06n0mGQLi",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mczts3I29Q5vaopp.Anrn8J7Gd0l3ooYx"
+    },
+    {
+      "sort": 1500000,
+      "name": "Creature Roles",
+      "type": "text",
+      "_id": "U2xV9e3LIsk2X7kz",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Depending on their own relative power level, Non-Payer Characters (NPCs) have one of four <strong>Roles</strong>: <strong>Minion</strong>, <strong>Warrior</strong>, <strong>Elite</strong>, or <strong>Champion</strong>.</p><h2>Minions</h2><p>The weakest of creatures are Minions.</p><p>All <strong>Minions</strong> of the same creature type take their turns together in combat. Often, they will have <strong>Minion</strong> attacks that become more powerful for each <strong>Minion</strong> that joins the attack.</p><p><strong>Minions</strong> typically have <strong>1/2</strong> the <strong>Stamina</strong> of normal creatures, and do not have <strong>Wounds</strong>. Whenever a <strong>Minion</strong> takes any <strong>Damage</strong> of any kind, their <strong>Stamin</strong>a is immediately reduced to <strong>0</strong> and they are defeated.</p><p>If a <strong>Minion</strong> takes damage in <strong>excess</strong> of its maximum <strong>Stamina</strong>, the excess <strong>Damage</strong> becomes <strong>Overkill Damage</strong> that can be applied to another Minion of the same type within range of the original attack.</p><p>If you deal <strong>Overkill Damage</strong> to a minion and you have enough movement speed remaining after making a weapon attack, you may move to another <strong>Minion</strong> to apply the <strong>Overkill Damag</strong>e to them.</p><p>If your <strong>Overkill Damage</strong> is more the maximum <strong>Stamina</strong> of the <strong>Minion</strong> you targeted, the excess may likewise be applied to another <strong>Minion</strong>.</p><blockquote><p><strong><em>Example:</strong> Kaito is fighting <strong>3</strong> rat <strong>Minions</strong> spread across the map, each with <strong>3 Stamina</strong>. <strong>2</strong> are within range of his spear, while <strong>1</strong> is further away.</em></p><p><em>His attack deals <strong>7 Damage</strong> to first rat, killing it instantly and leaving him with <strong>4 Overkill Damage</strong>.</em></p><p><em>He applies the <strong>Overkill Damage</strong> to the second rat, also killing it instantly and leaving him with <strong>1 Overkill Damage</strong>.</em></p><p><em>Since he has movement speed remaining, he moves to the last rat, and defeats it with the last <strong>1 Damage</strong>. Even though it technically has <strong>3 Stamina</strong>, since it is a <strong>Minion</strong>, its <strong>Stamina</strong> falls to <strong>0</strong> upon taking any <strong>Damage</strong>.</em></p></blockquote><p>If a minion succeeds on a <strong>Resistance</strong> check or <strong>Opposed</strong> check to reduce <strong>Damage</strong>, it takes no <strong>Damage</strong> from the instigating effect.</p><p>Minions have no <strong>Resolve</strong>, and so are unable to boost their checks or take extra <strong>Actions</strong> in combat.</p><h2>Warriors</h2><p><strong>Warriors</strong> are a step above <strong>Minions</strong>, and typically have some form of combat training. Warriors have the same amount of Stamina as normal creatures with their <strong>Attributes</strong>, but have no <strong>Wounds</strong> or <strong>Resolve</strong>.</p><p>Thus, they are defeated as soon as their <strong>Stamina</strong> is reduced to <strong>0</strong> and are unable to boost their checks or take extra <strong>Actions</strong> in combat.</p><h2>Elites</h2><p><strong>Elites</strong> are especially strong creatures and powerful creatures who are capable of challenging a player character on their own.</p><p>Like <strong>Warriors</strong>, Elites have normal <strong>Stamina</strong> and no <strong>Wounds</strong>, but <strong>Elites</strong> do have <strong>Resolve</strong>. This allows them to empower their checks, and to take extra <strong>Actions</strong> in combat.</p><h2>Champion</h2><p><strong>Champions</strong> are the strongest of non-player characters. They have normal <strong>Stamina</strong>, <strong>Resolve</strong>, and <strong>Wounds</strong>, making them just as strong as player characters with equivalent stats.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "titan",
+        "systemVersion": "1.0.0",
+        "coreVersion": "11.308",
+        "createdTime": 1693079822564,
+        "modifiedTime": 1693081665951,
+        "lastModifiedBy": "1uwfFLT06n0mGQLi",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mczts3I29Q5vaopp.U2xV9e3LIsk2X7kz"
+    },
+    {
+      "sort": 1600000,
+      "name": "Jumping",
+      "type": "text",
+      "_id": "H8B58ILv5iVpmoZR",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Your jumping ability is determined by your <strong>Body</strong>.</p><p>You can make a standing vertical leap up a number of spaces equal to your <strong>Body / 3</strong>. This height is doubled with a short run up preceding the jump.</p><p>You can make a standing long jump a number of spaces equal to your <strong>Body</strong>. The length is doubled with a short run up preceding the jump.</p><p>If the distance or height you are trying to jump is greater than you can normally achieve, the GM may ask for a <strong>Body (Athletics)</strong> check to see if you succeed.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "titan",
+        "systemVersion": "1.0.0",
+        "coreVersion": "11.307",
+        "createdTime": null,
+        "modifiedTime": 1691982822044,
+        "lastModifiedBy": "1uwfFLT06n0mGQLi",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mczts3I29Q5vaopp.H8B58ILv5iVpmoZR"
+    },
+    {
+      "sort": 1700000,
+      "name": "Falling",
+      "type": "text",
+      "_id": "JfiLwxLr4ufRjWbb",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>If you fall from a height greater than <strong>1 space</strong>, you take 1 Damage per <strong>2 spaces</strong> of your fall. When you land, you fall <strong>Prone</strong>.</p><p>If you fall from a height of <strong>30 spaces</strong> <strong>or greater</strong>, you immediately lose all your <strong>Stamina</strong>, fill your <strong>Wounds</strong> to maximum, and start <strong>Dying</strong>.</p><p>If you fall from a height of <strong>50 spaces</strong> <strong>or greater</strong>, you immediately die when you land.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "titan",
+        "systemVersion": "1.0.0",
+        "coreVersion": "11.308",
+        "createdTime": null,
+        "modifiedTime": 1693081853916,
+        "lastModifiedBy": "1uwfFLT06n0mGQLi",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mczts3I29Q5vaopp.JfiLwxLr4ufRjWbb"
+    },
+    {
+      "sort": 1800000,
+      "name": "Suffocating",
+      "type": "text",
+      "_id": "r8q2b2pqUFje1gfe",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>You can hold your breath for a number of <strong>minutes</strong> equal to your <strong>Body + 1</strong>.</p><p>When you run out of breath, are choking, or are denied air, you can survive a number of rounds equal to your <strong>Body</strong>.</p><p>At the start of your next turn after running out of breath, you lose all <strong>Stamina</strong>, set your <strong>Wounds</strong> to their maximum value, and begin <strong>Dying</strong>.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "titan",
+        "systemVersion": "1.0.0",
+        "coreVersion": "11.308",
+        "createdTime": null,
+        "modifiedTime": 1693081893805,
+        "lastModifiedBy": "1uwfFLT06n0mGQLi",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mczts3I29Q5vaopp.r8q2b2pqUFje1gfe"
+    },
+    {
+      "sort": 1900000,
+      "name": "Attack Traits",
+      "type": "text",
+      "_id": "4i499LbqwSRtkdMc",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Blast</h2><p><strong>Blast</strong> attacks apply their damage to all unobstructed creatures within the listed <strong>Blast</strong> radius of the center of the attack.</p><p>For example, an attack with <strong>Blast 1</strong> would damage all unobstructed creatures within <strong>1 space</strong> of the center of the attack.</p><h2>Cleave</h2><p>Each roll of <strong>6</strong> on an attack with the <strong>Cleave</strong> trait deals <strong>1 Damage</strong> to all other enemies adjacent to the attacker.</p><h2>Close</h2><p>Normally, when you attack an adjacent enemy with a ranged weapon, you have <strong>Disadvantage</strong> on the attack.</p><p>Ranged attacks with the <strong>Close</strong> trait do not suffer this penalty.</p><h2>Crushing</h2><p>A <strong>Crushing</strong> attack is heavy and solid, and deals bludgeoning blows to enemies.</p><h2>Flurry</h2><p>Attacks with the <strong>Flurry</strong> trait round up when splitting their dice pool in half for <strong>Multi-Attacks</strong>.</p><h2>Ineffective</h2><p><strong>Armor</strong> is doubled against <strong>Ineffective</strong> attacks, and <strong>Ineffective</strong> attacks can only inflict <strong>1 Wound</strong> per attack.</p><h2>Loud</h2><p>An attack with the <strong>Loud</strong> trait alerts everyone within hearing range when it is used.</p><h2>Magical</h2><p><strong>Magical</strong> attacks are effective against magical defenses, and can destroy <strong>Magical</strong> items.</p><p><strong>Magical</strong> armor can only be destroyed by <strong>Magical</strong> weapons.</p><h2>Push</h2><p>If you hit and deal damage on an attack with the <strong>Push</strong> trait, you may move the target <strong>1 space</strong> away from you, provided it is no more than <strong>1 Size</strong> larger than you.</p><h2>Penetrating</h2><p><strong>Penetrating</strong> attacks ignore <strong>1</strong> point of <strong>Armor</strong>.</p><h2>Piercing</h2><p><strong>Piercing</strong> attacks use a sharp point or tip to stab and skewer enemies.</p><h2>Reload</h2><p>Attacks with the Reload trait require an Action to be reloaded after an attack before they can be used again.</p><h2>Rend</h2><p>Each roll of <strong>6</strong> with a <strong>Rend</strong> attack destroys <strong>1</strong> point of <strong>Armor</strong> after the damage is applied.</p><h2>Restraining</h2><p>When a <strong>Restraining</strong> attack deals to a creature up to <strong>1 Size</strong> larger than the attacker, that creature is <strong>Restrained</strong> until it uses an <strong>Action</strong> to free itself.</p><h2>Slashing</h2><p>A <strong>Slashing</strong> attack is sharp and typically bladed, and is used to cut enemies open.</p><h2>Splash</h2><p>Attacks with the <strong>Splash</strong> trait apply half their damage to all unobstructed creatures adjacent to the target.</p><h2>Two-Handed</h2><p>A <strong>Two-Handed</strong> attack requires at least two hands to use.</p><h2>Vicious</h2><p>When a <strong>Vicious</strong> attack inflicts <strong>Wounds</strong>, the number of <strong>Wounds</strong> inflicted increases by <strong>+1</strong>.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mczts3I29Q5vaopp.4i499LbqwSRtkdMc"
+    },
+    {
+      "sort": 2000000,
+      "name": "Defensive Traits",
+      "type": "text",
+      "_id": "NSmJ3D2kSpjOO5Bj",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>Magical</h2><p><strong>Magical</strong> armor and shields cannot be destroyed by non-magical <strong>Rend</strong> attacks.</p><h2>Encumbering</h2><p>When wearing armor with the <strong>Encumbering</strong> trait, you have <strong>Disadvantage</strong> on checks to <strong>Swim</strong>, <strong>Fly</strong>, or <strong>Climb</strong>.</p><h2>Loud</h2><p>When wearing armor with the <strong>Loud</strong> trait, you have <strong>Disadvantage</strong> on checks to remain undetected by creatures with hearing.</p><h2>Heavy</h2><p>While wearing <strong>Heavy</strong> armor, all your speeds are decreased by <strong>-1</strong>, and you have <strong>Greater Disadvantage</strong> on checks to <strong>Swim</strong>, <strong>Fly</strong>, or <strong>Climb</strong>. You cannot <strong>Jump</strong> while wearing <strong>Heavy</strong> armor.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mczts3I29Q5vaopp.NSmJ3D2kSpjOO5Bj"
+    },
+    {
+      "_id": "Pbr29XSxZhdT11sQ",
+      "name": "Equipment",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>There are countless items, gear, and gadgets that you can find and use as you adventure throughout the world. A few of the more common articles are listed below.</p><h2>Weapons</h2><h3>Melee Weapons</h3><p>The following weapons are meant to be used in up-close melee combat. Unless otherwise noted, they use <strong>Body (Melee Weapons)</strong> for the attack check, and your <strong>Melee</strong> rating vs. your target’s <strong>Defense</strong> rating to determine the <strong>Difficulty</strong> of the checks.</p><p>Some melee weapons such as a <strong><em>Dagger</em></strong>, can additionally be thrown. Throwing weapons use <strong>Body (Ranged Weapons)</strong> for the attack check, and your <strong>Accuracy</strong> rating vs. your target’s <strong>Defense</strong> rating to determine the <strong>Difficulty</strong> of the checks.</p><h3>Ranged Weapons</h3><p>Ranged weapons are meant to be used at a distance. They <strong>Body (Ranged Weapons)</strong> for the attack check, and your <strong>Accuracy</strong> rating vs. your target’s <strong>Defense</strong> rating to determine the <strong>Difficulty</strong> of the checks.</p><p>Normally, when you attack an adjacent enemy with a ranged weapon, you have <strong>Disadvantage</strong> on the attack.</p><p>Ranged attacks with the <strong>Close</strong> trait do not suffer this penalty.</p><h2>Armor and Shields</h2><h3>Armor</h3><h3>Shields</h3><h2>Urderic Equipment</h2><p>Unlike normal items, Urderic equipment has been specially empowered with Ur-stones to gain pseudo-magical qualities.</p><p>Most Urderic Equipment requires the <em>Urderic Smith</em> ability to use, but a few simple items, like <em>Concussion Grenades</em>, can be used by anyone.</p><h3>Armor</h3><h3>Weapons</h3>"
+      },
+      "sort": 2100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_stats": {
+        "coreVersion": "14.364",
+        "systemId": "titan",
+        "systemVersion": "1.0.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!mczts3I29Q5vaopp.Pbr29XSxZhdT11sQ"
+    },
+    {
+      "sort": 2200000,
+      "name": "The Arcane Arts",
+      "type": "text",
+      "_id": "pPw2rSh6u6xedzQ2",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>People with the ability to cast spells are known by many names: mages, wizards, witches, warlocks, sorcerers, or countless more. Whatever name they go by, they have spent years learning to harness and shape the energy of the world.</p><p>While sacred artists utilize the energy within oneself or borrowed from a supernatural source, spellcasters must develop an affinity for a specific aspect of reality, and then learn to manipulate its energy . What affinity one develops tends to vary by the language and culture of the spellcaster, as different people see the world in different ways.</p><p>However, magical affinities are always tied to something that exists, such as flesh or fire, rather than a metaphysical concept, such as law and order, for concepts are not real, and so have no energy to manipulate.</p><h2>Casting a Spell</h2><p>To use magic, take the <strong>Spellcasting</strong> ability, and choose the corresponding <strong>Tradition</strong> corresponding to their specific affinity.</p><p>To cast a spell, you use an <strong>Action</strong> to make a <strong>Casting</strong> check. This is typically <strong>Mind (Arcana)</strong>. The difficulty of the Check is determined by the <strong>DC</strong> of the spell you are trying to cast. Any additional successes on the Check can be used to increase aspects of the spell, such as damage or duration.</p><p><strong><em>Example:</em></strong> Cameron is casting the <em>Fireball</em> spell. <em>Fireball</em> is <strong>DC 5:2</strong>, so Cameron needs a result of at least 5 on 2 dice to successfully cast the spell. She makes a <strong>Mind (Arcana)</strong> check with her pool of 6 dice, getting 1, 1, 5, 5, 5, 6 — four successes.</p><p>Two of the successes are used to activate the spell, which will deal <strong>1 Damage</strong> to everyone in the affected area and make it a <strong>Hazard (1)</strong> for one round.</p><p>Before the spell takes effect, Cameron can use the remaining two successes to enhance the spell. The enhancement options for <em>Fireball</em> are to increase the <strong>Damage</strong> by <strong>+1</strong> per extra success or extend the duration of the <strong>Hazard</strong> by 1 round per extra success. Cameron can split the successes between both enhancements if she wishes, increasing the Damage by 1 and the duration by 1 round.</p><p>Instead, she decides to put both successes into increasing the Damage. The <em>Fireball</em> erupts, dealing 3 Damage to everyone in the area and causing a <strong>Hazard (1)</strong> for 1 round.</p><p><strong><em>Note:</em></strong> If a spell has an effect that can be resisted by an opposing check, you may wait until the affected creatures have rolled their check before you distribute enhancements.</p><h2>Dismissing a Spell</h2><p>Sometimes spells have an ongoing effect that can last anywhere from seconds to years. Unless otherwise, you can always dismiss the effects of a spell you have cast as a <strong>Free Action</strong> on your turn.</p><h2>Multiple Spell Effects</h2><p>A creature can be affected by multiple different spells at once. However, the effects of the same spell cast multiple times — such as casting <em>Reactive Armor</em> twice — don't add together. Instead, the creature is affected by the more powerful spell, or the spell with the longer duration.</p><h2>Opposed Checks</h2><p>Some spells have effects that can be resisted by an opposed check. For example, the <em>Searing Touch</em> spell forces a target to make an <strong>Resilience</strong> check or become <strong>Stunned</strong>.</p><p>In such cases, the <strong>DC</strong> of the opposed check is always <strong>4:(1 + ES)</strong> where <strong>ES</strong> is the number of extra successes on the casting check. In the <em>Searing Touch</em> example, if the caster succeeded with 2 extra successes, the <strong>DC</strong> of the opposed <strong>Resilience</strong> check would be <strong>4:3</strong>.</p><h2>The Help Action and Spellcasting</h2><p>Spellcasters can work together to share the strain of casting a spell, boosting its power. Using the <strong>Help</strong> action, a character with the Spellcasting ability can help another character cast a spell. To do this, both characters must be within <strong>5 spaces</strong> of each other. Provided that the character helping has Training or Expertise in the skill used to cast the spell, the character casting the spell gains <strong>Advantage</strong> on their check.</p><h2>Miscasting</h2><p>Manipulating the very fabric of reality takes great skill and determination, and requires every ounce of the spellcaster’s focus. If they let themselves become distracted or lose focus, the results can be catastrophic.</p><p>If you fail a casting check, roll on the table below. The number of d6s rolled is equal to the difference in the Complexity of the spell and the number of successes (if any) on your Check. For example, if you cast a <strong>DC 6:1</strong> spell and achieve zero successes, you roll 1d6; if you cast a <strong>DC 5:3</strong> spell and get 1 success, you roll 2d6</p><table><thead><tr><th>Result</th><th>Effect</th></tr></thead><tbody><tr><td>1-3</td><td>Nothing happens</td></tr><tr><td>4-8</td><td>The magical energy erupts as you try to control it. You suffer 1d6 Damage.</td></tr><tr><td>9-10</td><td>The spell is cast but it has the opposite effect to what was intended. Damaging spells heal Stamina, bonuses become penalties, allies are affected instead of enemies, and so on. The GM has final say on the effect of the reversed spell.</td></tr><tr><td>11-12</td><td>Arcane energy floods your mind, momentarily disorienting you. You are Stunned until the end of your next turn.</td></tr><tr><td>13-14</td><td>Your body and mind are so overcome with the uncontrolled magical power that it takes everything you have to hold yourself together. You are Incapacitated until the end of your next turn.</td></tr><tr><td>15-17</td><td>You simply cannot withstand the onslaught of uncontrolled aetheric energy. You fall Unconscious until the end of your next turn.</td></tr><tr><td>18+</td><td>The magic you have lost control of begins to destroy you from the inside out. Roll 1d6. You suffer the Damage directly as Wounds.</td></tr></tbody></table><h2>Learning a Spell</h2><p>When you take the <em>Spellcasting</em> ability, you learn 1 spell from your chosen Tradition, a 4 more spells of your choice from either your chosen Tradition or the <em>Any</em> Tradition.</p><p>Each time you upgrade the <em>Spellcasting</em> ability to gain a new tradition, you learn 1 spell from that tradition.</p><p>Provided you have access to the lore surrounding a spell you want to learn, or help from another spellcaster who knows the spell, you can learn 1 new spell per downtime period. Alternatively, you can spend <strong>2 XP</strong> to learn the spell and use your downtime for other activities.</p><p>When determining the availability of a spell, the rarity is considered the same as the Tradition to which it belongs unless noted otherwise.</p><h2>Spell Traditions</h2><p>There are hundreds of magical practices amidst the cultures of the world — from Fire mages who can conjure a blazing inferno, to Thought mages who can manipulate another’s mind. Few have mastered the arts of sorcery, but most with arcane might dedicate themselves to mastering one or two disciplines of magic over decades of study. A few such examples are listed below.</p><h3>Any</h3><p><strong>Rarity:</strong> Common</p><p>While all Traditions have their own intricacies and style, some spells are universal across any tradition. When you cast spells from the <em>Any</em> Tradition, they are considered to be from one of the Traditions you have access to, and gain the appropriate trait. For example, a <em>Strike</em> spell cast by a <em>Fire</em> mage would be made of fire and gain the <em>Fire</em> trait, whereas one cast by a <em>Force</em> mage would be made of kinetic force and gain the <em>Force</em> trait. If you have multiple Traditions known, you may choose which one to apply to a spell from the <em>Any</em> tradition.</p><h3>Air</h3><p><strong>Rarity:</strong> Common</p><p>Air spells deal with the manipulation of wind and atmosphere. Practitioners excel at avoiding damage and escaping their enemies, but can still strike with the strength of a tornado.</p><h3>Earth</h3><p><strong>Rarity:</strong> Common</p><p>Earth spells manipulate rock, dirt, and stone. Practitioners are skilled at both offense and defense, erecting barriers to shield themselves and allies, before crushing their enemies beneath heavy boulders.</p><h3>Fire</h3><p><strong>Rarity:</strong> Common</p><p>Fire spells deal with the manipulation of heat and flames. It is an extremely aggressive tradition, and in the right hands, it can burn an army to ashes.</p><h3>Metal</h3><p><strong>Rarity:</strong> Common</p><p>Metal spells can control the shape and form of any object made of metal. The tradition is especially suited for martial combat, as it grants the wielder the ability to forge weapons and armor on the fly. However, it is also popular among crafters and blacksmiths, who use metal spells to create a variety of mundane objects.</p><h3>Water</h3><p><strong>Rarity:</strong> Common</p><p>Water spells manipulate the flow and shape of water for offense, defense, and purification. Practitioners can shroud themselves in mist, crush their enemies between blocks of ice, or wash away hostile magic.</p><h3>Wood</h3><p><strong>Rarity:</strong> Common</p><p>Wood spells alter the growth of life, usually within plants, but sometimes also within people or animals. It is a versatile tradition with the ability to heal, harm, and reshape the battlefield at will.</p><h3>Aether and Void</h3><p><strong>Rarity:</strong> Uncommon</p><p>Spells from the <em>Aether and Void</em> tradition manipulate magical energy in its purest form — <em>Aether</em> spells enhance the flow of energy, while <em>Void</em> spells stymie the flow. Practitioners can enervate their enemies, revitalize their allies, and use the ambient aether of the world to empower their own spells.</p><h3>Force</h3><p><strong>Rarity:</strong> Uncommon</p><p>Force spells directly control the kinetic energy of objects. It is a tradition that takes the most direct route to resolving any problem, with spells to throw a target around, levitate objects off the ground, and snatch projectiles out of the sky.</p><h3>Flesh</h3><p><strong>Rarity:</strong> Uncommon</p><p>The <em>Flesh</em> tradition deals with all that is biological, with practitioners able to control and reshape the flesh of themselves and others. Some use this to treat wounds and diseases. Others use it to take on other forms. Still more practice the reviled art of reanimation, using the bodies of the dead as weapons against their enemies.</p><h3>Light</h3><p><strong>Rarity:</strong> Uncommon</p><p>Light spells manipulate the light in an area, or its absence thereof. Practitioners can create visual illusions, darken a room to mask their movements, or burn through even the thickest armor with focused radiance.</p><h3>Thought</h3><p><strong>Rarity:</strong> Rare</p><p>Spells that can control a creature’s thoughts are by nature rare, powerful and highly frowned upon. Nevertheless, those that master this tradition have a tendency to become rulers and commanders, using their abilities to dominate others both on and off the battlefield.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "titan",
+        "systemVersion": "1.0.0",
+        "coreVersion": "11.308",
+        "createdTime": 1693017082005,
+        "modifiedTime": 1693019194691,
+        "lastModifiedBy": "1uwfFLT06n0mGQLi",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mczts3I29Q5vaopp.pPw2rSh6u6xedzQ2"
+    },
+    {
+      "sort": 2300000,
+      "name": "The Sacred Arts",
+      "type": "text",
+      "_id": "d4NYmFiIBnHO1jZM",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Before the first mages began to form spells, shamans, priests, and oracles were using the metaphysical energy of the spirit realm to achieve astounding supernatural feats. Most of the early practitioners learned this art from studying and negotiating with sacred beasts, so today, they are collectively referred to as sacred artists.</p><p>While mages develop and control an aspect of reality, sacred artists use the force of their own souls to empower their abilities, often supplemented by that of a supernatural creature with whom the artist has formed a bond.</p><p>Thus, their abilities tend to be more often tied to metaphysical concepts, rather than aspects of reality. For example, a mage might learn to shape fire or earth, while a sacred artist might invoke an aura of fear, or compel a creature to speak nothing but lies.</p><h2>Learning a Path</h2><p>To become a Sacred Artist, one must first follow a Path. In game terms, this means spending XP to gain the first ability tied to that Path. Afterwards, one may take more abilities tied to that path, provided they have met the prerequisites.</p><p>Unless otherwise noted, all Path abilities have the Path trait, and a trait specific to their Path — for example, all abilities from the <em>Path of the Arbiter</em> have the <em>Path</em> and <em>Arbiter</em> trait.</p><h2>Dismissing a Path Abilities</h2><p>Sometimes path abilities  have an ongoing effect that can last anywhere from seconds to years. Unless otherwise, you can always dismiss the effects of an ability you have used a <strong>Free Action</strong> on your turn.</p><h2>Multiple Path Abilities</h2><p>A creature can be affected by multiple different abilities at once. However, the effects of the same ability cast multiple times — such as using the <em>Blue Spirit’s Magical Bulwark</em> twice — don't add together. Instead, the creature is affected by the more powerful ability, or the ability with the longer duration.</p><h2>Paths</h2><p>There are countless paths of the sacred arts scattered across the world, from the Arbiters who seek out and destroy demons and malicious spirits, to dragon cultists that bargain with the beasts for their legendary power. A few such paths are listed below.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "titan",
+        "systemVersion": "1.0.0",
+        "coreVersion": "11.308",
+        "createdTime": 1693019136865,
+        "modifiedTime": 1693019150746,
+        "lastModifiedBy": "1uwfFLT06n0mGQLi",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mczts3I29Q5vaopp.d4NYmFiIBnHO1jZM"
+    },
+    {
+      "sort": 2400000,
+      "name": "Inspiration",
+      "type": "text",
+      "_id": "SAmWCYgBrSwmwB2j",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Inspiration</strong> is given as a reward for role-play.</p><p>You can spend your <strong>Inspiration</strong> to:</p><ul><li><p>Gain <strong>Advantage</strong> on a check</p></li><li><p>Recover from <strong>Dying</strong> at the start of your turn</p></li><li><p>Immediately regain 1 <strong>Resolve</strong></p></li></ul>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!mczts3I29Q5vaopp.SAmWCYgBrSwmwB2j"
+    }
+  ],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678492309657,
+    "modifiedTime": 1709628281602,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "_id": "mczts3I29Q5vaopp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "categories": [],
+  "_key": "!journal!mczts3I29Q5vaopp"
+}

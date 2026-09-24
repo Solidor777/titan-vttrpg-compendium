@@ -1,0 +1,21 @@
+{
+   "name": "titan-vttrpg-compendium",
+   "version": "2.0.0",
+   "private": true,
+   "description": "Pack sources and build tools for the TITAN VTTRPG Compendium Foundry VTT module.",
+   "type": "module",
+   "scripts": {
+      "packs:compile": "node tools/compile-packs.mjs",
+      "packs:extract": "node tools/extract-packs.mjs",
+      "check:links": "node tools/check-links.mjs",
+      "validate": "node tools/validate-live.mjs",
+      "rules:compare": "node tools/rules/compare-rules.mjs",
+      "zip": "node tools/build-zip.mjs"
+   },
+   "devDependencies": {
+      "@foundryvtt/foundryvtt-cli": "^3.0.4",
+      "@playwright/test": "^1.60.0",
+      "classic-level": "^3.0.0",
+      "fflate": "^0.8.3"
+   }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Backup Plan",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Mind (3)</p><p>Even the best laid plans don’t always work out, so you know it’s important to have a backup plan handy.</p><p>If you fail a check and one of the dice rolled was a <strong>1</strong>, you can reroll the <strong>check</strong>,</p><p>You must complete a <strong>Short</strong> or <strong>Long Rest</strong> before you can use this ability again.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "0a6fb8df-a369-4637-8fd0-8f8c3a4a8fca"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678777834855,
+    "modifiedTime": 1689641595195,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "4WgNTNFs7zQQPH5B",
+  "_key": "!items!4WgNTNFs7zQQPH5B"
+}

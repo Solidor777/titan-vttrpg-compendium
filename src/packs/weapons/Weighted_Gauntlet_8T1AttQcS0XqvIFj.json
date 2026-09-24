@@ -1,0 +1,66 @@
+{
+  "name": "Weighted Gauntlet",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>Most gauntlets are built for defense, but some are designed with offense in mind. They are usually weighted to increase the force of each strike, and may also be fitted with claws or blades.</p>",
+    "check": [],
+    "customTrait": [],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "common",
+    "value": 35,
+    "attack": [
+      {
+        "label": "Attack",
+        "type": "melee",
+        "range": 1,
+        "attribute": "body",
+        "skill": "meleeWeapons",
+        "damage": 1,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "crushing",
+            "value": true
+          },
+          {
+            "name": "flurry",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "124d8081-f7da-490b-a191-d19076bd9e27"
+      }
+    ],
+    "attackNotes": "",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "b0a059f3-99b1-4494-bb99-a6268d735c62"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678249180726,
+    "modifiedTime": 1689662471898,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "BsiAASgtfrITuRWZ",
+  "_id": "8T1AttQcS0XqvIFj",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!8T1AttQcS0XqvIFj"
+}

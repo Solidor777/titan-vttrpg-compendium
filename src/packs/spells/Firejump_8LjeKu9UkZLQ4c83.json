@@ -1,0 +1,78 @@
+{
+  "name": "Firejump",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Fire_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You blast into the air with a burst of flame.</p><p>Creatures adjacent to you take <strong>1 Damage</strong>. You then land at a point within <strong>5-spaces</strong>.</p><p>Alternatively, you can use this spell to soften your landing. If you cast it as you walk off a ledge, you reduce the distance you fall by <strong>5 spaces</strong> for the purpose of determining fall damage.</p><p>Each extra success increases the <strong>Damage</strong> by <strong>+1</strong>.</p><p>Alternatively, you may extend the distance of your jump by <strong>+1 space</strong> per extra success.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Fire",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "label": "Distance",
+        "scaling": true,
+        "initialValue": 5,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": false,
+        "uuid": "c4a2d33d-9554-41e1-b46d-0d3509bd6f60"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "damage",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": true,
+        "option": [],
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "2948b029-8912-4f3d-921b-d07f07447057"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680236393504,
+    "modifiedTime": 1708131768596,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "qSDNQ2fJxZLSRrAy",
+  "_id": "8LjeKu9UkZLQ4c83",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!8LjeKu9UkZLQ4c83"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Cat Fall",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Dexterity</p><p>You have learned to control your momentum when you fall from a great height, allowing you to mitigate the worst of the damage.</p><ul><li><p>You land without falling <strong>Prone</strong> when you fall from a height of <strong>5 spaces</strong> or lower.</p></li><li><p>You take no damage when you fall from a height of <strong>10 spaces</strong> or lower.</p></li><li><p>When you fall from a height of <strong>11-30 spaces</strong>, you can make a <strong>4:1</strong> <strong>Body (Athletics)</strong> check to reduce the fall <strong>Damage</strong> by <strong>-1</strong> per success.</p></li></ul>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "body",
+        "skill": "athletics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 0,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "none",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "c1ddd19d-002e-46a8-bbae-dff15ac1fde4"
+      }
+    ],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "0f1d123d-79cc-471c-a7c9-246854c54d21"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678491947674,
+    "modifiedTime": 1689641599818,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 1600000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "cj2fjdE65jaFYXay",
+  "_key": "!items!cj2fjdE65jaFYXay"
+}

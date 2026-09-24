@@ -1,0 +1,61 @@
+{
+  "_id": "GjxNtHOjE7jWlCza",
+  "name": "Blinding Radiance",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Light_Tradition_Icon.webp",
+  "description": "<p>You have been <strong>Blinded</strong> by a flash of brilliant light.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "2GEQqlcQlqbNuFSM",
+  "sort": 1000000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "initiative",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Light",
+        "description": "",
+        "uuid": "93cadcbb-e865-4cf9-b08f-cab45dbffa32"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Blinding Radiance:</strong> You are <strong>Blinded</strong>.</p>",
+        "uuid": "689ab64c-5e4f-46ee-8845-94c7c8df4ffb"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683785941033,
+    "modifiedTime": 1708069586546,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!GjxNtHOjE7jWlCza"
+}

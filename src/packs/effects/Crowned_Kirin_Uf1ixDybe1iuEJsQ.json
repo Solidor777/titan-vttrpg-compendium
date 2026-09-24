@@ -1,0 +1,116 @@
+{
+  "_id": "Uf1ixDybe1iuEJsQ",
+  "name": "Crowned Kirin",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/HornedKirin_Path_Icon.webp",
+  "description": "<p>You have grown a pair of horns; one white and formed of life energy, and one black and formed of necrotic energy.</p><ul><li><p>Your <strong>Body</strong> and <strong>Soul</strong> increase by <strong>+2</strong>.</p></li><li><p>Your <strong>Stride Speed</strong> increases by <strong>+5</strong>.</p></li><li><p>Your <strong>Melee</strong>, <strong>Accuracy</strong> and <strong>Defense</strong> increase by 1.</p></li><li><p>Once per turn, when you would take <strong>Damage</strong>, you may drain the life from the aggressor to heal yourself for an amount equal to your <strong>Soul</strong>. This healing is subtracted from the <strong>Damage</strong> dealt, and the creature that would have inflicted it takes <strong>Damage</strong> equal to your <strong>Soul</strong>. This <strong>Damage</strong> ignores Armor.</p></li></ul><p><span style=\"font-family: 'Open Sans',sans-serif\"><strong style=\"font-weight:normal;\" id=\"docs-internal-guid-dcd12564-7fff-bcb5-c45b-7173bd86e5d6\">This effect lasts until the end of combat, you become </strong><strong>Incapacitated</strong>, or you are <strong>Dying</strong>. After you use this ability, you cannot use any ability with the <strong>Apex</strong> trait until you complete a <strong>Long Rest</strong>.</span></p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "Bd6DZJ3c6dgQX8zz",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "permanent",
+      "remaining": 2,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "95fe9b47-7aa8-43f5-88f1-7f11eebd35be"
+      },
+      {
+        "name": "Horned Kirin",
+        "description": "",
+        "uuid": "1e86c5cd-7fec-4793-a982-4d0e2e885f2f"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "attribute",
+        "key": "body",
+        "value": 2,
+        "uuid": "23110ab6-9de7-4c0a-a69e-e708cc3df6b3"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "attribute",
+        "key": "soul",
+        "value": 2,
+        "uuid": "394656bf-50eb-41a4-8025-b9de5b87bf4c"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "stride",
+        "value": 5,
+        "uuid": "e0ef020c-38c0-4949-902d-53ee4dbd47cc"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "rating",
+        "key": "melee",
+        "value": 1,
+        "uuid": "0928be5e-c0f2-4eec-b7fa-b6372b7018b0"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "rating",
+        "key": "defense",
+        "value": 1,
+        "uuid": "565049b5-7e48-45d8-b6f3-c7d5c4d50ae4"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "rating",
+        "key": "accuracy",
+        "value": 1,
+        "uuid": "7db26372-a293-4e6b-9f6c-77e0fd6b916a"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>Crowned Kirin: </strong>Your <strong>Melee</strong> and <strong>Accuracy</strong> are increased by <strong>+1</strong>.</p>",
+        "uuid": "4842bff1-b9ab-4efe-963c-bc50fb4775e4"
+      },
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Crowned Kirin:</strong> You have grown a pair of horns; one white and formed of life energy, and one black and formed of necrotic energy.</p><ul><li><p>Your <strong>Body</strong> and <strong>Soul</strong> increase by <strong>+2</strong>.</p></li><li><p>Your <strong>Stride Speed</strong> increases by <strong>+5</strong>.</p></li><li><p>Your <strong>Melee</strong>, <strong>Accuracy</strong> and <strong>Defense</strong> increase by 1.</p></li><li><p>Once per turn, when you would take <strong>Damage</strong>, you may drain the life from the aggressor to heal yourself for an amount equal to your <strong>Soul</strong>. This healing is subtracted from the <strong>Damage</strong> dealt, and the creature that would have inflicted it takes <strong>Damage</strong> equal to your <strong>Soul</strong>. This <strong>Damage</strong> ignores Armor.</p></li></ul>",
+        "uuid": "42885920-7721-491e-9b1b-6fccf84389bb"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679892865774,
+    "modifiedTime": 1708070084283,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!Uf1ixDybe1iuEJsQ"
+}

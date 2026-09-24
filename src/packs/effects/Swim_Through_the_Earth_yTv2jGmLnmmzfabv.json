@@ -1,0 +1,68 @@
+{
+  "_id": "yTv2jGmLnmmzfabv",
+  "name": "Swim Through the Earth",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Earth_Tradition_Icon.webp",
+  "description": "<p>The earth parts before you, letting you swim through it as if through water.</p><p>For <strong>1 minute,</strong> you gain a <strong>Burrow </strong>speed of <strong>5</strong>. If you already have a <strong>Burrow Speed</strong>, it increases by <strong>+5</strong>.</p><p>You can breathe underground while affected by this spell, but you lose this ability once the spell expires. You can also cast this spell while you are restrained or otherwise unable to move, such as if you have been buried in a landslide.</p><p>Each extra success extends the duration by <strong>+1 minutes</strong>.</p><p>Alternatively, you may increase the <strong>Burrow</strong> speed by <strong>+1</strong> per 2 extra successes.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "oayj05bANMFmRGKM",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnStart",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Earth",
+        "description": "",
+        "uuid": "c3ae30b9-5716-45c2-bdbd-ba544e7d41b7"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "burrow",
+        "value": 5,
+        "uuid": "8aaefc97-213d-4117-95fa-0e3fd51a7b06"
+      },
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Swim through the Earth:</strong> You gain a <strong>Burrow</strong> speed of <strong>5</strong>. If you already have a <strong>Burrow Speed</strong>, it increases by <strong>+5</strong>.</p>",
+        "uuid": "d9523fbe-0546-4263-b409-0d5e1375e798"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680302535477,
+    "modifiedTime": 1708131728653,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!yTv2jGmLnmmzfabv"
+}

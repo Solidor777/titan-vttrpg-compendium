@@ -1,0 +1,112 @@
+{
+  "_id": "4aOhjNpIQydCqgzt",
+  "name": "Blessing of the Arbiter (Alertness)",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Arbiter_Path_Icon.webp",
+  "description": "<p>You bear a scrap of paper inscribed with an arbiter's blessing.</p><ul><li><p>You gain <strong>+1</strong> bonus to all <strong>Perception</strong> and <strong>Reflexes</strong> checks.</p></li><li><p>Your <strong>Initiative</strong> increases by <strong>+2</strong>.</p></li><li><p>You suffer a <strong>-2</strong> dice penalty to all <strong>Willpower</strong> checks.</p></li></ul>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "ThNj9Ey7L0bRiV4m",
+  "sort": 800000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "custom",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": "Day"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Arbiter",
+        "description": "",
+        "uuid": "e09250d8-5408-4c2f-b414-4b04106403c2"
+      },
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "c93842c2-2a6a-49ce-a74c-8e7cca12f964"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "training",
+        "key": "perception",
+        "value": 1,
+        "uuid": "9574bcfa-ff34-4d18-bb54-6e225bc76a19"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "resistance",
+        "key": "reflexes",
+        "value": 1,
+        "uuid": "d6eeb53d-ac3c-4fdd-9c2c-9d4544d64859"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "attribute",
+        "selector": "skill",
+        "key": "perception",
+        "message": "<p><strong>Blessing of the Arbiter (Alertness):</strong> You gain <strong>+1</strong> bonus to all <strong>Perception</strong> checks.</p>",
+        "uuid": "dbef3308-24ff-4514-8347-06b398cd2e2e"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "resistance",
+        "selector": "resistance",
+        "key": "reflexes",
+        "message": "<p><strong>Blessing of the Arbiter (Alertness):</strong> You gain <strong>+1</strong> bonus to all <strong>Reflexes</strong> checks.</p>",
+        "uuid": "1dd40ad3-4deb-4c5e-ba69-e53d0dcfaf56"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "rating",
+        "key": "initiative",
+        "value": 2,
+        "uuid": "f07b4988-f62d-45d1-b13f-60e6af18289a"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "resistance",
+        "selector": "resistance",
+        "key": "willpower",
+        "message": "<p><strong>Blessing of the Arbiter (Alertness):</strong> You suffer a <strong>-2</strong> dice penalty to <strong>Willpower</strong> checks.</p>",
+        "uuid": "17b7cefa-5e33-4f52-9af9-0128819b9c6e"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "resistance",
+        "key": "willpower",
+        "value": -2,
+        "uuid": "c3818e94-2571-449f-ba1a-6cbe869cc01f"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682917786280,
+    "modifiedTime": 1708071651896,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!4aOhjNpIQydCqgzt"
+}

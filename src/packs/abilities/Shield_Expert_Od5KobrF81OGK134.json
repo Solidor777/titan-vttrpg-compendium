@@ -1,0 +1,43 @@
+{
+  "name": "Shield Expert",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) and Expertise (1) in Melee Weapons</p><p>You are especially skilled when it comes to the use of a shield.</p><p>When wielding a shield, your <strong>Defense</strong> increases by <strong>+1</strong> more than it normally would.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.N5TZfOUv8twhWd33]{Shield Expert}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "6a215cb1-4c9f-48e4-b618-7aa66c3ce350"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678678555434,
+    "modifiedTime": 1689641647190,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 9500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "Od5KobrF81OGK134",
+  "_key": "!items!Od5KobrF81OGK134"
+}

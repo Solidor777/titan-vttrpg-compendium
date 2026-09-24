@@ -1,0 +1,23 @@
+{
+  "name": "Armor",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "u1RiXx9jfg65zfx0",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1689665435857,
+    "modifiedTime": 1689665435857,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "description": "",
+  "_key": "!folders!u1RiXx9jfg65zfx0"
+}

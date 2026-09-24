@@ -1,0 +1,83 @@
+{
+  "name": "Dagger",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>This small, bladed weapon is held in one hand and used to stab a creature in close combat. It can also be thrown at short range.</p>",
+    "check": [],
+    "customTrait": [],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "common",
+    "value": 20,
+    "attack": [
+      {
+        "label": "Strike",
+        "type": "melee",
+        "range": 1,
+        "attribute": "body",
+        "skill": "meleeWeapons",
+        "damage": 1,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "flurry",
+            "value": true
+          },
+          {
+            "name": "slashing",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "8b540cee-d4f7-4dfa-ba2e-f091f9fc9a5d"
+      },
+      {
+        "label": "Throw",
+        "type": "ranged",
+        "range": 5,
+        "attribute": "body",
+        "skill": "rangedWeapons",
+        "damage": 1,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "slashing",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "5de965fc-672c-4de8-8739-d97b81fab142"
+      }
+    ],
+    "attackNotes": "",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "a6e3791a-de51-4b3c-b249-1e07298bdf40"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678249172911,
+    "modifiedTime": 1689662470751,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "BsiAASgtfrITuRWZ",
+  "_id": "iDaWsDXvnvHCcheq",
+  "sort": 1800000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!iDaWsDXvnvHCcheq"
+}

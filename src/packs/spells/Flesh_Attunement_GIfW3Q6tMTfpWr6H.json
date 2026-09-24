@@ -1,0 +1,83 @@
+{
+  "name": "Flesh Attunement",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Flesh_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You use magic to enhance your body, making you stronger, faster, and tougher.</p><p>Your <strong>Body</strong> increases by <strong>+1</strong> until the start of your next turn.</p><p>Each extra success extends the duration by <strong>+1 rounds</strong>.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.R8r7ar2d9Sf3FXQC]{Flesh Attunement}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Attunement",
+        "description": "",
+        "uuid": "d8aa86bb-fad0-4b31-8acf-c7b32172606b"
+      }
+    ],
+    "xpCost": 0,
+    "rarity": "uncommon",
+    "tradition": "Flesh",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 2,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "increaseAttribute",
+        "initialValue": 1,
+        "cost": 4,
+        "option": [
+          "body"
+        ],
+        "scaling": true,
+        "enabled": true,
+        "scalingCost": 4
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "0162a56d-ed84-48a0-9ad0-810168169ea1"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432594185,
+    "modifiedTime": 1708070003572,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "uiPwkfnRVLGVAvvk",
+  "_id": "GIfW3Q6tMTfpWr6H",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!GIfW3Q6tMTfpWr6H"
+}

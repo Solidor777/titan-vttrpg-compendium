@@ -1,0 +1,58 @@
+{
+  "_id": "DYsagGsAWa0fckkv",
+  "name": "Zephyr Style",
+  "type": "ability",
+  "img": "icons/magic/air/air-wave-gust-blue.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (2) and Expertise (2) in Melee Weapons or Ranged Weapons, and you must receive training from a practitioner of this style, or have access to its teachings</p><p><strong><em>Zephyr Style</em></strong> teaches that a fight belongs to whoever refuses to be caught in it. The practitioner keeps moving, strikes from where the enemy was not looking, and is gone before the answer comes; every step is a working of the air, and every loosed arrow rides a wind that knows the way. <strong><em>Zephyr Style</em></strong> rules the open ground and the space between engagements — harrying, slipping, denying the enemy the blow it wanted.</p><p>You move like the wind, ever in motion, and never held.</p><p>As an <strong>Action</strong>, you may enter <strong><em>Zephyr Style</em></strong>.</p><ul><li><p>The height and distance of your <strong>Jump</strong> is doubled.</p></li><li><p>You ignore <strong>Difficult Terrain</strong>.</p></li><li><p>Your maximum <strong>Focus</strong> is <strong>3</strong>. When you enter <strong><em>Zephyr Style</em></strong>, you gain <strong>+1 Focus.</strong></p></li><li><p><strong>Build Focus:</strong> Once per turn, you may use an <strong>Action</strong> to gain <strong>+1 Focus</strong>.</p></li><li><p><strong>Channel the Wind:</strong> At the end of your turn, you gain <strong>+1 Focus</strong> for each of the following:</p><ul><li><p>You used the <strong>Dodge</strong> action.</p></li><li><p>You attacked with a <strong>Melee</strong> or <strong>Ranged Weapon AND</strong> you ended your turn at least <strong>2 Spaces</strong> away from where you were when your turn began.</p></li></ul></li><li><p>When you make an <strong>Attack Check</strong> with a <strong>Melee</strong> or <strong>Ranged</strong> weapon you may spend up to <strong>3 Focus</strong>, before or after rolling to gain <strong>+1 bonus Expertise</strong> on that check per <strong>Focus</strong> spent.</p></li><li><p>If you did not spend or gain any <strong>Focus</strong> during your turn, <strong><em>Zephyr Style</em></strong> immediately ends. <strong>Focus</strong> spent <em>between</em> turns is <strong>NOT</strong> counted for this purpose.</p></li><li><p>If you have <strong>0 Focus</strong> at the end of your turn, <strong><em>Zephyr Style</em></strong> immediately ends.</p></li><li><p>If you enter another <strong>Stance</strong>, <strong><em>Zephyr Style</em></strong> immediately ends.</p></li></ul><p>If you choose, you may begin maintaining <strong><em>Zephyr Style</em></strong> before combat starts, at the cost of giving up your first <strong>Action</strong> on your first turn in combat.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.TEyW9CDR88m8YpHW]{Zephyr Style}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Combat Style",
+        "description": "",
+        "uuid": "04d37919-3760-4915-a465-f93a6771cf2d"
+      },
+      {
+        "name": "Zephyr Style",
+        "description": "",
+        "uuid": "cb41165d-aa81-475d-a4f5-12aa76419127"
+      },
+      {
+        "name": "Air",
+        "description": "",
+        "uuid": "aa8a1bdb-d349-4f06-aae6-bf79ed73cf46"
+      },
+      {
+        "name": "Stance",
+        "description": "",
+        "uuid": "b945dbb0-f14b-42c2-a81e-fa051e2ff833"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "loFAr4Nz1RS6nHgz",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!DYsagGsAWa0fckkv"
+}

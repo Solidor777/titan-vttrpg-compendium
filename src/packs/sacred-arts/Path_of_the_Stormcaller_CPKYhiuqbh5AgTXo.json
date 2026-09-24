@@ -1,0 +1,54 @@
+{
+  "name": "Path of the Stormcaller",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Stormcaller_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must be infused with the lingering malefic essence of the Weeping Dragon.</p><p>The Weeping Dragon, the Dreadgod of Pain and Sorrow, is known to leave cataclysmic storms in its wake. These storms are infused with the Dragon's own malefic essence, which continues to harm whatever it touches long after the storm itself has passed.</p><p>Most living creatures struck by the Dragon's power die outright, but a rare few endure in constant agony. Removing the corruption is far beyond the skills of most healers, so those affected either go insane, or learn to inure themselves to pain.</p><p>The latter gain the ability to manipulate the Dragon's essence lingering in their body. Most who are so fortunate attempt to reintegrate into society, but others become nearly as wicked as the dragon itself, spreading pain and suffering in order to grow their own power.</p><ul><li><p>Select <strong>1</strong> <strong>Path Ability</strong> with the <strong>Stormcaller</strong> trait. You immediately gain that <strong>Ability</strong> without the associated XP cost.</p></li><li><p>You become immune to any effect based on pain.</p></li><li><p>As a <strong>Free Action</strong>, you can focus your senses to perceive any creature within <strong>10 spaces</strong> that has at least <strong>1 Wound</strong>, has left than half its <strong>Stamina</strong>, that is affected by a <strong>Hazard</strong>, or that is suffering from <strong>Blinded</strong>, <strong>Contamination</strong>, <strong>Deafened</strong>, <strong>Frightened</strong>, or <strong>Stunned</strong>.</p></li></ul>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "833909f4-fbc9-4c5b-aa5e-b6369dbdffdf"
+      },
+      {
+        "name": "Stormcaller",
+        "description": "",
+        "uuid": "26639de0-cb5e-409f-aa4b-5ee7701c4123"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "cAImdfUpGsB1bn4Y",
+  "ownership": {
+    "default": 0,
+    "jqPKS4y5hfCZQjOU": 3
+  },
+  "flags": {
+    "titan": {
+      "uuid": "9802953b-3869-470a-b1bc-43a912bb8948"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1709536262312,
+    "modifiedTime": 1709792487297,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "CPKYhiuqbh5AgTXo",
+  "sort": 100000,
+  "_key": "!items!CPKYhiuqbh5AgTXo"
+}

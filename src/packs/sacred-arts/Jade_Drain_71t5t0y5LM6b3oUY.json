@@ -1,0 +1,74 @@
+{
+  "name": "Jade Drain",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/JadeWarrior_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must have at least one tempered ur-stone worn against your skin</p><p><strong>Cost:</strong> 1 Resolve</p><p><strong>Range:</strong> Touch</p><p>You draw the energy out of another creature and into your jade, using its power to invigorate yourself.</p><p>Choose an adjacent target and make a <strong>4:1 Soul (Metaphysics</strong>) check, opposed by the target's <strong>Resilience</strong>.</p><p>If the target fails the opposed check, it takes <strong>Damage</strong> equal to the difference in successes. This <strong>Damage</strong> ignores <strong>Armor</strong>.</p><p>Additionally, your <strong>Body</strong> increases by <strong>+1</strong> until the start of your next turn.</p><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.b4E5gS5yiaUq1HBt]{Jade Drain}</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 1,
+        "isDamage": true,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "resilience",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "e1592892-cae1-4053-a3a6-55883bd5a87f"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "6e5a0501-8154-46df-b58e-6eba8b491df0"
+      },
+      {
+        "name": "Jade Warrior",
+        "description": "",
+        "uuid": "99a30e90-801a-41bf-ab9e-d7fa7a12635c"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "74c95bc2-406f-4799-8971-443e801c3d01"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680159409616,
+    "modifiedTime": 1709541226724,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "n4zork6o1vyR2c56",
+  "_id": "71t5t0y5LM6b3oUY",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!71t5t0y5LM6b3oUY"
+}

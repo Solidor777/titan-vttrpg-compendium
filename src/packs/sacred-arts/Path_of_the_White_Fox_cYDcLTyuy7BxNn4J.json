@@ -1,0 +1,64 @@
+{
+  "name": "Path of the White Fox",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/WhiteFox_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must receive training from a White Fox or another follower of the Path of the White Fox, or have access to their teachings</p><p>White Foxes are among the most capricious of sacred beasts with an innate connection to fate. You have learned some of their tricks, granting you a portion of their cunning and wisdom.</p><ul><li><p>Select <strong>1</strong> <strong>Path Ability</strong> with the <strong>White Fox</strong> trait. You immediately gain that <strong>Ability</strong> without the associated XP cost.</p></li><li><p>You can see in the dark as easily as in the day, though magical darkness may still confound you.</p></li></ul>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "a117bbdb-3a7e-4f7f-af70-813f4e030e97"
+      },
+      {
+        "name": "White Fox",
+        "description": "",
+        "uuid": "b72afce8-7a99-4f59-aa70-e863cafb7439"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attribute",
+        "selector": "skill",
+        "key": "perception",
+        "message": "<p><strong>Path of the White Fox:</strong> You can see in the dark as easily as in the day, though magical darkness may still confound you.</p>",
+        "uuid": "7c6052e3-200f-43ad-a0db-97906c786c9f",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "73bf409b-6c45-4e80-853a-06494b142de5"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679803471053,
+    "modifiedTime": 1709791213176,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "lkHdQflKWzqwTaTH",
+  "_id": "cYDcLTyuy7BxNn4J",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!cYDcLTyuy7BxNn4J"
+}

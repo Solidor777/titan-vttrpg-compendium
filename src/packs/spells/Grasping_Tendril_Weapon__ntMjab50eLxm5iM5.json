@@ -1,0 +1,70 @@
+{
+  "name": "Grasping Tendril (Weapon)",
+  "type": "weapon",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Flesh_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>Your arm has become an elongated tendril that can attack or manipulate objects.</p>",
+    "check": [],
+    "customTrait": [],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "common",
+    "value": 0,
+    "attack": [
+      {
+        "label": "Attack",
+        "type": "melee",
+        "range": 3,
+        "attribute": "body",
+        "skill": "meleeWeapons",
+        "damage": 2,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "magical",
+            "value": true
+          },
+          {
+            "name": "restraining",
+            "value": true
+          },
+          {
+            "name": "crushing",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "7deafa1d-73b0-45fa-a444-01a2c999fc59"
+      }
+    ],
+    "attackNotes": "",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "1f13679a-8179-4639-96e3-5ee983a461e6"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683609172080,
+    "modifiedTime": 1708070013828,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "uiPwkfnRVLGVAvvk",
+  "_id": "ntMjab50eLxm5iM5",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!ntMjab50eLxm5iM5"
+}

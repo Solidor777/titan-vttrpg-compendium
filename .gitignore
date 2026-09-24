@@ -1,2 +1,7 @@
-node_modules/*
+node_modules/
+.work/
 token-action-hud-titan.zip
+# LevelDB runtime files written whenever Foundry or a tool opens a pack.
+packs/*/LOCK
+packs/*/LOG
+packs/*/LOG.old

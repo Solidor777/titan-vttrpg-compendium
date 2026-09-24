@@ -1,0 +1,54 @@
+{
+  "name": "Astral / Umbral Communion",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/VeiledMoon_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> Self</p><p>You commune with the spirit realm for guidance.</p><p>Over the course of an hour, you enter into a trance-like state to commune with a spiritual creature. You ask the blue spirit for information on a particular topic, sharing what you know and what you wish to learn.</p><p>When you use this ability, choose either <strong>Astral</strong> or <strong>Umbral Communion</strong>.</p><ul><li><p><strong>Astral Communion</strong></p><ul><li><p>You reach out to a passing spirit.</p></li><li><p>Most spirits are neutral towards you but are willing to converse. An especially powerful or prideful spirit may demand a small favor.</p></li></ul></li><li><p><strong>Umbral Communion</strong></p><ul><li><p>You reach out to a malicious, demonic entity.</p></li><li><p>Demons are dangerous, but their obsession with the mortal world means they tend to have more useful answers.</p></li><li><p>Demons will almost always demand something from you. They may also offer favors to you.</p></li><li><p>If you anger a demon, it may manifest to attack you.</p></li></ul></li></ul>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Veiled Moon",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "12c9c00c-da9a-41c4-b07e-b6e01c3d4be3"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708070245077,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "KQwWonXZ3eMLZCPx",
+  "_id": "ELRXzQ0EOpyErxha",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!ELRXzQ0EOpyErxha"
+}

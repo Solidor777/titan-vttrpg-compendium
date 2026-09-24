@@ -1,0 +1,53 @@
+{
+  "name": "Duelist",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p>You live for one-on-one fights.</p><p>If only one enemy is within melee range of you, and is not within <strong>Melee</strong> range of any allies, your <strong>Melee</strong> and <strong>Defense</strong> increase by <strong>+1</strong> against that enemy.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "attackType",
+        "key": "melee",
+        "message": "<p><strong>Duelist:</strong> If only one enemy is within melee range of you, and is not within <strong>Melee</strong> range of any allies, your <strong>Melee</strong> and <strong>Defense</strong> increase by <strong>+1</strong> against that enemy.</p>",
+        "uuid": "c66ed8e9-14c5-40ed-af08-1e04fb73e735",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "ee985305-9405-406e-8228-8c3e46f6b6b4"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678853412831,
+    "modifiedTime": 1689641615131,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 4000000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "7JfkkDO8gYCA0CHb",
+  "_key": "!items!7JfkkDO8gYCA0CHb"
+}

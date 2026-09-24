@@ -1,0 +1,76 @@
+{
+  "name": "Urderic Radiation Grenade (1)",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>These grenades radiate toxic Urderic energy in an area, and are often used to take down heavily armored opponents.</p><p><strong>Damage</strong> inflicted by these grenades ignores <strong>Armor</strong>.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Urderic",
+        "description": "",
+        "uuid": "352ddbb9-76a5-4c98-a2e9-2f84e7a1de38"
+      }
+    ],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "rare",
+    "value": 170,
+    "attack": [
+      {
+        "label": "Attack",
+        "type": "ranged",
+        "range": 10,
+        "attribute": "body",
+        "skill": "rangedWeapons",
+        "damage": 1,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "blast",
+            "value": 5
+          },
+          {
+            "name": "loud",
+            "value": true
+          },
+          {
+            "name": "magical",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "19ff1ec0-a8cb-4e5c-98f8-f07807671529"
+      }
+    ],
+    "attackNotes": "<p>These grenades radiate toxic Urderic energy in an area, and are often used to take down heavily armored opponents.</p><p><strong>Damage</strong> inflicted by these grenades ignores <strong>Armor</strong>.</p>",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "folder": "KZPurD5uYKElJZlj",
+  "flags": {
+    "titan": {
+      "uuid": "72d7917b-35b7-4b61-ace0-d92fb3780ee6"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1681795221875,
+    "modifiedTime": 1689746063740,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "AqTPanL1AVLRmMnK",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!AqTPanL1AVLRmMnK"
+}

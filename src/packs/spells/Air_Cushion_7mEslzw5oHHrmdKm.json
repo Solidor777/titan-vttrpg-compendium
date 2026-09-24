@@ -1,0 +1,71 @@
+{
+  "name": "Air Cushion",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Air_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You protect a creature from great falls.</p><p>Choose any number of targets within <strong>5 spaces</strong>. For the next minute, each affected creature takes no fall damage, as air rushes in to catch it just before impact.</p><p>Each extra success extends the duration by <strong>+1 minutes</strong>.</p><p>You may spend <strong>1 Resolve</strong> to immediately cast this spell on another creature's turn.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.eII4yeFasE96FZfz]{Air Cushion}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Air",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": false,
+        "label": "Range",
+        "scaling": false,
+        "initialValue": 5,
+        "cost": 0,
+        "uuid": "ecba1304-70b5-4545-ba73-9ba81da0e8d5"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "minutes",
+        "cost": 4,
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "27ddbd77-ef6c-437c-863d-1d6b91fba441"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680493043231,
+    "modifiedTime": 1708069419462,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "9Jx7ybrnDHJqOqgA",
+  "_id": "7mEslzw5oHHrmdKm",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!7mEslzw5oHHrmdKm"
+}

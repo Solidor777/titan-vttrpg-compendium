@@ -1,0 +1,43 @@
+{
+  "name": "Selfless Protector",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Expertise (1) in Dexterity</p><p>You excel at protecting your allies.</p><ul><li><p>When you take the <strong>Defend an Ally</strong> action, your <strong>Defense</strong> increases by <strong>+1</strong> until the start of your next turn.</p></li><li><p>Once per turn, when an ally within <strong>5 spaces</strong> of you would be hit by a hostile attack, spell, or ability, you can immediately throw yourself in the way and take the hit instead.</p><p>How you move depends on the range of the triggering attack, spell, or ability.</p><ul><li><p><strong>Melee / Touch:</strong> You must move beside your ally.</p></li><li><p><strong>Ranged:</strong> You must move between your ally and the source of the triggering attack.</p></li></ul></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "12460f45-404a-4dd7-8b51-cbf44cdbab34"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678931948104,
+    "modifiedTime": 1689641645284,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 9100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "eCWBRBgIZAA5qdKK",
+  "_key": "!items!eCWBRBgIZAA5qdKK"
+}

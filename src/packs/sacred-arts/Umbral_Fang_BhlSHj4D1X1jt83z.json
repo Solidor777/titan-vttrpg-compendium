@@ -1,0 +1,54 @@
+{
+  "name": "Umbral Fang",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/VeiledMoon_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> Touch</p><p>You inscribe an umbral rune onto a weapon, allowing it to rip open armor.</p><p>Choose a weapon held by yourself or an adjacent creature. The first time that weapon deals <strong>Damage</strong> within the next <strong>1 minute</strong>, it gains the <strong>Rend </strong>trait, and ignores <strong>Armor</strong>.</p><p>When you use this ability, you can choose to spend <strong>1 Resolve</strong> to gain a bonus to <strong>Damage</strong> equal to your <strong>Soul</strong>.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.uoA65VedG509BpYp]{Umbral Fang}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "2b5b83ae-7814-4697-8c05-7c05ff6abebd"
+      },
+      {
+        "name": "Veiled Moon",
+        "description": "",
+        "uuid": "ebbea1fa-9577-4d56-a980-7200b8c5f60b"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "f0a46375-0175-48a9-8a17-761d660a3711"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683347333183,
+    "modifiedTime": 1708070273546,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "KQwWonXZ3eMLZCPx",
+  "_id": "BhlSHj4D1X1jt83z",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!BhlSHj4D1X1jt83z"
+}

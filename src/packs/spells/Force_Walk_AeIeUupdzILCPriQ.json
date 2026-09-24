@@ -1,0 +1,66 @@
+{
+  "name": "Force Walk",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Force_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>Kinetic energy propels you where you wish to go.</p><p>For <strong>1 minute</strong>, you can move <strong>5 spaces</strong> in any direction whenever you move, whether that is in the air, over land, or through water.</p><p>This does not grant you any special protection. For example, while you could use this spell to move through the water without swimming, you would not gain the ability to breathe water while doing so.</p><p>This also allows you to ignore the effects of difficult terrain, unless said effects fill the entire three-dimensional space you want to move through.</p><p>Each extra success extends the duration by <strong>+1 minutes</strong>.</p><p>You may spend <strong>1 Resolve</strong> to immediately cast this spell on another creature's turn.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.mfsuB5Eh5CUS41Qf]{Force Walk}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "uncommon",
+    "tradition": "Force",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 6,
+      "complexity": 2,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "minutes",
+        "cost": 4,
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "4ac76e01-da61-4e9c-8db5-57cb8ca47397"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432594185,
+    "modifiedTime": 1708069539525,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "0PTCNhDFDFf5NRyN",
+  "_id": "AeIeUupdzILCPriQ",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!AeIeUupdzILCPriQ"
+}

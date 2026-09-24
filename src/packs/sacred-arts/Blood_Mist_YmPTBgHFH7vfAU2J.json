@@ -1,0 +1,74 @@
+{
+  "name": "Blood Mist",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/RedFaith_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve or 1 source of fresh blood</p><p><strong>Range:</strong> 30 spaces</p><p><strong>Area:</strong> 5-space-radius</p><p>You rip blood from the body of your enemy through hundreds of tiny cuts.</p><p>Choose a blooded creature you can see within <strong>30 spaces</strong> and make a <strong>4:1</strong> <strong>Soul (Metaphysics)</strong> check. The creature must make an opposed <strong>Resilience check</strong>, or take <strong>Damage</strong> equal to the difference in successes. This <strong>Damage</strong> ignores <strong>Armor</strong>.</p><p>Additionally, the area within a <strong>5-space-radius</strong> of the target becomes <strong>Obscured (1)</strong> until the start of your next turn.</p><p>You may spend <strong>1 Resolve</strong> or <strong>1 fresh blood source</strong> at the start of your turn to sustain the blood mist. If you do so, you may move it <strong>5 spaces</strong> in any direction.</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 1,
+        "isDamage": true,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "resilience",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "11dc5e88-3402-43f1-9fba-94f86e640fcf"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Red Faith",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "eb66548c-8e0f-4335-80a6-9e7f12cc4972"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708070685857,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "MN8iKfuLJ7p9mHEL",
+  "_id": "YmPTBgHFH7vfAU2J",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!YmPTBgHFH7vfAU2J"
+}

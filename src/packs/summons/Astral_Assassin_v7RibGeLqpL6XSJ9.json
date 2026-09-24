@@ -1,0 +1,630 @@
+{
+  "name": "Astral Assassin",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attribute": {
+      "body": {
+        "baseValue": 1,
+        "mod": {
+          "static": 0
+        }
+      },
+      "mind": {
+        "baseValue": 1,
+        "mod": {
+          "static": 0
+        }
+      },
+      "soul": {
+        "baseValue": 10,
+        "mod": {
+          "static": 0
+        }
+      }
+    },
+    "resistance": {
+      "reflexes": {
+        "mod": {
+          "static": 0
+        }
+      },
+      "resilience": {
+        "mod": {
+          "static": 0
+        }
+      },
+      "willpower": {
+        "mod": {
+          "static": 0
+        }
+      }
+    },
+    "skill": {
+      "arcana": {
+        "defaultAttribute": "mind",
+        "training": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        },
+        "expertise": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        }
+      },
+      "athletics": {
+        "defaultAttribute": "body",
+        "training": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        },
+        "expertise": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        }
+      },
+      "deception": {
+        "defaultAttribute": "mind",
+        "training": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        },
+        "expertise": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        }
+      },
+      "dexterity": {
+        "defaultAttribute": "body",
+        "training": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        },
+        "expertise": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        }
+      },
+      "diplomacy": {
+        "defaultAttribute": "soul",
+        "training": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        },
+        "expertise": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        }
+      },
+      "engineering": {
+        "defaultAttribute": "mind",
+        "training": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        },
+        "expertise": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        }
+      },
+      "intimidation": {
+        "defaultAttribute": "body",
+        "training": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        },
+        "expertise": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        }
+      },
+      "investigation": {
+        "defaultAttribute": "mind",
+        "training": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        },
+        "expertise": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        }
+      },
+      "lore": {
+        "defaultAttribute": "mind",
+        "training": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        },
+        "expertise": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        }
+      },
+      "medicine": {
+        "defaultAttribute": "mind",
+        "training": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        },
+        "expertise": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        }
+      },
+      "meleeWeapons": {
+        "defaultAttribute": "body",
+        "training": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        },
+        "expertise": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        }
+      },
+      "metaphysics": {
+        "defaultAttribute": "soul",
+        "training": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        },
+        "expertise": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        }
+      },
+      "nature": {
+        "defaultAttribute": "mind",
+        "training": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        },
+        "expertise": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        }
+      },
+      "perception": {
+        "defaultAttribute": "mind",
+        "training": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        },
+        "expertise": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        }
+      },
+      "performance": {
+        "defaultAttribute": "soul",
+        "training": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        },
+        "expertise": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        }
+      },
+      "rangedWeapons": {
+        "defaultAttribute": "body",
+        "training": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        },
+        "expertise": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        }
+      },
+      "subterfuge": {
+        "defaultAttribute": "mind",
+        "training": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        },
+        "expertise": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        }
+      },
+      "stealth": {
+        "defaultAttribute": "body",
+        "training": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        },
+        "expertise": {
+          "baseValue": 0,
+          "mod": {
+            "static": 0
+          }
+        }
+      }
+    },
+    "rating": {
+      "awareness": {
+        "mod": {
+          "static": 0
+        }
+      },
+      "defense": {
+        "mod": {
+          "static": 0
+        }
+      },
+      "melee": {
+        "mod": {
+          "static": 0
+        }
+      },
+      "accuracy": {
+        "mod": {
+          "static": 0
+        }
+      },
+      "initiative": {
+        "mod": {
+          "static": 0
+        }
+      }
+    },
+    "resource": {
+      "stamina": {
+        "value": 24,
+        "mod": {
+          "static": 0
+        }
+      },
+      "resolve": {
+        "value": 0,
+        "mod": {
+          "static": 0
+        }
+      },
+      "wounds": {
+        "value": 0,
+        "mod": {
+          "static": 0
+        }
+      }
+    },
+    "speed": {
+      "stride": {
+        "baseValue": 5,
+        "mod": {
+          "static": 0
+        }
+      },
+      "fly": {
+        "baseValue": 0,
+        "mod": {
+          "static": 0
+        }
+      },
+      "climb": {
+        "baseValue": 0,
+        "mod": {
+          "static": 0
+        }
+      },
+      "swim": {
+        "baseValue": 0,
+        "mod": {
+          "static": 0
+        }
+      },
+      "burrow": {
+        "baseValue": 0,
+        "mod": {
+          "static": 0
+        }
+      }
+    },
+    "equipped": {
+      "armor": null,
+      "shield": null
+    },
+    "mod": {
+      "armor": {
+        "mod": {
+          "static": 0
+        }
+      },
+      "damage": {
+        "mod": {
+          "static": 0
+        }
+      },
+      "healing": {
+        "mod": {
+          "static": 0
+        }
+      },
+      "resolveRegain": {
+        "mod": {
+          "static": 0
+        }
+      },
+      "woundRegain": {
+        "mod": {
+          "static": 0
+        }
+      }
+    },
+    "role": "warrior",
+    "documentVersion": 0,
+    "bio": {
+      "description": "",
+      "type": ""
+    }
+  },
+  "prototypeToken": {
+    "name": "New Actor (2)",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "resource.stamina"
+    },
+    "bar2": {
+      "attribute": "resource.resolve"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "negative": false,
+      "priority": 0
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "depth": 1,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "Attack",
+      "type": "weapon",
+      "_id": "MsrkxqjJ57qxTb43",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "description": "",
+        "check": [],
+        "customTrait": [],
+        "equipped": true,
+        "rulesElement": [
+          {
+            "operation": "flatModifier",
+            "selector": "rating",
+            "key": "melee",
+            "value": 5,
+            "uuid": "750b7f50-84f4-4aff-b289-80554da9f5c1",
+            "type": "equipment"
+          }
+        ],
+        "rarity": "common",
+        "value": 0,
+        "attack": [
+          {
+            "label": "Attack",
+            "type": "melee",
+            "range": 1,
+            "attribute": "soul",
+            "skill": "meleeWeapons",
+            "damage": 3,
+            "plusExtraSuccessDamage": true,
+            "trait": [
+              {
+                "name": "piercing",
+                "value": true
+              },
+              {
+                "name": "penetrating",
+                "value": true
+              },
+              {
+                "name": "magical",
+                "value": true
+              }
+            ],
+            "customTrait": [],
+            "uuid": "f8ff3f30-608f-44ea-8428-cc3bc48108cd"
+          }
+        ],
+        "attackNotes": "",
+        "documentVersion": 0,
+        "trait": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "1uwfFLT06n0mGQLi": 3
+      },
+      "flags": {
+        "titan": {
+          "uuid": "04744109-a1fe-4c52-b3bc-1fff80541c15"
+        }
+      },
+      "_stats": {
+        "systemId": "titan",
+        "systemVersion": "1.0.0",
+        "coreVersion": "10.291",
+        "createdTime": 1683345201651,
+        "modifiedTime": 1683345246197,
+        "lastModifiedBy": "1uwfFLT06n0mGQLi",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!v7RibGeLqpL6XSJ9.MsrkxqjJ57qxTb43"
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "7cc054dd-221e-45f3-affc-1610b579260f"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683345173053,
+    "modifiedTime": 1689666003215,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "_id": "v7RibGeLqpL6XSJ9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!actors!v7RibGeLqpL6XSJ9"
+}

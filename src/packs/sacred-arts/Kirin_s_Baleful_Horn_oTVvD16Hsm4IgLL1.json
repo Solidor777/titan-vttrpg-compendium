@@ -1,0 +1,74 @@
+{
+  "name": "Kirin's Baleful Horn",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/HornedKirin_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 2 Resolve</p><p><strong>Range:</strong> Touch</p><p>You strike your enemy with necrotic energy, draining their life away.</p><p>Choose an adjacent creature and make a <strong>4:1 Soul (Metaphysics</strong>) check.</p><p>The target suffers <strong>1</strong> <strong>Damage</strong> per success. This <strong>Damage</strong> ignores <strong>Armor</strong>.</p><p>If the <strong>Damage</strong> is greater than the target's <strong>Body</strong>, it dies instantly, leaving nothing behind but a decayed husk.</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 2,
+        "isDamage": true,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "none",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "55625e19-b367-4b53-8e27-bf70c45e8b08"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "bde442a2-7e7e-4a9e-be65-aa6b91c84fa2"
+      },
+      {
+        "name": "Horned Kirin",
+        "description": "",
+        "uuid": "dc10832b-9cbe-4f72-80df-4bf2057334fd"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "c7bc9802-6e01-4010-94bb-bca7e3436565"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679881522637,
+    "modifiedTime": 1708070091624,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "W8QPQoWJqMdE5Up2",
+  "_id": "oTVvD16Hsm4IgLL1",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!oTVvD16Hsm4IgLL1"
+}

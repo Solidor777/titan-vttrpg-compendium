@@ -1,0 +1,54 @@
+{
+  "name": "Heavy Armor",
+  "type": "armor",
+  "img": "icons/svg/statue.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Body (4)</p><p>Heavy armor is made from interlocking metal plates, often overlaid with itself to provide multiple layers of protection. It is cumbersome to wear, but offers the greatest degree of protection.</p>",
+    "check": [],
+    "customTrait": [],
+    "rarity": "common",
+    "value": 350,
+    "armor": {
+      "max": 3,
+      "value": 3
+    },
+    "trait": [
+      {
+        "name": "loud",
+        "value": true
+      },
+      {
+        "name": "heavy",
+        "value": true
+      }
+    ],
+    "rulesElement": [],
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "6c3a889b-2449-46d5-8d68-70323d8c798c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678423340270,
+    "modifiedTime": 1689665901151,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "_id": "7srFUYnq5jdFbAZP",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!7srFUYnq5jdFbAZP"
+}

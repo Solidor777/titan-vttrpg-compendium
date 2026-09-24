@@ -1,0 +1,96 @@
+{
+  "_id": "vk5qMShtWBGNxskb",
+  "name": "Kirin's Blessing of Youth",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/HornedKirin_Path_Icon.webp",
+  "description": "<p>You have been revitalized by the power of a kirin.</p><p>Until the start of the ability user's next turn, your <strong>Melee</strong>, <strong>Accuracy</strong>, <strong>Defense</strong>, and <strong>Body</strong> are increased by <strong>+1</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "edB7pRg13vh0D3YI",
+  "sort": 300000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "initiative",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "95fe9b47-7aa8-43f5-88f1-7f11eebd35be"
+      },
+      {
+        "name": "Horned Kirin",
+        "description": "",
+        "uuid": "1e86c5cd-7fec-4793-a982-4d0e2e885f2f"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "attribute",
+        "key": "body",
+        "value": 1,
+        "uuid": "29c8054d-9910-4b89-8b09-914393ae0a4a"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "rating",
+        "key": "melee",
+        "value": 1,
+        "uuid": "42f02679-cde1-450a-a35c-273393f0459d"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "rating",
+        "key": "accuracy",
+        "value": 1,
+        "uuid": "55aa27e7-c505-4e59-90df-adcd77385e16"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "rating",
+        "key": "defense",
+        "value": 1,
+        "uuid": "edabb6a7-9c49-4f2e-b13b-a3c8cc7b0f8a"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>Kirin's Blessing of Youth:</strong> Your <strong>Body</strong>, <strong>Melee</strong> and <strong>Accuracy</strong> are increased by <strong>+1</strong>.</p>",
+        "uuid": "f0930a9b-3bec-48ee-85bc-5cdfbc600430"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679892865774,
+    "modifiedTime": 1708070101445,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!vk5qMShtWBGNxskb"
+}

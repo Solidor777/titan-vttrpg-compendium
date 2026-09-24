@@ -1,0 +1,90 @@
+{
+  "name": "Call Tornado",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Air_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You conjure a funnel cloud in the midst of your enemies.</p><p>Choose a point within <strong>10 spaces</strong>. Creatures within a <strong>5-space-radius</strong> of that point take <strong>1 Damage</strong> and must make an opposed <strong>Reflexes</strong> or be swept off their feet into the funnel cloud.</p><p>Creatures that succeed on the <strong>Reflexes</strong> check must choose a point outside the radius of the cloud that they can travel to. They dash or are flung to this point. If no such point exists, they automatically fail.</p><p>Creatures captured by the funnel cloud cannot move and are <strong>Stunned</strong>. Their <strong>Defense</strong> increases by <strong>+1</strong>, as spinning in the funnel cloud makes them harder to hit.</p><p>Each extra success extends the duration by <strong>+1 rounds</strong>.</p><p>Alternatively, you may increase the <strong>Damage</strong> by <strong>+1</strong> per extra success.</p><p>You may move the cloud 5 spaces at the start of your turn, provided that it has any duration remaining.</p><p>When the spell ends, any creatures captured by the cloud immediately fall <strong>Prone</strong>.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.Py1UmAsxh1DhdEwZ]{Call Tornado}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Air",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 5,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 2,
+        "enabled": true
+      },
+      {
+        "label": "radius",
+        "initialValue": 5,
+        "cost": 3,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true
+      },
+      {
+        "label": "damage",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "reflexes",
+        "isDamage": true,
+        "option": [],
+        "enabled": true
+      },
+      {
+        "label": "inflictCondition",
+        "cost": 2,
+        "option": [
+          "stunned"
+        ],
+        "resistanceCheck": "reflexes",
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "e6953e30-db4f-4a78-b3d8-c56fb2df8fc8"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680493043231,
+    "modifiedTime": 1708069431914,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "9Jx7ybrnDHJqOqgA",
+  "_id": "lZJ3aOvVr39BGqWe",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!lZJ3aOvVr39BGqWe"
+}

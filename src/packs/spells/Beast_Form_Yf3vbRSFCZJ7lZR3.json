@@ -1,0 +1,78 @@
+{
+  "name": "Beast Form",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Flesh_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You transform a creature into the form of a beast.</p><p>Choose a creature within <strong>10 spaces</strong>. An unwilling creature may make an opposed <strong>Resilience</strong> check to resist the effect.</p><p>For <strong>1 hour</strong>, the creature is transformed into an animal of your choosing, provided the animal's maximum <strong>Stamina</strong> is no more than the target's maximum <strong>Stamina</strong>.</p><p>The target's statistics, including <strong>Attributes</strong>, <strong>Skills</strong>, and <strong>Abilities</strong> are replaced by those of the chosen beast. It retains its personality, <strong>Stamina</strong>, and <strong>Wounds</strong>.</p><p>While in its new form, the target is limited by the beast's capabilities, such as speech and the ability to wield tools.</p><p>Any equipment the target is weapon remains where it was, but the target may not be able to benefit from the equipment. For example, a gorilla may be able to wear a cuirass, but a wolf cannot use a spear.</p><p>The target returns to its natural form if it takes <strong>Damage</strong> equal to the maximum <strong>Stamina</strong> of the animal or if it falls to <strong>0 Stamina</strong>. Any <strong>Damage</strong> taken while in the bestial form, including <strong>Damage</strong> in excess of the animal's maximum <strong>Stamina</strong>, carries over to the creature's natural form.</p><p>Each extra success extends the duration by <strong>+1 hours</strong>.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.Bpp7AMJaFBJRikDO]{Beast Form}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "uncommon",
+    "tradition": "Flesh",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 5,
+      "complexity": 2,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": false,
+        "label": "Hours",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "uuid": "83026927-a2e5-4cbf-b657-14ec16035358"
+      },
+      {
+        "label": "Beast Form",
+        "scaling": false,
+        "initialValue": 0,
+        "cost": 1,
+        "resistanceCheck": "resilience",
+        "isDamage": false,
+        "isHealing": false,
+        "uuid": "9ea8d972-a4c4-416a-ad27-8b8a9438b892"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 0,
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "8ab42aad-5485-4651-845b-151b31097ad0"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432594185,
+    "modifiedTime": 1708069973902,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "uiPwkfnRVLGVAvvk",
+  "_id": "Yf3vbRSFCZJ7lZR3",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!Yf3vbRSFCZJ7lZR3"
+}

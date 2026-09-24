@@ -1,0 +1,91 @@
+{
+  "name": "Void Field",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/AetherAndVoid_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You drain all energy from an area, leaving your enemies helpless.</p><p>All creatures within a<strong> 5-space-radius</strong> of you must make an opposed <strong>Resilience</strong> check or become <strong>Incapacitated </strong>until the start of your next turn.</p><p>Plants around you wither and die. Water stills, and machinery slows.</p><p>Each extra success extends the duration by <strong>+1 round</strong>.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.Vb9IzODn5SmsCffh]{Void Field}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Void",
+        "description": "",
+        "uuid": "21b4f18c-c7b4-42d6-a0f0-19d01799752e"
+      },
+      {
+        "name": "Attunement",
+        "description": "",
+        "uuid": "239cb8bd-456b-417e-ab2e-443fa23aeda3"
+      }
+    ],
+    "xpCost": 0,
+    "rarity": "uncommon",
+    "tradition": "Aether and Void",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 6,
+      "complexity": 2,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "radius",
+        "initialValue": 5,
+        "cost": 3,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true
+      },
+      {
+        "label": "inflictCondition",
+        "cost": 3,
+        "option": [
+          "incapacitated"
+        ],
+        "resistanceCheck": "willpower",
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "0406b79c-f35a-4028-a059-d18027334493"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1681362086156,
+    "modifiedTime": 1708069219357,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "pyJksx2DyxQNuqXD",
+  "_id": "TYD1lXWnoN4TQV4U",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!TYD1lXWnoN4TQV4U"
+}

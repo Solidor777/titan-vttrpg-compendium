@@ -1,0 +1,43 @@
+{
+  "name": "Sneak Attack",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Stealth</p><p>You know how to quickly dispatch an unaware enemy.</p><p>If you attack a target that is unaware of you, the attack deals double <strong>Damage</strong> and ignores <strong>Armor</strong>.</p><p>If this attack kills or incapacitates the target, you may choose to make no sound as you deliver it.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "cd5cbde6-8f17-4011-b6bc-e1f4762a4814"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678426747110,
+    "modifiedTime": 1689641651126,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 10000000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "N1kD5G11uWb3MxjU",
+  "_key": "!items!N1kD5G11uWb3MxjU"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Path of the Blue Spirit",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlueSpirit_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must make contact with the Blue Spirit and be accepted as its follower</p><p>The enigmatic blue spirit is a creature of secret and forbidden knowledge. Its followers tend to be mages, scholars, and investigators. The spirit's true nature is unknown, but to those who pay homage, it grants blessings in the form of sweet whispers.</p><ul><li><p>Select 1 <strong>Path Ability</strong> with the <strong>Blue Spirit</strong> trait. You immediately gain that <strong>Ability</strong> without the associated XP Cost.</p></li><li><p>You have <strong>Advantage</strong> on checks to perform research. If you would gain <strong>Advantage</strong> from another source, you have <strong>Greater Advantage</strong>.</p></li></ul>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "dcc580f9-1361-4098-827d-7886c6ba77d6"
+      },
+      {
+        "name": "Blue Spirit",
+        "description": "",
+        "uuid": "c9a3fc5a-c50a-41dd-bf0e-6be202b5146c"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "33d18567-2d9b-4957-a9e1-21c6cf2aeabe"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679896033670,
+    "modifiedTime": 1708070713783,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "PQeRF3Is6ZY1rqPd",
+  "_id": "8IsoDdGGVCKtFohZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!8IsoDdGGVCKtFohZ"
+}

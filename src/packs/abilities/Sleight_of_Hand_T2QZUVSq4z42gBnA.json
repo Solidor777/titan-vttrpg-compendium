@@ -1,0 +1,43 @@
+{
+  "name": "Sleight of Hand",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Subterfuge</p><p>You have especially deft hands.</p><ul><li><p>You know a variety of tricks you can use to create a distraction, such as dancing a coin across your knuckles, or making a small object appear to disappear.</p></li><li><p>You have <strong>Advantage</strong> on checks to steal or hide small objects.</p></li><li><p>You have <strong>Advantage</strong> on checks to cheat at cards or other games of chance, provided it is possible to do so.</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "6a215cb1-4c9f-48e4-b618-7aa66c3ce350"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678678555434,
+    "modifiedTime": 1689641650663,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 9900000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "T2QZUVSq4z42gBnA",
+  "_key": "!items!T2QZUVSq4z42gBnA"
+}

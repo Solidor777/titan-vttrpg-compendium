@@ -1,0 +1,73 @@
+{
+  "_id": "ebg7jmHBDunanqeJ",
+  "name": "Jade Steel",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/JadeWarrior_Path_Icon.webp",
+  "description": "<p>You spread jade energy through your skin, hardening it into a protective shell.</p><p>Until the start of your next turn, your <strong>Armor</strong> increases by <strong>+2</strong>.</p><p>If you are hit by an attack or damaging effect, you may negate the hit by ending this effect early, as the energy coating your skin shatters.</p><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "cV7lsKikLWOS0u21",
+  "sort": 200000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "permanent",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "96984668-bf58-4a5e-94e2-84f9108e5110"
+      },
+      {
+        "name": "Jade Warrior",
+        "description": "",
+        "uuid": "7bc52639-765a-43a1-a79c-e923ebabb87a"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Jade Steel:</strong> Your armor increases by <strong>+2</strong>. You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p>",
+        "uuid": "edc3f928-654d-4b3a-8d26-a728da703400"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "mod",
+        "key": "armor",
+        "value": 2,
+        "uuid": "6860b26b-c989-4460-893a-4c7b496058dd"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680066992213,
+    "modifiedTime": 1709185183258,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!ebg7jmHBDunanqeJ"
+}

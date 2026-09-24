@@ -1,0 +1,54 @@
+{
+  "name": "Blue Spirit's Aethercraft",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlueSpirit_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve</p><p><strong>Range:</strong> 10 spaces</p><p>The Blue Spirit actively teaches its faithful whenever possible, and you follow in its footsteps by passing knowledge on to your allies.</p><p>Choose yourself or an ally within <strong>10 spaces</strong> of you.</p><p>If the target makes a check to cast a spell before the start of your next turn, it gains bonus <strong>Expertise</strong> equal to your <strong>Soul</strong>.</p><p>You can spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect, choosing another target if you wish.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.7aD4X9G9XDfIRZpC]{Blue Spirit's Aethercraft}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "dcc580f9-1361-4098-827d-7886c6ba77d6"
+      },
+      {
+        "name": "Blue Spirit",
+        "description": "",
+        "uuid": "c9a3fc5a-c50a-41dd-bf0e-6be202b5146c"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "6f1f56ae-0b88-4bac-83e7-6b111bc0973c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679896033670,
+    "modifiedTime": 1708070726808,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "ZCjngOnzbhhPE8h6",
+  "_id": "p7o7Yj48ZpX8tzqH",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!p7o7Yj48ZpX8tzqH"
+}

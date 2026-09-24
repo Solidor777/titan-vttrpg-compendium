@@ -1,0 +1,90 @@
+{
+  "_id": "AZWdUeIhXOOdUsBS",
+  "name": "Parch",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Fire_Tradition_Icon.webp",
+  "description": "<p>The air around you is superheated, making you so weak and dehydrated that you can barely move.</p><p>Your <strong>Speed</strong> decreases by <strong>-5</strong>, to a minimum of 1.</p><p>You cannot <strong>Charge</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "f0n5Mzr4qSnhYH2e",
+  "sort": 700000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnEnd",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Fire",
+        "description": "",
+        "uuid": "a4e3cd8b-107d-4bc3-955d-4dd7f196fc4d"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "burrow",
+        "value": -5,
+        "uuid": "9e5eec48-ceba-4d28-85ab-4da248b7fd76"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "climb",
+        "value": -5,
+        "uuid": "1c7550b1-8e3c-41bd-aeaa-459537e574fd"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "fly",
+        "value": -5,
+        "uuid": "528cd059-5cac-4ef0-9fe1-81c97ecc1379"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "stride",
+        "value": -5,
+        "uuid": "c03d4726-9ba2-48e0-8e9a-abd0bb5995f8"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "swim",
+        "value": -5,
+        "uuid": "d9246fab-43f9-40b8-9878-0aea5bad5639"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680239014380,
+    "modifiedTime": 1708131782330,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!AZWdUeIhXOOdUsBS"
+}

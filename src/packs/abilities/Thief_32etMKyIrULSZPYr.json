@@ -1,0 +1,53 @@
+{
+  "name": "Thief",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Subterfuge</p><p>You are adept at picking pockets and palming valuable objects, even when they are closely guarded.</p><ul><li><p>You have <strong>Advantage</strong> on checks to steal an object without being noticed.</p></li><li><p>You can attempt to steal from another creature in combat, so long as the object you are trying to steal is not being held or secured to the creature in question.</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attribute",
+        "selector": "skill",
+        "key": "subterfuge",
+        "message": "<p><strong>Thief:</strong> You have <strong>Advantage</strong> on Checks to steal an object without being noticed.</p>",
+        "uuid": "f0940ad5-271c-4ca4-b948-df9c438cfa37",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "7354bc71-81f7-4a2b-96f7-6d67db9c7cc8"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678430229743,
+    "modifiedTime": 1689641655383,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 10900000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "32etMKyIrULSZPYr",
+  "_key": "!items!32etMKyIrULSZPYr"
+}

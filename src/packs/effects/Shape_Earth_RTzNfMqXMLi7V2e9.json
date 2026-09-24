@@ -1,0 +1,54 @@
+{
+  "_id": "RTzNfMqXMLi7V2e9",
+  "name": "Shape Earth",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Earth_Tradition_Icon.webp",
+  "description": "<p>You shape dirt and stone according to your will.</p><p>Choose a 1 cubic space of rock or earth within <strong>10 spaces</strong>. You can move that earth or rock to an adjacent space or lift it up to 1 space above the ground.</p><p>Alternatively, you can carefully sculpt earth or rock while the spell is active, such as writing in dirt, or carving a tool.</p><p>Your control over the earth lasts until the start of your next turn, after which it falls or settles where you have left it.</p><p>While this spell is active, you can use an <strong>Action</strong> to move earth again, selecting the same target or a new target as you wish. If you select a new target, you relinquish control over the previous target.</p><p>Each extra success extends the duration of your control by <strong>+1 round</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "oayj05bANMFmRGKM",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnStart",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Earth",
+        "description": "",
+        "uuid": "c3ae30b9-5716-45c2-bdbd-ba544e7d41b7"
+      }
+    ],
+    "rulesElement": [],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680302535477,
+    "modifiedTime": 1708131703336,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!RTzNfMqXMLi7V2e9"
+}

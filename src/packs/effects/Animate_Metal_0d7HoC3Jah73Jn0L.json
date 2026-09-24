@@ -1,0 +1,54 @@
+{
+  "_id": "0d7HoC3Jah73Jn0L",
+  "name": "Animate Metal",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Metal_Tradition_Icon.webp",
+  "description": "<p>You control a piece of metal at range.</p><p>Until the start of your next turn, you can lift and manipulate a piece of metal large enough to fill a 1/2 space cube at a rate of 10 spaces per round.</p><p>You can use this to make a melee attack at range, using a weapon or an improvised weapon, so long as the target is within <strong>Range 10</strong>. If you do so, you use your <strong>Mind</strong> instead of your <strong>Body</strong> on the attack roll.</p><p>If you try to take an object away from another creature, it must make an opposed <strong>Resilience</strong> check to keep hold of the object.</p><p>Other uses of this spell include ripping the hinges off a door or levitating a ring of keys across a room.</p><p>If you do not move the object, you may instead spend the turn exercising fine control over its movements, such as turning a key in a lock.</p><p>Each extra success extends the duration by <strong>+1 rounds</strong>.</p><p>When the spell ends, the animated object falls to the ground, or may be retrieved by you so long as it is within your reach.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "uFa1Ccptl4K1DDCq",
+  "sort": 1300000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnStart",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Metal",
+        "description": "",
+        "uuid": "162ad7e6-1bdf-4784-bf79-b3c27e5f418e"
+      }
+    ],
+    "rulesElement": [],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680411410488,
+    "modifiedTime": 1708069760226,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!0d7HoC3Jah73Jn0L"
+}

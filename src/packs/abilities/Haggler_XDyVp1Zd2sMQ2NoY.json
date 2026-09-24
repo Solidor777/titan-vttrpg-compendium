@@ -1,0 +1,43 @@
+{
+  "name": "Haggler",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Diplomacy</p><p>You are adept at striking deals, haggling, and navigating the cutthroat world of business.</p><ul><li><p>You have <strong>Advantage</strong> on checks made to haggle or negotiate contracts.</p></li><li><p>If you attempt to bribe someone and fail, you have <strong>Advantage</strong> on any checks to convince them not to report you.</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "bb16e068-fb10-41cf-ba03-89eceedcb92c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678677535599,
+    "modifiedTime": 1689641623931,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 5500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "XDyVp1Zd2sMQ2NoY",
+  "_key": "!items!XDyVp1Zd2sMQ2NoY"
+}

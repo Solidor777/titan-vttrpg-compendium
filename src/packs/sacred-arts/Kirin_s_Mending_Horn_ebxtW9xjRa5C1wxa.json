@@ -1,0 +1,74 @@
+{
+  "name": "Kirin's Mending Horn",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/HornedKirin_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> 10 spaces</p><p>You channel life energy into a creature to revitalize them.</p><p>Choose yourself or an ally within <strong>10 spaces</strong> and make a <strong>4:1 Soul (Metaphysics</strong>) check. The target recovers <strong>1 Stamina</strong> per success.</p><p>You may choose to spend <strong>1 Resolve</strong> when you use this ability to add your <strong>Soul</strong> to the amount of <strong>Damage</strong> healed.</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 0,
+        "isDamage": false,
+        "isHealing": true,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "none",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "1facda39-bd6d-4639-9e78-cf29aca47cab"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "bde442a2-7e7e-4a9e-be65-aa6b91c84fa2"
+      },
+      {
+        "name": "Horned Kirin",
+        "description": "",
+        "uuid": "dc10832b-9cbe-4f72-80df-4bf2057334fd"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "0c679ca8-9801-4a23-bc64-decff53ffbf7"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679881522637,
+    "modifiedTime": 1708070115550,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "W8QPQoWJqMdE5Up2",
+  "_id": "ebxtW9xjRa5C1wxa",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!ebxtW9xjRa5C1wxa"
+}

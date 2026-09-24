@@ -1,0 +1,74 @@
+{
+  "name": "The Dragon Roars",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlackFlames_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve or 1 Wound</p><p><strong>Range:</strong> Self</p><p><strong>Area:</strong> 1-space-radius</p><p>You share the outrage of a dragon when injured in battle, letting loose your power to punish those who harm you.</p><p>When you suffer Damage, you can release a burst of Black Flame as a <strong>Free Action</strong>.</p><p>Make a <strong>6:1 Soul (Metaphysics)</strong> check, with bonus dice equal to the amount of <strong>Damage</strong> you suffered.</p><p>Each success inflicts <strong>1 Damage</strong> on all enemies within <strong>1 space</strong> of you. This damage ignores <strong>Armor</strong>.</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 6,
+        "complexity": 1,
+        "resolveCost": 1,
+        "isDamage": true,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "none",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "ad2ab855-7492-4067-a3e9-3a6e3089c082"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d1d26d6a-f297-4755-9928-515ffe178a0d"
+      },
+      {
+        "name": "Black Flame",
+        "description": "",
+        "uuid": "38936061-1857-4c3f-8886-d84c4b2f3d26"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "2aaccf5b-410a-4e7d-b60c-3a7dfa296980"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679034610618,
+    "modifiedTime": 1709798561066,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "FGlkMf2awlp6zTb7",
+  "_id": "tSPULHYDqy2ZUwuU",
+  "sort": 1400000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!tSPULHYDqy2ZUwuU"
+}

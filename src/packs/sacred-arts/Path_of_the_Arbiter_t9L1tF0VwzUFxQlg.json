@@ -1,0 +1,54 @@
+{
+  "name": "Path of the Arbiter",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Arbiter_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must have access to be trained by another Arbiter or have access to their teachings</p><p>In years past, Arbiters would travel the world to destroy demonic spirits and malfeasant sacred artists. Today, many of the techniques they employed have been collected by law enforcement agencies, secret police, and exorcists, who use them to root out mortal and spiritual corruption alike.</p><ul><li><p>Select <strong>1</strong> <strong>Path Ability</strong> with the <strong>Arbiter </strong>trait. You immediately gain that <strong>Ability</strong> without the associated XP cost.</p></li><li><p>You have <strong>Advantage</strong> on checks to determine whether a creature or object is affected by supernatural corruption, as well as any checks made to track or research supernatural creatures.</p></li></ul>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Arbiter",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "c873b233-8185-4986-8e77-2759bed9f3cc"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708071628085,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "I0DlW6JNS7qZN9hb",
+  "_id": "t9L1tF0VwzUFxQlg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!t9L1tF0VwzUFxQlg"
+}

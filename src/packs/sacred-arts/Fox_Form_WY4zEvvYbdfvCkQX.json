@@ -1,0 +1,54 @@
+{
+  "name": "Fox Form",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/WhiteFox_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> Self</p><p><strong>Area:</strong> 5-space-radius</p><p>You and your allies take on the form White Foxes, granting you speed, stealth, and protection from predators.</p><p>Choose yourself and a number of allies within a <strong>10-space-radius</strong>, with a maximum number equal to your soul. Until the start of your next turn, you and your affected allies gain the following effects for as long as they remain within <strong>10 spaces</strong> of you.</p><ul><li><p>Your <strong>Size</strong> becomes <strong>1/2</strong>.</p></li><li><p>Your <strong>Stride</strong> speed increases by <strong>+5</strong>.</p></li><li><p>You gain a bonus to your <strong>Training</strong> in <strong>Stealth</strong> equal to the <strong>Training</strong> in <strong>Metaphysics</strong> of the creature that used this ability.</p></li><li><p>Most animals will ignore you unless you provoke them first.</p></li></ul><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.fNXfTKaFLrutC1jd]{Fox Form}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "84ea9bdd-9b73-4c33-9931-bb4649ddf7ef"
+      },
+      {
+        "name": "White Fox",
+        "description": "",
+        "uuid": "acebd805-cc72-4279-9933-c0ce659c8734"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "f7cbc2ff-e158-4e70-a5da-c8e17e5f83c6"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679855859923,
+    "modifiedTime": 1708070321830,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "FP0IEhJWKJZvIHU4",
+  "_id": "WY4zEvvYbdfvCkQX",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!WY4zEvvYbdfvCkQX"
+}

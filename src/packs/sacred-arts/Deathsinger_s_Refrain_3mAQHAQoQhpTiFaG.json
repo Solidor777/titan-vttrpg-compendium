@@ -1,0 +1,68 @@
+{
+  "_id": "3mAQHAQoQhpTiFaG",
+  "name": "Deathsinger's Refrain",
+  "type": "ability",
+  "img": "icons/magic/death/skull-horned-white-purple.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve</p><p><strong>Range:</strong> 10 spaces</p><p>You inflict a creature with an infectious disease that spreads and worsens endlessly.</p><p>Choose a creature within <strong>10 spaces</strong>. That target becomes <strong>Contaminated</strong>.</p><p>At the start of that creature's turn, make a <strong>4:1 Soul (Metaphysics)</strong> check resisted by the target's <strong>Resilience</strong>.</p><p>If you succeed, the target takes <strong>Damage</strong> equal to the difference in successes, this <strong>Damage</strong> ignores <strong>Armor</strong>. Otherwise, the <strong>Contaminated</strong> effect ends.</p><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect. If you do not, the disease dies with the round.</p><p>Otherwise, all creatures adjacent to creatures that have been <strong>Contaminated</strong> by this ability also become <strong>Contaminated</strong> until the start of your next turn and is thereafter treated as an additional target of this ability.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.Mmh4cYD3F3d0lGrc]{Deathsinger's Refrain}</p>",
+    "check": [
+      {
+        "label": "Refrain",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 1,
+        "isDamage": true,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "resilience",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "e386ca49-79b8-4349-a63d-0564fb5992d6"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Deathsinger",
+        "description": "",
+        "uuid": "a7063d7a-714c-444e-a2f0-539ee83b9565"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "iAdYrErZnpD6327g",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!3mAQHAQoQhpTiFaG"
+}

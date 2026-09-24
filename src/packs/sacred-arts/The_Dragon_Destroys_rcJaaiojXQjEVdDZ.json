@@ -1,0 +1,54 @@
+{
+  "name": "The Dragon Destroys",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlackFlames_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve or 1 Wound</p><p><strong>Range:</strong> Self</p><p><strong>Area:</strong> 5-space radius, 5-space-line</p><p>You create Black Flame within objects themselves, using it to disintegrate trees, shatter buildings, and rend the ground beneath your feet.</p><p>As an <strong>Action</strong>, choose one of the following effects:</p><ul><li><p><strong>Disintegrate</strong></p><ul><li><p>Choose a large or smaller non-magical object within <strong>10 spaces</strong>. A burst of Black Flame burns it away.</p></li><li><p>This can clear obstacles from your path and remove the <strong>Difficult Terrain</strong> or <strong>Cover</strong> traits from an area within a <strong>5-space-radius</strong>.</p></li></ul></li><li><p><strong>Break</strong></p><ul><li><p>Choose a solid structure within <strong>10 spaces</strong>, such as a wall or cliffside. The structure crumbles as Black Flame erupts from the cracks.</p></li><li><p>This can affect a number of <strong>contiguous spaces</strong> equal to <strong>2 * your Training in Metaphysics</strong> (minimum of <strong>2</strong>).</p></li><li><p>This can be used to destroy buildings, carve tunnels, or give an area the <strong>Difficult Terrain</strong> trait within a <strong>5-space-radius</strong>.</p></li></ul></li><li><p><strong>Rend</strong></p><ul><li><p>Draw a <strong>5-space-line</strong> starting at any point within <strong>10 spaces</strong> of you, with no space currently occupied by a creature. Black Flame erupts from a rend in the earth, splitting the ground in two.</p></li><li><p>Moving across the line requires an <strong>Action</strong> to jump across the gap.</p></li><li><p>The line can take whatever shape you like, so long as it does not cross over itself.</p></li><li><p>The gap is <strong>1 space</strong> <strong>wide</strong>, and <strong>10 spaces deep</strong>.</p></li></ul></li></ul>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "10843847-c17f-4cfc-bdbd-ba3811f519ef"
+      },
+      {
+        "name": "Black Flame",
+        "description": "",
+        "uuid": "8b2d0c9b-ae26-4c97-9a2f-3bf2e7154dec"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "0bdb86db-d61c-4092-b1c4-eccedaabcb71"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679032880783,
+    "modifiedTime": 1709798552831,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "FGlkMf2awlp6zTb7",
+  "_id": "rcJaaiojXQjEVdDZ",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!rcJaaiojXQjEVdDZ"
+}

@@ -1,0 +1,69 @@
+{
+  "_id": "sei1TuruAFADyqKg",
+  "name": "Living Whirlwind",
+  "type": "effect",
+  "img": "icons/magic/air/air-wave-gust-blue.webp",
+  "description": "<p>You ended <strong><em>Zephyr Style</em></strong> after performing <strong><em>Living Whirlwind</em></strong>. All attacks against you have <strong>Disadvantage</strong> until the start of your next turn, and you may not enter <strong><em>Zephyr Style</em></strong> again until the start of your next turn.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "PIostaHgOOIFRErC",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "initiative": 1,
+      "custom": "",
+      "remaining": 1,
+      "type": "turnStart"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Combat Style",
+        "description": "",
+        "uuid": "04d37919-3760-4915-a465-f93a6771cf2d"
+      },
+      {
+        "name": "Zephyr Style",
+        "description": "",
+        "uuid": "cb41165d-aa81-475d-a4f5-12aa76419127"
+      },
+      {
+        "name": "Air",
+        "description": "",
+        "uuid": "aa8a1bdb-d349-4f06-aae6-bf79ed73cf46"
+      },
+      {
+        "name": "Mythic Technique",
+        "description": "",
+        "uuid": "48a6777f-754e-468b-a106-13c8b5a56c10"
+      }
+    ],
+    "rulesElement": [],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!sei1TuruAFADyqKg"
+}

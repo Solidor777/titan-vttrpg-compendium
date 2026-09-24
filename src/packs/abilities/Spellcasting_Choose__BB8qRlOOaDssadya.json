@@ -1,0 +1,43 @@
+{
+  "name": "Spellcasting (Choose)",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Arcana</p><p>You have the talent and training necessary to use one of the Traditions of magic and are able to shape arcane energy into powerful spells.</p><p>Choose a magical <strong>Tradition</strong> that you would have access to. You can now cast spells from that <strong>Tradition</strong>, as well as those that can be cast by <strong>Any</strong> tradition.</p><p>Then, choose <strong>5 spells</strong> to learn from a combination of your chosen <strong>Tradition</strong> and those that can be cast by <strong>Any</strong> tradition.</p><p>You can learn more spells as a downtime activity, or with the appropriate roleplay.</p><p>Provided you meet the requirements, you can also invest additional <strong>XP</strong> into this ability to learn additional <strong>Traditions</strong>.</p><p>If you do so, you immediately learn <strong>1 spell</strong> from that <strong>Tradition</strong>.</p><p>Additionally, you can perform minor, non-combat effects with objects related to your chosen <strong>Tradition</strong>. For example, a <strong>Fire</strong> mage might change the color or shape of a flame, while an <strong>Earth</strong> mage might carve tiny figures from stone.</p><p>The requirements for additional <strong>Traditions</strong> are listed below:</p><ul><li><p><strong>2nd Tradition</strong></p><ul><li><p>+2 XP</p></li><li><p>Training (2) or Expertise (2) in the Arcana Skill</p></li></ul></li><li><p><strong>3rd Tradition</strong></p><ul><li><p>+3 XP</p></li><li><p>Training (2) and Expertise (2) in the Arcana Skill</p></li></ul></li><li><p><strong>4th Tradition</strong></p><ul><li><p>+4 XP</p></li><li><p>Training (3) or Expertise (3) in the Arcana Skill</p></li></ul></li><li><p><strong>5th Tradition</strong></p><ul><li><p>+5 XP</p></li><li><p>Training (3) and Expertise (3) in the Arcana Skill</p></li></ul></li><li><p><strong>6th Tradition</strong></p><ul><li><p>+6 XP</p></li><li><p>Mind 6</p></li></ul></li><li><p><strong>7th Tradition</strong></p><ul><li><p>+ 7 XP</p></li><li><p>Mind 7</p></li></ul></li><li><p><strong>8th Tradition</strong></p><ul><li><p>+ 8 XP</p></li><li><p>Mind 8</p></li></ul></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "7aa35950-64cc-485b-a467-95c1c3c07ee3"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678679305627,
+    "modifiedTime": 1689665563381,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "mPYYv6IP74nldiaR",
+  "_id": "BB8qRlOOaDssadya",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!BB8qRlOOaDssadya"
+}

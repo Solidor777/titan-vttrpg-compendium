@@ -1,0 +1,90 @@
+{
+  "_id": "oBPUR38FjmAvZaNQ",
+  "name": "Force Speed",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Force_Tradition_Icon.webp",
+  "description": "<p>Kinetic energy is helping you to move more quickly.</p><p>Your <strong>Speed</strong> is increased by <strong>+5</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "enm7KmNh4pl8916s",
+  "sort": 400000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "initiative",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": "Minutes"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Force",
+        "description": "",
+        "uuid": "a6e06733-da73-4693-9884-9810a9e45c60"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "burrow",
+        "value": 5,
+        "uuid": "a940a237-2445-4eb4-984a-ef99e12f9298"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "climb",
+        "value": 5,
+        "uuid": "9abcdb6f-7c7d-4836-b8ef-e3230da008be"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "fly",
+        "value": 5,
+        "uuid": "b62df174-f5c5-4ec3-ac4f-a5866594a74e"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "stride",
+        "value": 5,
+        "uuid": "04c2ebf0-6f97-44f7-a4bd-742b00b72b05"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "swim",
+        "value": 5,
+        "uuid": "ada37b29-ee9d-420e-8ffe-40bbe1860841"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432985113,
+    "modifiedTime": 1708069533380,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!oBPUR38FjmAvZaNQ"
+}

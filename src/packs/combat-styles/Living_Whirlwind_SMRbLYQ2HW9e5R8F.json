@@ -1,0 +1,58 @@
+{
+  "_id": "SMRbLYQ2HW9e5R8F",
+  "name": "Living Whirlwind",
+  "type": "ability",
+  "img": "icons/magic/air/air-wave-gust-blue.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Wind Style Dedication, Training (3) and Expertise (3) in Melee Weapons or Ranged Weapons, 5 abilities with the Wind Style trait, and you must receive training from a master of this style, or have access to their teachings</p><p><strong>Cost:</strong> 3 Focus</p><p><strong>Range:</strong> Self</p><p>You give yourself to the wind for a single breath, and it carries you through all of them.</p><p>As an <strong>Action</strong>, spend <strong>3 Focus</strong>. You may <strong>Fly</strong> up to <strong>double</strong> your <strong>Stride</strong> or <strong>Fly Speed</strong>, whichever is higher. This movement may pass through enemies' spaces without a check (it cannot end in an occupied space), and does not trigger attacks or effects that respond to your movement.</p><p>During this movement, make one attack against each of up to <strong>three</strong> different enemies. Each target must be within the attack's <strong>Range</strong> from the space you occupy when you make the attack against it. You do not have <strong>Disadvantage</strong> for making a <strong>Ranged</strong> attack against a target within <strong>1 space</strong>.</p><p>You may end <strong><em>Zephyr Style</em></strong> after you perform this ability to impose <strong>Disadvantage</strong> on all attacks against you until the start of your next turn. If you do, you may not enter <em>Zephyr Stance</em> again until the start of your next turn.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.sei1TuruAFADyqKg]{Living Whirlwind}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Combat Style",
+        "description": "",
+        "uuid": "04d37919-3760-4915-a465-f93a6771cf2d"
+      },
+      {
+        "name": "Zephyr Style",
+        "description": "",
+        "uuid": "cb41165d-aa81-475d-a4f5-12aa76419127"
+      },
+      {
+        "name": "Air",
+        "description": "",
+        "uuid": "aa8a1bdb-d349-4f06-aae6-bf79ed73cf46"
+      },
+      {
+        "name": "Mythic Technique",
+        "description": "",
+        "uuid": "48a6777f-754e-468b-a106-13c8b5a56c10"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "fpuwAUXPvGwuKNrt",
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!SMRbLYQ2HW9e5R8F"
+}

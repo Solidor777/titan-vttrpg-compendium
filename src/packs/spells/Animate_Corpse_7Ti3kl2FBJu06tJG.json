@@ -1,0 +1,77 @@
+{
+  "name": "Animate Corpse",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Flesh_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You animate the corpse of a creature to do your bidding.</p><p>Choose a corpse within <strong>10 spaces</strong> of <strong>Size 1</strong> or smaller. It reanimates under your control.</p><p>The reanimated creature has half its maximum <strong>Stamina</strong>. It maintains all the physical statistics it had while it was alive but retains no magical or supernatural abilities. It automatically succeeds on <strong>Willpower</strong> checks and is immune to mind-affecting conditions.</p><p>This spell lasts for <strong>1 minute</strong>, after which the corpse falls apart and can no longer be used. </p><p>You may only have 1 creature reanimated at a time.</p><p>Each extra success extends the duration by <strong>+1 minutes</strong>.</p><p>Alternatively, you may increase the <strong>Size</strong> of the creature you can reanimate by <strong>+1</strong> per 4 extra successes.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.5SLxefmgyG5Lhrpm]{Animate Corpse}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "uncommon",
+    "tradition": "Flesh",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 5,
+      "complexity": 2,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": false,
+        "label": "Size",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 4,
+        "uuid": "a03f20bf-3939-4c8b-aaf1-d6db6695e559"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 2,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "minutes",
+        "cost": 4,
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "8ac73485-2d45-4710-91a7-8042e7f9af88"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432594185,
+    "modifiedTime": 1708069966582,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "uiPwkfnRVLGVAvvk",
+  "_id": "7Ti3kl2FBJu06tJG",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!7Ti3kl2FBJu06tJG"
+}

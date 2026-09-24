@@ -1,0 +1,79 @@
+{
+  "name": "Spear",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Body (2)</p><p>This long metal or wooden shaft ends with a metal spike. It is short enough to be used one-handed and can also be thrown.</p>",
+    "check": [],
+    "customTrait": [],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "common",
+    "value": 15,
+    "attack": [
+      {
+        "label": "Strike",
+        "type": "melee",
+        "range": 1,
+        "attribute": "body",
+        "skill": "meleeWeapons",
+        "damage": 2,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "piercing",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "c49676d8-4c97-4300-96d2-ce3d8430b2d6"
+      },
+      {
+        "label": "Throw",
+        "type": "ranged",
+        "range": 5,
+        "attribute": "body",
+        "skill": "rangedWeapons",
+        "damage": 1,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "piercing",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "1095585d-9f76-4ae3-8d20-0443f301d74d"
+      }
+    ],
+    "attackNotes": "",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "72c24e88-895d-4ca9-9d58-8d3b97c22a17"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678252674994,
+    "modifiedTime": 1689662470751,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "BsiAASgtfrITuRWZ",
+  "_id": "bvaI4zTermUlWZp3",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!bvaI4zTermUlWZp3"
+}

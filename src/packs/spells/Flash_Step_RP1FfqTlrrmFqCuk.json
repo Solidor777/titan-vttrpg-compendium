@@ -1,0 +1,57 @@
+{
+  "name": "Flash Step",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Light_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>For a brief moment, you partially transform into light, allowing you to move with incredible speed.</p><p>Choose a point within <strong>10 spaces</strong>. You appear there in a blinding strike of light.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "uncommon",
+    "tradition": "Light",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 6,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 2,
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "03d3ebbf-22b5-42ce-8d12-1f63b56ecd51"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683785683549,
+    "modifiedTime": 1708069626891,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "cCI2lyFZUFFBQLIl",
+  "_id": "RP1FfqTlrrmFqCuk",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!RP1FfqTlrrmFqCuk"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Soul-Scarred",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must have undergone a harrowing ordeal that left scars on your body, mind and soul</p><p>You have been hurt horribly, and the wounds may never heal. But in that pain, you have found a different kind of strength.</p><ul><li><p>Your maximum <strong>Wounds</strong> are permanently decreased by <strong>-1</strong>.</p></li><li><p>Your maximum <strong>Resolve</strong> is permanently increased by <strong>+1</strong>.</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "resource",
+        "key": "resolve",
+        "value": 1,
+        "uuid": "b51278c6-c6fc-450a-a6e5-2615c453a412",
+        "type": "ability"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "resource",
+        "key": "wounds",
+        "value": -1,
+        "uuid": "5125cc2e-ab00-418d-9ebb-2aa500520d92",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "73a00a4d-7521-4894-a130-90b7577ff9e8"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678931324597,
+    "modifiedTime": 1689643511464,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "mPYYv6IP74nldiaR",
+  "_id": "uwvM9Up8ayFBkPzB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!uwvM9Up8ayFBkPzB"
+}

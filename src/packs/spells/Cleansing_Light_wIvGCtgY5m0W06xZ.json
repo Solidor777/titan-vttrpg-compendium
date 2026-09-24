@@ -1,0 +1,58 @@
+{
+  "_id": "wIvGCtgY5m0W06xZ",
+  "name": "Cleansing Light",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Light_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You bathe a creature in targeted bursts of deep blue and purple light to clear away maladies.</p><p>Target touched creature is cured of the <strong>Intoxicated</strong> condition, as well as any non-magical infection, such as cold, flu, or pox. Alternatively, you may disinfect an object or space of <strong>Size 1</strong> or smaller.</p><p>If an infection is magical, you may make an opposed Counteract against the creator of the infection in order to remove it.</p><p>If the <strong>Intoxicated</strong> condition comes from a magical disease, and the disease is not removed, the condition returns after <strong>1 day</strong>.</p><p>Each extra success increases the targets by <strong>+1.</strong></p>",
+    "check": [],
+    "customTrait": [],
+    "rarity": "uncommon",
+    "xpCost": 0,
+    "tradition": "Light",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "quantity": 1,
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "touch",
+        "enabled": true
+      },
+      {
+        "label": "extraTargets",
+        "scaling": true,
+        "initialValue": 0,
+        "cost": 1,
+        "scalingCost": 1,
+        "enabled": true
+      }
+    ],
+    "customAspect": [],
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "cCI2lyFZUFFBQLIl",
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!wIvGCtgY5m0W06xZ"
+}

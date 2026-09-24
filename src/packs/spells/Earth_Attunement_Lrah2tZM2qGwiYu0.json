@@ -1,0 +1,83 @@
+{
+  "name": "Earth Attunement",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Earth_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You become in tune with earth and stone, hardening your skin, and extending your senses through the ground.</p><p>Until the start of your next turn, your <strong>Armor</strong> increases by +<strong>1</strong>.</p><p>Additionally, you can sense the position of any creature within <strong>10 spaces</strong> of yourself, so long as they are on the ground or objects in contact with the ground.</p><p>You ignore the effects of <strong>Difficult Terrain</strong>, and you cannot be <strong>Shoved</strong>.</p><p>Each extra success extends the duration by <strong>+1 rounds</strong>.</p><p>Alternatively, you can increase your <strong>Armor</strong> by <strong>+1</strong> per 2 extra successes.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.eX0S046K8GK4EUc3]{Earth Attunement}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Attunement",
+        "description": "",
+        "uuid": "ef056c08-001b-4232-b65c-3400833b1aa5"
+      }
+    ],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Earth",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "increaseMod",
+        "initialValue": 1,
+        "option": [
+          "armor"
+        ],
+        "cost": 2,
+        "scaling": true,
+        "enabled": true,
+        "scalingCost": 2
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "22503e16-35f5-4aa2-b6d7-9a94ff7d6f9a"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680236393504,
+    "modifiedTime": 1708131679394,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "qBppNKVIZWEtBvhM",
+  "_id": "Lrah2tZM2qGwiYu0",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!Lrah2tZM2qGwiYu0"
+}

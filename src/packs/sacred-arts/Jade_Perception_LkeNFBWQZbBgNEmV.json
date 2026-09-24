@@ -1,0 +1,54 @@
+{
+  "name": "Jade Perception",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/JadeWarrior_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must have at least one tempered ur-stone worn against your skin</p><p><strong>Range:</strong> Self</p><p>You meditate on your jade, letting it enhance your senses to make you more aware of your surroundings.</p><p>Until the start of your next turn:</p><ul><li><p>You gain a bonus to your <strong>Training</strong> in <strong>Perception</strong> equal to your <strong>Training</strong> in <strong>Metaphysics</strong>.</p></li><li><p>Your <strong>Awareness</strong> increases by half your <strong>Training</strong> in <strong>Metaphysics</strong>, rounded up.</p></li><li><p>You can sense the presence of living creatures within a number of spaces equal to <strong>2</strong> <strong>* your</strong> <strong>Soul</strong>.</p></li></ul><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.VuXagK64p0fdTf0y]{Jade Perception}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "ba63ad19-c8bf-493b-a589-ff3278126999"
+      },
+      {
+        "name": "Jade Warrior",
+        "description": "",
+        "uuid": "572dfcd1-30e3-4a2c-8a29-d1750cf5e7b8"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "d3fd996a-25cc-4980-87b2-e4fb03cae2ee"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680068734964,
+    "modifiedTime": 1708070192263,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "n4zork6o1vyR2c56",
+  "_id": "LkeNFBWQZbBgNEmV",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!LkeNFBWQZbBgNEmV"
+}

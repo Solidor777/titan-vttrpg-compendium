@@ -1,0 +1,91 @@
+{
+  "name": "Spellcasting Specialization (Choose)",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Mind (4) and Training (2) in Arcana</p><p>You have focused your studies on a particular tradition of magic.</p><p>Choose a <strong>Tradition</strong> that you know. You gain <strong>+1 bonus dice</strong> and <strong>+1 bonus expertise</strong> when casting a spell from that <strong>Tradition</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "casting",
+        "selector": "spellTradition",
+        "key": "Choose",
+        "message": "<p><strong>You gain +1 bonus</strong> <strong>dice</strong> and <strong>+1 bonus expertise</strong> when casting a spell from your chosen Tradition.</p>",
+        "uuid": "5f3288ed-2fac-4959-8b01-65f8917c1c29",
+        "type": "ability"
+      },
+      {
+        "operation": "conditionalDiceModifier",
+        "checkType": "casting",
+        "selector": "spellTradition",
+        "key": "Choose",
+        "value": 1,
+        "uuid": "c5c3dd9e-54df-403b-8470-63bb9475a238",
+        "type": "ability"
+      },
+      {
+        "operation": "conditionalExpertiseModifier",
+        "checkType": "casting",
+        "selector": "spellTradition",
+        "key": "Choose",
+        "value": 1,
+        "uuid": "405777b5-33cf-4caf-8545-551e8a982f78",
+        "type": "ability"
+      },
+      {
+        "operation": "conditionalCheckModifier",
+        "modifierType": "dice",
+        "checkType": "casting",
+        "selector": "spellTradition",
+        "key": "Choose",
+        "value": 1,
+        "uuid": "16638f13-0754-4a0d-8da6-d158f68d02db",
+        "type": "ability"
+      },
+      {
+        "operation": "conditionalCheckModifier",
+        "modifierType": "expertise",
+        "checkType": "casting",
+        "selector": "spellTradition",
+        "key": "Choose",
+        "value": 1,
+        "uuid": "7ab7d938-8537-4c18-8e35-4d71290f5674",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "d132d543-0cc8-456c-b1e7-61d3419eab93"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678779093324,
+    "modifiedTime": 1707978995514,
+    "lastModifiedBy": "VyiT9AMxDoUycnIJ",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 10200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "VYOAlSL7UdfBydgu",
+  "_key": "!items!VYOAlSL7UdfBydgu"
+}

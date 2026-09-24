@@ -1,0 +1,67 @@
+{
+  "_id": "gXXKQN6fB4AUEYjS",
+  "name": "Deathsinger's Mercy",
+  "type": "effect",
+  "img": "icons/magic/death/skull-horned-white-purple.webp",
+  "description": "<p>Your <strong>Body</strong> is reduced by <strong>-1</strong>. When you complete a <strong>Long Rest</strong>, you may restore any amount of <strong>Body</strong> lost this way at the cost of <strong>+1 Wounds</strong> per <strong>Body</strong> restored.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "nkSdZvoa4C3eW1u6",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "initiative": 1,
+      "custom": "Until restored",
+      "remaining": 1,
+      "type": "custom"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Deathsinger",
+        "description": "",
+        "uuid": "a7063d7a-714c-444e-a2f0-539ee83b9565"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "attribute",
+        "key": "body",
+        "value": -1,
+        "uuid": "9205c04d-2d9c-45ad-ac6e-891f961398e6"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!gXXKQN6fB4AUEYjS"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Jade Agility",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/JadeWarrior_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must have at least one tempered ur-stone worn against your skin</p><p><strong>Range:</strong> Self</p><p>You focus Jade energy to defy gravity and balance your body.</p><p>Until the start of your next turn, you gain a bonus to your <strong>Training</strong> in <strong>Dexterity</strong> equal to your <strong>Training</strong> in <strong>Metaphysics</strong>.</p><p>Additionally, you can jump three times as high and as far, and you can balance on surfaces that would normally be too precarious, such as a tightrope or a narrow beam.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.mP59gJgyT61y0sYb]{Jade Agility}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "6e5a0501-8154-46df-b58e-6eba8b491df0"
+      },
+      {
+        "name": "Jade Warrior",
+        "description": "",
+        "uuid": "99a30e90-801a-41bf-ab9e-d7fa7a12635c"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "c0d2a760-d7c8-496c-9cc6-ff19788e9fd8"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680159409616,
+    "modifiedTime": 1708070177553,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "n4zork6o1vyR2c56",
+  "_id": "ICnxQQYWr2BRcjyX",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!ICnxQQYWr2BRcjyX"
+}

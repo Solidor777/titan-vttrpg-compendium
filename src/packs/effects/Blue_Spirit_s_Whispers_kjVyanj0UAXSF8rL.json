@@ -1,0 +1,48 @@
+{
+  "_id": "kjVyanj0UAXSF8rL",
+  "name": "Blue Spirit's Whispers",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlueSpirit_Path_Icon.webp",
+  "description": "<p>Another creature is communicating telepathically with you.</p><p>You can communicate telepathically with the target, transmitting words, sensory experiences and thoughts into their mind. The target can communicate back to you in the same manner.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "rKO5t4qtoGbs0SIx",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "custom",
+      "remaining": 10,
+      "initiative": 1,
+      "custom": "Minute"
+    },
+    "check": [],
+    "customTrait": [],
+    "rulesElement": [],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679974142682,
+    "modifiedTime": 1708070762447,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!kjVyanj0UAXSF8rL"
+}

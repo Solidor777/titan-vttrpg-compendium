@@ -1,0 +1,54 @@
+{
+  "name": "Blessing of the Arbiter",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Arbiter_Path_Icon.webp",
+  "system": {
+    "description": "<p>You learn to inscribe blessings on scraps of paper, enhancing certain aspects of the body at the cost of others.</p><p>Over the course of <strong>1 minute</strong> you can inscribe a blessing and fill it with your spiritual power. As an <strong>Action</strong>, you can affix it to a creature.</p><p>The creature gains the benefit of the blessing as long as the paper remains attached and intact — normally, no more than <strong>1 day</strong>, as the fragile paper eventually wears free.</p><p>Unlike most abilities, you may affect a creature with multiple blessings at once.</p><p>For blessings, you may choose from one of the following:</p><ul><li><p><strong>Alertness</strong></p><ul><li><p>You gain <strong>+1</strong> bonus to all <strong>Perception</strong> and <strong>Reflexes</strong> checks.</p></li><li><p>Your <strong>Initiative</strong> increases by <strong>+2</strong>.</p></li><li><p>You suffer a <strong>-2</strong> dice penalty to all <strong>Willpower</strong> checks.</p></li></ul></li><li><p><strong>Sleepless</strong></p><ul><li><p>You are immune to <strong>Sleep</strong> and cannot lose consciousness by any means short of death.</p></li><li><p>You can take a <strong>Long Rest</strong> without falling asleep.</p></li><li><p>You suffer a <strong>-1</strong> dice penalty to all <strong>Willpower</strong> checks for each day you go without sleep.</p></li></ul></li><li><p><strong>Sobriety</strong></p><ul><li><p>You do not feel the minor side-effects of intoxicating substances, including nausea, dizziness, or hangovers.</p></li><li><p>Your body still experiences any distress caused by said substances.</p></li></ul></li><li><p><strong>Strength</strong></p><ul><li><p>You gain <strong>+1</strong> bonus to all <strong>Athletics</strong> and <strong>Melee Weapons</strong> checks.</p></li><li><p>You suffer a <strong>-1</strong> dice penalty to <strong>Resilience</strong> checks.</p></li></ul></li></ul><p><strong>Effects:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.4aOhjNpIQydCqgzt]{Blessing of the Arbiter (Alertness)}, @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.P7roRvBbbTlSXNRT]{Blessing of the Arbiter (Sleepless)}, @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.zeGyUhCF6fLsEdKb]{Blessing of the Arbiter (Sobriety)}, @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.PMKkD7PUL0kWi9IK]{Blessing of the Arbiter (Strength)}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Arbiter",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "ff80a370-2baf-42d1-911d-8caf92ab42d3"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708071664004,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "7hLsjAGUXV6dcNwV",
+  "_id": "DbQwSvNvUKF4D0Ku",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!DbQwSvNvUKF4D0Ku"
+}

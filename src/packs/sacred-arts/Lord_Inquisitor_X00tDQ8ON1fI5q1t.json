@@ -1,0 +1,59 @@
+{
+  "name": "Lord Inquisitor",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Arbiter_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Soul (5), 6 Arbiter abilities, and you must receive training from another Lord Inquisitor or have access to their teachings</p><p><strong>Cost:</strong> 2 Resolve</p><p><strong>Range:</strong> 30 spaces</p><p>You are the bane of the supernatural, and the judge of the guilty.</p><p>As an <strong>Action</strong>, you may pronounce a curse of judgment upon another creature you can see within <strong>30 spaces</strong>.</p><ul><li><p>All <strong>Damage</strong> it takes is increased by <strong>+2</strong>.</p></li><li><p>Its <strong>Defense</strong> decreases by <strong>-1</strong>.</p></li><li><p>All attacks against it are considered <strong>Magical</strong> for the purpose of bypassing resistances.</p></li><li><p>Once per turn, when the creature would recover <strong>Stamina,</strong> you may prevent it from doing so as a <strong>Free Action</strong>.</p></li></ul><p><span style=\"font-family: 'Open Sans',sans-serif\"><strong style=\"font-weight:normal;\" id=\"docs-internal-guid-dcd12564-7fff-bcb5-c45b-7173bd86e5d6\">This effect lasts until the end of combat, you become </strong><strong>Incapacitated</strong>, or you are <strong>Dying</strong>. After you use this ability, you cannot use any ability with the <strong>Apex</strong> trait until you complete a <strong>Long Rest</strong>.</span></p><p>Additionally, law-enforcement officials, exorcists, and other followers of the Path of the Arbiter will recognize your skill and afford you special respect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.RA1FFNHM4DBVHYx6]{Lord Inquisitor}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Arbiter",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      },
+      {
+        "name": "Apex",
+        "description": "",
+        "uuid": "841ca78e-9df1-4443-b331-f8f5a90ef36a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": true,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "111607fc-627a-4f09-b442-165ef6990ccc"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708071636720,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "eqSqOs6791WEWxS5",
+  "_id": "X00tDQ8ON1fI5q1t",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!X00tDQ8ON1fI5q1t"
+}

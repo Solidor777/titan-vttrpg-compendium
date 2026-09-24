@@ -1,0 +1,68 @@
+{
+  "_id": "Zh2F7dTIHCexljQX",
+  "name": "Deathsinger's Mercy",
+  "type": "ability",
+  "img": "icons/magic/death/skull-horned-white-purple.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> Touch</p><p>The wound closes, but it does not close the way it opened, and the flesh that closed it was needed elsewhere.</p><p>Choose an adjacent creature and make a <strong>4:1 Soul (Metaphysics)</strong> check. The target recovers <strong>1 Stamina</strong> per success.</p><p>You may optionally spend <strong>1 Resolve</strong> to remove <strong>1 Wound</strong> from the target. If you do, the target's <strong>Body</strong> is reduced by <strong>-1</strong>.</p><p>When the target completes a <strong>Long Rest</strong>, it may restore any amount of <strong>Body</strong> lost this way at the cost of <strong>+1 Wounds</strong> per <strong>Body</strong> restored. <strong>1 Wound</strong> is still restored during the <strong>Long Rest</strong>, as is normal.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.gXXKQN6fB4AUEYjS]{Deathsinger's Mercy}</p>",
+    "check": [
+      {
+        "label": "Mercy",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 0,
+        "isDamage": false,
+        "isHealing": true,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "none",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "2f3a18b2-49ed-4475-addd-379bcdaa83af"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Deathsinger",
+        "description": "",
+        "uuid": "a7063d7a-714c-444e-a2f0-539ee83b9565"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "iAdYrErZnpD6327g",
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Zh2F7dTIHCexljQX"
+}

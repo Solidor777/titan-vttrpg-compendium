@@ -1,0 +1,54 @@
+{
+  "name": "Fox Mirror",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/WhiteFox_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> Self</p><p>You create<strong> i</strong>llusory copies of yourself, making it more difficult for creatures to target you.</p><p>For <strong>1 minute</strong>, you gain <strong>4</strong> illusory copies.</p><p>When an enemy hits you with an attack or targets you with a spell, roll 1dX where X is 1 + the number of copies you have remaining.</p><p>On a roll of <strong>1</strong>, the attack hits or the spell goes through. On any other roll, one of your copies is destroyed instead.</p><p>If you use this ability again before all the copies are destroyed, you have <strong>4</strong> copies again.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.AD6Mcyv6YBdyhlhF]{Fox Mirror}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "a094e4bb-e282-4ae1-96d2-c184d8d995ce"
+      },
+      {
+        "name": "White Fox",
+        "description": "",
+        "uuid": "a9f729a8-b087-4e01-b74b-0002ae08619f"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "7226a7b6-a92e-46ee-af31-ebaaf611b8f1"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679860356996,
+    "modifiedTime": 1708070331786,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "FP0IEhJWKJZvIHU4",
+  "_id": "i97UNy8g5iOFV0Mh",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!i97UNy8g5iOFV0Mh"
+}

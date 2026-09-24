@@ -1,0 +1,73 @@
+{
+  "name": "Menacing",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Intimidation</p><p>People tend to not mess with you, due to your intimidating manner.</p><ul><li><p>You have <strong>Advantag</strong>e on <strong>Intimidation</strong> checks to threaten, intimidate, or start arguments.</p></li><li><p>Most people will be afraid of arousing your ire, and will try to avoid doing anything that might anger you.</p></li><li><p>As an <strong>Action</strong>, you can attempt to demoralize one creature you can see within <strong>5 spaces</strong> of you.</p><ul><li><p>Make an <strong>4:1</strong> <strong>Intimidation</strong> check resisted by the target's <strong>Willpower</strong>.</p></li><li><p>If the target fails the check, they are <strong>Frightened</strong> until the end of your next turn.</p></li><li><p>If the target succeeds, they cannot be <strong>Frightened</strong> by you in this way for the rest of the encounter.</p></li></ul></li></ul>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "body",
+        "skill": "intimidation",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 0,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "willpower",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "b7e1cbab-2e0f-4647-a580-17c78636c53d"
+      }
+    ],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attribute",
+        "selector": "skill",
+        "key": "intimidation",
+        "message": "<p><strong>Menacing:</strong> You have <strong>Advantag</strong>e on <strong>Intimidation</strong> checks to threaten, intimidate, or start arguments.</p>",
+        "uuid": "978ce59a-cb36-4369-a285-7d15924baad0",
+        "type": "ability"
+      }
+    ],
+    "action": true,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "67d157a5-6ab0-4d37-8d14-39f391169fd7"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678599320146,
+    "modifiedTime": 1689641631793,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 6900000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "bTMnvHiWl2X7TygV",
+  "_key": "!items!bTMnvHiWl2X7TygV"
+}

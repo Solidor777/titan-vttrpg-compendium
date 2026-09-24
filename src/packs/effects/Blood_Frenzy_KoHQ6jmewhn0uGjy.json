@@ -1,0 +1,66 @@
+{
+  "_id": "KoHQ6jmewhn0uGjy",
+  "name": "Blood Frenzy",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/RedFaith_Path_Icon.webp",
+  "description": "<p>A creature is manipulating your blood to enhance your speed and ability to act.</p><p>Your <strong>Speed</strong> increases by <strong>+5</strong>, and you can take an extra <strong>Action</strong> on your turn.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "9SwsJXv2DUVvGzAi",
+  "sort": 400000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "initiative",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Red Faith",
+        "description": "",
+        "uuid": "9a8f2219-fd93-4a5f-8cee-239fbb1f1837"
+      },
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "136a7bd3-e254-41e4-9811-24ddee9695da"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Blood Frenzy:</strong> Your <strong>Speed</strong> increases by <strong>+5</strong>, and you can take an extra <strong>Action</strong> on your turn.</p>",
+        "uuid": "17aa3304-766c-40e0-8952-4efae672077b"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682915896595,
+    "modifiedTime": 1708070683542,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!KoHQ6jmewhn0uGjy"
+}

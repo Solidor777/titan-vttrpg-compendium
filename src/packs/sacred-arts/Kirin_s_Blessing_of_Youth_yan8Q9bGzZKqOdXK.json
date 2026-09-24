@@ -1,0 +1,54 @@
+{
+  "name": "Kirin's Blessing of Youth",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/HornedKirin_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 2 Resolve</p><p><strong>Range:</strong> 10 spaces</p><p>You use your power to revitalize a creature, giving it strength and returning its youth.</p><p>Choose a creature within <strong>10 spaces</strong>. Until the start of your next turn, the target's <strong>Melee</strong>, <strong>Accuracy</strong>, <strong>Defense</strong>, and <strong>Body</strong> are increased by <strong>+1</strong>.</p><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.vk5qMShtWBGNxskb]{Kirin's Blessing of Youth}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "c12c42ea-81e4-4fee-a2bb-fcd781cd8051"
+      },
+      {
+        "name": "Horned Kirin",
+        "description": "",
+        "uuid": "b0e015bc-a06f-4dc6-84c5-113a6a220a25"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "06750a69-d2f3-4c09-a092-ef80f21b0074"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679893370594,
+    "modifiedTime": 1708070099238,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "W8QPQoWJqMdE5Up2",
+  "_id": "yan8Q9bGzZKqOdXK",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!yan8Q9bGzZKqOdXK"
+}

@@ -1,0 +1,59 @@
+{
+  "_id": "3zCgmSWtWpex7uDN",
+  "name": "Kirin's Black Harvest",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/HornedKirin_Path_Icon.webp",
+  "description": "<p>You use the life of the dying to empower yourself and your allies.</p><p>Choose yourself or an ally within <strong>5 spaces</strong> of you.</p><p>Until the start of your next turn, whenever another creature dies within <strong>5 spaces</strong> of you, the chosen creature regains <strong>Stamina</strong> equal to the dying creature's <strong>Soul</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "edB7pRg13vh0D3YI",
+  "sort": 700000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "initiative",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "95fe9b47-7aa8-43f5-88f1-7f11eebd35be"
+      },
+      {
+        "name": "Horned Kirin",
+        "description": "",
+        "uuid": "1e86c5cd-7fec-4793-a982-4d0e2e885f2f"
+      }
+    ],
+    "rulesElement": [],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679892865774,
+    "modifiedTime": 1708070096784,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!3zCgmSWtWpex7uDN"
+}

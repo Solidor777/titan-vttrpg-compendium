@@ -2,3 +2,6 @@
 packs/** binary
 *.zip binary
 *.webp binary
+# Pack sources and tools keep LF so tool output compares byte-for-byte on every platform.
+src/** text eol=lf
+tools/** text eol=lf

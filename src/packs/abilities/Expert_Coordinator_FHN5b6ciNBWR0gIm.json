@@ -1,0 +1,43 @@
+{
+  "name": "Expert Coordinator",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p>You know how to coordinate movements in battle.</p><p>As an <strong>Action</strong>, choose an ally within <strong>10 spaces</strong>. The target can move to a space you choose within their normal movement range + your <strong>Mind</strong>.</p><p>A creature can only benefit from this ability once per round.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "8c9a47cc-ef40-478c-874c-03117faaf864"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678861565493,
+    "modifiedTime": 1689641619097,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 4700000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "FHN5b6ciNBWR0gIm",
+  "_key": "!items!FHN5b6ciNBWR0gIm"
+}

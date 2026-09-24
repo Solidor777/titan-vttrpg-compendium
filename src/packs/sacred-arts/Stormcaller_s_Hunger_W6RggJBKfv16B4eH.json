@@ -1,0 +1,54 @@
+{
+  "name": "Stormcaller's Hunger",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Stormcaller_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> Self</p><p><strong>Area:</strong> 5-space-radius</p><p>You devour the pain and suffering of those around you, using it to replenish yourself.</p><p>As an <strong>Action</strong>, you can regain <strong>1 Stamina</strong> for each of the following <strong>Conditions</strong> currently affecting a creature within <strong>5 spaces</strong> of yourself: <strong>Blinded</strong>, <strong>Contamination</strong>, <strong>Deafened</strong>, <strong>Frightened</strong>, or <strong>Stunned</strong>.</p><p>Additionally, you also regain <strong>1 Stamina</strong> for each creature affected by a Hazard or a <strong>Stormcaller</strong> ability. You do not gain more than <strong>1 Stamina</strong> for a <strong>Stormcaller</strong> ability that inflicts a condition.</p><p>Optionally, you may spend <strong>1 Resolve</strong> or forgo the <strong>Stamina</strong> recovery to remove any or all of the listed <strong>Conditions</strong> or <strong>Stormcaller</strong> abilities from any or all of the affected creatures.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "c83045c8-193f-46fb-bd64-693e6f0e41ff"
+      },
+      {
+        "name": "Stormcaller",
+        "description": "",
+        "uuid": "6bac61d7-3f79-41e1-ad04-42b7c6f1e97d"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "3wygLHBNXPW58FHz",
+  "ownership": {
+    "default": 0,
+    "jqPKS4y5hfCZQjOU": 3
+  },
+  "flags": {
+    "titan": {
+      "uuid": "4dc6c055-da6c-4fe8-9133-429d6020d1a7"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1709538242950,
+    "modifiedTime": 1709794677160,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "W6RggJBKfv16B4eH",
+  "sort": 112500,
+  "_key": "!items!W6RggJBKfv16B4eH"
+}

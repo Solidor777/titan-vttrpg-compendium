@@ -1,0 +1,54 @@
+{
+  "name": "Blue Spirit's Scourge of the Arcane",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlueSpirit_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> 10 spaces</p><p><strong>Area:</strong> 5-space-radius</p><p>You tap into the Blue Spirit's mastery of the arcane to weaponize the flow of magic in an area, causing it to harm mages as they draw upon aether.</p><p>Choose a point within <strong>10 spaces</strong>. Whenever a creature within <strong>a 5-space radius</strong> of that point makes a check to cast a spell, that creature suffers <strong>1 Damage</strong> per success on their casting check, to a maximum amount equal to your <strong>Soul</strong>. This damage ignores <strong>Armor</strong>.</p><p>You can spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect, choosing another point if you wish.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.uBx9L7ccjwajWJmu]{Blue Spirit's Scourge of the Arcane}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "dcc580f9-1361-4098-827d-7886c6ba77d6"
+      },
+      {
+        "name": "Blue Spirit",
+        "description": "",
+        "uuid": "c9a3fc5a-c50a-41dd-bf0e-6be202b5146c"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "3c8aebf2-e892-4e65-b24f-53e369d31ba9"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679896033670,
+    "modifiedTime": 1708070750959,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "ZCjngOnzbhhPE8h6",
+  "_id": "e3NJTYoBjmxzL5os",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!e3NJTYoBjmxzL5os"
+}

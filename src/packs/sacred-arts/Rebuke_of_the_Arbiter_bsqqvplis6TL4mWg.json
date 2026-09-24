@@ -1,0 +1,74 @@
+{
+  "name": "Rebuke of the Arbiter",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Arbiter_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve</p><p><strong>Range:</strong> 30 spaces</p><p>You have learned to unravel supernatural abilities before or after they take effect.</p><p>When a creature you can see within <strong>30 spaces</strong> uses a <strong>Path</strong> ability, you can spend <strong>1 Resolve</strong> to disrupt the ability before it takes effect.</p><p>This requires a successful <strong>Counteract</strong> check using <strong>Soul (Metaphysics)</strong>. If the creature does not normally make a check to use their ability, they must make a <strong>4:1 Soul (Metaphysics)</strong> check to determine the <strong>Complexity</strong> of the <strong>Counteract</strong> check.</p><p>If you succeed, the ability is countered and has no effect. If you fail, the ability takes effect as normal.</p><p>Alternatively, you can attempt to remove the effect of a <strong>Path</strong> ability within <strong>30 spaces</strong>. If you succeed, the effect is removed. If you fail, and try to remove the effect again, the <strong>Complexity</strong> of the <strong>Counteract</strong> check increases by <strong>+1</strong>.</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 1,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "none",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "32b2f177-e151-47bf-8cfc-ab39540118e3"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Arbiter",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "ead2a299-dfbf-4989-be52-1f01ad8c4203"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708071679353,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "7hLsjAGUXV6dcNwV",
+  "_id": "bsqqvplis6TL4mWg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!bsqqvplis6TL4mWg"
+}

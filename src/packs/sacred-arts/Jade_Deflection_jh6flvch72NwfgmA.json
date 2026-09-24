@@ -1,0 +1,54 @@
+{
+  "name": "Jade Deflection",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/JadeWarrior_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must have at least one tempered ur-stone worn against your skin</p><p><strong>Cost:</strong> 1 Resolve</p><p><strong>Range:</strong> Self</p><p>You create a shield of Jade energy to knock away an attack before it can strike you.</p><p>When an attack would hit you, you may spend <strong>1 Resolve</strong> to negate the attack.</p><p>You must choose to use this ability before any other effects from the attack are applied.</p><p>If you use this ability against an adjacent creature, your <strong>Melee</strong> increases by <strong>+1</strong> against that creature until the end of your next turn.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.YjlnhbXi1GGV4qzw]{Jade Deflection}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "6e5a0501-8154-46df-b58e-6eba8b491df0"
+      },
+      {
+        "name": "Jade Warrior",
+        "description": "",
+        "uuid": "99a30e90-801a-41bf-ab9e-d7fa7a12635c"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "2f070f90-6cbb-4262-895c-2fb582407b73"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680159409616,
+    "modifiedTime": 1708070182229,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "n4zork6o1vyR2c56",
+  "_id": "jh6flvch72NwfgmA",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!jh6flvch72NwfgmA"
+}

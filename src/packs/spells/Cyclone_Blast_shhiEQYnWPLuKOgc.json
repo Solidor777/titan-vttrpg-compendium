@@ -1,0 +1,89 @@
+{
+  "name": "Cyclone Blast",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Air_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>A cyclone hurtles towards your enemies, blasting them away.</p><p>Choose a direction for a <strong>5-space-cone</strong>, starting at the edge of your space.</p><p>Each creature within the cone takes <strong>1</strong> <strong>Damage</strong> as they are blasted back.</p><p>Additionally, each affected creature must make an opposed <strong>Resilience</strong> check or be pushed <strong>5 spaces</strong> away.</p><p>Each extra success increases the <strong>Damage</strong> by <strong>+1</strong>.</p><p>Alternatively, you may increase the distance of the push by <strong>+1</strong> space per extra success.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Air",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 5,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": false,
+        "label": "Cone",
+        "scaling": false,
+        "initialValue": 5,
+        "cost": 0,
+        "uuid": "950a667d-3890-4b72-91e7-f7262595cf9f"
+      },
+      {
+        "resistanceCheck": "resilience",
+        "isDamage": false,
+        "isHealing": false,
+        "label": "Push",
+        "scaling": true,
+        "initialValue": 5,
+        "cost": 1,
+        "uuid": "acf9d8a6-fe9a-460a-8560-fbf9cd7ad9ba"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "damage",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": true,
+        "option": [],
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "f229c3cf-7ae3-4d83-acf7-6f502dc28adf"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680493043231,
+    "modifiedTime": 1708069444615,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "9Jx7ybrnDHJqOqgA",
+  "_id": "shhiEQYnWPLuKOgc",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!shhiEQYnWPLuKOgc"
+}

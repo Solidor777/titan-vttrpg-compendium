@@ -1,0 +1,88 @@
+{
+  "name": "Searing Touch",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Fire_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>Your hands burn white-hot as you touch an enemy, engulfing them in flames.</p><p>Reach out and touch an adjacent creature. It suffers <strong>1 Damage</strong> that ignores <strong>Armor</strong> at the start of its turn.</p><p>Additionally, the creature must make an opposed <strong>Resilience</strong> check or become <strong>Stunned</strong> until the start of your next turn.</p><p>Each extra success increases the <strong>Damage</strong> by <strong>+1</strong>.</p><p>Alternatively, you can extend the duration of the spell by <strong>+1 rounds</strong> per extra success.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.7hkYZvG9jSAPGcfv]{Searing Touch}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Fire",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 5,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "touch",
+        "cost": 1,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "damage",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": true,
+        "option": [
+          "ignoreArmor"
+        ],
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "inflictCondition",
+        "cost": 2,
+        "option": [
+          "stunned"
+        ],
+        "resistanceCheck": "resilience",
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "040debe2-db00-4f49-910d-c647b2681a8b"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680236393504,
+    "modifiedTime": 1708131787254,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "qSDNQ2fJxZLSRrAy",
+  "_id": "ZXlWn1NBDBJHmX1l",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!ZXlWn1NBDBJHmX1l"
+}

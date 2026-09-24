@@ -1,0 +1,74 @@
+{
+  "_id": "uuFxRsNX4gWQLq45",
+  "name": "Kirin's Feast",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/HornedKirin_Path_Icon.webp",
+  "description": "<p>You devour the life-energy of a creature, using it to revitalize yourself.</p><p>Until the start of the ability user's next turn, whenever you kill a creature, you regain <strong>Stamina</strong> equal to half the victim's total <strong>Stamina</strong> (minimum <strong>1</strong>).</p><p>If you damage a swarm, you recover <strong>Stamina</strong> equal to the <strong>Damage</strong> dealt.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "edB7pRg13vh0D3YI",
+  "sort": 100000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "initiative",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "526233c5-2ec2-45d0-b921-3e0eb7ede84c"
+      },
+      {
+        "name": "Horned Kirin",
+        "description": "",
+        "uuid": "b9003a75-a8cd-43c8-935a-9cda4c780566"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>Kirin's Feast:</strong> When you kill a creature, you regains <strong>Stamina</strong> equal to half the victims total <strong>Stamina</strong> (minimum 1).</p><p>If you damage a swarm, you recover <strong>Stamina</strong> equal to the <strong>Damage</strong> delt.</p>",
+        "uuid": "1880963e-a5f5-4be3-9c7a-fa13095c7379"
+      },
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Kirin's Feast:</strong> When you kill a creature, you regains <strong>Stamina</strong> equal to half the victims total <strong>Stamina</strong> (minimum 1).</p><p>If you damage a swarm, you recover <strong>Stamina</strong> equal to the <strong>Damage</strong> delt.</p>",
+        "uuid": "59784f26-1177-4ef4-8f4d-0a0ae6e846dc"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679892865774,
+    "modifiedTime": 1708070109451,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!uuFxRsNX4gWQLq45"
+}

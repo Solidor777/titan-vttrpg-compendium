@@ -1,0 +1,43 @@
+{
+  "name": "Evasive",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Body (2), Training (1) in Dexterity</p><p>You are especially evasive when moving in battle.</p><ul><li><p>If you move at least <strong>5 spaces</strong>, your <strong>Defense</strong> increases by <strong>+1</strong> until the start of your next turn.</p></li><li><p>When you use the <strong>Dodge</strong> action, your <strong>Defense</strong> increases by <strong>+2</strong> instead of the usual <strong>+1</strong>.</p></li></ul><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.bo2x6WaSpHH71wHd]{Evasive}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "5da40245-2452-4c33-85d9-3c8ab81fe9be"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678853921355,
+    "modifiedTime": 1689641617982,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 4500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "GyPqET4edZ9HTmiw",
+  "_key": "!items!GyPqET4edZ9HTmiw"
+}

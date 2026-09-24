@@ -1,0 +1,68 @@
+{
+  "_id": "YjlnhbXi1GGV4qzw",
+  "name": "Jade Deflection",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/JadeWarrior_Path_Icon.webp",
+  "description": "<p>You have knocked an enemy off-balance with a well-timed Jade Deflection.</p><p>Your <strong>Melee</strong> increases by <strong>+1</strong> against that enemy until the end of your next turn.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "cV7lsKikLWOS0u21",
+  "sort": 100000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnEnd",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "96984668-bf58-4a5e-94e2-84f9108e5110"
+      },
+      {
+        "name": "Jade Warrior",
+        "description": "",
+        "uuid": "7bc52639-765a-43a1-a79c-e923ebabb87a"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>Jade Deflection:</strong> You have knocked an enemy off-balance. Your <strong>Melee</strong> increases by <strong>+1</strong> against that enemy until the end of your next turn.</p>",
+        "uuid": "3b87663b-8c2f-4c34-8d14-c36a505cd9a9"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680066992213,
+    "modifiedTime": 1708070184826,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!YjlnhbXi1GGV4qzw"
+}

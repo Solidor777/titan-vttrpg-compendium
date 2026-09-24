@@ -1,0 +1,54 @@
+{
+  "name": "Kirin's Curse of Mortality",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/HornedKirin_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 2 Resolve</p><p><strong>Range:</strong> 10 spaces</p><p>You use your power to age an enemy at an incredible rate.</p><p>Choose a creature within <strong>10 spaces</strong>. Until the start of your next turn, the target's <strong>Melee</strong>, <strong>Accuracy</strong>, <strong>Defense</strong>, and <strong>Body</strong> are decreased by <strong>-1</strong>.</p><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.bnKtK2K8ShmlpoDM]{Kirin's Curse of Mortality}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "c12c42ea-81e4-4fee-a2bb-fcd781cd8051"
+      },
+      {
+        "name": "Horned Kirin",
+        "description": "",
+        "uuid": "b0e015bc-a06f-4dc6-84c5-113a6a220a25"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "4cd70ca6-92e7-43d5-b643-8c34a7260049"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679893370594,
+    "modifiedTime": 1708070103834,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "W8QPQoWJqMdE5Up2",
+  "_id": "B4Cd1cLs36JHAnv7",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!B4Cd1cLs36JHAnv7"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Powerful Blasts",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (2) and Expertise (2) in Arcana</p><p>Your arcane attacks are especially potent.</p><p>When you cast <strong>Strike</strong> or <strong>Blast</strong>, each <strong>6</strong> rolled on your Casting Check grants the spell <strong>+1 Damage</strong>, up to a maximum value equal to your highest level of <strong>Training</strong> or <strong>Expertise</strong> in <strong>Arcana</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "ownership": {
+    "default": 0,
+    "jqPKS4y5hfCZQjOU": 3
+  },
+  "flags": {
+    "titan": {
+      "uuid": "1616daf8-c951-4ef9-9a05-9fb21ffa940f"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1708198606721,
+    "modifiedTime": 1708198684075,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "kSSY9ti8ZSsiE36J",
+  "sort": 0,
+  "_key": "!items!kSSY9ti8ZSsiE36J"
+}

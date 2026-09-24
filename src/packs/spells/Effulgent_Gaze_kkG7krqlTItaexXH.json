@@ -1,0 +1,75 @@
+{
+  "name": "Effulgent Gaze",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Light_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You focus light to pierce illusions and darkness.</p><p>For <strong>1 minute</strong>, you cannot be <strong>Blinded</strong>, and your eyes cast bright beams of light out to <strong>30 spaces </strong>away.</p><p>Darkness and illusions are suppressed by the light, so they disappear while you look at them, but rematerialize once you look away.</p><p>Objects lit by your gaze appear as if bathed by the light of day.</p><p>Each extra success extends the duration by <strong>+1 minutes</strong>.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.XrDcA89TI6GA6OIq]{Effulgent Gaze}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "uncommon",
+    "tradition": "Light",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 5,
+      "complexity": 3,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 30,
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "minutes",
+        "cost": 4,
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "removeCondition",
+        "cost": 2,
+        "allOptions": false,
+        "option": [
+          "blinded"
+        ],
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "a08fd9e5-f0a9-4c06-b1f4-7c5d1ca049f5"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683785683549,
+    "modifiedTime": 1708069621126,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "cCI2lyFZUFFBQLIl",
+  "_id": "kkG7krqlTItaexXH",
+  "sort": 1800000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!kkG7krqlTItaexXH"
+}

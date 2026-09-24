@@ -1,0 +1,94 @@
+{
+  "name": "Aether Attunement",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/AetherAndVoid_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You channel pure aether through your body, re-energizing you, and enabling you to move more quickly.</p><p>You regain <strong>1 Stamina</strong> at the start of your next turn. Until then, your <strong>Stride</strong> speed increases by <strong>+1</strong>.</p><p>Each extra success extends the duration by <strong>+1</strong> <strong>rounds</strong>.</p><p>Alternatively, you may increase the <strong>Stamina</strong> healed by +<strong>1</strong> per extra success.</p><p>You may also increase the bonus to your <strong>Stride</strong> speed by <strong>+1</strong> per 2 extra successes.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.Q3wpy3R1g3EPjwPc]{Aether Attunement}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Aether",
+        "description": "",
+        "uuid": "21b4f18c-c7b4-42d6-a0f0-19d01799752e"
+      },
+      {
+        "name": "Attunement",
+        "description": "",
+        "uuid": "90dc2994-0156-445d-a4f9-631ff86b1909"
+      }
+    ],
+    "xpCost": 0,
+    "rarity": "uncommon",
+    "tradition": "Aether and Void",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true
+      },
+      {
+        "label": "healing",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "isHealing": true,
+        "enabled": true
+      },
+      {
+        "label": "increaseSpeed",
+        "initialValue": 5,
+        "cost": 2,
+        "option": [
+          "stride"
+        ],
+        "scaling": true,
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "a2e27ea2-909f-45ce-9978-d4697d392ee9"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1681362086156,
+    "modifiedTime": 1708069149865,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "pyJksx2DyxQNuqXD",
+  "_id": "ufeXR2RvaX52lF3P",
+  "sort": 2100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!ufeXR2RvaX52lF3P"
+}

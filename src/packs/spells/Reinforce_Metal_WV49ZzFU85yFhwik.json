@@ -1,0 +1,77 @@
+{
+  "name": "Reinforce Metal",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Metal_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You reinforce armor and hone the edge of weapons.</p><p>Touch a metal weapon or suit of armor.</p><p>A weapon affected by this spell deals <strong>+1 Damage</strong>.</p><p>A suit of armor affected by this spell gains <strong>+1 Armor</strong>.</p><p>In either case, the item is considered <strong>Magical</strong>.</p><p>These effects last until the start of your next turn.</p><p>Each extra success extends the duration by <strong>+1 rounds</strong>.</p><p>Alternatively, you can increase the bonus to <strong>Damag</strong>e or <strong>Armor</strong> by <strong>+1</strong> per two extra successes.</p><p><strong>Effects:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.KsGRggimv1zILCLO]{Reinforce Metal (Armor)}, @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.Bc9O0WngigS9esxc]{Reinforce Metal (Weapon)}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Metal",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": false,
+        "label": "Reinforcement",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 2,
+        "uuid": "8598dc22-98e6-4f29-8441-e6a447784829"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "touch",
+        "cost": 1,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "234b1dbc-6882-445e-a5ad-4e2176436909"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680487482810,
+    "modifiedTime": 1708069804087,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "b6iOYrTfsSJbYqG5",
+  "_id": "WV49ZzFU85yFhwik",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!WV49ZzFU85yFhwik"
+}

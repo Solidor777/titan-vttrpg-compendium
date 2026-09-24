@@ -1,0 +1,53 @@
+{
+  "name": "Controlled Blast",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p>Through clever augmentation of explosive devices, shouted warnings, and sometimes sheer luck, you can protect your allies from your combustive carnage.</p><p>When you use an explosive or attack with the <strong>Blast</strong> trait, you can choose a number of targets equal to your <strong>Expertise</strong> in <strong>Engineering</strong> to be unaffected by the blast.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "attackTrait",
+        "key": "blast",
+        "message": "<p><strong>Controlled Blast:</strong> When you use an explosive or weapon with the <strong>Blast</strong> Trait, you can choose a number of targets equal to your Expertise in <strong>Engineering</strong> to be unaffected by the blast</p>",
+        "uuid": "318d9e67-0444-4cdd-b26d-327d8e025f5a",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "c0d24999-520f-4724-a60c-d1efe9cb50a8"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678431804409,
+    "modifiedTime": 1689641605597,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 2400000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "cVuVrVMnnmMBgqXB",
+  "_key": "!items!cVuVrVMnnmMBgqXB"
+}

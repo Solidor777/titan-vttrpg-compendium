@@ -1,0 +1,43 @@
+{
+  "name": "Display of Valor",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (2) and Expertise (1) in Performance</p><p>You lead by example in battle, inspiring your allies with bold acts of valor or effortless professionalism.</p><p>When you defeat a non-<strong>Minion</strong> type enemy, you may choose to make a spectacular display of it.</p><p>If you do so, any allies within visual range of you lose the <strong>Frightened</strong> condition and regain <strong>1</strong> <strong>Resolve</strong>.</p><p>You can only use this ability once per combat.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "c94a42ab-f35d-4470-ba50-f8382c75b2e2"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678863663323,
+    "modifiedTime": 1689641612665,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 3700000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "wDBGZlXJ0U5GNoSf",
+  "_key": "!items!wDBGZlXJ0U5GNoSf"
+}

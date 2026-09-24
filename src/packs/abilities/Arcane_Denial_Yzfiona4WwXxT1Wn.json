@@ -1,0 +1,43 @@
+{
+  "name": "Arcane Denial",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Expertise (1) in Arcana</p><p>Your education in the arcane better equips you to guard against hostile spells.</p><p>If a spell targets you or would affect you, you gain bonus dice equal to your <strong>Expertise</strong> in <strong>Arcana</strong> to any checks to make to resist the effects of the ability.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "e05e4347-a50e-4daa-9fcf-b2a6707b0ea8"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678777347200,
+    "modifiedTime": 1689641592575,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "Yzfiona4WwXxT1Wn",
+  "_key": "!items!Yzfiona4WwXxT1Wn"
+}

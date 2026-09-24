@@ -1,0 +1,43 @@
+{
+  "name": "Tireless",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p>You burn the candle at both ends when working on long projects.</p><ul><li><p>When making an <strong>Extended Check</strong> (such as when crafting an item or doing research) you can make <strong>+1 additional check</strong>.</p></li><li><p>You only require <strong>6 hours</strong> of rest to complete a <strong>Long Rest</strong>.</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "88f07857-4eb7-4cb6-a2eb-0e7cd8112c53"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678933317939,
+    "modifiedTime": 1689641656276,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 11100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "PkZvt0h1VcagkRiL",
+  "_key": "!items!PkZvt0h1VcagkRiL"
+}

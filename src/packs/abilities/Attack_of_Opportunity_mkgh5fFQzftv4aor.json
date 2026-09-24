@@ -1,0 +1,43 @@
+{
+  "name": "Attack of Opportunity",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Melee Weapons</p><p>You know how to pin an opponent down and strike them in the back when they try to flee.</p><p>Once per turn, when a creature attempts to move out of your <strong>Melee</strong> range, you can make a <strong>Melee</strong> attack against that creature as a <strong>Free Action</strong>.</p><p>This only works if the creature moves willingly, and does not apply to forced movement or effects that would move the creature.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "974185d8-33e5-4540-b48b-e562e5461e26"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678675666966,
+    "modifiedTime": 1689641594670,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "mkgh5fFQzftv4aor",
+  "_key": "!items!mkgh5fFQzftv4aor"
+}

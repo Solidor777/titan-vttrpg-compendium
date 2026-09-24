@@ -1,0 +1,66 @@
+{
+  "name": "Hybrid Form",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Flesh_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You take on a form halfway between yourself and a beast.</p><p>Choose any animal with a maximum <strong>Stamina</strong> no higher than your own.</p><p>Then choose:</p><ul><li><p>1 stat (such as Body, Athletics, Swim Speed, Size, etc).</p></li><li><p>1 ability (such as a bite attack, water-breathing, etc).</p></li></ul><p>For <strong>1 minute</strong>, your chosen stat becomes the same as that of the animal. You also gain the chosen ability the animal possesses.</p><p>Each extra success extends the duration by <strong>+1 minutes</strong>.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.LHk1MjkpB2gk3u7b]{Hybrid Form}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "uncommon",
+    "tradition": "Flesh",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 5,
+      "complexity": 2,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "minutes",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "c392f5be-92e6-4440-9847-654e81c55ae9"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432594185,
+    "modifiedTime": 1708070017248,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "uiPwkfnRVLGVAvvk",
+  "_id": "5PjZ6G4HkV0vZSXS",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!5PjZ6G4HkV0vZSXS"
+}

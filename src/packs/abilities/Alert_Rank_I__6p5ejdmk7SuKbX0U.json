@@ -1,0 +1,52 @@
+{
+  "name": "Alert (Rank I)",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p>You are always ready for a fight and never caught off-guard.</p><ul><li><p>You gain a <strong>+2</strong> bonus to your <strong>Initiative</strong>.</p></li><li><p>You are never considered unaware and are never surprised in combat.</p></li></ul><p>You may spend an additional <strong>2 XP</strong> to increase the rank of this Ability. Each time you do, you gain an additional <strong>+2</strong> to your <strong>Initiative</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "rating",
+        "key": "initiative",
+        "value": 2,
+        "uuid": "c96a40d2-b14c-4450-ad8c-c6acb2333128",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "5806bda4-189b-4c85-b093-7d7840870794"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678428633455,
+    "modifiedTime": 1689641590208,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "6p5ejdmk7SuKbX0U",
+  "_key": "!items!6p5ejdmk7SuKbX0U"
+}

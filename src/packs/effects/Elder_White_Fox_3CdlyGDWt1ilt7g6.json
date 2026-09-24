@@ -1,0 +1,119 @@
+{
+  "_id": "3CdlyGDWt1ilt7g6",
+  "name": "Elder White Fox",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/WhiteFox_Path_Icon.webp",
+  "description": "<p>You have grown nine ethereal fox tails to empower yourself.</p><ul><li><p>Your <strong>Body</strong> and <strong>Soul</strong> increase by <strong>+2</strong>.</p></li><li><p>Your <strong>Stride </strong>speed increases by <strong>+5</strong>.</p></li><li><p>Other creatures have <strong>Disadvantage</strong> on checks to resist the effects of your spells or <strong>Path</strong> abilities.</p></li><li><p>Once per turn, when you would be hit by an attack or targeted by a hostile spell or ability, you may substitute yourself with an illusory clone that disappears shortly after the triggering action, while you reappear at a location of your choice within <strong>30 spaces</strong>. As you reappear, you may immediately make a <strong>Stealth </strong>check to hide.</p></li></ul><p><span style=\"font-family: 'Open Sans',sans-serif\"><strong style=\"font-weight:normal;\" id=\"docs-internal-guid-dcd12564-7fff-bcb5-c45b-7173bd86e5d6\">This effect lasts until the end of combat, you become </strong><strong>Incapacitated</strong>, or you are <strong>Dying</strong>. After you use this ability, you cannot use any ability with the <strong>Apex</strong> trait until you complete a <strong>Long Rest</strong>.</span></p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "eJQCNYfqv62GecIH",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "permanent",
+      "remaining": 2,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "39f4d52d-25d8-4703-a649-03fa7b9407cc"
+      },
+      {
+        "name": "White Fox",
+        "description": "",
+        "uuid": "5cce130d-1666-400f-99a5-8c91fdddf95f"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "attribute",
+        "key": "body",
+        "value": 2,
+        "uuid": "36344c15-d045-4bf1-a041-ab7eb3e2c60a"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "attribute",
+        "key": "soul",
+        "value": 2,
+        "uuid": "8a50ff25-b6ef-421a-b889-60931b917281"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "stride",
+        "value": 5,
+        "uuid": "8238cbee-e32e-4c76-a107-77f96d494a36"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "item",
+        "selector": "customTrait",
+        "key": "Path",
+        "message": "<p><strong>Elder White Fox:</strong> Other creatures have <strong>Disadvantage</strong> on checks to resist the effects of your spells or <strong>Path</strong> abilities.</p>",
+        "uuid": "22489a01-c542-4c9f-a305-f45f25d179dd"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "any",
+        "selector": "attribute",
+        "key": "body",
+        "message": "<p><strong>Elder White Fox:</strong> Your Body increases by <strong>+2</strong>.</p>",
+        "uuid": "66df3fc5-45b0-471a-8c74-e2cc78355803"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "any",
+        "selector": "attribute",
+        "key": "soul",
+        "message": "<p><strong>Elder White Fox:</strong> Your <strong>Soul</strong> increases by <strong>+2</strong>.</p>",
+        "uuid": "1a618400-b945-4e76-b8ad-17be2c5b5993"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "casting",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>Elder White Fox:</strong> Other creatures have <strong>Disadvantage</strong> on checks to resist the effects of your spells or <strong>Path</strong> abilities.</p>",
+        "uuid": "1fd7531b-44f6-47b1-9902-c237a84b01d7"
+      },
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Elder White Fox:</strong> Your <strong>Stride</strong> speed increases by <strong>+5</strong>.</p>",
+        "uuid": "2fa8535a-c1e5-4cee-bb39-92ff21176774"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679875562320,
+    "modifiedTime": 1709790973571,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!3CdlyGDWt1ilt7g6"
+}

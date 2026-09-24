@@ -1,0 +1,84 @@
+{
+  "_id": "tbC600M8TFgW1wbd",
+  "name": "Stoke Rage",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Thought_Tradition_Icon.webp",
+  "description": "<p>You are being mentally urged to strike harder, faster, more viciously, and without mercy.</p><p>You deal <strong>+1 Damage</strong> until the start of the caster's next turn.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "vUl00pcDm6OdEeer",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "initiative",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": "Minutes"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Thought",
+        "description": "",
+        "uuid": "a6e06733-da73-4693-9884-9810a9e45c60"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "mod",
+        "key": "damage",
+        "value": 1,
+        "uuid": "145d8232-6998-4140-9685-f3d5fb8e767d"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>Stoke Rage:</strong> You deal <strong>+1 Damage</strong>.</p>",
+        "uuid": "28aea93d-2968-4028-8c0a-e4c9ece1bd9d"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "casting",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>Stoke Rage:</strong> You deal <strong>+1</strong> <strong>Damage</strong>.</p>",
+        "uuid": "f1ebbdce-f90d-4ca9-a7f1-867bbffa1c01"
+      },
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Stoke Rage:</strong> You deal <strong>+1 Damage</strong> until the start of the caster's next turn.</p>",
+        "uuid": "c0ee268b-1297-4c16-91a9-c7a0758c5576"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432985113,
+    "modifiedTime": 1708069910145,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!tbC600M8TFgW1wbd"
+}

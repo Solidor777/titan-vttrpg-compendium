@@ -1,0 +1,53 @@
+{
+  "_id": "0J2fACcWgarfLteq",
+  "name": "Trade Winds",
+  "type": "ability",
+  "img": "icons/magic/air/air-wave-gust-blue.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must be utilizing Zephyr Style</p><p><strong>Cost:</strong> 1 Focus</p><p><strong>Range:</strong> 5 Spaces</p><p>The wind lifts you and your ally, setting you both down where the other stood.</p><p>On your turn, you may spend <strong>1 Focus</strong> to exchange positions with a willing ally your <strong>Size</strong> or smaller, or an unattended object of your weight or less, that you can see within <strong>5 spaces</strong> of you.</p><p>Nothing solid may stand between you and the target.</p><p>Neither movement triggers attacks or effects that respond to movement, and you do not touch the ground during movement.</p><p>You cannot use this ability while you or your chosen target are <strong>Restrained</strong>.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Combat Style",
+        "description": "",
+        "uuid": "04d37919-3760-4915-a465-f93a6771cf2d"
+      },
+      {
+        "name": "Zephyr Style",
+        "description": "",
+        "uuid": "cb41165d-aa81-475d-a4f5-12aa76419127"
+      },
+      {
+        "name": "Air",
+        "description": "",
+        "uuid": "aa8a1bdb-d349-4f06-aae6-bf79ed73cf46"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "ItKmuvdZ6wPszJVg",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0J2fACcWgarfLteq"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Hit and Run",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Melee Weapons, Training (1) in Dexterity</p><p>You strike fast and then dash away, avoiding retribution.</p><p>Once per turn, if you deal <strong>Damage</strong> with a <strong>Melee</strong> attack, you may increase your <strong>Speed</strong> by <strong>+5</strong> until the end of your turn.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "attackType",
+        "key": "melee",
+        "message": "<p><strong>Hit and Run:</strong> Once per turn, if you deal <strong>Damage</strong> with a <strong>Melee</strong> attack, you may increase your <strong>Speed</strong> by <strong>+5</strong> until the end of your turn.</p>",
+        "uuid": "d85e4230-26e0-40b9-ad50-03f5d0413bd9",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "fa7251f0-3ac7-402a-aa7c-879100bd085a"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678492874899,
+    "modifiedTime": 1689641625530,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 5800000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "NbQm8idiKbgOFKCX",
+  "_key": "!items!NbQm8idiKbgOFKCX"
+}

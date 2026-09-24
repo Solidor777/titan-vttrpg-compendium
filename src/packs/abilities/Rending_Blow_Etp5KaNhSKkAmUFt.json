@@ -1,0 +1,62 @@
+{
+  "name": "Rending Blow",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Body (3), Expertise (1) in Melee Weapons</p><p>You aim your strike to sunder armor.</p><p>Make a melee attack. If you succeed, the target does not suffer damage.</p><p>Instead, their <strong>Armor</strong> takes <strong>Damage</strong> equal to the number of successes on your attack, with the maximum amount of <strong>Damage</strong> being equal to your <strong>Expertise</strong> in <strong>Melee Weapons</strong>.</p><p>This does not allow you to bypass the resistance granted to magical armor. Only <strong>Magical</strong> weapons can damage <strong>Magical</strong> armor, as normal.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "conditionalDamageModifier",
+        "checkType": "attack",
+        "selector": "attackTrait",
+        "key": "twoHanded",
+        "value": 1,
+        "uuid": "1def636a-8e03-4f55-b578-5fd67906cd4c",
+        "type": "ability"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "attackTrait",
+        "key": "twoHanded",
+        "message": "<p><strong>Immense Strikes:</strong> You deal +1 Damage with attacks that have the Two-Handed treat.</p>",
+        "uuid": "a28fb5b8-91fc-43c6-a509-f5935266d85c",
+        "type": "ability"
+      }
+    ],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "ed327436-b646-45ac-a93c-586292ac7a55"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678599092775,
+    "modifiedTime": 1689641642596,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 8800000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "Etp5KaNhSKkAmUFt",
+  "_key": "!items!Etp5KaNhSKkAmUFt"
+}

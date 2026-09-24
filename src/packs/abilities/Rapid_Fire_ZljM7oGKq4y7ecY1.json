@@ -1,0 +1,63 @@
+{
+  "name": "Rapid Fire",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Ranged Weapons</p><p>You rain down a hail of projectiles on a group of enemies.</p><p>Choose a point within your weapon’s range and make a <strong>4:1</strong> <strong>Body (Ranged Weapons)</strong> Check.</p><p>Each creature within a <strong>5-space-radius</strong> of that point must make an <strong>4:S</strong> <strong>Reflexes </strong>Check, where <strong>S</strong> is equal to the number of successes you achieved.</p><p>If a target fails, they suffer <strong>Damage</strong> equal to the difference in successes.</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "body",
+        "skill": "rangedWeapons",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 0,
+        "isDamage": true,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "reflexes",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "bd06022e-9f8a-4acf-b2fa-ce6e03c89d49"
+      }
+    ],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "bd09d068-3fc5-476d-b810-1dde8b8732e3"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678505771803,
+    "modifiedTime": 1689641641156,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 8500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "ZljM7oGKq4y7ecY1",
+  "_key": "!items!ZljM7oGKq4y7ecY1"
+}

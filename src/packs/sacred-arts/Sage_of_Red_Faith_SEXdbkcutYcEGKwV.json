@@ -1,0 +1,59 @@
+{
+  "name": "Sage of Red Faith",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/RedFaith_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Soul (5), 6 Red Faith abilities, and you must reach a state of harmony with your mature blood shadow</p><p><strong>Cost:</strong> 2 Resolve or 2 sources of fresh blood</p><p><strong>Range:</strong> Self</p><p>Your blood shadow has matured, and you have come to a compromise with each other, working symbiotically in pursuit of your mutual goals.</p><p>As an <strong>Action</strong>, you may manifest your blood shadow as a copy of yourself made entirely of blood.</p><ul><li><p>Your <strong>Body</strong> and <strong>Soul</strong> increase by <strong>+2</strong>.</p></li><li><p>Your <strong>Stride Speed</strong> increases by <strong>+5</strong>.</p></li><li><p>All <strong>Damage</strong> you inflict increases by <strong>+2</strong>.</p></li><li><p>Your blood shadow appears in a space adjacent to you and has all the same stats and abilities as you. It can move once on your turn. It can take any <strong>Action</strong> you could, but you must use an <strong>Action</strong> to direct it.</p></li><li><p>You may unleash your blood shadow, in which case it no longer requires an Action for it to act and it acts on its own accord. This usually means attacking whatever creature is nearest or most vulnerable -- including you</p></li></ul><p>This effect lasts until the end of combat, you become <strong>Incapacitated</strong>, or you are <strong>Dying</strong>. After you use this ability, you cannot use any ability with the <strong>Apex</strong> trait until you complete a <strong>Long Rest</strong>.</p><p>Additionally, Red Faith cultists will recognize your skill and afford you special respect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.cGfEQ9zY0BdwOW4y]{Sage of Red Faith}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Red Faith",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      },
+      {
+        "name": "Apex",
+        "description": "",
+        "uuid": "ceab092b-000b-466a-aca3-c8a717b7aa83"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "08c968a7-4ff3-4268-9335-eccccfa08cdb"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708070662975,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "Nv9qX3XiazeQquOQ",
+  "_id": "SEXdbkcutYcEGKwV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!SEXdbkcutYcEGKwV"
+}

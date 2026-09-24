@@ -1,0 +1,128 @@
+{
+  "_id": "a4T77yGj0BxyvAQg",
+  "name": "Elder Sibling (Mind & Soul)",
+  "type": "effect",
+  "img": "icons/magic/death/skull-horned-white-purple.webp",
+  "description": "<p>You have completed your remaking and taken on a dreadful new form.</p><ul><li><p>Your <strong>Mind</strong> and <strong>Soul</strong> increase by <strong>+2</strong>.</p></li><li><p>Your <strong>Unarmed</strong> attacks are no longer considered <strong>Ineffective</strong>, the <strong>Range</strong> of your <strong>Melee</strong> attacks increases by <strong>+1</strong>, and all your <strong>Speeds</strong> increase by <strong>+5</strong>.</p></li><li><p>You cannot become <strong>Contaminated</strong>, you do not need to breathe, and you are immune to disease and poison.</p></li><li><p>Once per turn, when a creature dies within <strong>10 spaces</strong> of you, you may integrate its useful parts as a <strong>Free Action</strong> to reduce your <strong>Wounds</strong> by <strong>1</strong>, or to restore <strong>Stamina</strong> equal to your <strong>Body</strong>.</p></li></ul><p>This effect lasts until the end of combat, you become <strong>Incapacitated</strong>, or you are <strong>Dying</strong>. After you use this ability, you cannot use any ability with the <strong>Apex</strong> trait until you complete a <strong>Long Rest</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "CLMPmCPAPZhy4S67",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "initiative": 1,
+      "custom": "",
+      "remaining": 2,
+      "type": "permanent"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Deathsinger",
+        "description": "",
+        "uuid": "a7063d7a-714c-444e-a2f0-539ee83b9565"
+      },
+      {
+        "name": "Apex",
+        "description": "",
+        "uuid": "a37fc1cf-4f6d-494c-ab2a-996da684e3b4"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "attribute",
+        "key": "mind",
+        "value": 2,
+        "uuid": "a5723293-30b9-4de9-abc0-9b90a2270be1"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "attribute",
+        "key": "soul",
+        "value": 2,
+        "uuid": "0da59c60-600c-4022-a216-984e1da0b621"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "stride",
+        "value": 5,
+        "uuid": "e06d5e48-f50d-4c4f-a298-0e3dcc2f589a"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "fly",
+        "value": 5,
+        "uuid": "6e2eb3f6-9796-43ba-ab08-9b60fc55dc39"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "swim",
+        "value": 5,
+        "uuid": "8f0cb60b-e307-4e65-a922-9072a142827e"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "burrow",
+        "value": 5,
+        "uuid": "f8f001c8-fd3a-4f3e-a202-c7085e897b85"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "climb",
+        "value": 5,
+        "uuid": "c4250661-09f1-44da-a01d-9bf2b27e1a7d"
+      },
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "attackType",
+        "key": "melee",
+        "message": "<p><strong>Elder Sibling:</strong> Your <strong>Unarmed</strong> attacks are not <strong>Ineffective</strong>, and the <strong>Range</strong> of your <strong>Melee</strong> attacks increases by <strong>+1</strong>.</p>",
+        "uuid": "b50c20c0-85f3-43dd-a3b2-9741b26e9b0a"
+      },
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Elder Sibling:</strong> Once per turn, when a creature dies within <strong>10 spaces</strong> of you, you may integrate its useful parts as a <strong>Free Action</strong> to reduce your <strong>Wounds</strong> by <strong>1</strong>, or to restore <strong>Stamina</strong> equal to your <strong>Body</strong>.</p>",
+        "uuid": "a67966f6-64db-451f-a040-138b2fe16c31"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!a4T77yGj0BxyvAQg"
+}

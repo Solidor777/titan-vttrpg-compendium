@@ -1,0 +1,63 @@
+{
+  "_id": "hbGIUsGhp9HqZJXz",
+  "name": "Blue Spirit's Magical Bulwark",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlueSpirit_Path_Icon.webp",
+  "description": "<p>Until the start of your next turn, the <strong>Complexity</strong> to <strong>Counteract</strong> any spells cast by yourself or allies within <strong>10 spaces</strong> of you increases by a number equal to your <strong>Soul</strong>.</p><p>You can spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "rKO5t4qtoGbs0SIx",
+  "sort": 900000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "turnStart",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [],
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "casting",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>Blue Spirit's Magical Bulwark:</strong> The <strong>Complexity</strong> to <strong>Counteract</strong> any spells you cast increases by a number equal to the user's <strong>Sou</strong>l.</p>",
+        "uuid": "f7045bc6-3d94-49fb-9c4e-58a3dc8cc374"
+      },
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Blue Spirit's Magical Bulwark:</strong> You can spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p>",
+        "uuid": "1998fc13-c812-4f46-b810-4ea08ec8407f"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679974094465,
+    "modifiedTime": 1708070737119,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!hbGIUsGhp9HqZJXz"
+}

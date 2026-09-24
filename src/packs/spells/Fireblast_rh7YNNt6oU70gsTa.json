@@ -1,0 +1,79 @@
+{
+  "name": "Fireblast",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Fire_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You throw out a blast of flame to scorch your enemies at close range.</p><p>Choose a direction for a <strong>5-space-cone</strong>, starting at the edge of your space. Each creature within the cone takes <strong>1</strong> <strong>Damage</strong> as fire washes over them.</p><p>Each extra success increases the <strong>Damage</strong> by <strong>+1</strong>.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Fire",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": false,
+        "label": "Cone",
+        "scaling": false,
+        "initialValue": 5,
+        "cost": 0,
+        "uuid": "6a472cee-dab7-4608-abf4-c6b7594d6db0"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "damage",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": true,
+        "option": [],
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "2948b029-8912-4f3d-921b-d07f07447057"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680236393504,
+    "modifiedTime": 1708131765653,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "qSDNQ2fJxZLSRrAy",
+  "_id": "rh7YNNt6oU70gsTa",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!rh7YNNt6oU70gsTa"
+}

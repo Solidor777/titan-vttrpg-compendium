@@ -1,0 +1,43 @@
+{
+  "name": "Distracting",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (2) Performance</p><p>You know just how to annoy someone at the worst possible time.</p><ul><li><p>You have a number of <strong>distraction points</strong> equal to your <strong>Soul</strong>.</p></li><li><p>Once per turn, you can expend a <strong>distraction point</strong> to irritate another creature as a <strong>Free Action</strong> on your turn. If you do so, that creature has <strong>-1 penalty dice</strong> to the next check it makes within <strong>1 hour</strong>.</p></li><li><p>You replenish your <strong>distraction points</strong> after you finish a <strong>Short</strong> or <strong>Long Rest</strong>.</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "3cfdc8da-9449-421a-9017-2d7d4f15ac20"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678855678147,
+    "modifiedTime": 1689641614028,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 3800000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "npxieBuARZHCvRdu",
+  "_key": "!items!npxieBuARZHCvRdu"
+}

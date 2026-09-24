@@ -1,0 +1,66 @@
+{
+  "_id": "yk1y4p5A58f8QDvq",
+  "name": "Astral Banishment",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/VeiledMoon_Path_Icon.webp",
+  "description": "<p>You have been forcibly shunted into the spirit world until the start of the ability user's next turn.</p><p>While in the spirit world, you cannot take any actions, be harmed, or be observed, though you may still observe your surroundings. When you reappear, you does so at the nearest open space to where you were banished.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "8lS162UMHxzYupPR",
+  "sort": 400000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "initiative",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Veiled Moon",
+        "description": "",
+        "uuid": "9a8f2219-fd93-4a5f-8cee-239fbb1f1837"
+      },
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "136a7bd3-e254-41e4-9811-24ddee9695da"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Astral Banishment:</strong> While in the spirit world, you cannot take any actions, be harmed, or be observed, though you may still observe your surroundings. When you reappear, you does so at the nearest open space to where you were banished.</p>",
+        "uuid": "13013bbf-3833-44a2-af40-9df93c594705"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682915896595,
+    "modifiedTime": 1708070256504,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!yk1y4p5A58f8QDvq"
+}

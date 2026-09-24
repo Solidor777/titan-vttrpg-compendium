@@ -1,0 +1,59 @@
+{
+  "name": "Elder White Fox",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/WhiteFox_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Soul (5), 6 White Fox abilities, and you must receive training from another Elder White Fox, or have access to their teachings.</p><p><strong>Cost:</strong> 2 Resolve</p><p><strong>Range:</strong> Self</p><p>You have mastered the White Fox’s arts of trickery and fate.</p><p>As an <strong>Action</strong>, you may grow nine ethereal fox tails to empower yourself.</p><ul><li><p>Your <strong>Body</strong> and <strong>Soul</strong> increase by <strong>+2</strong>.</p></li><li><p>Your <strong>Stride</strong> speed increases by <strong>+5</strong>.</p></li><li><p>Other creatures have <strong>Disadvantage</strong> to resist the effects of your spells or <strong>Path</strong> abilities.</p></li><li><p>Once per turn, when you would be hit by an attack or targeted by a hostile spell or ability, you may substitute yourself with an illusory clone that disappears shortly after the triggering action, while you reappear at a location of your choice within <strong>30 spaces</strong>. As you reappear, you may immediately make a <strong>Stealth</strong> check to hide.</p></li></ul><p>This effect lasts until the end of combat, you become <strong>Incapacitated</strong>, or you are <strong>Dying</strong>. After you use this ability, you cannot use any ability with the <strong>Apex</strong> trait until you complete a <strong>Long Rest</strong>.</p><p>Additionally, White Foxes and other followers of the Path of the White Fox will recognize your skill and afford you special respect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.3CdlyGDWt1ilt7g6]{Elder White Fox}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "a094e4bb-e282-4ae1-96d2-c184d8d995ce"
+      },
+      {
+        "name": "White Fox",
+        "description": "",
+        "uuid": "a9f729a8-b087-4e01-b74b-0002ae08619f"
+      },
+      {
+        "name": "Apex",
+        "description": "",
+        "uuid": "994f5dcc-fdb1-4887-a70c-2fc564e4af90"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": true,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "535b9b01-992e-4fee-9acf-1a26fbb7c25d"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679860356996,
+    "modifiedTime": 1709790730635,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "bWNBnECihPpN1GHC",
+  "_id": "kyDSTflQpvlOs9VP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!kyDSTflQpvlOs9VP"
+}

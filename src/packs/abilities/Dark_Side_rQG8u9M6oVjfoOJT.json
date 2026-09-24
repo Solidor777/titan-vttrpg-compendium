@@ -1,0 +1,43 @@
+{
+  "name": "Dark Side",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must have been exposed to a corrupting influence</p><p>Something dark festers deep in your soul, and you must struggle to prevent it from taking control.</p><p>At the start of your turn, if you are <strong>Dying</strong>, you can forgo the <strong>Death Check</strong> to give in to your darker impulses.</p><ul><li><p>You are no longer <strong>Dying</strong>.</p></li><li><p>Your <strong>Mind</strong>, <strong>Body,</strong> and <strong>Sou</strong>l increase by <strong>+1</strong>.</p></li><li><p>Your <strong>Stamina</strong>, <strong>Wounds</strong>, and <strong>Resolve</strong>, are fully restored.</p></li><li><p>You seek to destroy whatever creature is nearest to you by the most effective means available to you, though you may prioritize creatures that are an obvious greater threat.</p></li></ul><p>This effect ends after a number of turns equal to your highest attribute, or if you take enough damage to be <strong>Dying</strong> again.</p><p>When this effect ends, you lose all <strong>Stamina</strong> and <strong>Resolve</strong>, your <strong>Wounds</strong> increase to their maximum value, and you are <strong>Dying</strong> again.</p><p>Once you use this ability, you cannot use it again until your <strong>Wounds</strong> have been fully restored.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.lHsAzOjj7lHGuPut]{Dark Side}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "d20b10fa-83dc-4cd3-9581-d22aaa91e034"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679802339790,
+    "modifiedTime": 1689642570871,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "BREMSBSeD2axMtcr",
+  "_id": "rQG8u9M6oVjfoOJT",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!rQG8u9M6oVjfoOJT"
+}

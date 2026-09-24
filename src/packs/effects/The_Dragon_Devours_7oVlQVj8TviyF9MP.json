@@ -1,0 +1,74 @@
+{
+  "_id": "7oVlQVj8TviyF9MP",
+  "name": "The Dragon Devours",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlackFlames_Path_Icon.webp",
+  "description": "<p>You are enveloped in a shroud of Black Flame.</p><p>Until the start of your next turn, you and your affected allies take <strong>2</strong> less <strong>Damage</strong> from spells.</p><p>Additionally, affected creatures gain bonus dice equal to your <strong>Training</strong> in <strong>Metaphysics</strong> to any checks made to resist spell effects. They also gain these bonus dice on any checks they make with the <strong>Counteract</strong> trait.</p><p>If an ally moves more than <strong>5 Spaces</strong> away from you, this ability no longer affects them. If they come within <strong>5 spaces</strong> of you, this ability affects them as normal.</p><p>On your turn, you can spend <strong>1 Resolve</strong> or take <strong>1 Wound</strong> to sustain this effect.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "2QF1Yv6Vg8T1TXFR",
+  "sort": 1300000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "permanent",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Black Flame",
+        "description": "",
+        "uuid": "bc3d67c9-f526-4eb8-b00b-4665edab3fbc"
+      },
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "e350f957-7178-4c72-93e2-fd7ad2afda89"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "resistance",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>The Dragon Devours:</strong> You gain bonus dice equal to the user's <strong>Training</strong> in <strong>Metaphysics</strong> to resist spell effects and <strong>Path Abilities</strong>.</p>",
+        "uuid": "936729d3-8a07-4882-bafd-8b30902aa666"
+      },
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>The Dragon Devours:</strong> On your turn, you can spend <strong>1 Resolve</strong> or take <strong>1 Wound</strong> to sustain this effect.</p>",
+        "uuid": "5bd8e4da-6270-414b-a689-4050cba1b921"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679032690860,
+    "modifiedTime": 1709798558207,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!7oVlQVj8TviyF9MP"
+}

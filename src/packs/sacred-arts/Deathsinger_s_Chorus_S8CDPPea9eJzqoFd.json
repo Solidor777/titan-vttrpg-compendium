@@ -1,0 +1,48 @@
+{
+  "_id": "S8CDPPea9eJzqoFd",
+  "name": "Deathsinger's Chorus",
+  "type": "ability",
+  "img": "icons/magic/death/skull-horned-white-purple.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> Self</p><p><strong>Area:</strong> 30-space-radius</p><p>You draw on the dead around you, adding their voices to the strength of your own song.</p><p>Choose a number of corpses of <strong>Size 1</strong> or larger within <strong>30 spaces</strong> of you, up to a maximum of your <strong>Training</strong> in <strong>Metaphysics</strong>. For each corpse, you gain <strong>+1 bonus dice</strong> to any <strong>Check</strong> you make with the <strong>Deathsinger</strong> Trait until the start of your next turn.</p><p>You may choose to spend <strong>1 Resolve</strong> when you use this ability to preserve the corpses for later use. Otherwise, the corpses are destroyed.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.reCGaBtNeYrzdVjj]{Deathsinger's Chorus}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Deathsinger",
+        "description": "",
+        "uuid": "a7063d7a-714c-444e-a2f0-539ee83b9565"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "iAdYrErZnpD6327g",
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!S8CDPPea9eJzqoFd"
+}

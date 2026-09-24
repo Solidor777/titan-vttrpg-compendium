@@ -1,0 +1,49 @@
+{
+  "name": "Urderic Smith",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Engineering, and you must be trained by another Urderic Smith or have access to their teachings</p><p>Ur-stones are an unstable, dangerous magical compound, but for those who learn how to control and craft with them, they can be a potent power-source for just about anything.</p><p>You can craft and use Urderic devices. How many you can use at once depends on the <strong>Power Consumption</strong> of the device, vs the <strong>Power Capacity</strong> of your <strong>Power Armor</strong>, a special suit designed to power your devices while protecting you from the deadlier effects of Ur-stones. You can remove devices freely and can equip new ones when you complete a <strong>Long Rest</strong>.</p><p>If you ever have enough devices equipped to exceed the <strong>Power Capacity</strong> of your <strong>Power Armor</strong>, you must immediately make a <strong>Resilience</strong> check of <strong>4:X</strong> where <strong>X</strong> is the amount by which you have exceeded the suit's limits. This check must be repeated at the start of every turn you continue to wear the extra equipment.</p><p>If you fail this check, you are <strong>Stunned</strong> until you remove the excess devices. If you fail a second time, you are <strong>Incapacitated</strong>. If you fail a third time, you die.</p><p>Long term side-effects of excess exposure to Ur-Stones include headache, nausea, sterility, mutation, and death.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Urderic Smith",
+        "description": "",
+        "uuid": "dd6af229-2aa9-4773-a9fb-9feaf1b81030"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "BREMSBSeD2axMtcr",
+  "flags": {
+    "titan": {
+      "uuid": "f0e95f72-870e-4f82-ad4a-b75f0da6e753"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1681583958455,
+    "modifiedTime": 1689746250740,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "DusANJaMODFzgLuD",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!DusANJaMODFzgLuD"
+}

@@ -1,0 +1,64 @@
+{
+  "_id": "s3gulrmHUVC2dOnE",
+  "name": "Shield Master",
+  "type": "effect",
+  "img": "icons/svg/daze.svg",
+  "description": "<p>If you are not <strong>Stunned</strong> or <strong>Incapacitated</strong>, you can add <strong>bonus dice</strong> equal to your shield's <strong>Defense</strong> bonus to your <strong>Reflexes</strong> checks. This includes the bonus to <strong>Defense</strong> gained from <strong>Shield Expert</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "f8GbJRZi0IyOnPon",
+  "sort": 9800000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "permanent",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [],
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "resistance",
+        "selector": "resistance",
+        "key": "reflexes",
+        "message": "<p><strong>Shield Master:</strong> If you are not <strong>Stunned</strong> or <strong>Incapacitated</strong>, you can add <strong>bonus dice</strong> equal to your shield's <strong>Defense</strong> bonus to your Reflexes checks.</p>",
+        "uuid": "be7f1c68-4f3f-4bbb-a6a9-6cc308de4877"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "resistance",
+        "key": "reflexes",
+        "value": 2,
+        "uuid": "69aa8a82-d460-4076-88e2-07b133b5ec8a"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678776881960,
+    "modifiedTime": 1689641648676,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!s3gulrmHUVC2dOnE"
+}

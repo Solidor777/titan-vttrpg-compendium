@@ -1,0 +1,66 @@
+{
+  "_id": "PXyDweU65lNtafLs",
+  "name": "Deathsinger's Miasma",
+  "type": "effect",
+  "img": "icons/magic/death/skull-horned-white-purple.webp",
+  "description": "<p>Every space within <strong>5 spaces</strong> of you is <strong>Obscured (1)</strong>. Any creature other than you that starts its turn in the area becomes <strong>Contaminated</strong> until the start of your next turn.</p><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect. Each time you sustain it, the radius increases by <strong>+1 space</strong>, to a maximum of <strong>5 + your Soul</strong>.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "nkSdZvoa4C3eW1u6",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "initiative": 1,
+      "custom": "",
+      "remaining": 1,
+      "type": "turnStart"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Deathsinger",
+        "description": "",
+        "uuid": "a7063d7a-714c-444e-a2f0-539ee83b9565"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Deathsinger's Miasma:</strong> You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect. Each time you sustain it, the radius increases by <strong>+1 space</strong>.</p>",
+        "uuid": "370ed625-8a56-445f-ad59-805d3981eb5f"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!PXyDweU65lNtafLs"
+}

@@ -1,0 +1,102 @@
+{
+  "_id": "05UZjoKfVoTuJagr",
+  "name": "Deathsinger's Guiding Hand (Armored Carapace)",
+  "type": "effect",
+  "img": "icons/magic/death/skull-horned-white-purple.webp",
+  "description": "<p>Your <strong>Armor</strong> increases by <strong>+2</strong>, and your speed is reduced by half, rounded up.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "nkSdZvoa4C3eW1u6",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "initiative": 1,
+      "custom": "",
+      "remaining": 1,
+      "type": "initiative"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Deathsinger",
+        "description": "",
+        "uuid": "a7063d7a-714c-444e-a2f0-539ee83b9565"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "mod",
+        "key": "armor",
+        "value": 2,
+        "uuid": "1242c384-1d3a-4fc8-a083-ac1377327a87"
+      },
+      {
+        "operation": "mulBase",
+        "selector": "speed",
+        "key": "stride",
+        "value": 0.5,
+        "uuid": "6d62d3f3-6cad-4d93-a0a4-0f9f7c43a194"
+      },
+      {
+        "operation": "mulBase",
+        "selector": "speed",
+        "key": "fly",
+        "value": 0.5,
+        "uuid": "92328a1a-3d7f-422d-abd2-7924f74de13b"
+      },
+      {
+        "operation": "mulBase",
+        "selector": "speed",
+        "key": "swim",
+        "value": 0.5,
+        "uuid": "07ee8db1-b7ff-437d-ac24-bfba542e930e"
+      },
+      {
+        "operation": "mulBase",
+        "selector": "speed",
+        "key": "burrow",
+        "value": 0.5,
+        "uuid": "b73feb8a-6ea6-41d0-af52-61481857a031"
+      },
+      {
+        "operation": "mulBase",
+        "selector": "speed",
+        "key": "climb",
+        "value": 0.5,
+        "uuid": "13af9d01-c63a-4be7-a540-4bb8fc958cfc"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790121600000,
+    "modifiedTime": 1790121600000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!05UZjoKfVoTuJagr"
+}

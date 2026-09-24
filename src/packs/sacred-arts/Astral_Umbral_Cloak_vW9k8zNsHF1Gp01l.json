@@ -1,0 +1,54 @@
+{
+  "name": "Astral / Umbral Cloak",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/VeiledMoon_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve</p><p><strong>Range:</strong> Self</p><p>You can disappear in shadow or moonlight.</p><p>When you use this ability, choose <strong>Astral</strong> or <strong>Umbral Cloak</strong>.</p><ul><li><p><strong>Astral Cloak</strong></p><ul><li><p>You become invisible as long as you remain in moonlight.</p></li><li><p>If you leave the moonlight, this effect immediately ends.</p></li></ul></li><li><p><strong>Umbral Cloak</strong></p><ul><li><p>You become invisible as long as you remain in shadow.</p></li><li><p>If you leave the shadow, this effect immediately ends.</p></li></ul></li></ul><p>This effect ends also immediately if you attack a creature, cast a spell, or use a hostile ability.</p><p>This effect lasts until the start of your next turn.</p><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect. If you do so, you may change between the <strong>Astral</strong> or <strong>Umbral</strong> effects.</p><p><strong>Effects:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.f91aaqL6IrBFVNur]{Astral Cloak}, @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.xFQfvarl7Kcc9BGS]{Umbral Cloak}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Veiled Moon",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "2fc13097-a1b5-4b67-96a3-f8f1fd137c58"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708070242404,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "KQwWonXZ3eMLZCPx",
+  "_id": "vW9k8zNsHF1Gp01l",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!vW9k8zNsHF1Gp01l"
+}

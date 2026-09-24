@@ -1,0 +1,59 @@
+{
+  "name": "Blue Magister",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlueSpirit_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Soul (5), 6 Blue Spirit abilities, and you must be specially favored by the Blue Spirit</p><p><strong>Cost:</strong> 2 Resolve</p><p><strong>Range:</strong> Self</p><p>The Blue Spirit has rewarded you with great and terrible power in exchange for your service.</p><p>As an <strong>Action</strong>, you may partially transform into a spirit of thought and magic, granting yourself incredible arcane power.</p><ul><li><p>Your <strong>Mind </strong>and <strong>Soul</strong> increase by <strong>+2</strong>.</p></li><li><p>You gain a <strong>Fly</strong> <strong>Speed</strong> of <strong>5</strong>. If you already have a <strong>Fly Speed</strong>, it increases by <strong>+5</strong>.</p></li><li><p>Once per turn, when you successfully cast a spell, you may immediately cast a second spell as a <strong>Free Action</strong>. The <strong>Complexity</strong> of the second spell increases by <strong>+1</strong>.</p></li></ul><p><span style=\"font-family: 'Open Sans',sans-serif\"><strong style=\"font-weight:normal;\" id=\"docs-internal-guid-dcd12564-7fff-bcb5-c45b-7173bd86e5d6\">This effect lasts until the end of combat, you become </strong><strong>Incapacitated</strong>, or you are <strong>Dying</strong>. After you use this ability, you cannot use any ability with the <strong>Apex</strong> trait until you complete a <strong>Long Rest</strong>.</span></p><p>Additionally, most mages, scholars, and other followers of the Blue Spirit will recognize your skill and afford you special respect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.13pUdVwfDWS3FG0d]{Blue Magister}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "dcc580f9-1361-4098-827d-7886c6ba77d6"
+      },
+      {
+        "name": "Blue Spirit",
+        "description": "",
+        "uuid": "c9a3fc5a-c50a-41dd-bf0e-6be202b5146c"
+      },
+      {
+        "name": "Apex",
+        "description": "",
+        "uuid": "8224169d-871e-4f0b-ba31-65b9c39e5631"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": true,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "33d18567-2d9b-4957-a9e1-21c6cf2aeabe"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679896033670,
+    "modifiedTime": 1708070723566,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "NMlMaWpZHhGBSWT2",
+  "_id": "BRyX5YFJujcwVJdC",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!BRyX5YFJujcwVJdC"
+}

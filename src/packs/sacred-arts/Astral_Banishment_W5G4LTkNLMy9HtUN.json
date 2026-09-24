@@ -1,0 +1,74 @@
+{
+  "name": "Astral Banishment",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/VeiledMoon_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve</p><p><strong>Range:</strong> 10 spaces</p><p>You forcibly shunt another creature into the spirit world.</p><p>Choose a creature within <strong>10 spaces</strong> and make a <strong>4:1 Soul (Metaphysics) check </strong>opposed by the<strong> target's Willpower. </strong>If the target fails, they are shunted to the spirit world until the start of your next turn.</p><p>If the creature is adjacent to you, you have <strong>Advantage</strong> on the check.</p><p>If the creature is a spirit or demon, they have <strong>Disadvantage</strong> on the check.</p><p>While in the spirit world, the creature cannot take any actions, be harmed, or be observed, though it may still observe its surroundings. When it reappears, it does so at the nearest open space to where it was banished.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.yk1y4p5A58f8QDvq]{Astral Banishment}</p>",
+    "check": [
+      {
+        "label": "Check",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 1,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "willpower",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "uuid": "be805749-2739-4b9e-8a71-6aca00f27f48"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Veiled Moon",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "e8404f23-17ae-4fe8-8189-5a40462c6dba"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708070254011,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "KQwWonXZ3eMLZCPx",
+  "_id": "W5G4LTkNLMy9HtUN",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!W5G4LTkNLMy9HtUN"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Jade Warlord",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/JadeWarrior_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Soul (5), 6 Jade Warrior abilities, you must receive training from another Jade Warlord, and you must have at least one tempered ur-stone worn against your skin.</p><p><strong>Cost:</strong> 2 Resolve</p><p><strong>Range:</strong> Self</p><p>Your mastery of jade allows you to transform into a terrifying engine of destruction.</p><p>As an <strong>Action,</strong> you may encase your body in an armored construct made of jade energy.</p><ul><li><p>Your <strong>Body</strong> and <strong>Soul</strong> increase by <strong>+2</strong>.</p></li></ul><ul><li><p>Your <strong>Size</strong> and the <strong>Range</strong> of your <strong>Melee</strong> attacks increase by <strong>+1</strong>.</p></li><li><p>Your <strong>Armor </strong>and<strong> Melee </strong>increase by <strong>+1</strong>.</p></li><li><p>Once per turn, when you make a melee attack, you may give your attack the <strong>Cleave</strong> trait, and cause it to ignore <strong>Armor</strong>.</p></li></ul><p><span style=\"font-family: 'Open Sans',sans-serif\"><strong style=\"font-weight:normal;\" id=\"docs-internal-guid-dcd12564-7fff-bcb5-c45b-7173bd86e5d6\">This effect lasts until the end of combat, you become </strong><strong>Incapacitated</strong>, or you are <strong>Dying</strong>. After you use this ability, you cannot use any ability with the <strong>Apex</strong> trait until you complete a <strong>Long Rest</strong>.</span></p><p>Additionally, warriors will recognize your skill and afford you special respect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.hFTlpSemmyNY3gEM]{Jade Warlord}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "6e5a0501-8154-46df-b58e-6eba8b491df0"
+      },
+      {
+        "name": "Jade Warrior",
+        "description": "",
+        "uuid": "99a30e90-801a-41bf-ab9e-d7fa7a12635c"
+      },
+      {
+        "name": "Apex",
+        "description": "",
+        "uuid": "f99b048d-fceb-44bb-af43-9f408ff49505"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": true,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "89964391-6b0f-47d0-945a-da78ad5d53cf"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680159409616,
+    "modifiedTime": 1708070169672,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "WqXJfG3nc2INc4Qf",
+  "_id": "vzpYD3An51frZeh5",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!vzpYD3An51frZeh5"
+}

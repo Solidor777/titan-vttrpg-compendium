@@ -1,0 +1,76 @@
+{
+  "name": "Urderic Energy Grenade (1)",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>These grenades are highly volatile, so they are fitted with heavy metal plates and bolts. Once the pin is pulled, the bolts release and the wielder has only a few seconds to throw it before it explodes in a blast of green light.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Urderic",
+        "description": "",
+        "uuid": "352ddbb9-76a5-4c98-a2e9-2f84e7a1de38"
+      }
+    ],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "rare",
+    "value": 85,
+    "attack": [
+      {
+        "label": "Attack",
+        "type": "ranged",
+        "range": 10,
+        "attribute": "body",
+        "skill": "rangedWeapons",
+        "damage": 1,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "blast",
+            "value": 5
+          },
+          {
+            "name": "loud",
+            "value": true
+          },
+          {
+            "name": "magical",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "19ff1ec0-a8cb-4e5c-98f8-f07807671529"
+      }
+    ],
+    "attackNotes": "<p></p>",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "folder": "KZPurD5uYKElJZlj",
+  "flags": {
+    "titan": {
+      "uuid": "9b0d16a0-051f-4a96-a236-3377080c3bd3"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1681795221875,
+    "modifiedTime": 1689665361496,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "qnh5PJTZmAtJukgs",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!qnh5PJTZmAtJukgs"
+}

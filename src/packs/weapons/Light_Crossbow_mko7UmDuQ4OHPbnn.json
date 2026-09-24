@@ -1,0 +1,70 @@
+{
+  "name": "Light Crossbow",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Body (3)</p><p>This small crossbow fires small bolts that are sometimes used to deliver poison to the target. It is small enough to be fired with one-hand, but it still requires two hands to reload.</p>",
+    "check": [],
+    "customTrait": [],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "common",
+    "value": 150,
+    "attack": [
+      {
+        "label": "Attack",
+        "type": "melee",
+        "range": 50,
+        "attribute": "body",
+        "skill": "rangedWeapons",
+        "damage": 1,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "penetrating",
+            "value": true
+          },
+          {
+            "name": "piercing",
+            "value": true
+          },
+          {
+            "name": "reload",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "7fa971fc-3ecd-435c-9b58-4279fe3a3956"
+      }
+    ],
+    "attackNotes": "",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "876a89ad-b468-4f02-a22d-0ce7880d36c4"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678261154453,
+    "modifiedTime": 1689662495284,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "ej4QZyKreCp4PpnJ",
+  "_id": "mko7UmDuQ4OHPbnn",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!mko7UmDuQ4OHPbnn"
+}

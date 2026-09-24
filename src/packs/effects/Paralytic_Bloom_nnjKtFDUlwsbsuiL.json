@@ -1,0 +1,61 @@
+{
+  "_id": "nnjKtFDUlwsbsuiL",
+  "name": "Paralytic Bloom",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Wood_Tradition_Icon.webp",
+  "description": "<p>You are <strong>Incapacitated</strong> by a toxic bloom.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "MYd7S2ijFjxRg8eG",
+  "sort": 1000000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "initiative",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": "Minutes"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Wood",
+        "description": "",
+        "uuid": "748210da-72fa-40ab-8b8d-13508f185ec1"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Paralytic Bloom:</strong> You are <strong>Incapacitated</strong> by a toxic bloom.</p>",
+        "uuid": "c9fb1b9a-0ce9-43bc-9c9d-44c2e7407ff2"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680495335014,
+    "modifiedTime": 1708131913820,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!nnjKtFDUlwsbsuiL"
+}

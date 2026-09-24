@@ -1,0 +1,66 @@
+{
+  "name": "Control Flame",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Fire_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You manipulate fire, causing it to grow, shrink, or spread as you will.</p><p>When you cast this spell, choose an existing fire within <strong>10 spaces</strong> of you. You can empower that fire to grow in intensity or snuff it out entirely.</p><p>You can cause something as small as a candle flame to erupt to fill a <strong>5-space-radius</strong>, giving all affected spaces the <strong>Hazard (1)</strong> trait.</p><p>Alternatively, you can smother fires within a <strong>5-space-radius</strong> around a point.</p><p>If there is an existing fire creating a <strong>Hazard</strong>, you can use this spell to increase or decrease the intensity one step (for example changing <strong>Hazard (1)</strong> into <strong>Hazard (2)</strong> or removing <strong>Hazard (1)</strong> entirely).</p><p>You can also spread an existing fire to an adjacent <span style=\"font-family: 'Open Sans',sans-serif\"><strong>5-space-radius</strong></span>.</p><p>Your control over the fire lasts until the start of your next turn, after which the fire returns to normal, though extinguished fires do not return.</p><p>While this spell is active, you can use an <strong>Action</strong> to manipulate the flames again, selecting the same target or a new target as you wish. If you select a new target, you relinquish control over the previous target.</p><p>Each extra success extends the duration of your control by +<strong>1 rounds</strong>.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.i9KjzFMCLrfgxIgA]{Control Flame}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Fire",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 5,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 2,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "1875a665-131b-463d-827b-7951109bcdf6"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680236393504,
+    "modifiedTime": 1708131739477,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "qSDNQ2fJxZLSRrAy",
+  "_id": "6KSGgWGGQYZTmsEr",
+  "sort": 1800000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!6KSGgWGGQYZTmsEr"
+}

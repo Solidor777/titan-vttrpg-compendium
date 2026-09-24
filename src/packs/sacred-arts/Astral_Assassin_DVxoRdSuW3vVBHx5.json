@@ -1,0 +1,54 @@
+{
+  "name": "Astral Assassin",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/VeiledMoon_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 2 Resolve</p><p><strong>Range:</strong> 30 spaces</p><p>You summon a murderous spirit to assassinate a target.</p><p>Choose a creature you can see within <strong>30 spaces</strong>. An <strong>Astral Assassin</strong> temporarily appears at its location and makes a single attack.</p><blockquote><p>Melee 6, 10d6, 3 + ES Damage, Piercing, Penetrating, Magical</p></blockquote><p>If you use this ability again before completing a <strong>Long Rest</strong>, the assassin attacks you first.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "4997606c-d005-4f27-8cd9-e8a51a3b4558"
+      },
+      {
+        "name": "Veiled Moon",
+        "description": "",
+        "uuid": "db8c6b39-d69c-4b07-929e-c78fd707b60a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "60ed41b5-f95d-44dd-97f9-83e714e006dd"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1682913054280,
+    "modifiedTime": 1708070251178,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "KQwWonXZ3eMLZCPx",
+  "_id": "DVxoRdSuW3vVBHx5",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!DVxoRdSuW3vVBHx5"
+}

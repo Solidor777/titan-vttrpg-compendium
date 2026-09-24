@@ -1,0 +1,54 @@
+{
+  "name": "The Dragon Dances",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlackFlames_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve or 1 Wound</p><p><strong>Range:</strong> Self</p><p><strong>Area:</strong> 5-space radius</p><p>You wrap yourself and your allies in hardened scales made of Black Flame.</p><p>You and allies within <strong>5-space-radius</strong> of you gain <strong>+1 Armor</strong> until the start of your next turn.</p><p>At the start of your turn, you can spend <strong>1 Resolve</strong> or take <strong>1 Wound</strong> to sustain this effect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.Co227WIU65X2mUAm]{The Dragon Dances}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "e7d92d29-217a-496b-874a-68d3e7cafca8"
+      },
+      {
+        "name": "Black Flame",
+        "description": "",
+        "uuid": "cb8ff378-33ff-49fe-993a-54dfd3f2cdc8"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "e5f8173d-82ab-416d-acd6-e4a680ea11f6"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680067261768,
+    "modifiedTime": 1709798543052,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "FGlkMf2awlp6zTb7",
+  "_id": "9gMLGyKbZnUuO8fA",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!9gMLGyKbZnUuO8fA"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Blue Spirit's Wisdom",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlueSpirit_Path_Icon.webp",
+  "system": {
+    "description": "<p>You perform a ritual to ask the Blue Spirit for information about your current circumstances.</p><p>When you take a <strong>Short</strong> or <strong>Long Rest</strong>, you may use this ability to ask the Blue Spirit for information on a particular topic, sharing what you know and what you wish to learn.</p><p>In return, you learn one piece of previously unknown or unconfirmed information, provided the Blue Spirit has anything to add. This can include critical clues that have been missed, or insight into an upcoming event.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "dcc580f9-1361-4098-827d-7886c6ba77d6"
+      },
+      {
+        "name": "Blue Spirit",
+        "description": "",
+        "uuid": "c9a3fc5a-c50a-41dd-bf0e-6be202b5146c"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "ae0b25f8-9082-40b4-bbb2-1743b89f7720"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679896033670,
+    "modifiedTime": 1708070765851,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "ZCjngOnzbhhPE8h6",
+  "_id": "V3K0Fstslc5OYKbO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!V3K0Fstslc5OYKbO"
+}

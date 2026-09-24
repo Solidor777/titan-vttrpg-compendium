@@ -1,0 +1,102 @@
+{
+  "name": "Wood Attunement",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Wood_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You wrap your body in a tangle of vines and roots, allowing you to drink deeply of the energy permeating the world.</p><p>For <strong>1 minute</strong>, you are <strong>Restrained</strong>.</p><p>Your <strong>Armor</strong> increases by <strong>+1</strong> from the flora wrapped around your body.</p><p>Additionally, you gain <strong>+1 bonus dice</strong> on all casting checks to cast spells.</p><p>Each extra success increases the <strong>bonus dice</strong> by <strong>+1</strong>.</p><p>Alternatively, you may extend duration by <strong>+1 minutes</strong> per extra success.</p><p>You may also increase the bonus to <strong>Armor</strong> by <strong>+1</strong> per 2 extra successes.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.kjVYjSUbEKt3w1gU]{Wood Attunement}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Attunement",
+        "description": "",
+        "uuid": "c14d9bb2-e860-4c75-91bb-bfb52954b564"
+      }
+    ],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Wood",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 5,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "label": "Casting Bonus Dice",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": false,
+        "uuid": "534d2225-1c59-4d4a-ab74-a1281934e1bf"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "minutes",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "increaseMod",
+        "initialValue": 1,
+        "option": [
+          "armor"
+        ],
+        "cost": 2,
+        "scaling": true,
+        "enabled": true
+      },
+      {
+        "label": "inflictCondition",
+        "cost": 5,
+        "option": [
+          "restrained"
+        ],
+        "resistanceCheck": "none",
+        "enabled": true
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "5555e25e-f502-40b3-a988-33764ca53d55"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680493043231,
+    "modifiedTime": 1708131952879,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "81wXy8a8Hc2rI79w",
+  "_id": "zLdzeBSxQUjbpL3z",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!zLdzeBSxQUjbpL3z"
+}

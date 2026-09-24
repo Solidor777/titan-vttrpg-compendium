@@ -1,0 +1,85 @@
+{
+  "name": "Urderic Gunshield",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p><strong>Power Consumption:</strong> 2</p><p>This handgun fires bolts of Urderic energy at a reasonably accurate range. When a button is pressed, a small energy shield projects around the barrel of the gun, allowing it to be used similar to a buckler.</p><p>While wielding this weapon, your <strong>Defense</strong> increases by <strong>+1</strong>.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Urderic",
+        "description": "",
+        "uuid": "352ddbb9-76a5-4c98-a2e9-2f84e7a1de38"
+      }
+    ],
+    "equipped": false,
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "rating",
+        "key": "defense",
+        "value": 1,
+        "uuid": "68d75f80-09d5-4560-9878-58ce208873c8",
+        "type": "equipment"
+      }
+    ],
+    "rarity": "rare",
+    "value": 550,
+    "attack": [
+      {
+        "label": "Attack",
+        "type": "ranged",
+        "range": 30,
+        "attribute": "body",
+        "skill": "meleeWeapons",
+        "damage": 2,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "close",
+            "value": true
+          },
+          {
+            "name": "loud",
+            "value": true
+          },
+          {
+            "name": "magical",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "19ff1ec0-a8cb-4e5c-98f8-f07807671529"
+      }
+    ],
+    "attackNotes": "<p></p>",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "folder": "KZPurD5uYKElJZlj",
+  "flags": {
+    "titan": {
+      "uuid": "53ffd51d-c78b-446f-b1aa-8ab55ddcf1d3"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1681795221875,
+    "modifiedTime": 1689745622857,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "TQJPW1rLHZUYfJpy",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!TQJPW1rLHZUYfJpy"
+}

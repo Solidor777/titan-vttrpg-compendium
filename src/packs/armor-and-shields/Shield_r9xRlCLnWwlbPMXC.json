@@ -1,0 +1,42 @@
+{
+  "name": "Shield",
+  "type": "shield",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">Though they come in a variety of shapes and sizes, the protection offered by shields comes from the sturdiness of their materials.</span></p>",
+    "check": [],
+    "customTrait": [],
+    "rarity": "common",
+    "value": 180,
+    "defense": 1,
+    "trait": [],
+    "rulesElement": [],
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "titan": {
+      "uuid": "f6d515cd-6d02-4b87-a48b-5bee7cb842c1"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1688765486706,
+    "modifiedTime": 1689665913455,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "r9xRlCLnWwlbPMXC",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!r9xRlCLnWwlbPMXC"
+}

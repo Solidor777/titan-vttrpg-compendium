@@ -1,0 +1,54 @@
+{
+  "_id": "LHk1MjkpB2gk3u7b",
+  "name": "Hybrid Form",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Flesh_Tradition_Icon.webp",
+  "description": "<p>You take on a form halfway between yourself and a beast.</p><p>Choose any animal with a maximum <strong>Stamina</strong> no higher than your own.</p><p>The choose:</p><ul><li><p>1 stat (such as Body, Athletics, Swim Speed, Size, etc).</p></li><li><p>1 ability (such as a bite attack, water-breathing, etc).</p></li></ul><p>For the next minute, your chosen stat becomes the same as that of the animal. You also gain the chosen ability the animal possesses.</p><p>Each extra success increases the duration by 1 round.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "e5YFhGdOTopAwtgG",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "custom",
+      "remaining": 10,
+      "initiative": 1,
+      "custom": "1"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Flesh",
+        "description": "",
+        "uuid": "a6e06733-da73-4693-9884-9810a9e45c60"
+      }
+    ],
+    "rulesElement": [],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1683432985113,
+    "modifiedTime": 1708070021932,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!LHk1MjkpB2gk3u7b"
+}

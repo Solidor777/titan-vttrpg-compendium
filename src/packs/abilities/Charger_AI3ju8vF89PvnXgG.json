@@ -1,0 +1,43 @@
+{
+  "name": "Charger",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Melee Weapons</p><p>You are nigh-unstoppable when you charge the enemy lines.</p><p>When using the <strong>Charge</strong> action:</p><ul><li><p>You gain <strong>+1 bonus die</strong> on your attack</p></li><li><p>You ignore <strong>Difficult Terrain</strong></p></li><li><p>You may immediately attempt a <strong>Shove</strong> at the end of the <strong>Charge</strong> as a <strong>Free Action</strong></p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "345c9fb1-20fc-4fa7-8cfc-90af3fd723ee"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678933590228,
+    "modifiedTime": 1689641600832,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 1800000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "AI3ju8vF89PvnXgG",
+  "_key": "!items!AI3ju8vF89PvnXgG"
+}

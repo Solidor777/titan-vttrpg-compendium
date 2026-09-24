@@ -1,0 +1,77 @@
+{
+  "name": "Air Walk",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Air_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>Gusts of air carry you over land.</p><p>For <strong>1 minute</strong>, you gain a <strong>Fly</strong> speed of <strong>5</strong>. If you already have a <strong>Fly</strong> speed, it increases by <strong>+5</strong>.</p><p>Each extra success extends the duration by <strong>+1 minutes</strong>.</p><p>Alternatively, you may increase the <strong>Fly</strong> speed gained by <strong>+1</strong> per 2 extra successes.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.g5prUK2KjVXA6G4z]{Air Walk}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Air",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 6,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "minutes",
+        "cost": 4,
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "increaseSpeed",
+        "initialValue": 5,
+        "cost": 2,
+        "option": [
+          "fly"
+        ],
+        "scaling": true,
+        "enabled": true,
+        "scalingCost": 2
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "4d1ed172-f3b8-4fb4-b1b8-7922b2db199b"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680493043231,
+    "modifiedTime": 1708069425337,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "9Jx7ybrnDHJqOqgA",
+  "_id": "FWu7idM6PLvCjMQB",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!FWu7idM6PLvCjMQB"
+}

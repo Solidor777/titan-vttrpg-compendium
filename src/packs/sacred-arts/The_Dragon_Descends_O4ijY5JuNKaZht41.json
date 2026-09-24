@@ -1,0 +1,54 @@
+{
+  "name": "The Dragon Descends",
+  "type": "ability",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/BlackFlames_Path_Icon.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 2 Resolve or 2 Wounds</p><p><strong>Range:</strong> Self</p><p><strong>Area:</strong> 5-space radius</p><p>You unleash a vast cyclone of Black Flame empowered destruction.</p><p>Enemies within a <strong>5-space radius</strong> of you suffer <strong>5 Damage.</strong></p><p>Affected enemies that are your size or smaller are knocked <strong>Prone</strong>.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "689f182a-8111-416e-9c97-f073c375f3d4"
+      },
+      {
+        "name": "Black Flame",
+        "description": "",
+        "uuid": "14949e12-9146-41ca-b7d1-c39cac0a1d5d"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "8b15c39b-0a80-440e-a824-7bc1fd01df4e"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1679016836208,
+    "modifiedTime": 1709798549944,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "FGlkMf2awlp6zTb7",
+  "_id": "O4ijY5JuNKaZht41",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!O4ijY5JuNKaZht41"
+}

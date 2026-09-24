@@ -1,0 +1,43 @@
+{
+  "name": "Display of Courage",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Performance</p><p>Your allies are encouraged by your bravery in the face of danger.</p><p>When an enemy attack hits you in <strong>Melee</strong>, you can make a show of how little it affected you (whether the <strong>Damage</strong> was actually minor or not).</p><p>If you do so, allies within visual range of you increase their <strong>Melee</strong> and <strong>Accuracy</strong> by <strong>+1</strong> until the end of their next turn.</p><p>You can only use this <strong>Ability</strong> once per combat.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.Bk2DytuRLYt6aFll]{Display of Courage}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "446f6186-a9d6-4199-9eeb-ed4bd1a12373"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678861813296,
+    "modifiedTime": 1689641611629,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 3500000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "lkcjYHfzHQRwRRao",
+  "_key": "!items!lkcjYHfzHQRwRRao"
+}

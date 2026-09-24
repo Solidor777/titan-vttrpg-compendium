@@ -1,0 +1,92 @@
+{
+  "name": "The Penumbral Spear",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/AetherAndVoid_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>You strike a creature with a spear formed of burning and draining aether, draining away its energy to replenish yourself.</p><p>Choose a target within <strong>10 spaces</strong>. It takes <strong>1 Damage</strong>, which ignores <strong>Armor</strong>,<strong> </strong>and you regain the same amount of <strong>Stamina</strong>.</p><p>Additionally, you gain <strong>+1 bonus dice</strong> on the next casting check you make before the end of your next turn.</p><p>Each extra success increases the <strong>bonus dice</strong> by <strong>+1</strong>.</p><p>Alternatively, you may increase both the <strong>Damag</strong>e dealt and the <strong>Stamina</strong> regained by <strong>+1</strong> per extra success.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.EuMjCYrnWEhRW8qF]{The Penumbral Spear}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Aether",
+        "description": "",
+        "uuid": "21b4f18c-c7b4-42d6-a0f0-19d01799752e"
+      },
+      {
+        "name": "Void",
+        "description": "",
+        "uuid": "96f700c6-6f89-4312-9a9b-2a21a63c682b"
+      }
+    ],
+    "xpCost": 0,
+    "rarity": "uncommon",
+    "tradition": "Aether and Void",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 5,
+      "complexity": 2,
+      "autoCalculateDC": false
+    },
+    "customAspect": [
+      {
+        "label": "Casting Bonus Dice",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": false,
+        "isHealing": false,
+        "uuid": "a66a52d6-33bc-4993-b542-a1d2a1b519a9"
+      }
+    ],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": 10,
+        "cost": 2,
+        "enabled": true
+      },
+      {
+        "label": "damage",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "resistanceCheck": "none",
+        "isDamage": true,
+        "option": [
+          "ignoreArmor"
+        ],
+        "enabled": true,
+        "scalingCost": 1
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "b6b57ab8-e760-42a2-84d4-31f721ff5e52"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1681362086156,
+    "modifiedTime": 1708069206573,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "pyJksx2DyxQNuqXD",
+  "_id": "pRzEnlWCjylXDabJ",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!pRzEnlWCjylXDabJ"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Sever Tendons",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Medicine</p><p>You aim your strike to cripple your opponent.</p><p>If you roll a <strong>6</strong> on an attack against a creature and your attack deals damage, you can spend <strong>1 Resolve</strong> to strike them in a vulnerable spot.</p><p>If you do so, they reduce their <strong>Speed</strong> by <strong>-1</strong> until the next time they take a <strong>Long Rest</strong>.</p><p>Additionally, any time the affected creature chooses to <strong>Move</strong> during combat, it suffers <strong>1 Damage</strong>.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.lTfvfy8eH6XZIATw]{Sever Tendons}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>Sever Tendons:</strong> If you roll a <strong>6</strong> on an attack against a creature and your attack deals damage, you can spend <strong>1 Resolve</strong> to strike them in a vulnerable spot.</p><p>If you do so, they reduce their <strong>Speed</strong> by <strong>-1</strong> until the next time they take a <strong>Long Rest</strong>.</p><p>Additionally, any time the affected creature chooses to <strong>Move</strong> during combat, it suffers <strong>1 Damage</strong>.</p>",
+        "uuid": "18b1d50c-2e45-4a6b-8390-90a8d2cdadbb",
+        "type": "ability"
+      }
+    ],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "eaecceef-3f24-4b96-bbed-0bae45b8b278"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678677767758,
+    "modifiedTime": 1689641646248,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 9300000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "RiKs0mpaEKDrW4WC",
+  "_key": "!items!RiKs0mpaEKDrW4WC"
+}

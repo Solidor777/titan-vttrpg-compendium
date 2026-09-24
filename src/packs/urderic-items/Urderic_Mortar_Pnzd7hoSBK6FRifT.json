@@ -1,0 +1,76 @@
+{
+  "name": "Urderic Mortar",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p><strong>Power Consumption:</strong> 1</p><p>This foldable launcher fires specially prepared cartridges that explode with Urderic energy at the impact sight.</p><p>To use this weapon, you must first spend an <strong>Action</strong> to set it up. Then, every time you want to target a new space, you must spend another <strong>Action</strong> to aim and reload.</p><p>To retrieve this weapon, you must spend an <strong>Action</strong> to pick it up and fold it up.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Urderic",
+        "description": "",
+        "uuid": "352ddbb9-76a5-4c98-a2e9-2f84e7a1de38"
+      }
+    ],
+    "equipped": false,
+    "rulesElement": [],
+    "rarity": "rare",
+    "value": 300,
+    "attack": [
+      {
+        "label": "Attack",
+        "type": "ranged",
+        "range": 100,
+        "attribute": "body",
+        "skill": "rangedWeapons",
+        "damage": 4,
+        "plusExtraSuccessDamage": true,
+        "trait": [
+          {
+            "name": "blast",
+            "value": 3
+          },
+          {
+            "name": "loud",
+            "value": true
+          },
+          {
+            "name": "magical",
+            "value": true
+          }
+        ],
+        "customTrait": [],
+        "uuid": "19ff1ec0-a8cb-4e5c-98f8-f07807671529"
+      }
+    ],
+    "attackNotes": "<p></p>",
+    "documentVersion": 0,
+    "trait": []
+  },
+  "effects": [],
+  "folder": "KZPurD5uYKElJZlj",
+  "flags": {
+    "titan": {
+      "uuid": "029b5175-2041-4a99-a62e-b26b73738995"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1681795221875,
+    "modifiedTime": 1689745906384,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Pnzd7hoSBK6FRifT",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!Pnzd7hoSBK6FRifT"
+}

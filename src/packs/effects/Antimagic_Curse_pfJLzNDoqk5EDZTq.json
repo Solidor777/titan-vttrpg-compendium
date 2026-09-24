@@ -1,0 +1,69 @@
+{
+  "_id": "pfJLzNDoqk5EDZTq",
+  "name": "Antimagic Curse",
+  "type": "effect",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/AetherAndVoid_Tradition_Icon.webp",
+  "description": "<p>You are enveloped by a shroud of void-aspected aether, making it much more difficult to use magic.</p><p>You increase the <strong>Complexity</strong> of any casting checks you make by <strong>+1</strong>.</p><p>Additionally, the <strong>Complexity</strong> of any checks made to counteract your spells decrease by <strong>-1</strong> to a minimum of <strong>1</strong>.</p><p>Magical creatures take damage equal to the complexity modifier at the start of their turn.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "DSgUAy4O8QaDpnqf",
+  "sort": 1900000,
+  "flags": {},
+  "system": {
+    "duration": {
+      "type": "initiative",
+      "remaining": 1,
+      "initiative": 1,
+      "custom": ""
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Void",
+        "description": "",
+        "uuid": "ffc0333e-229a-4c44-9ce9-e96a26a1ef97"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "casting",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>Antimagic Curse:</strong> You increase the <strong>Complexity</strong> of any casting checks you make by <strong>+1</strong>.</p><p>Additionally, the <strong>Complexity</strong> of any checks made to counteract your spells decrease by <strong>-1</strong> to a minimum of <strong>1</strong>.</p>",
+        "uuid": "e307ff99-20f7-4c9a-befa-e47a68d65025"
+      },
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Antimagic Curse:</strong> Magical creatures take damage equal to the complexity modifier at the start of their turn.</p>",
+        "uuid": "756d42f6-8d39-4a7e-9559-f9c71ff98b69"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1681362556039,
+    "modifiedTime": 1708069166934,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!pfJLzNDoqk5EDZTq"
+}

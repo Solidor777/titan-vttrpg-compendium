@@ -1,0 +1,43 @@
+{
+  "name": "Combat Repairs",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Engineering</p><p>As an <strong>Action</strong>, you may make a <strong>Mind (Engineering)</strong> check to repair <strong>Armor</strong> in combat — yours or an ally's.</p><p>The <strong>DC</strong> of the check depends on the <strong>Rarity</strong> of the armor.</p><ul><li><p><strong>Common:</strong> 4:1</p></li><li><p><strong>Uncommon:</strong> 5:1</p></li><li><p><strong>Rare / Unique:</strong> 6:1</p></li></ul><p>If you succeed, you restore <strong>1 Armor</strong> for each success, up to the armor's original rating.</p><p>Once a set of armor has been repaired this way, it cannot benefit from this ability again until it has been properly restored in a workshop.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "b238f427-7e3a-433a-9df0-5139bbe7c9c0"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678429308978,
+    "modifiedTime": 1689641602500,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 2100000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "20pnUDj1lCo7ENp5",
+  "_key": "!items!20pnUDj1lCo7ENp5"
+}

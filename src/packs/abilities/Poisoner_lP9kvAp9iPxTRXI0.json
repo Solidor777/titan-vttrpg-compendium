@@ -1,0 +1,43 @@
+{
+  "name": "Poisoner",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (1) in Medicine</p><p>You have practiced the application and delivery of poisons until they became second nature to you.</p><ul><li><p>One per turn, you can apply poison to a weapon, food, or drink as a <strong>Free Action.</strong></p></li><li><p>You have <strong>Advantage</strong> on any checks to conceal applying poison.</p></li><li><p>You decrease the complexity of any <strong>Medicine</strong> checks to craft poisons by <strong>-1</strong> to a minimum of <strong>1</strong>.</p></li></ul>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "1d19167c-bbca-4a3c-bacb-0eea6ea7a2bc"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1678929683462,
+    "modifiedTime": 1689641637423,
+    "lastModifiedBy": "1uwfFLT06n0mGQLi",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 7900000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "lP9kvAp9iPxTRXI0",
+  "_key": "!items!lP9kvAp9iPxTRXI0"
+}

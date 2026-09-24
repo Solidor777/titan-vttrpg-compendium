@@ -1,0 +1,88 @@
+{
+  "name": "Lifebloom",
+  "type": "spell",
+  "img": "modules/titan-vttrpg-compendium/icons/traditions/Wood_Tradition_Icon.webp",
+  "system": {
+    "description": "<p>Flowers sprout from the ground at your feet, filling the air with pollen that carries rejuvenating energy to your allies.</p><p>You and each creature of your choice within a <strong>5-space-radius</strong> of you heals <strong>1 Stamina</strong> at the start of its turn.</p><p>Each extra success increases the <strong>Stamina</strong> healed by <strong>+1</strong>.</p><p>Alternatively, you may extend the duration by <strong>+1 rounds</strong> per extra success.</p><p>This spell only affects living, physical creatures that need to breathe.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.klgWs6iuOjAfnQYM]{Lifebloom}</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 0,
+    "rarity": "common",
+    "tradition": "Wood",
+    "castingCheck": {
+      "attribute": "mind",
+      "skill": "arcana",
+      "difficulty": 4,
+      "complexity": 1,
+      "autoCalculateDC": false
+    },
+    "customAspect": [],
+    "aspect": [
+      {
+        "label": "range",
+        "initialValue": "self",
+        "cost": 0,
+        "enabled": true
+      },
+      {
+        "label": "radius",
+        "initialValue": 5,
+        "cost": 3,
+        "enabled": true
+      },
+      {
+        "label": "healing",
+        "scaling": true,
+        "initialValue": 1,
+        "cost": 1,
+        "isHealing": true,
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "duration",
+        "scaling": true,
+        "initialValue": 1,
+        "unit": "rounds",
+        "cost": 1,
+        "enabled": true,
+        "scalingCost": 1
+      },
+      {
+        "label": "inflictCondition",
+        "cost": 0,
+        "option": [],
+        "resistanceCheck": "none",
+        "enabled": false
+      }
+    ],
+    "documentVersion": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "flags": {
+    "titan": {
+      "uuid": "49d51552-15bb-422f-a758-32bc37b18311"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1680493043231,
+    "modifiedTime": 1708131905697,
+    "lastModifiedBy": "jqPKS4y5hfCZQjOU",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "folder": "81wXy8a8Hc2rI79w",
+  "_id": "9B8v4Ok6Slijp3Mw",
+  "sort": 1600000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_key": "!items!9B8v4Ok6Slijp3Mw"
+}
