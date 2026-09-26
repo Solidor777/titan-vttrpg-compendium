@@ -1,0 +1,66 @@
+{
+  "_id": "ngMFSQRK141EXCUf",
+  "name": "Step of Urdokai",
+  "type": "effect",
+  "img": "icons/weapons/swords/sword-guard-purple.webp",
+  "description": "<p>You partially enter <strong>Urdokai</strong> and are incorporeal until the start of your next turn.</p><ul><li><p>Attacks without the <strong>Magical</strong> trait cannot harm you. Attacks with the <strong>Magical</strong> trait, spells, and <strong>Path</strong> abilities affect you as normal.</p></li><li><p>You may move through creatures, mundane walls, and barriers, but may not end your turn in another creature's space, and you may not enter warded or sanctified spaces.</p></li></ul><p>This effect ends early if you become <strong>Incapacitated</strong> or <strong>Dying</strong>, or if you take an <strong>Action</strong> that targets the world or another creature.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "kcN5BHn0ReNvHpJL",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "initiative": 1,
+      "custom": "",
+      "remaining": 1,
+      "type": "turnStart"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Mystwalker",
+        "description": "",
+        "uuid": "ee835e91-fb3d-40d8-a974-8e927489e181"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Step of Urdokai:</strong> You are incorporeal: attacks without the <strong>Magical</strong> trait cannot harm you.</p>",
+        "uuid": "257dbbdd-220e-40ae-ae7c-71988ad2da3d"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!ngMFSQRK141EXCUf"
+}

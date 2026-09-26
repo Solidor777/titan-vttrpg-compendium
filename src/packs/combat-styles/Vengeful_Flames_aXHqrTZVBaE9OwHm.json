@@ -1,0 +1,53 @@
+{
+  "_id": "aXHqrTZVBaE9OwHm",
+  "name": "Vengeful Flames",
+  "type": "ability",
+  "img": "icons/magic/fire/barrier-wall-flame-ring-yellow.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must be utilizing Inferno Style</p><p>Your desire for victory and vengeance compels you even beyond a fatal blow.</p><p>When you are inflicted with Wounds, if the creature that inflicted the Wounds is within range of your equipped weapon, you may immediately make an attack check against them, regardless of whether the attack defeats you or has any other effect.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Martial Style",
+        "description": "",
+        "uuid": "0ae6b2d5-c618-4beb-ab04-d77c4c815be9"
+      },
+      {
+        "name": "Inferno Style",
+        "description": "",
+        "uuid": "4ee05e9c-31b1-449f-a5b8-fcc06df54a49"
+      },
+      {
+        "name": "Fire",
+        "description": "",
+        "uuid": "ab30d122-b0cc-4eee-a884-9d4896afd617"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "fINPd8GQvrKAaWRv",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!aXHqrTZVBaE9OwHm"
+}

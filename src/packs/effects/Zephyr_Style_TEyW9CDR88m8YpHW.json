@@ -3,7 +3,7 @@
   "name": "Zephyr Style",
   "type": "effect",
   "img": "icons/magic/air/air-wave-gust-blue.webp",
-  "description": "<p>You are in <strong><em>Zephyr Style</em></strong>.</p><ul><li><p>The height and distance of your <strong>Jump</strong> is doubled, and you ignore <strong>Difficult Terrain</strong>.</p></li><li><p>Your maximum <strong>Focus</strong> is <strong>3</strong>. Once per turn, you may use an <strong>Action</strong> to gain <strong>+1 Focus</strong>.</p></li><li><p><strong>Channel the Wind:</strong> at the end of your turn, gain <strong>+1 Focus</strong> if you used the <strong>Dodge</strong> action, and <strong>+1 Focus</strong> if you attacked with a <strong>Melee</strong> or <strong>Ranged Weapon</strong> and ended your turn at least <strong>2 Spaces</strong> from where it began.</p></li><li><p>When you make an <strong>Attack Check</strong> with a <strong>Melee</strong> or <strong>Ranged</strong> weapon, you may spend up to <strong>3 Focus</strong>, before or after rolling, to gain <strong>+1 bonus Expertise</strong> per <strong>Focus</strong> spent.</p></li></ul><p><strong><em>Zephyr Style</em></strong> ends if you did not spend or gain any <strong>Focus</strong> during your turn, if you have <strong>0 Focus</strong> at the end of your turn, or if you enter another <strong>Stance</strong>.</p>",
+  "description": "<p>You are in <strong><em>Zephyr Style</em></strong>.</p><ul><li><p>The height and distance of your <strong>Jump</strong> is doubled, and you ignore <strong>Difficult Terrain</strong>.</p></li><li><p>Your maximum <strong>Focus</strong> is <strong>3</strong>. Once per turn, you may use an <strong>Action</strong> to gain <strong>+1 Focus</strong>.</p></li><li><p><strong>Channel the Wind:</strong> at the end of your turn, gain <strong>+1 Focus</strong> if you used the <strong>Dodge</strong> action, and <strong>+1 Focus</strong> if you attacked with a <strong>Melee</strong> or <strong>Ranged Weapon</strong> and ended your turn at least <strong>2 Spaces</strong> from where it began.</p></li><li><p>When you make an <strong>Attack Check</strong> with a <strong>Melee</strong> or <strong>Ranged</strong> weapon, you may spend up to <strong>3 Focus</strong>, before or after rolling, to gain <strong>+1 bonus Expertise</strong> per <strong>Focus</strong> spent.</p></li></ul><p>If you did not spend or gain any <strong>Focus</strong> during your turn, your <strong>Focus</strong> decreases by <strong>-1</strong> at the end of your turn. <strong><em>Zephyr Style</em></strong> ends if you have <strong>0 Focus</strong> at the end of your turn (after accounting for <strong>Channel the Wind</strong>), if you enter another <strong>Stance</strong>, or if you are <strong>Incapacitated</strong>.</p>",
   "disabled": false,
   "transfer": false,
   "origin": null,
@@ -21,9 +21,9 @@
     "check": [],
     "customTrait": [
       {
-        "name": "Combat Style",
+        "name": "Martial Style",
         "description": "",
-        "uuid": "04d37919-3760-4915-a465-f93a6771cf2d"
+        "uuid": "0ae6b2d5-c618-4beb-ab04-d77c4c815be9"
       },
       {
         "name": "Zephyr Style",
@@ -53,7 +53,7 @@
       {
         "operation": "turnMessage",
         "selector": "turnStart",
-        "message": "<p><strong>Zephyr Style:</strong> <strong>Channel the Wind</strong> at the end of your turn. The style ends if you did not spend or gain <strong>Focus</strong> this turn, or have <strong>0 Focus</strong> at the end of your turn.</p>",
+        "message": "<p><strong>Zephyr Style:</strong> <strong>Channel the Wind</strong> at the end of your turn. If you did not spend or gain <strong>Focus</strong> this turn, your <strong>Focus</strong> decreases by <strong>-1</strong>. The style ends if you have <strong>0 Focus</strong> at the end of your turn.</p>",
         "uuid": "0807a275-ed59-4c3b-ae46-b0b112260bfd"
       }
     ],
@@ -65,7 +65,7 @@
     "systemVersion": "1.0.0",
     "coreVersion": "14.364",
     "createdTime": 1790121600000,
-    "modifiedTime": 1790121600000,
+    "modifiedTime": 1790380800000,
     "lastModifiedBy": null,
     "compendiumSource": null,
     "duplicateSource": null,

@@ -1,0 +1,53 @@
+{
+  "_id": "TMMrKaichiqd1vRn",
+  "name": "Empower the Stone",
+  "type": "ability",
+  "img": "icons/magic/earth/barrier-stone-brown-green.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Borrow the Stone, and you must be utilizing Mountain King Style</p><p><strong>Cost:</strong> 1-3 Focus</p><p>Your martial practice and arcane knowledge of the earth have come to harmonize with each other, and you know how to flow from one to the other.</p><p>When you make a casting check for a spell with the <strong>Earth</strong> trait, you may spend up to <strong>3 Focus</strong>, before or after rolling: you gain <strong>+1 bonus Expertise</strong> on that check per <strong>Focus</strong> spent.</p><p>Additionally, ending your turn after casting a spell with the <strong>Earth</strong> trait activates <em>Channel the Stone</em> from <strong><em>Mountain King Style</em></strong>, granting you an additional <strong>+1 Focus</strong>.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Martial Style",
+        "description": "",
+        "uuid": "0ae6b2d5-c618-4beb-ab04-d77c4c815be9"
+      },
+      {
+        "name": "Mountain King Style",
+        "description": "",
+        "uuid": "ffcef913-e01f-48d0-a5af-23c26a2d67d7"
+      },
+      {
+        "name": "Earth",
+        "description": "",
+        "uuid": "a3a288a2-57d2-47cd-af71-da57c63c908a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "lwdBGfDJcWFxfC80",
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!TMMrKaichiqd1vRn"
+}

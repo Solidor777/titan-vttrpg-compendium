@@ -1,0 +1,53 @@
+{
+  "_id": "G4MkwexHZEkVAmQ0",
+  "name": "Sapping the Strength",
+  "type": "ability",
+  "img": "icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must be utilizing Frost Dragon Style</p><p><strong>Cost:</strong> 1 Focus</p><p>You strike a vital spot, inhibiting your opponent's ability to defend or retaliate.</p><p>Spend <strong>-1 Focus</strong> and then make an attack with a <strong>Melee</strong> or <strong>Ranged</strong> weapon. If the attack deals <strong>Damage</strong>, the target is <strong>Off-Balance</strong> until the start of your next turn.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Martial Style",
+        "description": "",
+        "uuid": "0ae6b2d5-c618-4beb-ab04-d77c4c815be9"
+      },
+      {
+        "name": "Frost Dragon Style",
+        "description": "",
+        "uuid": "8b898c5e-c177-44ec-ac2c-5a7616b48122"
+      },
+      {
+        "name": "Water",
+        "description": "",
+        "uuid": "ff63b13b-1e71-4378-a37f-f4c4510f8ffd"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "i1cmQyIdqfhhJflO",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!G4MkwexHZEkVAmQ0"
+}

@@ -1,0 +1,48 @@
+{
+  "_id": "18QniNnDt5ZFDIxg",
+  "name": "Severing of Urdokai",
+  "type": "ability",
+  "img": "icons/weapons/swords/sword-guard-purple.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve</p><p>You cut the magic away from a creature.</p><p>As an <strong>Action</strong>, make an attack with <strong><em>Mystwalker</em></strong> against a creature or object within range. If it deals damage, you may spend <strong>1 Resolve</strong> to end one ongoing <strong>Spell</strong> or <strong>Path Ability</strong> or other magical effect on the target.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Mystwalker",
+        "description": "",
+        "uuid": "ee835e91-fb3d-40d8-a974-8e927489e181"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "HqxwSm6c3CAGNsLu",
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!18QniNnDt5ZFDIxg"
+}

@@ -1,0 +1,53 @@
+{
+  "_id": "ALDS5Fb9DUfEt2OX",
+  "name": "Scorching Thrust",
+  "type": "ability",
+  "img": "icons/magic/fire/barrier-wall-flame-ring-yellow.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must be utilizing Inferno Style</p><p><strong>Cost:</strong> 1-2 Focus</p><p>Fire flows through your strike.</p><p>Spend <strong>-1 Focus</strong> and then make an attack with a <strong>Melee</strong> or <strong>Ranged</strong> weapon. If the attack hits, each die that rolled a <strong>6</strong> on the attack adds <strong>+1 Damage</strong>.</p><p><strong>Enhancement.</strong> You may spend an additional <strong>-1 Focus</strong> when you make this attack. If it deals damage, each die that rolled a <strong>5</strong> on the attack adds <strong>+1 Damage</strong>.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Martial Style",
+        "description": "",
+        "uuid": "0ae6b2d5-c618-4beb-ab04-d77c4c815be9"
+      },
+      {
+        "name": "Inferno Style",
+        "description": "",
+        "uuid": "4ee05e9c-31b1-449f-a5b8-fcc06df54a49"
+      },
+      {
+        "name": "Fire",
+        "description": "",
+        "uuid": "ab30d122-b0cc-4eee-a884-9d4896afd617"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "fINPd8GQvrKAaWRv",
+  "sort": 800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ALDS5Fb9DUfEt2OX"
+}

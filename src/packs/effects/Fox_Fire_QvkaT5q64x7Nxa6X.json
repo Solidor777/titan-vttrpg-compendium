@@ -3,7 +3,7 @@
   "name": "Fox Fire",
   "type": "effect",
   "img": "modules/titan-vttrpg-compendium/icons/paths/WhiteFox_Path_Icon.webp",
-  "description": "<p>You have been burned by illusory fires.</p><p>You take <strong>-1</strong> dice penalty to any <strong>Casting</strong> checks you make until you complete a <strong>Short Rest</strong>.</p>",
+  "description": "<p>You have been burned by illusory fires.</p><p>You have <strong>Disadvantage</strong> on any <strong>Casting Checks</strong> you make until the start of the caster's next turn.</p>",
   "disabled": false,
   "transfer": false,
   "origin": null,
@@ -13,7 +13,7 @@
   "flags": {},
   "system": {
     "duration": {
-      "type": "permanent",
+      "type": "turnStart",
       "remaining": 1,
       "initiative": 1,
       "custom": ""
@@ -33,26 +33,17 @@
     ],
     "rulesElement": [
       {
-        "operation": "conditionalCheckModifier",
-        "modifierType": "dice",
-        "checkType": "casting",
-        "selector": "any",
-        "key": "",
-        "value": -1,
-        "uuid": "f6182038-e586-4865-a83e-806096f5ce21"
-      },
-      {
         "operation": "rollMessage",
         "checkType": "casting",
         "selector": "any",
         "key": "",
-        "message": "<p><strong>Fox Fire:</strong> You take <strong>-1</strong> dice penalty to any <strong>Casting</strong> checks you make until you complete a <strong>Short Rest</strong>.</p>",
+        "message": "<p><strong>Fox Fire:</strong> You have <strong>Disadvantage</strong> on any <strong>Casting Checks</strong> you make until the start of the caster's next turn.</p>",
         "uuid": "5b06bcdb-f3ed-432c-821d-1ba16fc511ec"
       },
       {
         "operation": "turnMessage",
         "selector": "turnStart",
-        "message": "<p><strong>Fox Fire:</strong> You take <strong>-1</strong> dice penalty to any <strong>Casting</strong> checks you make until you complete a <strong>Short Rest</strong>.</p>",
+        "message": "<p><strong>Fox Fire:</strong> You have <strong>Disadvantage</strong> on any <strong>Casting Checks</strong> you make until the start of the caster's next turn.</p>",
         "uuid": "ee435fd4-524c-4928-9922-45a768ed15b9"
       }
     ],
@@ -64,7 +55,7 @@
     "systemVersion": "1.0.0",
     "coreVersion": "14.364",
     "createdTime": 1679861870810,
-    "modifiedTime": 1708070319182,
+    "modifiedTime": 1790380800000,
     "lastModifiedBy": "jqPKS4y5hfCZQjOU",
     "compendiumSource": null,
     "duplicateSource": null,

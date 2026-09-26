@@ -1,0 +1,48 @@
+{
+  "_id": "uibsE48NW0hbnMHl",
+  "name": "Pull of Urdokai",
+  "type": "ability",
+  "img": "icons/weapons/swords/sword-guard-purple.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve</p><p><strong>Range:</strong> 10 spaces</p><p>You pull a creature to you through the realm of souls.</p><p>As an <strong>Action</strong>, choose a living or spiritual creature within <strong>10 spaces</strong> that you can see, or that is behind the Veil and whose space you know. An unwilling creature may and make a <strong>Willpower</strong> check opposed by your <strong>Soul (Metaphysics)</strong> to resist the effect. Spirits, demons, and sacred beasts have <strong>Disadvantage</strong> on this check.</p><p>If you succeed, the target passes through Urdokai to unoccupied space of your choice adjacent to you. If it was behind the Veil, it remains in the physical world until the start of your next turn.</p><p>You may spend <strong>1 Resolve</strong> at the start of your turn to keep a spiritual creature in this world. If you do, it may make another <strong>Willpower</strong> check opposed by your <strong>Soul (Metaphysics)</strong> to return to Urdokai.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Mystwalker",
+        "description": "",
+        "uuid": "ee835e91-fb3d-40d8-a974-8e927489e181"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "HqxwSm6c3CAGNsLu",
+  "sort": 900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!uibsE48NW0hbnMHl"
+}

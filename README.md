@@ -9,7 +9,7 @@ Compendium content for the TITAN VTTRPG system on Foundry VTT v13–v14.
 | Rules | Journal | The rules reference: character creation, statistics, checks, actions, combat, conditions, traits, equipment, the arcane and sacred arts. |
 | Abilities | Item | General abilities. |
 | Sacred Arts | Item | Paths, path abilities, and apex abilities, one folder per path. |
-| Combat Styles | Item | Combat styles and their techniques, one folder per style. |
+| Combat Styles | Item | Martial styles and their techniques, one folder per style. The pack keeps its `combat-styles` id and is labelled "Martial Styles" in Foundry. |
 | Spells | Item | Spells, one folder per tradition, plus the weapons some spells conjure. |
 | Weapons | Item | Melee and ranged weapons. |
 | Armor and Shields | Item | Armor and shields. |

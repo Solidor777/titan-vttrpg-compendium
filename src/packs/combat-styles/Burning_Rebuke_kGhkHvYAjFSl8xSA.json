@@ -1,0 +1,53 @@
+{
+  "_id": "kGhkHvYAjFSl8xSA",
+  "name": "Burning Rebuke",
+  "type": "ability",
+  "img": "icons/magic/fire/barrier-wall-flame-ring-yellow.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must be utilizing Inferno Style</p><p><strong>Cost:</strong> 1-2 Focus</p><p>You strike first, and strike hard.</p><p>When an enemy within range of your equipped weapon makes an attack against you, you may spend <strong>-1 Focus</strong> to declare your use of this ability as a <strong>Reaction</strong> that resolves first.</p><p>Make an <strong>Attack</strong> against that enemy with your equipped weapon.</p><p><strong>Enhancement.</strong> You may spend an additional <strong>-1 Focus</strong> when you make this attack: if it deals <strong>Damage</strong>, the enemy's attack against you has <strong>Disadvantage</strong>.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Martial Style",
+        "description": "",
+        "uuid": "0ae6b2d5-c618-4beb-ab04-d77c4c815be9"
+      },
+      {
+        "name": "Inferno Style",
+        "description": "",
+        "uuid": "4ee05e9c-31b1-449f-a5b8-fcc06df54a49"
+      },
+      {
+        "name": "Fire",
+        "description": "",
+        "uuid": "ab30d122-b0cc-4eee-a884-9d4896afd617"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "fINPd8GQvrKAaWRv",
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!kGhkHvYAjFSl8xSA"
+}

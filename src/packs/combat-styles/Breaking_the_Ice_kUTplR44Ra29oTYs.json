@@ -1,0 +1,53 @@
+{
+  "_id": "kUTplR44Ra29oTYs",
+  "name": "Breaking the Ice",
+  "type": "ability",
+  "img": "icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must be utilizing Frost Dragon Style</p><p><strong>Cost:</strong> 1-2 Focus</p><p>The strike goes low, taking their footing from the ground.</p><p>Spend <strong>-1 Focus</strong> and then make an attack with a <strong>Melee</strong> weapon. If the attack deals <strong>Damage</strong>, force your opponent to make an opposed <strong>Resilience</strong> check, or fall <strong>Prone</strong>.</p><p><strong>Enhancement.</strong> If, when you make this attack, the target is suffering from a <strong>Condition</strong>, you may spend an additional <strong>-1 Focus</strong> before rolling to gain <strong>Advantage</strong> on the attack.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Martial Style",
+        "description": "",
+        "uuid": "0ae6b2d5-c618-4beb-ab04-d77c4c815be9"
+      },
+      {
+        "name": "Frost Dragon Style",
+        "description": "",
+        "uuid": "8b898c5e-c177-44ec-ac2c-5a7616b48122"
+      },
+      {
+        "name": "Water",
+        "description": "",
+        "uuid": "ff63b13b-1e71-4378-a37f-f4c4510f8ffd"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "i1cmQyIdqfhhJflO",
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!kUTplR44Ra29oTYs"
+}

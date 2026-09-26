@@ -1,0 +1,48 @@
+{
+  "_id": "gr1c1ZoANmlLMIth",
+  "name": "Warding of Urdokai",
+  "type": "ability",
+  "img": "icons/weapons/swords/sword-guard-purple.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> 10 Spaces</p><p>You create a ward to keep malicious spirits away.</p><p>Choose a willing target within <strong>10 Spaces</strong>. Until the start of your next turn, spirits, demons, and sacred beasts have <strong>Disadvantage</strong> on any checks made against that creature.</p><p>Alternatively, you may spend an extended amount of time to ward a place to prevent such creatures from entering it.</p><p>If you concentrate on this ability for <strong>1 minute</strong> you may ward a <strong>5 space radius</strong> for <strong>10 minutes</strong>.</p><p>If you concentrate on this ability for <strong>10 minutes</strong> you may ward a <strong>10</strong> space radius for <strong>1 hour</strong>.</p><p>If you concentrate on this ability for <strong>1 hour</strong>, you may ward a <strong>30 space</strong> radius for <strong>1 day</strong>.</p><p>If you concentrate on this ability for <strong>1 day</strong>, you may ward a <strong>50 space</strong> radius for <strong>1 week</strong>.</p><p>If you concentrate on this ability for 1 week, you may ward a <strong>100 space</strong> radius for <strong>1 year</strong>.</p><p>Spirits, demons, and sacred beasts must make a <strong>Willpower</strong> check opposed by your <strong>Soul (Metaphysics</strong>) to enter a warded space. They have <strong>Disadvantage</strong> on this check.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.j0RORElGtVF0Jnzh]{Warding of Urdokai}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Mystwalker",
+        "description": "",
+        "uuid": "ee835e91-fb3d-40d8-a974-8e927489e181"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "HqxwSm6c3CAGNsLu",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!gr1c1ZoANmlLMIth"
+}

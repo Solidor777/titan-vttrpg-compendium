@@ -1,0 +1,23 @@
+{
+  "_id": "B0rp1ISVySLgzOlj",
+  "name": "Martial Styles",
+  "type": "ActiveEffect",
+  "folder": null,
+  "sorting": "a",
+  "sort": 0,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "createdTime": null,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!B0rp1ISVySLgzOlj"
+}

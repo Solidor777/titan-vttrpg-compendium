@@ -1,0 +1,84 @@
+{
+  "_id": "dgzTyCxnxrHo2Rt2",
+  "name": "Mountain King Style",
+  "type": "effect",
+  "img": "icons/magic/earth/barrier-stone-brown-green.webp",
+  "description": "<p>You are in <strong><em>Mountain King Style</em></strong>.</p><ul><li><p>You cannot be moved against your will, and you cannot be knocked <strong>Prone</strong> unless you choose to be.</p></li><li><p>The Range of your <strong>Melee</strong> and <strong>Ranged Weapons</strong> increases by <strong>+1</strong>.</p></li><li><p>Your maximum <strong>Focus</strong> is <strong>3</strong>. When you enter <strong><em>Mountain King Style</em></strong>, you gain <strong>+1 Focus.</strong></p></li><li><p><strong>Build Focus:</strong> Once per turn, you may use an <strong>Action</strong> to gain <strong>+1 Focus</strong>.</p></li><li><p><strong>Channel the Stone:</strong> At the end of your turn, you gain <strong>+1 Focus</strong> for each of the following:</p><ul><li><p>You used the <strong>Defend an Area</strong> or the <strong>Defend an Ally</strong> action this turn.</p></li><li><p>You did not move this turn.</p></li></ul></li><li><p>When you make an <strong>Attack Check</strong> with a <strong>Melee</strong> or <strong>Ranged</strong> weapon you may spend up to <strong>3 Focus</strong>, before or after rolling to gain <strong>+1 bonus Expertise</strong> on that check per <strong>Focus</strong> spent.</p></li><li><p>If you did not spend or gain any <strong>Focus</strong> during your turn, <strong><em>Mountain King Style</em></strong> immediately ends. <strong>Focus</strong> spent <em>between</em> turns is <strong>NOT</strong> counted for this purpose.</p></li><li><p>If you have <strong>0 Focus</strong> at the end of your turn, <strong><em>Mountain King Style</em></strong> immediately ends.</p></li><li><p>If you enter another <strong>Stance</strong>, <strong><em>Mountain King Style</em></strong> immediately ends.</p></li></ul>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "nD1lCQ5ZDPSqEoAW",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "initiative": 1,
+      "custom": "",
+      "remaining": 1,
+      "type": "permanent"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Martial Style",
+        "description": "",
+        "uuid": "0ae6b2d5-c618-4beb-ab04-d77c4c815be9"
+      },
+      {
+        "name": "Mountain King Style",
+        "description": "",
+        "uuid": "ffcef913-e01f-48d0-a5af-23c26a2d67d7"
+      },
+      {
+        "name": "Earth",
+        "description": "",
+        "uuid": "a3a288a2-57d2-47cd-af71-da57c63c908a"
+      },
+      {
+        "name": "Stance",
+        "description": "",
+        "uuid": "b945dbb0-f14b-42c2-a81e-fa051e2ff833"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>Mountain King Style:</strong> You may spend up to <strong>3 Focus</strong>, before or after rolling, to gain <strong>+1 bonus Expertise</strong> per <strong>Focus</strong> spent.</p>",
+        "uuid": "a8c28d65-e884-40f8-a569-4a12c0994b27"
+      },
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Mountain King Style:</strong> <strong>Channel the Stone</strong> at the end of your turn. The style ends if you did not spend or gain <strong>Focus</strong> this turn, or have <strong>0 Focus</strong> at the end of your turn.</p>",
+        "uuid": "5145cda6-3179-42b6-a837-8d139b947a96"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!dgzTyCxnxrHo2Rt2"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "nBawUhnnBiZOcl5i",
+  "name": "Frost Dragon Style",
+  "type": "ability",
+  "img": "icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Training (2) and Expertise (2) in Melee Weapons or Ranged Weapons, and you must receive training from a practitioner of this style, or have access to its teachings</p><p><strong><em>Frost Dragon Style</em></strong> teaches that every technique has a flaw, every defense a crack, every body a weakness, and every mind a blind spot. The practitioner's craft is to find that moment and exploit it: a cut that comes unseen, a slip that becomes a fall, a thrust that goes between the seams of the armor. The Frost Dragon does not attack without thought; it bides its time for the perfect moment, then strikes with neither nor hesitation.</p><p>You have the patience of glaciers and the implacable will of oceans.</p><ul><li><p>As an <strong>Action</strong>, you may enter <strong><em>Frost Dragon Style</em></strong>.</p></li><li><p>You have <strong>Greater Advantage</strong> on checks to move through an enemy's space.</p></li><li><p>You can hold your breath for twice as long.</p></li><li><p>Your maximum <strong>Focus</strong> is <strong>3</strong>. When you enter <strong><em>Frost Dragon Style</em></strong>, you gain <strong>+1 Focus.</strong></p></li><li><p><strong>Build Focus:</strong> Once per turn, you may use an <strong>Action</strong> to gain <strong>+1 Focus</strong>.</p></li><li><p><strong>Channel the Current:</strong> At the end of your turn, you gain <strong>+1 Focus</strong> for each of the following:</p><ul><li><p>You inflicted a <strong>Condition</strong> on an enemy.</p></li><li><p>You attacked an enemy suffering from a <strong>Condition</strong>, <strong>OR</strong> you damaged an enemy as a <strong>Reaction</strong> between now and the end of your previous turn.</p></li></ul></li><li><p>When you make an <strong>Attack Check</strong> with a <strong>Melee</strong> or <strong>Ranged</strong> weapon you may spend up to <strong>3 Focus</strong>, before or after rolling to gain <strong>+1 bonus Expertise</strong> on that check per <strong>Focus</strong> spent.</p></li><li><p>If you do not spend or gain any <strong>Focus</strong> during your turn, your <strong>Focus</strong> decreases by <strong>-1</strong> at the end of your turn.</p></li><li><p>If you have <strong>0 Focus</strong> at the end of your turn, <strong><em>Frost Dragon Style</em></strong> immediately ends.</p></li><li><p>If you enter another <strong>Stance</strong> or if you are <strong>Incapacitated</strong>, <strong><em>Frost Dragon Style</em></strong> immediately ends.</p></li></ul><p>If you choose, you may begin maintaining <strong><em>Frost Dragon Style</em></strong> before combat starts, at the cost of giving up your first <strong>Action</strong> on your first turn in combat.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.X3FGJaqxzPU8xxKE]{Frost Dragon Style}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Martial Style",
+        "description": "",
+        "uuid": "0ae6b2d5-c618-4beb-ab04-d77c4c815be9"
+      },
+      {
+        "name": "Frost Dragon Style",
+        "description": "",
+        "uuid": "8b898c5e-c177-44ec-ac2c-5a7616b48122"
+      },
+      {
+        "name": "Water",
+        "description": "",
+        "uuid": "ff63b13b-1e71-4378-a37f-f4c4510f8ffd"
+      },
+      {
+        "name": "Stance",
+        "description": "",
+        "uuid": "b945dbb0-f14b-42c2-a81e-fa051e2ff833"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "7A0FJgfhyE8GACOW",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!nBawUhnnBiZOcl5i"
+}

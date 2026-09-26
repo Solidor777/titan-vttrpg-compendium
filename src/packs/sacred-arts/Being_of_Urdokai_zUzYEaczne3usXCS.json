@@ -1,0 +1,48 @@
+{
+  "_id": "zUzYEaczne3usXCS",
+  "name": "Being of Urdokai",
+  "type": "ability",
+  "img": "icons/weapons/swords/sword-guard-purple.webp",
+  "system": {
+    "description": "<p><strong>Range:</strong> Self</p><p>You have learned to see yourself as a soul puppeting a body, which itself is merely a useful, malleable, even disposable tool.</p><p>You may use <strong>Soul (Metaphysics)</strong> or <strong>Soul (Arcana)</strong> to cast any spell with the <strong>Any</strong> or <strong>Flesh</strong> traits.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Mystwalker",
+        "description": "",
+        "uuid": "ee835e91-fb3d-40d8-a974-8e927489e181"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "HqxwSm6c3CAGNsLu",
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!zUzYEaczne3usXCS"
+}

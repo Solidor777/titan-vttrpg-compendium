@@ -1,0 +1,69 @@
+{
+  "_id": "DaTBkeBoKcNCM9AT",
+  "name": "Hunger of Urdokai",
+  "type": "ability",
+  "img": "icons/weapons/swords/sword-guard-purple.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve</p><p><strong>Range:</strong> 10 spaces</p><p>You create a tear in the Veil your target stands, letting the wild forces of Urdokai tear at their soul.</p><p>Choose a creature within <strong>10 spaces</strong> and make a <strong>4:1</strong> <strong>Soul (Metaphysics)</strong> check, resisted by the target's <strong>Willpower</strong>.</p><p>The target takes <strong>Damage</strong> equal to the difference in successes. This <strong>Damage</strong> ignores <strong>Armor</strong>.</p><p>If this ability inflicted <strong>Damage</strong>, the target has <strong>Disadvantage</strong> on any <strong>Willpower</strong> checks they make until the start of your next turn.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.00asQUrTad9C7dJA]{Hunger of Urdokai}</p>",
+    "check": [
+      {
+        "label": "Hunger",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 1,
+        "isDamage": true,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "willpower",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "damageReducedBy": "none",
+        "uuid": "d87e5182-4407-46bd-a999-e21b0f3ef727"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Mystwalker",
+        "description": "",
+        "uuid": "ee835e91-fb3d-40d8-a974-8e927489e181"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "HqxwSm6c3CAGNsLu",
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!DaTBkeBoKcNCM9AT"
+}

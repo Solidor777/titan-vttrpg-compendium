@@ -1,0 +1,69 @@
+{
+  "_id": "SISP4nR8yQa6Kc9n",
+  "name": "Fangs of Urdokai",
+  "type": "ability",
+  "img": "icons/weapons/swords/sword-guard-purple.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve</p><p>You strike a creature in its very soul.</p><p>When you deal <strong>Damage</strong> to a living or spiritual creature with an attack from Mystwalker, you may spend <strong>1 Resolve</strong> to make a <strong>4:1 Soul (Metaphysics)</strong> check opposed by the target's <strong>Willpower</strong>. If the target is a spirit, demon, or sacred beast, it has <strong>Disadvantage</strong> on this check.</p><p>If you succeed the target takes additional <strong>Damage</strong> equal to the difference in successes. This <strong>Damage</strong> ignores <strong>Armor</strong>.</p>",
+    "check": [
+      {
+        "label": "Fangs",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 1,
+        "isDamage": true,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "willpower",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "damageReducedBy": "none",
+        "uuid": "35607a30-1bdd-44e4-af77-5f0d425f69a4"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Mystwalker",
+        "description": "",
+        "uuid": "ee835e91-fb3d-40d8-a974-8e927489e181"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "HqxwSm6c3CAGNsLu",
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!SISP4nR8yQa6Kc9n"
+}

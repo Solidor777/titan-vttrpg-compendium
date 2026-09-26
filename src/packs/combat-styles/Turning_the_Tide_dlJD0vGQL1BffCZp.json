@@ -1,0 +1,53 @@
+{
+  "_id": "dlJD0vGQL1BffCZp",
+  "name": "Turning the Tide",
+  "type": "ability",
+  "img": "icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must be utilizing Frost Dragon Style</p><p><strong>Cost:</strong> 1 Focus</p><p>You prepare for your enemy's strike, and riposte when they miss.</p><p>When an enemy makes an attack against you, you may spend <strong>-1 Focus</strong> before the attack is rolled to impose <strong>Disadvantage</strong> on the attack. If the attacker has a <strong>Condition</strong> you impose <strong>Greater Disadvantage</strong> instead.</p><p>If the attack misses, you may make a single <strong>Attack Check</strong> against that enemy, provided that they are within range of your equipped weapon.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Martial Style",
+        "description": "",
+        "uuid": "0ae6b2d5-c618-4beb-ab04-d77c4c815be9"
+      },
+      {
+        "name": "Frost Dragon Style",
+        "description": "",
+        "uuid": "8b898c5e-c177-44ec-ac2c-5a7616b48122"
+      },
+      {
+        "name": "Water",
+        "description": "",
+        "uuid": "ff63b13b-1e71-4378-a37f-f4c4510f8ffd"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "i1cmQyIdqfhhJflO",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!dlJD0vGQL1BffCZp"
+}

@@ -1,0 +1,69 @@
+{
+  "_id": "eBQQsqvEQ1MlIRjU",
+  "name": "Torment of Urdokai",
+  "type": "ability",
+  "img": "icons/weapons/swords/sword-guard-purple.webp",
+  "system": {
+    "description": "<p><strong>Cost:</strong> 1 Resolve</p><p><strong>Range:</strong> 10 spaces</p><p>You rip away a piece of a creature's soul.</p><p>As an <strong>Action</strong>, choose a creature you can see within <strong>10 spaces</strong> and make a <strong>4:1 Soul (Metaphysics)</strong> check opposed by the target's <strong>Willpower</strong>. If the target is a spirit, demon, or sacred beast, it has <strong>Disadvantage</strong> on the check.</p><p>If you win, you hold a shard of the target's soul until the start of your next turn. While you hold it and the target is within <strong>30 spaces</strong> of you:</p><ul><li><p>You know which space the target occupies, even if you cannot see it.</p></li><li><p>When you make an attack with <strong><em>Mystwalker</em></strong>, or use an ability with the <strong>Mystwalker</strong> trait, you may measure its <strong>Range</strong> to the target as though the target were adjacent to you, and you need no line of sight to it.</p></li></ul><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.atYnbOy0h2mhbgW7]{Torment of Urdokai}</p>",
+    "check": [
+      {
+        "label": "Torment",
+        "attribute": "soul",
+        "skill": "metaphysics",
+        "difficulty": 4,
+        "complexity": 1,
+        "resolveCost": 1,
+        "isDamage": false,
+        "isHealing": false,
+        "initialValue": 1,
+        "scaling": true,
+        "resistanceCheck": "willpower",
+        "opposedCheck": {
+          "enabled": false,
+          "attribute": "body",
+          "skill": "athletics"
+        },
+        "damageReducedBy": "none",
+        "uuid": "85717182-5292-43bd-abc9-c18b05f75ef1"
+      }
+    ],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Mystwalker",
+        "description": "",
+        "uuid": "ee835e91-fb3d-40d8-a974-8e927489e181"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "HqxwSm6c3CAGNsLu",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!eBQQsqvEQ1MlIRjU"
+}

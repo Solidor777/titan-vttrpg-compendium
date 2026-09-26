@@ -1,0 +1,53 @@
+{
+  "_id": "YWr7sVzwNUu42bb3",
+  "name": "Cold Snap",
+  "type": "ability",
+  "img": "icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must be utilizing Frost Dragon Style</p><p><strong>Cost:</strong> 2 Focus</p><p>Ice spreads from your strike, freezing your opponent where they stand.</p><p>As an <strong>Action</strong>, you may spend <strong>-2 Focus</strong> to make an <strong>Attack</strong> with a <strong>Melee</strong> or <strong>Ranged</strong> weapon. If the attack deals <strong>Damage</strong>, your target must make an opposed <strong>Resilience</strong> check, or be <strong>Stunned</strong> until the start of your next turn.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Martial Style",
+        "description": "",
+        "uuid": "0ae6b2d5-c618-4beb-ab04-d77c4c815be9"
+      },
+      {
+        "name": "Frost Dragon Style",
+        "description": "",
+        "uuid": "8b898c5e-c177-44ec-ac2c-5a7616b48122"
+      },
+      {
+        "name": "Water",
+        "description": "",
+        "uuid": "ff63b13b-1e71-4378-a37f-f4c4510f8ffd"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "i1cmQyIdqfhhJflO",
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!YWr7sVzwNUu42bb3"
+}

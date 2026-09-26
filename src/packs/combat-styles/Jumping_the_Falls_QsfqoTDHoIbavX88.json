@@ -1,0 +1,53 @@
+{
+  "_id": "QsfqoTDHoIbavX88",
+  "name": "Jumping the Falls",
+  "type": "ability",
+  "img": "icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must be utilizing Frost Dragon Style</p><p><strong>Cost:</strong> 1 Focus</p><p>You step around and through their defenses, knowing exactly where to be to avoid being blocked.</p><p>As an <strong>Action</strong>, you may spend <strong>-1 Focus</strong> to move up to your <strong>Speed</strong>. This movement may pass through the spaces of other creatures (it cannot end in an occupied space), and it does not trigger attacks or effects that respond to your movement.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Martial Style",
+        "description": "",
+        "uuid": "0ae6b2d5-c618-4beb-ab04-d77c4c815be9"
+      },
+      {
+        "name": "Frost Dragon Style",
+        "description": "",
+        "uuid": "8b898c5e-c177-44ec-ac2c-5a7616b48122"
+      },
+      {
+        "name": "Water",
+        "description": "",
+        "uuid": "ff63b13b-1e71-4378-a37f-f4c4510f8ffd"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "i1cmQyIdqfhhJflO",
+  "sort": 900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!QsfqoTDHoIbavX88"
+}

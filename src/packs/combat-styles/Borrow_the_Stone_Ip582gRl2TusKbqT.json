@@ -1,0 +1,53 @@
+{
+  "_id": "Ip582gRl2TusKbqT",
+  "name": "Borrow the Stone",
+  "type": "ability",
+  "img": "icons/magic/earth/barrier-stone-brown-green.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> At least 1 Spellcasting Tradition with the Earth trait, and you must be utilizing Mountain King Style</p><p>Your arcane knowledge of the earth empowers your martial techniques.</p><p>You may use <strong>Mind</strong> in place of <strong>Body</strong> for <strong>Ranged</strong> and <strong>Melee</strong> attack checks.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Martial Style",
+        "description": "",
+        "uuid": "0ae6b2d5-c618-4beb-ab04-d77c4c815be9"
+      },
+      {
+        "name": "Mountain King Style",
+        "description": "",
+        "uuid": "ffcef913-e01f-48d0-a5af-23c26a2d67d7"
+      },
+      {
+        "name": "Earth",
+        "description": "",
+        "uuid": "a3a288a2-57d2-47cd-af71-da57c63c908a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "lwdBGfDJcWFxfC80",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Ip582gRl2TusKbqT"
+}

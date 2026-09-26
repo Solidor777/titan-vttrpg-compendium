@@ -1,0 +1,58 @@
+{
+  "_id": "ywIjKmFigU08Ef4x",
+  "name": "Living Inferno",
+  "type": "ability",
+  "img": "icons/magic/fire/barrier-wall-flame-ring-yellow.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Inferno Style, Training (3) and Expertise (3) in Melee Weapons or Ranged Weapons, 5 abilities with the Inferno Style trait, and you must receive training from a master of this style, or have access to their teachings</p><p><strong>Cost:</strong> 3 Focus</p><p><strong>Range:</strong> 1-2 Space Radius</p><p>You are the Flame, and you will burn all around you to ash.</p><p>As an <strong>Action</strong>, spend <strong>-3 Focus</strong> and make an attack with a <strong>Melee</strong> or <strong>Ranged</strong> weapon against <strong>every</strong> other creature within <strong>1 Space</strong> of you.</p><p>You may choose to end <strong><em>Inferno Style</em></strong> after you perform this ability. If you do, the range expands to <strong>2 Spaces.</strong></p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Martial Style",
+        "description": "",
+        "uuid": "0ae6b2d5-c618-4beb-ab04-d77c4c815be9"
+      },
+      {
+        "name": "Inferno Style",
+        "description": "",
+        "uuid": "4ee05e9c-31b1-449f-a5b8-fcc06df54a49"
+      },
+      {
+        "name": "Fire",
+        "description": "",
+        "uuid": "ab30d122-b0cc-4eee-a884-9d4896afd617"
+      },
+      {
+        "name": "Mythic Technique",
+        "description": "",
+        "uuid": "48a6777f-754e-468b-a106-13c8b5a56c10"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "Xe9ifsAuEsNiOSUO",
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ywIjKmFigU08Ef4x"
+}

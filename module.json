@@ -49,7 +49,7 @@
          "system": "titan"
       },
       {
-         "label": "Combat Styles",
+         "label": "Martial Styles",
          "type": "Item",
          "name": "combat-styles",
          "path": "packs/combat-styles",

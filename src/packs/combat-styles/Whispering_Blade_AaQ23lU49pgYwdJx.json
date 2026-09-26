@@ -1,0 +1,58 @@
+{
+  "_id": "AaQ23lU49pgYwdJx",
+  "name": "Whispering Blade",
+  "type": "ability",
+  "img": "icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> Frost Dragon Style, Training (3) and Expertise (3) in Melee Weapons or Ranged Weapons, 5 abilities with the Frost Dragon Style trait, and you must receive training from a master of this style, or have access to their teachings</p><p><strong>Cost:</strong> 3 Focus</p><p><strong>Range:</strong> Self</p><p>Without warning, you strike with an impossibly thin blade conjured from pure ice.</p><p>Once per turn, when a creature enters the range of your equipped weapon, or performs an <strong>Action</strong> while within range of your equipped weapon, you may spend <strong>-3 Focus</strong> before the attack is rolled to declare your use of this ability as a <strong>Reaction</strong> that resolves first.</p><p>Make an <strong>Attack Check</strong> against that enemy. You have <strong>Greater Advantage</strong>, and the attack ignores <strong>Armor</strong>. If your attack deals damage, that enemy must make an opposed <strong>Resilience Check</strong> or be <strong>Stunned</strong> until the start of your next turn.</p><p>You may choose to end <strong><em>Frost Dragon Style</em></strong> when you perform this attack to double the <strong>Damage</strong> inflicted. If you do so, you may not enter <em>Frost Dragon Style</em> again until the start of your next turn.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.kNutGQUTBPJiqyvb]{Whispering Blade}</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Martial Style",
+        "description": "",
+        "uuid": "0ae6b2d5-c618-4beb-ab04-d77c4c815be9"
+      },
+      {
+        "name": "Frost Dragon Style",
+        "description": "",
+        "uuid": "8b898c5e-c177-44ec-ac2c-5a7616b48122"
+      },
+      {
+        "name": "Water",
+        "description": "",
+        "uuid": "ff63b13b-1e71-4378-a37f-f4c4510f8ffd"
+      },
+      {
+        "name": "Mythic Technique",
+        "description": "",
+        "uuid": "48a6777f-754e-468b-a106-13c8b5a56c10"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "rare",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "xEghscWfnAoLCw1c",
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!AaQ23lU49pgYwdJx"
+}

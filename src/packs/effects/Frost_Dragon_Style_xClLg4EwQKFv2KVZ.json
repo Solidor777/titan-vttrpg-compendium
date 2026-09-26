@@ -1,0 +1,23 @@
+{
+  "_id": "xClLg4EwQKFv2KVZ",
+  "name": "Frost Dragon Style",
+  "type": "ActiveEffect",
+  "folder": "B0rp1ISVySLgzOlj",
+  "sorting": "a",
+  "sort": 0,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!xClLg4EwQKFv2KVZ"
+}

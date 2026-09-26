@@ -1,0 +1,84 @@
+{
+  "_id": "X3FGJaqxzPU8xxKE",
+  "name": "Frost Dragon Style",
+  "type": "effect",
+  "img": "icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp",
+  "description": "<p>You are in <strong><em>Frost Dragon Style</em></strong>.</p><ul><li><p>As an <strong>Action</strong>, you may enter <strong><em>Frost Dragon Style</em></strong>.</p></li><li><p>You have <strong>Greater Advantage</strong> on checks to move through an enemy's space.</p></li><li><p>You can hold your breath for twice as long.</p></li><li><p>Your maximum <strong>Focus</strong> is <strong>3</strong>. When you enter <strong><em>Frost Dragon Style</em></strong>, you gain <strong>+1 Focus.</strong></p></li><li><p><strong>Build Focus:</strong> Once per turn, you may use an <strong>Action</strong> to gain <strong>+1 Focus</strong>.</p></li><li><p><strong>Channel the Current:</strong> At the end of your turn, you gain <strong>+1 Focus</strong> for each of the following:</p><ul><li><p>You inflicted a <strong>Condition</strong> on an enemy.</p></li><li><p>You attacked an enemy suffering from a <strong>Condition</strong>, <strong>OR</strong> you damaged an enemy as a <strong>Reaction</strong> between now and the end of your previous turn.</p></li></ul></li><li><p>When you make an <strong>Attack Check</strong> with a <strong>Melee</strong> or <strong>Ranged</strong> weapon you may spend up to <strong>3 Focus</strong>, before or after rolling to gain <strong>+1 bonus Expertise</strong> on that check per <strong>Focus</strong> spent.</p></li><li><p>If you do not spend or gain any <strong>Focus</strong> during your turn, your <strong>Focus</strong> decreases by <strong>-1</strong> at the end of your turn.</p></li><li><p>If you have <strong>0 Focus</strong> at the end of your turn, <strong><em>Frost Dragon Style</em></strong> immediately ends.</p></li><li><p>If you enter another <strong>Stance</strong> or if you are <strong>Incapacitated</strong>, <strong><em>Frost Dragon Style</em></strong> immediately ends.</p></li></ul>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "xClLg4EwQKFv2KVZ",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "initiative": 1,
+      "custom": "",
+      "remaining": 1,
+      "type": "permanent"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Martial Style",
+        "description": "",
+        "uuid": "0ae6b2d5-c618-4beb-ab04-d77c4c815be9"
+      },
+      {
+        "name": "Frost Dragon Style",
+        "description": "",
+        "uuid": "8b898c5e-c177-44ec-ac2c-5a7616b48122"
+      },
+      {
+        "name": "Water",
+        "description": "",
+        "uuid": "ff63b13b-1e71-4378-a37f-f4c4510f8ffd"
+      },
+      {
+        "name": "Stance",
+        "description": "",
+        "uuid": "b945dbb0-f14b-42c2-a81e-fa051e2ff833"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "rollMessage",
+        "checkType": "attack",
+        "selector": "any",
+        "key": "",
+        "message": "<p><strong>Frost Dragon Style:</strong> You may spend up to <strong>3 Focus</strong>, before or after rolling, to gain <strong>+1 bonus Expertise</strong> per <strong>Focus</strong> spent.</p>",
+        "uuid": "43df7343-0e90-465d-a498-e0d37f581fa7"
+      },
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Frost Dragon Style:</strong> <strong>Channel the Current</strong> at the end of your turn. If you did not spend or gain any <strong>Focus</strong> during your turn, your <strong>Focus</strong> decreases by <strong>-1</strong>. The style ends if you have <strong>0 Focus</strong> at the end of your turn.</p>",
+        "uuid": "9c094fed-9b0e-4b5a-af46-47e4d7771cf0"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!X3FGJaqxzPU8xxKE"
+}

@@ -1,0 +1,66 @@
+{
+  "_id": "Fol8tGlw43AXOnQN",
+  "name": "Conjurer of Urdokai",
+  "type": "effect",
+  "img": "icons/weapons/swords/sword-guard-purple.webp",
+  "description": "<p>Until the start of your next turn, the <strong>Veil</strong> is torn within a <strong>5-space-radius</strong> of the chosen point. All creatures in the area are forced into the physical world, attacks and abilities affect spirits, demons, and sacred beasts as if they were magical, and no creature in the area can teleport, go behind the <strong>Veil</strong>, or leave the material world.</p><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p>",
+  "disabled": false,
+  "transfer": false,
+  "origin": null,
+  "statuses": [],
+  "folder": "kcN5BHn0ReNvHpJL",
+  "sort": 0,
+  "flags": {},
+  "system": {
+    "duration": {
+      "initiative": 1,
+      "custom": "",
+      "remaining": 1,
+      "type": "turnStart"
+    },
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Mystwalker",
+        "description": "",
+        "uuid": "ee835e91-fb3d-40d8-a974-8e927489e181"
+      }
+    ],
+    "rulesElement": [
+      {
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Conjurer of Urdokai:</strong> You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p>",
+        "uuid": "1e30fabf-7e8f-4194-a9e3-d9db8d2bc5f0"
+      }
+    ],
+    "changes": [],
+    "documentVersion": 0
+  },
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "start": null,
+  "duration": {
+    "value": null,
+    "units": "seconds",
+    "expiry": null,
+    "expired": false
+  },
+  "tint": "#ffffff",
+  "showIcon": 1,
+  "_key": "!effects!Fol8tGlw43AXOnQN"
+}

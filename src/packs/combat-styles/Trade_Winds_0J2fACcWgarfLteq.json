@@ -8,9 +8,9 @@
     "check": [],
     "customTrait": [
       {
-        "name": "Combat Style",
+        "name": "Martial Style",
         "description": "",
-        "uuid": "04d37919-3760-4915-a465-f93a6771cf2d"
+        "uuid": "0ae6b2d5-c618-4beb-ab04-d77c4c815be9"
       },
       {
         "name": "Zephyr Style",
@@ -43,7 +43,7 @@
     "systemVersion": "1.0.0",
     "coreVersion": "14.364",
     "createdTime": 1790121600000,
-    "modifiedTime": 1790121600000,
+    "modifiedTime": 1790380800000,
     "lastModifiedBy": null,
     "compendiumSource": null,
     "duplicateSource": null,

@@ -1,0 +1,38 @@
+{
+  "name": "Mnemonic Recital",
+  "type": "ability",
+  "img": "icons/svg/ice-aura.svg",
+  "system": {
+    "description": "<p>You focus your mind on a technique by naming it aloud before you commit to it.</p><p>Choose one <strong>Ability</strong> you have, <strong>Spell</strong> you know, or <strong>Weapon</strong> you own.</p><p>Once per turn, on your turn, when you use your chosen <strong>Ability</strong>, cast your chosen <strong>Spell</strong>, or attack with your chosen <strong>Weapon</strong>, you may speak or shout its name (or any memorable phrase you prefer) aloud as part of doing so. If you do:</p><ul><li><p>You gain <strong>+1 bonus dice</strong> and <strong>+1 bonus Expertise</strong> on each check you make to do so.</p></li><li><p>If you make no check to do so, the <strong>Complexity</strong> of any <strong>Resistance</strong> check made to resist it increases by <strong>+1</strong>.</p></li></ul><p>You may take this <strong>Ability</strong> multiple times, choosing a different <strong>Ability</strong>, spell, or weapon each time.</p>",
+    "check": [],
+    "customTrait": [],
+    "xpCost": 2,
+    "rarity": "common",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "2JV6VaAbZzkFQ6pf",
+  "sort": 6950000,
+  "ownership": {
+    "default": 0,
+    "1uwfFLT06n0mGQLi": 3
+  },
+  "_id": "B4K2eCTc1FtFrG3Q",
+  "_key": "!items!B4K2eCTc1FtFrG3Q"
+}

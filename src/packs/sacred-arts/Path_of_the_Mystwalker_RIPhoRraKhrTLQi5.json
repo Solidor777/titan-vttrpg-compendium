@@ -1,0 +1,48 @@
+{
+  "_id": "RIPhoRraKhrTLQi5",
+  "name": "Path of the Mystwalker",
+  "type": "ability",
+  "img": "icons/weapons/swords/sword-guard-purple.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must possess Mystwalker, the Sword of Spirits, and be wielding it</p><p>Mystwalker, the Sword of Spirits, is one of the Seven Sacred Swords that legend says the God-Beasts gave to humanity when they first taught the Sacred Arts. It is said to have been made by Tuen, the God-Kirin, who of all the God-Beasts spent the most time in Urdokai, the Realm of Souls. All magic comes from Urdokai and the sword's teaching is that no living thing is complete without it: a soul can be shattered, and the pieces are still you; a body can be discarded or replaced; a working of magic has seams, and can be unpicked along them; and the Veil itself can be torn, until what is on the other side may pass through.</p><p>Those who follow the Path are great heroes of whom many myths have been written. All end in their death at the hands of the Dread Gods or their servants.</p><ul><li><p>Select <strong>1</strong> <strong>Path Ability</strong> with the <strong>Mystwalker</strong> trait. You immediately gain that <strong>Ability</strong> without the associated XP cost.</p></li><li><p>You may use <strong>Path</strong> abilities with the <strong>Mystwalker</strong> trait only while you are wielding Mystwalker.</p></li><li><p>When you use or sustain an <strong>Ability</strong> with the <strong>Mystwalker</strong> trait, you may thin the Veil and draw power from Urdokai instead of spending the associated <strong>Resolve</strong> cost. When you do this, you must make a <strong>4:X Willpower</strong> check, where <strong>X</strong> is amount of <strong>Resolve</strong> you have avoided spending using this ability since your last <strong>Long Rest</strong>, including the current use. If you fail, the <strong>Ability</strong> still takes effect, but the Veil tears: you cannot draw upon Urdokai again until you complete a <strong>Long Rest</strong>, the place where you stand is left thin, and something on the other side of the Veil has noticed you and may pass through. What it is, what it wants, and what comes through the thin place are for the GM to decide. It will <strong>NOT</strong> be nothing.</p></li><li><p>As a <strong>Free Action</strong>, you can look through the Veil. You learn the space of every spirit or demon within <strong>10 spaces</strong> of you, whether or not you can see it and whether or not it is in the material world, and the space of every piece of your soul on the same plane of existence as you, at any distance.</p></li></ul>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Path",
+        "description": "",
+        "uuid": "d6c9b1ab-c206-481d-a5e2-fc8f86b5758f"
+      },
+      {
+        "name": "Mystwalker",
+        "description": "",
+        "uuid": "ee835e91-fb3d-40d8-a974-8e927489e181"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "unique",
+    "rulesElement": [],
+    "action": false,
+    "reaction": false,
+    "passive": true,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "mYiwwc6tWzyRUIAB",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!RIPhoRraKhrTLQi5"
+}

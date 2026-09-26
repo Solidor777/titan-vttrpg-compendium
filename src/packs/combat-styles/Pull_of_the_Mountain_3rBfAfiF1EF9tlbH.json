@@ -1,0 +1,53 @@
+{
+  "_id": "3rBfAfiF1EF9tlbH",
+  "name": "Pull of the Mountain",
+  "type": "ability",
+  "img": "icons/magic/earth/barrier-stone-brown-green.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must be utilizing Mountain King Style</p><p><strong>Cost:</strong> 1 Focus</p><p>The ground shifts beneath your feet to bring your enemies to you.</p><p>As <strong>Free Action</strong> on your turn, you may spend <strong>-1 Focus</strong>. Until the start of your next turn, any enemy within <strong>5 Spaces</strong> of you treats all movement away from you as <strong>Difficult Terrain</strong>.</p><p><strong>Enhancement.</strong> You may use an <strong>Action</strong> when you activate this ability to force all enemies to make a <strong>Resilience Check</strong> opposed by your <strong>Body (Melee Weapons)</strong> or <strong>Body (Ranged Weapons)</strong>, or be forcefully moved up to <strong>5 Spaces</strong> closer to you. If you have <strong><em>Channel the Stone</em></strong>, you may use <strong>Mind</strong> in place of <strong>Body</strong>.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Martial Style",
+        "description": "",
+        "uuid": "0ae6b2d5-c618-4beb-ab04-d77c4c815be9"
+      },
+      {
+        "name": "Mountain King Style",
+        "description": "",
+        "uuid": "ffcef913-e01f-48d0-a5af-23c26a2d67d7"
+      },
+      {
+        "name": "Earth",
+        "description": "",
+        "uuid": "a3a288a2-57d2-47cd-af71-da57c63c908a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "lwdBGfDJcWFxfC80",
+  "sort": 800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!3rBfAfiF1EF9tlbH"
+}

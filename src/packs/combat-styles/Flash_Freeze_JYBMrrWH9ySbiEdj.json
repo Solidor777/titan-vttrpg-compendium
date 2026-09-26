@@ -1,0 +1,53 @@
+{
+  "_id": "JYBMrrWH9ySbiEdj",
+  "name": "Flash Freeze",
+  "type": "ability",
+  "img": "icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must be utilizing Frost Dragon Style</p><p><strong>Cost:</strong> 1 Focus</p><p>You strike at the precise right moment to foil your opponent.</p><p>Once per turn, when a creature enters the range of your equipped weapon, or performs an <strong>Action</strong> while within range of your equipped weapon, you may spend <strong>-1 Focus</strong> before the attack is rolled to declare your use of this ability as a <strong>Reaction</strong> that resolves first.</p><p>Make an <strong>Attack</strong> against that opponent with your equipped weapon. If your attack deals <strong>Damage</strong>, their <strong>Action</strong> is canceled and wasted, or their <strong>Move</strong> is halted, depending on which triggered this ability.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Martial Style",
+        "description": "",
+        "uuid": "0ae6b2d5-c618-4beb-ab04-d77c4c815be9"
+      },
+      {
+        "name": "Frost Dragon Style",
+        "description": "",
+        "uuid": "8b898c5e-c177-44ec-ac2c-5a7616b48122"
+      },
+      {
+        "name": "Water",
+        "description": "",
+        "uuid": "ff63b13b-1e71-4378-a37f-f4c4510f8ffd"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": false,
+    "reaction": true,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "i1cmQyIdqfhhJflO",
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!JYBMrrWH9ySbiEdj"
+}

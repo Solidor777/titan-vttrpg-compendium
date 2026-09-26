@@ -1,0 +1,53 @@
+{
+  "_id": "vCfTQO74qTklaoME",
+  "name": "Boulder Throw",
+  "type": "ability",
+  "img": "icons/magic/earth/barrier-stone-brown-green.webp",
+  "system": {
+    "description": "<p><strong>Requirements:</strong> You must be utilizing Mountain King Style</p><p><strong>Cost:</strong> 1-2 Focus</p><p>You hurl your enemies like thrown rocks.</p><p>As an <strong>Action</strong>, spend <strong>-1 Focus</strong> and make a <strong>Melee</strong> or <strong>Ranged Weapon</strong> attack on a target creature within range. If your attack hits and deals <strong>Damage</strong>, the target is pushed away from you by a number of <strong>Spaces</strong> equal to your <strong>Training</strong> in <strong>Melee</strong> or <strong>Ranged Weapons</strong>, depending on which you used for the attack.</p><p>If the target hits an obstacle of <strong>its Size or larger</strong>, it is knocked <strong>Prone</strong>.</p><p><strong>Enhancement.</strong> You may spend an additional <strong>-1 Focus</strong> when you activate this ability. If you do so, the distance of the push is doubled.</p>",
+    "check": [],
+    "customTrait": [
+      {
+        "name": "Martial Style",
+        "description": "",
+        "uuid": "0ae6b2d5-c618-4beb-ab04-d77c4c815be9"
+      },
+      {
+        "name": "Mountain King Style",
+        "description": "",
+        "uuid": "ffcef913-e01f-48d0-a5af-23c26a2d67d7"
+      },
+      {
+        "name": "Earth",
+        "description": "",
+        "uuid": "a3a288a2-57d2-47cd-af71-da57c63c908a"
+      }
+    ],
+    "xpCost": 2,
+    "rarity": "uncommon",
+    "rulesElement": [],
+    "action": true,
+    "reaction": false,
+    "passive": false,
+    "documentVersion": 0
+  },
+  "effects": [],
+  "folder": "lwdBGfDJcWFxfC80",
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "titan",
+    "systemVersion": "1.0.0",
+    "coreVersion": "14.364",
+    "createdTime": 1790380800000,
+    "modifiedTime": 1790380800000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!vCfTQO74qTklaoME"
+}
