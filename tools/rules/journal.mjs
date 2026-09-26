@@ -10,6 +10,29 @@ const headingRe = /^(#{1,6})\s+(.*)$/;
 /** @type {RegExp} Matches an empty heading (a lone `#` run) that the document export leaves between sections. */
 const emptyHeadingRe = /^#+\s*$/;
 
+/** @type {object} The fields Foundry adds to a text page; pages new to the journal start from these. */
+const NEW_PAGE_DEFAULTS = {
+   image: {},
+   video: {
+      controls: true,
+      volume: 0.5,
+   },
+   src: null,
+   system: {},
+   category: null,
+   _stats: {
+      coreVersion: '14.364',
+      systemId: 'titan',
+      systemVersion: '1.0.0',
+      createdTime: null,
+      modifiedTime: null,
+      lastModifiedBy: null,
+      compendiumSource: null,
+      duplicateSource: null,
+      exportSource: null,
+   },
+};
+
 /** @type {Record<string, string[][]>} Cross-page links restored after rendering: page name -> [text, replacement]. */
 const LINKS = {
    'Death and Dying': [['the <strong>Stunned</strong> condition', 'the @UUID[.K9oX3Z9KHKswUMyf#stunned]{Stunned} condition']],
@@ -171,7 +194,7 @@ export function buildJournal(md, journal, docNames, patch = (page, html) => html
       }
       const id = old?._id ?? makeId(`rules-page:${def.name}`);
       pages.push({
-         ...(old ?? {}),
+         ...(old ?? NEW_PAGE_DEFAULTS),
          _id: id,
          _key: `!journal.pages!${journal._id}.${id}`,
          name: def.name,
