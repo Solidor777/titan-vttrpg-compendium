@@ -8,17 +8,7 @@
     "customTrait": [],
     "xpCost": 2,
     "rarity": "common",
-    "rulesElement": [
-      {
-        "operation": "rollMessage",
-        "checkType": "attack",
-        "selector": "attackTrait",
-        "key": "twoHanded",
-        "message": "<p><strong>Immense Strikes:</strong> You deal +1 Damage with attacks that have the Two-Handed treat.</p>",
-        "uuid": "a28fb5b8-91fc-43c6-a509-f5935266d85c",
-        "type": "ability"
-      }
-    ],
+    "rulesElement": [],
     "action": true,
     "reaction": false,
     "passive": false,

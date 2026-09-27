@@ -84,6 +84,13 @@
          "system": "titan"
       },
       {
+         "label": "Equipment",
+         "type": "Item",
+         "name": "equipment",
+         "path": "packs/equipment",
+         "system": "titan"
+      },
+      {
          "label": "Effects",
          "type": "ActiveEffect",
          "name": "effects",
@@ -111,6 +118,7 @@
             "weapons",
             "armor-and-shields",
             "urderic-items",
+            "equipment",
             "effects",
             "summons"
          ]
