@@ -35,7 +35,7 @@
       {
         "operation": "turnMessage",
         "selector": "turnStart",
-        "message": "<p><strong>Stormcaller's Malice: </strong>Your <strong>Soul</strong> is reduced by an amount equal to the difference in successes until the start of your next turn.</p><p>Additionally, you cannot regain <strong>Resolve</strong>, and you cannot take extra actions in combat such with resolve or the use of a legendary ability (with the exception of <em>Epic Resistance</em>).</p>",
+        "message": "<p><strong>Stormcaller's Despair: </strong>Your <strong>Soul</strong> is reduced by an amount equal to the difference in successes until the start of your next turn.</p><p>Additionally, you cannot regain <strong>Resolve</strong>, and you cannot take extra actions in combat such with resolve or the use of a legendary ability (with the exception of <em>Epic Resistance</em>).</p>",
         "uuid": "b6d1bebd-aa11-44cd-b33a-be2af9903b09"
       },
       {

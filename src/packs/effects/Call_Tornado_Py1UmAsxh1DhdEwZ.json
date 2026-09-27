@@ -33,6 +33,14 @@
         "key": "defense",
         "value": 1,
         "uuid": "f87017a8-be45-4e84-bb4c-85a6dd917e9e"
+      },
+      {
+        "operation": "setSum",
+        "selector": "speed",
+        "key": "all",
+        "value": 0,
+        "mode": "set",
+        "uuid": "340103c3-f215-4ecb-a5ca-268755c2d3ac"
       }
     ],
     "changes": [],

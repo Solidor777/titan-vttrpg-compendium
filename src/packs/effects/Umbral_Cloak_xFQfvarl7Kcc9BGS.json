@@ -36,7 +36,7 @@
         "operation": "rollMessage",
         "checkType": "attribute",
         "selector": "skill",
-        "key": "perception",
+        "key": "stealth",
         "message": "<p><strong>Umbral Cloak:</strong> You are invisible as long as you stay within shadow.</p>",
         "uuid": "fe1d07dc-8fd7-41d2-b189-a51c6e01adec"
       },

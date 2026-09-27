@@ -37,7 +37,7 @@
         "checkType": "resistance",
         "selector": "any",
         "key": "",
-        "message": "<p><strong>The Dragon Devours:</strong> You gain bonus dice equal to the user's <strong>Training</strong> in <strong>Metaphysics</strong> to resist spell effects and <strong>Path Abilities</strong>.</p>",
+        "message": "<p><strong>The Dragon Devours:</strong> You gain bonus dice equal to the user's <strong>Training</strong> in <strong>Metaphysics</strong> to resist spell effects.</p>",
         "uuid": "936729d3-8a07-4882-bafd-8b30902aa666"
       },
       {

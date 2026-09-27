@@ -8,7 +8,15 @@
     "customTrait": [],
     "xpCost": 2,
     "rarity": "common",
-    "rulesElement": [],
+    "rulesElement": [
+      {
+        "operation": "flatModifier",
+        "selector": "rating",
+        "key": "awareness",
+        "value": 1,
+        "uuid": "eb167234-623f-44c7-a841-ca5611a44557"
+      }
+    ],
     "action": false,
     "reaction": false,
     "passive": true,

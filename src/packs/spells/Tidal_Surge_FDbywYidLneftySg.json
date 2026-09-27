@@ -65,7 +65,7 @@
         "option": [
           "prone"
         ],
-        "resistanceCheck": "reflexes",
+        "resistanceCheck": "resilience",
         "enabled": true
       }
     ],

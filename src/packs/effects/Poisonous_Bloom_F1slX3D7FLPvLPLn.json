@@ -30,7 +30,7 @@
       {
         "operation": "turnMessage",
         "selector": "turnStart",
-        "message": "<p><strong>Poisonbloom:</strong> You are <strong>Contaminated</strong>, and take <strong>1 Damage</strong> at the start of your turn.</p>",
+        "message": "<p><strong>Poisonous Bloom:</strong> You are <strong>Contaminated</strong>, and take <strong>1 Damage</strong> at the start of your turn.</p>",
         "uuid": "3c5d51b5-7aaf-42c3-a08e-9025fdb7e9d9"
       },
       {

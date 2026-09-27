@@ -39,7 +39,7 @@
         "operation": "mulBase",
         "selector": "resource",
         "key": "stamina",
-        "value": -0.5,
+        "value": 0.5,
         "uuid": "d93373b5-4210-482a-b3a2-25bc3bcfaf62"
       }
     ],

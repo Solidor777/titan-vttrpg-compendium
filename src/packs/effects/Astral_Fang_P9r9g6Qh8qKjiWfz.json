@@ -34,9 +34,9 @@
     "rulesElement": [
       {
         "operation": "rollMessage",
-        "checkType": "attribute",
-        "selector": "skill",
-        "key": "perception",
+        "checkType": "attack",
+        "selector": "any",
+        "key": "",
         "message": "<p><strong>Astral Fang:</strong> The first time the affected weapon deals <strong>Damage</strong>, it gains the <strong>Magical</strong> trait, and deals additional damage equal to your <strong>Soul</strong>, or double your Soul if the ability user spent <strong>1 Resolve</strong>.</p><p><strong>Wounds</strong> inflicted by this attack do not recover naturally and require active treatment to be healed. Lost <strong>Stamina</strong> recovers normally.</p>",
         "uuid": "fe1d07dc-8fd7-41d2-b189-a51c6e01adec"
       }

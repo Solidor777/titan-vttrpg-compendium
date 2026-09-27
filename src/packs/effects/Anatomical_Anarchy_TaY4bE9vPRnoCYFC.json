@@ -28,11 +28,9 @@
     ],
     "rulesElement": [
       {
-        "operation": "rollMessage",
-        "checkType": "any",
-        "selector": "attribute",
-        "key": "body",
-        "message": "<p><strong>Anatomical Anarchy:</strong> At the start of your turn, you take <strong>1 Damage</strong> that ignores <strong>Armor</strong>.</p><p>You must make an opposed <strong>Resilience</strong> check or be <strong>Stunned </strong>until the end of your turn.</p>",
+        "operation": "turnMessage",
+        "selector": "turnStart",
+        "message": "<p><strong>Anatomical Anarchy:</strong> At the start of your turn, you take <strong>1 Damage</strong> that ignores <strong>Armor</strong>.</p><p>You must make an opposed <strong>Resilience</strong> check or be <strong>Stunned </strong>until the end of your next turn.</p>",
         "uuid": "ebc5d80c-5c3a-49d9-a716-3e68033130a3"
       },
       {

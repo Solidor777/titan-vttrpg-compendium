@@ -11,7 +11,7 @@
     "rulesElement": [
       {
         "operation": "rollMessage",
-        "checkType": "attack",
+        "checkType": "attribute",
         "selector": "skill",
         "key": "stealth",
         "message": "<p><strong>Streetwise:</strong> You have <strong>Advantage</strong> on Checks to hide in streets and alleys.</p>",

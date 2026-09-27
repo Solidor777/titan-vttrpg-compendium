@@ -46,7 +46,7 @@
         "checkType": "attack",
         "selector": "attackType",
         "key": "melee",
-        "message": "<p><strong>Battle Serenity:</strong> Your <strong>Melee</strong> is increased by +1.</p>",
+        "message": "<p><strong>Battle Meditation:</strong> Your <strong>Melee</strong> is increased by +1.</p>",
         "uuid": "fc4f3c23-09de-450c-a723-98d7d5f93f76"
       }
     ],

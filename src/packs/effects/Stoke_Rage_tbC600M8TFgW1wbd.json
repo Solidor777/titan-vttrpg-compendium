@@ -28,9 +28,11 @@
     ],
     "rulesElement": [
       {
-        "operation": "flatModifier",
-        "selector": "mod",
-        "key": "damage",
+        "operation": "conditionalCheckModifier",
+        "modifierType": "damage",
+        "checkType": "any",
+        "selector": "any",
+        "key": "any",
         "value": 1,
         "uuid": "145d8232-6998-4140-9685-f3d5fb8e767d"
       },

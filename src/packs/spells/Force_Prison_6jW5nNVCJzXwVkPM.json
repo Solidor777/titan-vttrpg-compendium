@@ -40,9 +40,7 @@
         "cost": 2,
         "resistanceCheck": "none",
         "isDamage": true,
-        "option": [
-          "ignoreArmor"
-        ],
+        "option": [],
         "enabled": true,
         "scalingCost": 1
       }

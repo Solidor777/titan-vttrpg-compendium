@@ -42,7 +42,7 @@
       {
         "operation": "turnMessage",
         "selector": "turnStart",
-        "message": "<p><strong>Lord Inquisitor:</strong> You have received a curse of judgment.</p><ul><li><p>All <strong>Damage</strong> you take is increased by <strong>+2</strong>.</p></li><li><p>Your <strong>Defense</strong> is decreased by <strong>-1</strong>.</p></li><li><p>Once per turn, when you would recover <strong>Stamina</strong>, the user of this abilit<strong>y</strong> you may prevent you from doing so as a <strong>Free Action</strong>.</p></li><li><p>All attacks against you are considered <strong>Magical</strong> for the purposes of bypassing resistances.</p></li></ul><p>These effects last until the end of the user's next turn.</p>",
+        "message": "<p><strong>Lord Inquisitor:</strong> You have received a curse of judgment.</p><ul><li><p>All <strong>Damage</strong> you take is increased by <strong>+2</strong>.</p></li><li><p>Your <strong>Defense</strong> is decreased by <strong>-1</strong>.</p></li><li><p>Once per turn, when you would recover <strong>Stamina</strong>, the user of this abilit<strong>y</strong> you may prevent you from doing so as a <strong>Free Action</strong>.</p></li><li><p>All attacks against you are considered <strong>Magical</strong> for the purposes of bypassing resistances.</p></li></ul><p>These effects last until the end of combat, you become Incapacitated, or you are Dying.</p>",
         "uuid": "f3224e54-cb37-4d33-b513-db238ecfcb69"
       }
     ],

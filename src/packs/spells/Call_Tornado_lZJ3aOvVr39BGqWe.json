@@ -43,7 +43,7 @@
         "scaling": true,
         "initialValue": 1,
         "cost": 1,
-        "resistanceCheck": "reflexes",
+        "resistanceCheck": "none",
         "isDamage": true,
         "option": [],
         "enabled": true

@@ -41,7 +41,7 @@
         "checkType": "attack",
         "selector": "any",
         "key": "",
-        "message": "<p><strong>Blessing of Steel:</strong>  A weapon affected by this spell deals <strong>+1 Damage</strong> and is considered <strong>Magical</strong>.</p>",
+        "message": "<p><strong>Reinforce Metal:</strong>  A weapon affected by this spell deals <strong>+1 Damage</strong> and is considered <strong>Magical</strong>.</p>",
         "uuid": "741891b3-5f67-48c6-b309-2b1acb631897"
       }
     ],

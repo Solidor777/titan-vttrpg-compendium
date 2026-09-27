@@ -44,35 +44,40 @@
         "selector": "speed",
         "key": "stride",
         "value": 0.5,
-        "uuid": "6d62d3f3-6cad-4d93-a0a4-0f9f7c43a194"
+        "uuid": "6d62d3f3-6cad-4d93-a0a4-0f9f7c43a194",
+        "rounding": "up"
       },
       {
         "operation": "mulBase",
         "selector": "speed",
         "key": "fly",
         "value": 0.5,
-        "uuid": "92328a1a-3d7f-422d-abd2-7924f74de13b"
+        "uuid": "92328a1a-3d7f-422d-abd2-7924f74de13b",
+        "rounding": "up"
       },
       {
         "operation": "mulBase",
         "selector": "speed",
         "key": "swim",
         "value": 0.5,
-        "uuid": "07ee8db1-b7ff-437d-ac24-bfba542e930e"
+        "uuid": "07ee8db1-b7ff-437d-ac24-bfba542e930e",
+        "rounding": "up"
       },
       {
         "operation": "mulBase",
         "selector": "speed",
         "key": "burrow",
         "value": 0.5,
-        "uuid": "b73feb8a-6ea6-41d0-af52-61481857a031"
+        "uuid": "b73feb8a-6ea6-41d0-af52-61481857a031",
+        "rounding": "up"
       },
       {
         "operation": "mulBase",
         "selector": "speed",
         "key": "climb",
         "value": 0.5,
-        "uuid": "13af9d01-c63a-4be7-a540-4bb8fc958cfc"
+        "uuid": "13af9d01-c63a-4be7-a540-4bb8fc958cfc",
+        "rounding": "up"
       }
     ],
     "changes": [],

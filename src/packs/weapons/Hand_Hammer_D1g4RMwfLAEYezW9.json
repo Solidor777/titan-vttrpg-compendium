@@ -29,7 +29,7 @@
         "uuid": "77f3907b-6811-41e8-95c4-13102b675a6f"
       },
       {
-        "label": "Thow",
+        "label": "Throw",
         "type": "ranged",
         "range": 5,
         "attribute": "body",

@@ -53,14 +53,6 @@
         "unit": "rounds",
         "cost": 1,
         "enabled": true
-      },
-      {
-        "label": "increaseResistance",
-        "initialValue": 1,
-        "cost": 0,
-        "option": [],
-        "scaling": true,
-        "enabled": false
       }
     ],
     "documentVersion": 0,

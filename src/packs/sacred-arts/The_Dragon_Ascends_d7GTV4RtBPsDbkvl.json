@@ -19,16 +19,7 @@
     ],
     "xpCost": 2,
     "rarity": "rare",
-    "rulesElement": [
-      {
-        "operation": "flatModifier",
-        "selector": "speed",
-        "key": "fly",
-        "value": 5,
-        "uuid": "dc7eeaca-acdd-44b2-b913-5d880ab3a53d",
-        "type": "ability"
-      }
-    ],
+    "rulesElement": [],
     "action": true,
     "reaction": false,
     "passive": false,

@@ -22,7 +22,8 @@
           "attribute": "body",
           "skill": "athletics"
         },
-        "uuid": "11dc5e88-3402-43f1-9fba-94f86e640fcf"
+        "uuid": "11dc5e88-3402-43f1-9fba-94f86e640fcf",
+        "damageReducedBy": "resistanceCheck"
       }
     ],
     "customTrait": [

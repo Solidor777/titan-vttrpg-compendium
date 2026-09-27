@@ -13,7 +13,7 @@
     "attack": [
       {
         "label": "Attack",
-        "type": "melee",
+        "type": "ranged",
         "range": 50,
         "attribute": "body",
         "skill": "rangedWeapons",

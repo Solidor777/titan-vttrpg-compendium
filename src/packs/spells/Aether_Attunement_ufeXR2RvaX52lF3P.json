@@ -53,7 +53,7 @@
       },
       {
         "label": "increaseSpeed",
-        "initialValue": 5,
+        "initialValue": 1,
         "cost": 2,
         "option": [
           "stride"

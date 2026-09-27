@@ -41,9 +41,9 @@
       },
       {
         "operation": "rollMessage",
-        "checkType": "any",
-        "selector": "attribute",
-        "key": "body",
+        "checkType": "attack",
+        "selector": "any",
+        "key": "",
         "message": "<p><strong>Eclipse Walker:</strong> Any attacks you make gain the <strong>Magical</strong> and <strong>Penetrating </strong>traits.</p>",
         "uuid": "c2d8b4b2-2c2c-4b91-8d6d-ea696af5ed68"
       },

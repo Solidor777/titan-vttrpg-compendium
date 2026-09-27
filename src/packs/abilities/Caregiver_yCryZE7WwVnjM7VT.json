@@ -46,7 +46,7 @@
       {
         "label": "Reduce Wounds by -3",
         "attribute": "mind",
-        "skill": "arcana",
+        "skill": "medicine",
         "difficulty": 4,
         "complexity": 3,
         "resolveCost": 0,

@@ -46,6 +46,13 @@
         "key": "stealth",
         "message": "<p><strong>Fox Form:</strong> You gain a bonus to your <strong>Training</strong> in <strong>Stealth</strong> equal to the <strong>Training</strong> in <strong>Metaphysics</strong> of the creature that used this ability.</p>",
         "uuid": "75298738-f718-48e6-a60a-3d68c1d96ce8"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "stride",
+        "value": 5,
+        "uuid": "9c3f96f8-c691-4533-a27c-479939ad678d"
       }
     ],
     "changes": [],

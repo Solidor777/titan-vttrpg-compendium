@@ -30,7 +30,7 @@
       {
         "operation": "turnMessage",
         "selector": "turnStart",
-        "message": "<p><strong>Aether Attunement:</strong> You regain <strong>1 Stamina</strong> at the start of your urn.</p>",
+        "message": "<p><strong>Aether Attunement:</strong> You regain <strong>1 Stamina</strong> at the start of your turn.</p>",
         "uuid": "6e8b6aa8-b154-4b2c-9d65-cca096364a46"
       },
       {
@@ -38,6 +38,13 @@
         "selector": "turnStart",
         "value": 1,
         "uuid": "cd5cf5ef-0f18-4ab2-98b8-a54bc174080d"
+      },
+      {
+        "operation": "flatModifier",
+        "selector": "speed",
+        "key": "stride",
+        "value": 1,
+        "uuid": "a7885150-74dc-473b-af2f-869635b28ed0"
       }
     ],
     "changes": [],

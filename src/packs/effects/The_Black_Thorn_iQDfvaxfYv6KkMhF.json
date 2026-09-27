@@ -66,6 +66,14 @@
         "key": "swim",
         "value": -5,
         "uuid": "2733749b-ffe2-40a3-b05d-945939101322"
+      },
+      {
+        "operation": "setSum",
+        "selector": "speed",
+        "key": "fly",
+        "value": 0,
+        "mode": "set",
+        "uuid": "e1055e41-ef2d-4200-a750-86df2fcef6d9"
       }
     ],
     "changes": [],

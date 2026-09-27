@@ -34,9 +34,9 @@
     "rulesElement": [
       {
         "operation": "rollMessage",
-        "checkType": "attribute",
-        "selector": "skill",
-        "key": "perception",
+        "checkType": "attack",
+        "selector": "any",
+        "key": "",
         "message": "<p><strong>Umbral Fang:</strong> The first time that affected weapon deals <strong>Damage</strong>, it gains the <strong>Rend </strong>trait, and ignores <strong>Armor</strong>.</p><p>If the ability user spent an additional <strong>1 Resolve</strong> when they used this ability, the weapon also gains a bonus to <strong>Damage</strong> equal to their <strong>Soul</strong>.</p>",
         "uuid": "fe1d07dc-8fd7-41d2-b189-a51c6e01adec"
       }

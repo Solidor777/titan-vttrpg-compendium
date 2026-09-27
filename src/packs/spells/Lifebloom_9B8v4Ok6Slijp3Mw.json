@@ -47,13 +47,6 @@
         "cost": 1,
         "enabled": true,
         "scalingCost": 1
-      },
-      {
-        "label": "inflictCondition",
-        "cost": 0,
-        "option": [],
-        "resistanceCheck": "none",
-        "enabled": false
       }
     ],
     "documentVersion": 0,

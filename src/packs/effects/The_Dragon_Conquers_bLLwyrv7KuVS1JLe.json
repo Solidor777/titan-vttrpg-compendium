@@ -47,14 +47,6 @@
         "key": "",
         "message": "<p><strong>The Dragon Conquers:</strong> If you cast a targeted offensive spell that does not target the creature who challenged you, the <strong>Complexity</strong> of the spell is increased by <strong>+1</strong>.</p>",
         "uuid": "83a59940-0aef-4554-88de-210ed95f2cdb"
-      },
-      {
-        "operation": "rollMessage",
-        "checkType": "any",
-        "selector": "attribute",
-        "key": "body",
-        "message": "<p><strong>The Dragon Conquers:</strong> Your <strong>Melee</strong> and <strong>Accuracy</strong> are reduced by <strong>-1</strong> when attacking creatures other than the one that challenged you.</p><p>If you cast a targeted offensive spell that does not target the creature who challenged you, the <strong>Complexity</strong> of the spell is increased by <strong>+1</strong>.</p><p>This effect lasts until the end of combat, the challenger becomes <strong>Incapacitated</strong>, or they are <strong>Dying</strong>.</p>",
-        "uuid": "f40def46-2961-4f21-b67f-4dbaa47e6828"
       }
     ],
     "changes": [],

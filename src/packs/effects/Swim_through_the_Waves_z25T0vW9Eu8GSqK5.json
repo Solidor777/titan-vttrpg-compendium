@@ -37,7 +37,7 @@
       {
         "operation": "turnMessage",
         "selector": "turnStart",
-        "message": "<p><strong>Swim through the Waves:</strong> You gain a <strong>Swim</strong> speed of <strong>5</strong>. If you already have a <strong>Burrow </strong>speed, it increases by <strong>+5</strong>.</p>",
+        "message": "<p><strong>Swim through the Waves:</strong> You gain a <strong>Swim</strong> speed of <strong>5</strong>. If you already have a <strong>Swim </strong>speed, it increases by <strong>+5</strong>.</p>",
         "uuid": "a8fd895c-90bb-47fb-b5ce-33048a922375"
       }
     ],

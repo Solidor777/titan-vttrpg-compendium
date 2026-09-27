@@ -14,7 +14,7 @@
         "checkType": "attack",
         "selector": "attackTrait",
         "key": "twoHanded",
-        "message": "<p><strong>Sweeping Blows:</strong> Two-Handed Melee attacks you make gain the @UUID[Compendium.titan-vttrpg-compendium.rules.JournalEntry.mczts3I29Q5vaopp.JournalEntryPage.4i499LbqwSRtkdMc#cleave]{Cleave} trait.</p>",
+        "message": "<p><strong>Sweeping Strikes:</strong> Two-Handed Melee attacks you make gain the @UUID[Compendium.titan-vttrpg-compendium.rules.JournalEntry.mczts3I29Q5vaopp.JournalEntryPage.4i499LbqwSRtkdMc#cleave]{Cleave} trait.</p>",
         "uuid": "f8861101-c5cd-49e1-b1fd-318f44faac47",
         "type": "ability"
       }

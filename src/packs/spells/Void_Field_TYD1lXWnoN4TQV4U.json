@@ -55,7 +55,7 @@
         "option": [
           "incapacitated"
         ],
-        "resistanceCheck": "willpower",
+        "resistanceCheck": "resilience",
         "enabled": true
       }
     ],

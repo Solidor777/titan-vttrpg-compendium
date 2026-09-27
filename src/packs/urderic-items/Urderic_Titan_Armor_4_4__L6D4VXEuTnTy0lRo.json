@@ -18,13 +18,7 @@
       "max": 2,
       "value": 2
     },
-    "trait": [
-      {
-        "name": "heavy",
-        "type": "boolean",
-        "value": true
-      }
-    ],
+    "trait": [],
     "rulesElement": [
       {
         "operation": "flatModifier",

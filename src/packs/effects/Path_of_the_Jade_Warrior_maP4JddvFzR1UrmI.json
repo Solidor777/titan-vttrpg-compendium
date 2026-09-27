@@ -46,7 +46,7 @@
         "checkType": "attack",
         "selector": "any",
         "key": "",
-        "message": "<p><strong>Path of the Jade Energy:</strong> While your attacks are empowered with jade energy, they deal <strong>+1</strong> additional <strong>Damage, </strong>and are considered <strong>Magical</strong>. <strong>Improvised</strong> and <strong>Unarmed</strong> attacks are no longer considered <strong>Ineffective</strong>.</p>",
+        "message": "<p><strong>Path of the Jade Warrior:</strong> While your attacks are empowered with jade energy, they deal <strong>+1</strong> additional <strong>Damage, </strong>and are considered <strong>Magical</strong>. <strong>Improvised</strong> and <strong>Unarmed</strong> attacks are no longer considered <strong>Ineffective</strong>.</p>",
         "uuid": "2e1c5e0a-e810-4255-9b1b-cc317ae83fdf"
       }
     ],

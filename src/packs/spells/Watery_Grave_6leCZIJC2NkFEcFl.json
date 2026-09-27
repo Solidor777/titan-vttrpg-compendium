@@ -22,7 +22,7 @@
         "scaling": false,
         "initialValue": 0,
         "cost": 0,
-        "resistanceCheck": "reflexes",
+        "resistanceCheck": "resilience",
         "isDamage": false,
         "isHealing": false,
         "uuid": "8ac0996f-4a05-4f67-9261-9ed0b6662b87"

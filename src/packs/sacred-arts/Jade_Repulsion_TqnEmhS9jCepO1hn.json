@@ -16,7 +16,7 @@
         "isHealing": false,
         "initialValue": 1,
         "scaling": true,
-        "resistanceCheck": "reflexes",
+        "resistanceCheck": "resilience",
         "opposedCheck": {
           "enabled": false,
           "attribute": "body",

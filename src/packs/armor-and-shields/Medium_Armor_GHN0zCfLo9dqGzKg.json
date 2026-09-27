@@ -12,18 +12,7 @@
       "max": 2,
       "value": 2
     },
-    "trait": [
-      {
-        "name": "loud",
-        "type": "boolean",
-        "value": true
-      },
-      {
-        "name": "encumbering",
-        "type": "boolean",
-        "value": true
-      }
-    ],
+    "trait": [],
     "rulesElement": [],
     "documentVersion": 0
   },

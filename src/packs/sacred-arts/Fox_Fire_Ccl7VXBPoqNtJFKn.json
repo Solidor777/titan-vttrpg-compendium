@@ -16,14 +16,14 @@
         "isHealing": false,
         "initialValue": 1,
         "scaling": true,
-        "resistanceCheck": "none",
+        "resistanceCheck": "willpower",
         "opposedCheck": {
           "enabled": false,
           "attribute": "body",
           "skill": "athletics"
         },
         "uuid": "9348d1dc-8c13-4b90-9563-18a78b3e94b5",
-        "damageReducedBy": "none"
+        "damageReducedBy": "resistanceCheck"
       }
     ],
     "customTrait": [

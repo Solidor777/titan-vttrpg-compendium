@@ -44,7 +44,7 @@
         "checkType": "any",
         "selector": "attribute",
         "key": "body",
-        "message": "<p><strong>Flesh Attunment:</strong> Your <strong>Body</strong> increases by <strong>+1</strong></p>",
+        "message": "<p><strong>Flesh Attunement:</strong> Your <strong>Body</strong> increases by <strong>+1</strong></p>",
         "uuid": "8e7b77b2-6f0f-4ee1-af8d-f7d48867bafd"
       }
     ],

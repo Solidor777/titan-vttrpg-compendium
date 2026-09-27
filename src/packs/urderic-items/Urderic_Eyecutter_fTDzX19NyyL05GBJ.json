@@ -22,7 +22,7 @@
         "type": "ranged",
         "range": 10,
         "attribute": "body",
-        "skill": "meleeWeapons",
+        "skill": "rangedWeapons",
         "damage": 2,
         "plusExtraSuccessDamage": true,
         "trait": [

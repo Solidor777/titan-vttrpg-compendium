@@ -30,7 +30,7 @@
       {
         "operation": "turnMessage",
         "selector": "turnStart",
-        "message": "<p><strong>Dust Cloak:</strong> At the start of your turn, you can move each creature other than yourself within the dust cloud by <strong>1 space</strong>, as it becomes disoriented by the swirling mass surrounding you.</p>",
+        "message": "<p><strong>Dust Storm:</strong> At the start of your turn, you can move each creature other than yourself within the dust cloud by <strong>1 space</strong>, as it becomes disoriented by the swirling mass surrounding you.</p>",
         "uuid": "dc657e9f-d422-44d9-aa3a-f5c505bafb66"
       }
     ],
