@@ -2,7 +2,7 @@
   "_id": "atYnbOy0h2mhbgW7",
   "name": "Torment of Urdokai",
   "type": "effect",
-  "img": "icons/weapons/swords/sword-guard-purple.webp",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Mystwalker_Path_Icon.webp",
   "description": "<p>You hold a shard of the target's soul until the start of your next turn. While you hold it and the target is within <strong>30 spaces</strong> of you, you know which space the target occupies, and you may measure the <strong>Range</strong> of your <strong>Mystwalker</strong> attacks and abilities to the target as though it were adjacent to you, with no line of sight needed.</p><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p>",
   "disabled": false,
   "transfer": false,

@@ -2,7 +2,7 @@
   "_id": "MIWAJGQTUU5cUs1n",
   "name": "Step of Urdokai",
   "type": "ability",
-  "img": "icons/weapons/swords/sword-guard-purple.webp",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Mystwalker_Path_Icon.webp",
   "system": {
     "description": "<p><strong>Cost:</strong> 1 Resolve</p><p><strong>Range:</strong> Self</p><p>You partially enter Urdokai, becoming akin to a spirit yourself.</p><p>Until the start of your next turn, you are incorporeal.</p><ul><li><p>Attacks without the <strong>Magical</strong> trait cannot harm you. Attacks with the <strong>Magical</strong> trait, spells, and <strong>Path</strong> abilities affect you as normal.</p></li><li><p>You may move through creatures, mundane walls, and barriers, but may not end your turn in another creature's space, and you may not enter warded or sanctified spaces.</p></li></ul><p>This effect It ends early if you become <strong>Incapacitated</strong> or <strong>Dying</strong>, or if you take an <strong>Action</strong> that targets the world or another creature, this effect immediately</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.ngMFSQRK141EXCUf]{Step of Urdokai}</p>",
     "check": [],

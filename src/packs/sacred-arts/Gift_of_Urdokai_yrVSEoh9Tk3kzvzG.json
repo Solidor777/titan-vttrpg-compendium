@@ -2,7 +2,7 @@
   "_id": "yrVSEoh9Tk3kzvzG",
   "name": "Gift of Urdokai",
   "type": "ability",
-  "img": "icons/weapons/swords/sword-guard-purple.webp",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Mystwalker_Path_Icon.webp",
   "system": {
     "description": "<p><strong>Cost:</strong> 1 Resolve</p><p><strong>Range:</strong> 10 Spaces</p><p>You grant another creature some of your own strength.</p><p>As a <strong>Free Action</strong> on your turn, or once per round on another creature's turn, you may choose a target creature within 10 Spaces and grant it <strong>+1 Resolve</strong>.</p>",
     "check": [],

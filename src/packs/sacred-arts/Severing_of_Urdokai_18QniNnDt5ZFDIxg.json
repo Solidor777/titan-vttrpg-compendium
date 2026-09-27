@@ -2,7 +2,7 @@
   "_id": "18QniNnDt5ZFDIxg",
   "name": "Severing of Urdokai",
   "type": "ability",
-  "img": "icons/weapons/swords/sword-guard-purple.webp",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Mystwalker_Path_Icon.webp",
   "system": {
     "description": "<p><strong>Cost:</strong> 1 Resolve</p><p>You cut the magic away from a creature.</p><p>As an <strong>Action</strong>, make an attack with <strong><em>Mystwalker</em></strong> against a creature or object within range. If it deals damage, you may spend <strong>1 Resolve</strong> to end one ongoing <strong>Spell</strong> or <strong>Path Ability</strong> or other magical effect on the target.</p>",
     "check": [],

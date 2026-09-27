@@ -2,7 +2,7 @@
   "_id": "00asQUrTad9C7dJA",
   "name": "Hunger of Urdokai",
   "type": "effect",
-  "img": "icons/weapons/swords/sword-guard-purple.webp",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Mystwalker_Path_Icon.webp",
   "description": "<p>The wild forces of <strong>Urdokai</strong> tear at your soul. You have <strong>Disadvantage</strong> on any <strong>Willpower</strong> checks you make until the start of the caster's next turn.</p>",
   "disabled": false,
   "transfer": false,

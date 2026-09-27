@@ -2,7 +2,7 @@
   "_id": "HS5DA4NpCDIRY6jb",
   "name": "Conjurer of Urdokai",
   "type": "ability",
-  "img": "icons/weapons/swords/sword-guard-purple.webp",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Mystwalker_Path_Icon.webp",
   "system": {
     "description": "<p><strong>Cost:</strong> 2 Resolve</p><p><strong>Range:</strong> 10 spaces</p><p><strong>Area:</strong> 5-space-radius</p><p>You bring a piece of Urdokai into this world.</p><p>As an <strong>Action</strong>, choose a point within <strong>10 spaces</strong>. Until the start of your next turn, the Veil is torn within a <strong>5-space-radius</strong> of that point.</p><ul><li><p>All creatures in the area are forced into in the physical world while they remains in that area.</p></li><li><p>All attacks and abilities affect spirits, demons, and sacred beasts within the area as if they were magical.</p></li><li><p>No creature in the area can use abilities that teleport, go behind the Veil, or leave the material world.</p></li><li><p>When a hostile creature enters the area for the first time or starts its turn there, it must make a <strong>Willpower</strong> check opposed by your <strong>Soul (Metaphysics)</strong> or take <strong>Damage</strong> equal to the difference in successes. A spirit or demon has <strong>Disadvantage</strong> on this check. This <strong>Damage</strong> ignores <strong>Armor</strong>.</p></li></ul><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.Fol8tGlw43AXOnQN]{Conjurer of Urdokai}</p>",
     "check": [],

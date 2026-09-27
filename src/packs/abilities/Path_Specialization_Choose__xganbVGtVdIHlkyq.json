@@ -19,24 +19,6 @@
         "type": "ability"
       },
       {
-        "operation": "conditionalDiceModifier",
-        "checkType": "item",
-        "selector": "customTrait",
-        "key": "Choose",
-        "value": 1,
-        "uuid": "c5c3dd9e-54df-403b-8470-63bb9475a238",
-        "type": "ability"
-      },
-      {
-        "operation": "conditionalExpertiseModifier",
-        "checkType": "item",
-        "selector": "customTrait",
-        "key": "Choose",
-        "value": 1,
-        "uuid": "405777b5-33cf-4caf-8545-551e8a982f78",
-        "type": "ability"
-      },
-      {
         "operation": "conditionalCheckModifier",
         "modifierType": "dice",
         "checkType": "any",

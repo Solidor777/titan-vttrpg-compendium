@@ -2,7 +2,7 @@
   "_id": "eBQQsqvEQ1MlIRjU",
   "name": "Torment of Urdokai",
   "type": "ability",
-  "img": "icons/weapons/swords/sword-guard-purple.webp",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Mystwalker_Path_Icon.webp",
   "system": {
     "description": "<p><strong>Cost:</strong> 1 Resolve</p><p><strong>Range:</strong> 10 spaces</p><p>You rip away a piece of a creature's soul.</p><p>As an <strong>Action</strong>, choose a creature you can see within <strong>10 spaces</strong> and make a <strong>4:1 Soul (Metaphysics)</strong> check opposed by the target's <strong>Willpower</strong>. If the target is a spirit, demon, or sacred beast, it has <strong>Disadvantage</strong> on the check.</p><p>If you win, you hold a shard of the target's soul until the start of your next turn. While you hold it and the target is within <strong>30 spaces</strong> of you:</p><ul><li><p>You know which space the target occupies, even if you cannot see it.</p></li><li><p>When you make an attack with <strong><em>Mystwalker</em></strong>, or use an ability with the <strong>Mystwalker</strong> trait, you may measure its <strong>Range</strong> to the target as though the target were adjacent to you, and you need no line of sight to it.</p></li></ul><p>You may spend <strong>1 Resolve</strong> at the start of your turn to sustain this effect.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.atYnbOy0h2mhbgW7]{Torment of Urdokai}</p>",
     "check": [

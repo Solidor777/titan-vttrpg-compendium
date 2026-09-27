@@ -2,7 +2,7 @@
   "_id": "zUzYEaczne3usXCS",
   "name": "Being of Urdokai",
   "type": "ability",
-  "img": "icons/weapons/swords/sword-guard-purple.webp",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Mystwalker_Path_Icon.webp",
   "system": {
     "description": "<p><strong>Range:</strong> Self</p><p>You have learned to see yourself as a soul puppeting a body, which itself is merely a useful, malleable, even disposable tool.</p><p>You may use <strong>Soul (Metaphysics)</strong> or <strong>Soul (Arcana)</strong> to cast any spell with the <strong>Any</strong> or <strong>Flesh</strong> traits.</p>",
     "check": [],

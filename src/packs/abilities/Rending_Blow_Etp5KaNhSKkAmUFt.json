@@ -10,15 +10,6 @@
     "rarity": "common",
     "rulesElement": [
       {
-        "operation": "conditionalDamageModifier",
-        "checkType": "attack",
-        "selector": "attackTrait",
-        "key": "twoHanded",
-        "value": 1,
-        "uuid": "1def636a-8e03-4f55-b578-5fd67906cd4c",
-        "type": "ability"
-      },
-      {
         "operation": "rollMessage",
         "checkType": "attack",
         "selector": "attackTrait",

@@ -2,7 +2,7 @@
   "_id": "QARZHfnwzixEGn07",
   "name": "Mirror of Urdokai",
   "type": "ability",
-  "img": "icons/weapons/swords/sword-guard-purple.webp",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Mystwalker_Path_Icon.webp",
   "system": {
     "description": "<p><strong>Range:</strong> 5 spaces</p><p>You split off a piece from your own soul.</p><p>As an <strong>Action</strong>, you create a copy of yourself and set it in an unoccupied <strong>adjacent Space</strong>. It looks, sounds, and moves as you do, and a creature that did not see you use this ability cannot tell it from you by sight alone.</p><p>It occupies its own space and is your <strong>Size</strong>.</p><p>As an <strong>Action</strong> you may perceive the world through its senses. As a <strong>Free Action</strong>, you may move your copy up to your <strong>Speed</strong>, or draw it back into yourself. Your copy may move through thin mundane walls and barriers, but may not enter warded or sanctified spaces.</p><p>You may have only one copy at a time. It is not a creature: it takes no turns, makes no checks, and does nothing you do not make it do.</p><p>Other creatures may pass through your copy's space, in which case it becomes obvious that it is not you. Any creature can attack your copy as though it were you, and any hit destroys it.</p><p>Your copy is also destroyed if it is ever more than <strong>30 spaces</strong> from you, or if you become <strong>Incapacitated</strong> or <strong>Dying</strong>.</p>",
     "check": [],

@@ -2,7 +2,7 @@
   "_id": "j0RORElGtVF0Jnzh",
   "name": "Warding of Urdokai",
   "type": "effect",
-  "img": "icons/weapons/swords/sword-guard-purple.webp",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Mystwalker_Path_Icon.webp",
   "description": "<p>Until the start of the caster's next turn, spirits, demons, and sacred beasts have <strong>Disadvantage</strong> on any checks made against you.</p>",
   "disabled": false,
   "transfer": false,

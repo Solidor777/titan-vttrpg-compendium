@@ -2,7 +2,7 @@
   "_id": "uniznxs4A01NvC2y",
   "name": "Unraveling of Urdokai",
   "type": "ability",
-  "img": "icons/weapons/swords/sword-guard-purple.webp",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Mystwalker_Path_Icon.webp",
   "system": {
     "description": "<p><strong>Range:</strong> Self</p><p>You take the energy from another creature's spell or working, and use it to empower yourself.</p><p>Once per round, when you successfully perform a <strong>Counteract</strong> check, you gain <strong>+1 Resolve</strong>.</p>",
     "check": [],

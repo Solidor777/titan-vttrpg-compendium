@@ -2,7 +2,7 @@
   "_id": "ngMFSQRK141EXCUf",
   "name": "Step of Urdokai",
   "type": "effect",
-  "img": "icons/weapons/swords/sword-guard-purple.webp",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Mystwalker_Path_Icon.webp",
   "description": "<p>You partially enter <strong>Urdokai</strong> and are incorporeal until the start of your next turn.</p><ul><li><p>Attacks without the <strong>Magical</strong> trait cannot harm you. Attacks with the <strong>Magical</strong> trait, spells, and <strong>Path</strong> abilities affect you as normal.</p></li><li><p>You may move through creatures, mundane walls, and barriers, but may not end your turn in another creature's space, and you may not enter warded or sanctified spaces.</p></li></ul><p>This effect ends early if you become <strong>Incapacitated</strong> or <strong>Dying</strong>, or if you take an <strong>Action</strong> that targets the world or another creature.</p>",
   "disabled": false,
   "transfer": false,

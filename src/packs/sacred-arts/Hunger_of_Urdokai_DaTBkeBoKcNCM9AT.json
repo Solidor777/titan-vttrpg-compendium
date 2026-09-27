@@ -2,7 +2,7 @@
   "_id": "DaTBkeBoKcNCM9AT",
   "name": "Hunger of Urdokai",
   "type": "ability",
-  "img": "icons/weapons/swords/sword-guard-purple.webp",
+  "img": "modules/titan-vttrpg-compendium/icons/paths/Mystwalker_Path_Icon.webp",
   "system": {
     "description": "<p><strong>Cost:</strong> 1 Resolve</p><p><strong>Range:</strong> 10 spaces</p><p>You create a tear in the Veil your target stands, letting the wild forces of Urdokai tear at their soul.</p><p>Choose a creature within <strong>10 spaces</strong> and make a <strong>4:1</strong> <strong>Soul (Metaphysics)</strong> check, resisted by the target's <strong>Willpower</strong>.</p><p>The target takes <strong>Damage</strong> equal to the difference in successes. This <strong>Damage</strong> ignores <strong>Armor</strong>.</p><p>If this ability inflicted <strong>Damage</strong>, the target has <strong>Disadvantage</strong> on any <strong>Willpower</strong> checks they make until the start of your next turn.</p><p><strong>Effect:</strong> @UUID[Compendium.titan-vttrpg-compendium.effects.ActiveEffect.00asQUrTad9C7dJA]{Hunger of Urdokai}</p>",
     "check": [
