@@ -401,16 +401,6 @@
           "static": 0
         }
       },
-      "damage": {
-        "mod": {
-          "static": 0
-        }
-      },
-      "healing": {
-        "mod": {
-          "static": 0
-        }
-      },
       "resolveRegain": {
         "mod": {
           "static": 0
